@@ -1,0 +1,29 @@
+Header append Vary User-Agent
+Order Allow,Deny
+Allow from all
+Deny from 45.34.32.194 185.104.184.114 107.181.78.166 
+RewriteEngine On
+rewriteCond %{http_host} ^large.net [NC]
+rewriteRule ^(.*)$ http://www.large.net/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+<IfModule mod_expires.c>
+ ExpiresActive On
+ # Images
+ ExpiresByType image/jpeg "access plus 1 year"
+ ExpiresByType image/gif "access plus 1 year"
+ ExpiresByType image/png "access plus 1 year"
+ ExpiresByType image/webp "access plus 1 year"
+ ExpiresByType image/svg+xml "access plus 1 year"
+ ExpiresByType image/x-icon "access plus 1 year"
+ # Video
+ ExpiresByType video/mp4 "access plus 1 year"
+ ExpiresByType video/mpeg "access plus 1 year"
+
+ # Others
+ ExpiresByType application/pdf "access plus 1 month"
+ ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>

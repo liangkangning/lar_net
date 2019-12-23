@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*?*
+Disallow: */list-*-*-*
+sitemap: https://www.large.net/sitemap.xml
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

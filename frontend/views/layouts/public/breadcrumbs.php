@@ -1,0 +1,1 @@
+<section class="section_m">    <div class="breadCrumbs">        <div class="container">            <div class="content size4">                <?php foreach (Yii::$app->params['breadcrumbs'] as $key=>$value):?>                    <?=$value?>                <?php endforeach;?>            </div>        </div>    </div></section>

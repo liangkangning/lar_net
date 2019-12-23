@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84">
+<sitemap>
+    <loc>https://www.large.net/product-list.xml</loc>
+</sitemap>
+<sitemap>
+    <loc>https://www.large.net/product-detail.xml</loc>
+</sitemap>
+<sitemap>
+    <loc>https://www.large.net/industry-news.xml</loc>
+</sitemap>
+<sitemap>
+    <loc>https://www.large.net/battery-knowledge.xml</loc>
+</sitemap>
+</sitemapindex>

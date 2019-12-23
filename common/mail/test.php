@@ -1,0 +1,1 @@
+<h2><?= $title ?></h2><div class="content"><?php  foreach ($data as $key=>$value): ?>    <?php if (!in_array($key,array('id','create_time'))): ?>    <p><?=$key?>：<?= $value ?></p>  <?php endif;?><?php endforeach; ?></div>

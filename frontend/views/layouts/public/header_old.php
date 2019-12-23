@@ -1,0 +1,127 @@
+<div class="header_top">
+<header>
+    <div class="container">
+        <div class="logo_nav">
+        <div class="col-xs-6 col-sm-6  p_l">
+            <div class="logo">
+                <div class="img"><a href="/"><img src="<?=Yii::getAlias('@web/static/images/logo.png')?>" title="Custom Lithium ion Battery Pack" alt="Custom Lithium ion Battery Pack"/></a></div>
+            </div>
+            <div class="text hidden-xs size4">Custom Lithium ion Battery Pack</div>
+        </div>
+        <div class="col-xs-6 visible-xs">
+            <div class="nav_button one" data="0">
+                <span class="fa bars"><img src="<?=Yii::getAlias('@web/static/images/top_nav_list1.png')?>" alt=""></span>
+                <span class="fa close"><img src="<?=Yii::getAlias('@web/static/images/top_nav_list2.png')?>" alt=""></span>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 p_r">
+            <div class="search">
+                <div class="form">
+                    <form id="search_form" method=get"" action="/search/" name="form">
+                        <div class="top"><div class="input-group">
+                                <input class="input" type="text" id="keywordInput" name="keyword" placeholder="Search">
+                                <input type="submit"  class="submit" value="" >
+                            </div></div>
+                    </form>
+                </div>
+            </div>
+            <div class="lag hidden-xs">
+                <div class="bottom">
+                    <div class="t1">
+                  <span>
+                        <a href="mailto:info@large.net" class="size3">info@large.net</a></span>
+                    </div>
+                    <div class="t2">
+                        <div class="dropdown">
+                            <div class="ico"><img src="<?=Yii::getAlias('@web/static/images/global.png')?>" alt=""></div>
+                            <a id="dLabel" data-target="#" href="http://www.juda.cn">
+                                简体中文
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                <li><a href="http://www.juda.cn">简体中文</a></li>
+                                <span class="menu-arrow"> <em></em> </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="nav_bar" class="container-full">
+
+    <div class="content">
+        <nav>
+            <div class="head-v3">
+                <div class="navigation-up">
+                    <div class="container">
+                        <div class="navigation-v3">
+                            <ul>
+                                <li class="nav-up-selected-inpage" _t_nav="home">
+                                    <div class="item">
+                                    <a class="common_left_padding size4" href="/">Home</a>
+                                    </div>
+                                </li>
+                                <?php foreach (Yii::$app->params['tree_list'] as $key=>$value):?>
+                                    <li class="" _t_nav="<?=$value['name']?>">
+                                        <div class="item" onclick="nav_click(this)">
+                                        <a class="common_left_padding size4" style="<?php echo count($value->nextNav)?'':'width:100%'; ?>" href="<?= empty($value['url'])?\common\helpers\UrlHelp::Tohmtl($value['name']):$value['url']?>"><?=$value['title']?></a>
+                                        <div class="down visible-xs <?php echo count($value->nextNav)?'':'hidden-xs'; ?>">
+                                            <span class="fa chevron-down"><img src="<?=Yii::getAlias('@web/static/images/nav_list1.png')?>" alt=""></span>
+                                            <span class="fa chevron-up"><img src="<?=Yii::getAlias('@web/static/images/nav_list2.png')?>" alt=""></span>
+
+                                        </div>
+
+                                        </div>
+                                        <dl class="visible-xs">
+                                            <?php foreach ($value->nextNav as $k=>$v):?>
+                                                <dd class="col-xs-12">
+                                                    <div class="item">
+                                                        <a href="<?= empty($v['url'])?\common\helpers\UrlHelp::Tohmtl($v['name']):$v['url']?>" class="size4"><?=$v['title']?></a>
+                                                    </div>
+                                                </dd>
+                                            <?php endforeach; ?>
+                                        </dl>
+                                    </li>
+
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                        <?php $this->beginContent("@app/views/layouts/public/send_email_left.php") ?>
+                        <?php $this->endContent() ?>
+                    </div>
+                </div>
+                <div class="navigation-down hidden-xs">
+                    <?php foreach (Yii::$app->params['tree_list'] as $key=>$value):?>
+                        <?php if (count($value->nextNav)>0):?>
+                            <div id="<?=$value['name']?>" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="<?=$value['name']?>">
+                                <div class="container navigation-down-inner">
+                                    <div class="hidden-xs col-sm-3 part_top">
+                                        <a href="<?= empty($value['url'])?\common\helpers\UrlHelp::Tohmtl($value['name']):$value['url']?>" class="size2"><?=$value['title']?></a>
+                                    </div>
+                                    <?php foreach ($value->nextNav as $k=>$v):?>
+                                        <?php if ($k%4==0): ?>
+                                            <div class="col-xs-12 col-sm-3">
+                                        <?php endif; ?>
+                                        <dl>
+                                            <dd>
+                                                <a href="<?= empty($v['url'])?\common\helpers\UrlHelp::Tohmtl($v['name']):$v['url']?>"><?=$v['title']?></a>
+                                            </dd>
+                                        </dl>
+                                        <?php if ($k%4==3||($k+1)==count($value->nextNav)): ?>
+                                            </div>
+                                        <?php endif; ?>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+</div>
