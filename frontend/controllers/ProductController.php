@@ -182,8 +182,6 @@ class ProductController extends CommonController
         if ($nowpage>$lastpage){//页面数大于最大数的时候，报404
             throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
         }
-        
-
 //       $d= $productProvider->getPagination()->getPageSize();
         if ($prepage>0){
 
@@ -208,6 +206,19 @@ class ProductController extends CommonController
 
         }
 
+        if ($nowpage<=$lastpage){
+            $url=Yii::$app->request->getUrl();
+            $site=SitemapProduct::find()->where(['url'=>$url])->one();
+            if(strpos($url,'?') == false){
+                if (!isset($site)){
+                    $site_product=new SitemapProduct();
+                    $site_product->url=$url;
+                    $site_product->save();
+                }
+            }
+        }
+
+
     }
 
 
@@ -217,6 +228,7 @@ class ProductController extends CommonController
 //       echo ArrayHelper::isIn('1',[1,2]);
         $order=0;
         $choose=array();
+
 
         $cate=Category::find()->where(['id'=>$this->lanmu['id']])->one();
 
@@ -249,6 +261,7 @@ class ProductController extends CommonController
             if (empty($array) && count($list)>0){
 
                 throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
+                die;
 
             }
             if($order==1){
@@ -315,6 +328,7 @@ class ProductController extends CommonController
         
         if (count($imagesArray)<=0){
             throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
+            die;
         }
 
 
@@ -493,19 +507,6 @@ class ProductController extends CommonController
             }
         }
         Yii::$app->params['choose_attrValue']=$choose_attrValue;
-
-        if (count($choose)>0){
-            $url=Yii::$app->request->getUrl();
-            $site=SitemapProduct::find()->where(['url'=>$url])->one();
-            if(strpos($url,'?') == false){
-                if (!isset($site)){
-                 $site_product=new SitemapProduct();
-                 $site_product->url=$url;
-                 $site_product->save();
-            }
-            }
-
-        }
 
 //        获取当前url
 
