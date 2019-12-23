@@ -98,7 +98,7 @@ class NewsController extends CommonController
 //            var_dump($anchors);
             //设置内容设置描文本
             $item['content'] = str_replace('<p><br/></p>','',$item['content']);
-            $item['content'] = str_replace('http://','https://',$item['content']);
+            $item['content'] = str_replace('http://www.large.net/','https://www.large.net/',$item['content']);
             $item['content']=\common\helpers\Html::setAnchor($item['content'],0,$item);
 
             $this->data['detail']=$item;
