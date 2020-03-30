@@ -16,7 +16,7 @@ class IndexController extends CommonController{
     /**     * @var string     */
     public $layout = 'main';
     public function actionIndex()    {
-        
+
         parent::common();
         $industrialBettery=parent::ca_lujin_image_list(54,3,'sort DESC','h');
         $industrialBettery_tree=ArrayHelper::CategoryList(54);
