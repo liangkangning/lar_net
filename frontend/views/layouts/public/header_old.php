@@ -90,8 +90,10 @@
                                 <?php endforeach; ?>
                             </ul>
                         </div>
+                        <?php if (Yii::$app->controller->id=='product'): ?>
                         <?php $this->beginContent("@app/views/layouts/public/send_email_left.php") ?>
                         <?php $this->endContent() ?>
+                        <?php endif;?>
                     </div>
                 </div>
                 <div class="navigation-down hidden-xs">
