@@ -55,7 +55,7 @@ return [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.exmail.qq.com',
                 'username' => 'liangkangning@juda.cn',
-                'password' => 'qg8wFrRg8ZbosCRG',
+                'password' => 'aVZJdwKDAmwpWB23',
                 'port' => '465',
                 'encryption' => 'ssl',
             ],
