@@ -7,6 +7,13 @@ $ids=\common\helpers\ArrayHelper::getColumn($id,'id');
 $list= \common\models\Article::find()->select(['id','category_id','title','cover','description','create_time'])
     ->where(['category_id'=>$ids])->andWhere(['like','np','h'])
     ->andWhere(['status'=>1])->orderBy('sort desc')->limit(6)->all();
+$ids = explode(',',Yii::$app->params['web']['index-cases']['value']);
+$list = [];
+foreach ($ids as $id) {
+    $list[] = \common\models\Article::findOne($id);
+}
+
+
 ?>
 <section>
     <div class="solutions_common">

@@ -41,6 +41,16 @@ class IndexController extends CommonController{
        $news_company=Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('click desc')->limit('6')->all();
        Yii::$app->params['RecommendArticle']=$news_company;
        $links=Links::find()->where(['position'=>0])->orderBy('sorrtank desc')->asArray()->all();        $this->view->params['links']=$links;
+
+       //首页产品列表
+        $ids = explode(',', Yii::$app->params['web']['index-products']['value']);
+        $product_list = [];
+        foreach ($ids as $id){
+            $product_list[] = Images::find()->where(['id' => $id])->one();
+        }
+        Yii::$app->params['product_list'] = $product_list;
+
+
        return $this->render('index',['data'=>$this->data]);
     }
 }

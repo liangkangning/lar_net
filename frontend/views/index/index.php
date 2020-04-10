@@ -117,29 +117,15 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
 
             <ul>
 
-                <?php foreach (Yii::$app->params['industrialBettery'] as $key=>$value):?>
+                <?php foreach (Yii::$app->params['product_list'] as $key=>$value):?>
                     <li class=" col-xs-6 col-sm-4 <?=$key>=2?'hidden-xs':''?> goods_detail">
                         <div class="item">
                             <div class="img"><a href="<?=$value->url?>"><img src="<?=$value->imageUrl?>" title="<?=$value->title?>" alt="<?=$value->title?>"/></a></div>
                             <div class="text"><a href="<?=$value->url?>" title="<?=$value->title?>" class="size4"><?=$value->title?></a></div>
-                        </div></li>
-                <?php endforeach; ?>
+                        </div>
+                    </li>
+                <?php endforeach;?>
 
-                <?php foreach (Yii::$app->params['EnergyStorageBattery'] as $key=>$value):?>
-                    <li class=" col-xs-6 col-sm-4 <?=$key>=2?'hidden-xs':''?> goods_detail">
-                        <div class="item">
-                            <div class="img"><a href="<?=$value->url?>"><img src="<?=$value->imageUrl?>" title="<?=$value->title?>" alt="<?=$value->title?>"/></a></div>
-                            <div class="text"><a href="<?=$value->url?>" title="<?=$value->title?>" class="size4"><?=$value->title?></a></div>
-                        </div></li>
-                <?php endforeach; ?>
-
-                <?php foreach (Yii::$app->params['specialBattery'] as $key=>$value):?>
-                    <li class=" col-xs-6 col-sm-4 <?=$key>=2?'hidden-xs':''?> goods_detail">
-                        <div class="item">
-                            <div class="img"><a href="<?=$value->url?>"><img src="<?=$value->imageUrl?>" title="<?=$value->title?>" alt="<?=$value->title?>"/></a></div>
-                            <div class="text"><a href="<?=$value->url?>" title="<?=$value->title?>" class="size4"><?=$value->title?></a></div>
-                        </div></li>
-                <?php endforeach; ?>
             </ul>
             <a href="/industrial-battery/" class="bottom_more visible-xs">
                 <span><img src="/static/images/more.png" alt=""></span>
