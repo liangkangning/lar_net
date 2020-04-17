@@ -97,9 +97,9 @@ $(function () {
     /**
      * 友情链接
      */
-    $(".youqing .see_more .text").click( function () {
+    $(".hidden_more .see_more .text").click( function () {
         $(this).toggleClass("click");
-        $('.youqing .list').slideToggle();
+        $('.hidden_more .content').slideToggle();
     });
 
 

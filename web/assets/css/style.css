@@ -40,7 +40,9 @@ body { background:#fff; color:#555; font-size:16px; font-family:'Arial'; }
 .index .product_list .product_list_imgs ul{ overflow: hidden}
 
 
-
+svg{
+    vertical-align: middle;
+}
 td,th,caption { font-size:16px; }
 h1, h2, h3, h4, h5, h6 { font-size:100% }
 .h1, .h2, .h3, h1, h2, h3{margin: 0}
@@ -1232,7 +1234,7 @@ small{color: red;display: none;float: left}
 .common_category_list .anchor ul{overflow: hidden;padding-top: 1.25rem}
 .common_category_list .anchor ul li{float: left;line-height: 2}
 .common_category_list .anchor ul li a{float: left}
-.common_category_list .anchor ul li span{padding: 0 0.625rem;float: left;}
+.common_category_list .anchor ul li span{padding: 0 0.625rem;float: left;color: #555555}
 .common_category_list .anchor ul li a:hover{color: #000000;}
 
 
@@ -1257,13 +1259,16 @@ small{color: red;display: none;float: left}
 .common_top_nav_list ul li.choose .item .text a{color: #FFFFFF;}
 
 
+footer .hidden_more .see_more{text-align: center;margin-bottom: 15px;}
+footer .hidden_more .see_more .text{cursor: pointer;display: inline-block}
+footer .hidden_more .see_more .text p{float: left}
+footer .hidden_more .see_more .text .up{display: none}
+footer .hidden_more .see_more .text .down{display: inline-block}
+footer .hidden_more .see_more .text.click .up{display: inline-block}
+footer .hidden_more .see_more .text.click .down{display: none}
+footer .hidden_more .content{display: none;}
+
 footer .youqing {overflow: hidden;text-align: left}
-footer .youqing .see_more{text-align: center;margin-bottom: 15px;}
-footer .youqing .see_more .text{display: inline-block;cursor: pointer}
-footer .youqing .see_more .text .fa-chevron-up{display: none}
-footer .youqing .see_more .text .fa-chevron-down{display: inline-block}
-footer .youqing .see_more .text.click .fa-chevron-up{display: inline-block}
-footer .youqing .see_more .text.click .fa-chevron-down{display: none}
 footer .youqing .list {display: none  }
 footer .youqing ul {  }
 footer .youqing ul li { display: inline-block }
@@ -1273,7 +1278,7 @@ footer .youqing ul li .item a:hover {  color: #FFFFFF;}
 footer .youqing ul li .item span {  color: #9E9F9F;}
 
 footer .bottom_dibu { width: 100%; overflow: hidden;padding: 1.25rem 0;}
-footer .common_category_list .anchor ul{padding-top:70px}
+footer .common_category_list .anchor ul{}
 
 .error_content{padding: 140px 0 120px 1.25rem;overflow: hidden}
 .error_content .title{}
