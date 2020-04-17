@@ -93,4 +93,14 @@ $(function () {
     $('.new').slide({ titCell: ".tit2 li", mainCell: ".news-slider-wrap2", targetCell: ".moreti a", effect: "fold", autoPlay: false, titOnClassName: "cur" });
 
     $('.jz').slide({ mainCell: ".jz_c", effect: "leftLoop", autoPlay: true, vis: 3, prevCell: ".case_z", nextCell: ".case_y" });
+
+    /**
+     * 友情链接
+     */
+    $(".youqing .see_more .text").click( function () {
+        $(this).toggleClass("click");
+        $('.youqing .list').slideToggle();
+    });
+
+
 })

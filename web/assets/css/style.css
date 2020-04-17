@@ -1258,12 +1258,20 @@ small{color: red;display: none;float: left}
 
 
 footer .youqing {overflow: hidden;text-align: left}
+footer .youqing .see_more{text-align: center;margin-bottom: 15px;}
+footer .youqing .see_more .text{display: inline-block;cursor: pointer}
+footer .youqing .see_more .text .fa-chevron-up{display: none}
+footer .youqing .see_more .text .fa-chevron-down{display: inline-block}
+footer .youqing .see_more .text.click .fa-chevron-up{display: inline-block}
+footer .youqing .see_more .text.click .fa-chevron-down{display: none}
+footer .youqing .list {display: none  }
 footer .youqing ul {  }
 footer .youqing ul li { display: inline-block }
 footer .youqing ul li .item { float: left;}
 footer .youqing ul li .item a {  color: #555555; font-size: 14px}
 footer .youqing ul li .item a:hover {  color: #FFFFFF;}
 footer .youqing ul li .item span {  color: #9E9F9F;}
+
 footer .bottom_dibu { width: 100%; overflow: hidden;padding: 1.25rem 0;}
 footer .common_category_list .anchor ul{padding-top:70px}
 
