@@ -176,12 +176,16 @@ class Images extends \yii\db\ActiveRecord
     }
     public function  getImagesUrl(){
         $imagesArray=explode(',',$this->images);
-        $urls=Picture::find(['path'])->where(['in','id',$imagesArray])->orderBy("id desc")->asArray()->all();
-        $imagesUrl=array();
+        $urls=Picture::find(['path'])->where(['in','id',$imagesArray])->orderBy("id asc")->asArray()->all();
+
+        $picture = Picture::find(['path'])->where(['id'=>$this->cover])->one();//主图
+
+        $imagesUrl = array();
+        $imagesUrl[] = Yii::getAlias('@imagesUrl').'/'.$picture['path'];
         foreach ($urls as $key=>$value){
-            $imagesUrl[$key]= Yii::getAlias('@imagesUrl').'/'.$value['path'];
+            $imagesUrl[]= Yii::getAlias('@imagesUrl').'/'.$value['path'];
         }
-        return $imagesUrl;
+        return array_unique($imagesUrl);
     }
 
     public function getPicture(){
