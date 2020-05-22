@@ -228,9 +228,8 @@ class ProductController extends CommonController
 //       echo ArrayHelper::isIn('1',[1,2]);
         $order=0;
         $choose=array();
-
-
         $cate=Category::find()->where(['id'=>$this->lanmu['id']])->one();
+        $is_p_cate = $cate->pid > 0 ?false: true;
 
         $arrt=AttrImagesSelect::find()->where(['attr_value_id'=>Yii::$app->request->get('list')])->one();
 
@@ -264,23 +263,27 @@ class ProductController extends CommonController
                 die;
 
             }
+            $query = $cate->getImages($array);
+            if ($is_p_cate){
+                $query = $query->andWhere(['!=','category_id2',91]);//如果是一级分类，要把电芯分类去掉
+            }
             if($order==1){
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy('dianya DESC');
+                $product_list=$query->select(['id','title','cover'])->orderBy('dianya DESC');
             }
             elseif($order==2){
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy('dianya asc');
+                $product_list=$query->select(['id','title','cover'])->orderBy('dianya asc');
             }
             elseif($order==3){
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy('rongliang DESC');
+                $product_list=$query->select(['id','title','cover'])->orderBy('rongliang DESC');
             }
             elseif($order==4){
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy('rongliang asc');
+                $product_list=$query->select(['id','title','cover'])->orderBy('rongliang asc');
             }
             elseif($order==5){
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy('create_time DESC');
+                $product_list=$query->select(['id','title','cover'])->orderBy('create_time DESC');
             }
             else{
-                $product_list=$cate->getImages($array)->select(['id','title','cover'])->orderBy(['top'=>SORT_DESC,'create_time'=>SORT_DESC]);
+                $product_list=$query->select(['id','title','cover'])->orderBy(['top'=>SORT_DESC,'create_time'=>SORT_DESC]);
             }
 
 
@@ -320,12 +323,16 @@ class ProductController extends CommonController
 
         }else{
 
-            $product_list=$cate->getImages()->select(['id','title','cover'])->where(['status'=>1])->orderBy(['top'=>SORT_DESC,'create_time'=>SORT_DESC]);
+            $query = $cate->getImages();
+            if ($is_p_cate){
+                $query = $query->andWhere(['!=','category_id2',91]);//如果是一级分类，要把电芯分类去掉
+            }
+            $product_list = $query->select(['id', 'title', 'cover'])->andWhere(['status' => 1])->orderBy(['top' => SORT_DESC, 'create_time' => SORT_DESC]);
 
-            $imagesArray=$cate->getAttrImages()->with('attrName','attrValueName')->all();
+            $imagesArray = $cate->getAttrImages()->with('attrName', 'attrValueName')->all();
 
         }
-        
+
         if (count($imagesArray)<=0){
             throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
             die;
