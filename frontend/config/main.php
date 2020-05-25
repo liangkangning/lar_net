@@ -146,6 +146,12 @@ return [
                     'route' => 'site/battery-knowledge',
                     'suffix' => '.xml',
                 ],
+
+                [
+                    'pattern' => 'customize-best-18650-lithium-battery-pack',
+                    'route' => 'column/best18650',
+                    'suffix' => '/',
+                ],
            
 
 

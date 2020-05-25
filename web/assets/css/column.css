@@ -1,0 +1,75 @@
+.yellow_color{color: #FA9600}
+.black_color{color: #212121}
+.p{color: #555555}
+.font-weight{font-weight: bold;}
+.big-size{font-size: 48px;font-family:Avillar;}
+.size1{font-size: 36px;font-family:Avillar;}
+.size2{font-size: 24px;font-family:Arial;}
+.size3{font-size: 20px;font-family:Arial;}
+.small-size{font-size: 16px;font-family:Arial;}
+.w100{width: 100%}
+.padding0{padding: 0}
+.section{margin-top: 85px}
+.section80{margin-top: 80px}
+.section70{margin-top: 70px}
+.section60{margin-top: 60px}
+.section55{margin-top: 55px}
+.section50{margin-top: 50px}
+.section40{margin-top: 40px}
+.section30{margin-top: 30px}
+.section20{margin-top: 20px}
+.section10{margin-top: 10px}
+.section5{margin-top: 5px}
+.light1{line-height: 1}
+.light1-5{line-height: 1.5}
+.light1-8{line-height: 1.8}
+.light2{line-height: 2}
+.column-best-18650 {
+    overflow: hidden;
+}
+.column-best-18650 ol{display: block;
+    list-style-type: decimal;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;}
+.column-best-18650 ul{display: block;
+    list-style-type: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 17px;}
+.column-best-18650 section{width: 100%;overflow: hidden}
+.column-best-18650 h1{color: #FFFFFF}
+.column-best-18650 a{color: #FA9600;}
+.column-best-18650 a:hover{text-decoration: underline;}
+.column-best-18650 .title_list{background-color: #F6F6F6;padding: 90px 0;}
+.column-best-18650 .title_list li{}
+.column-best-18650 .title_list li a{color: #FA9600;}
+.column-best-18650 .common_p{line-height: 1.5;width: 100%;overflow: hidden}
+.column-best-18650 .img{width: 100%;overflow: hidden}
+.column-best-18650 .common_title{border-bottom: 1px solid #212121}
+.column-best-18650 .two-list{width: 100%;overflow: hidden}
+
+.column-best-18650 .button-top-and-flat-top img{padding: 0 15px;}
+.column-best-18650 .products_list{}
+.column-best-18650 .products_list ul{list-style-type: none}
+.column-best-18650 .products_list ul li{background-color: #ECECEC;}
+.column-best-18650 .products_list .item{overflow: hidden;}
+.column-best-18650 .products_list .item .product_img{position: relative;height: 350px;overflow: hidden}
+.column-best-18650 .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -20px;}
+.column-best-18650 .products_list .item .text{padding-left: 60px;}
+.column-best-18650 .products_list .item .text .des{overflow: hidden;width: 100%;}
+.column-best-18650 .products_list .item .text span{width: 100%;float: left;}
+.column-best-18650 .products_list .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-best-18650 .products_list .item .title{max-width: 500px;}
+.column-best-18650 .products_list .item .title a{color: #231916}
+.column-best-18650 .products_list .item .button{width: 150px;height: 35px;line-height: 35px;background-color: #FA9600;text-align: center}
+.column-best-18650 .products_list .item .button a{color: #FFFFFF}
+.column-best-18650 .products_18650{}
+.column-best-18650 .products_18650 ul{overflow: hidden;margin-left: -40px;list-style-type:none;padding-inline-start:0px}
+.column-best-18650 .products_18650 ul li{padding-left: 40px;}
+.column-best-18650 .products_18650 ul li img{background-color: #ECECEC}
+.column-best-18650 .products_18650 ul li img {width: 100%}
+.column-best-18650 .products_18650 ul li .title{}
+.column-best-18650 .products_18650 ul li .sub_title{}
+.column-best-18650 .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;background-color: #FA9600;text-align: center;}
+.column-best-18650 .products_18650 ul li .button a{color: #FFFFFF}

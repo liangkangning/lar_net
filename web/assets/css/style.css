@@ -82,7 +82,14 @@ div.space{clear: both;}
 .size5{font-size: 0.875rem;line-height: 1.8}/*14px 大标题*/
 
 
-
+.relative{position: relative}
+.center-text{    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
 #section_padding{padding: 0}
 .commom_padding_l_r{padding: 0 1.0625rem;}
 .container{padding: 0;}
