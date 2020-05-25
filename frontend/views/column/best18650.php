@@ -71,7 +71,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li>Charger design</li>
                     </ul>
                 </div>
-                <p class="small-size section20">A <a href="/lithium-battery18650/">cCustom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
+                <p class="small-size section20">A <a href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
                 </p>
             </div>
             <section>

@@ -10,7 +10,7 @@ class ColumnController extends CommonController
 
     public function actionBest18650(){
         parent::common();
-        $this->view->params['meta_title']='Best 18650 Lithium Battery Pack 2020, Top 18650 Battery Guide';
+        $this->view->params['meta_title']='Best 18650 Lithium Battery Pack 2020, Top 18650 Battery Guide | Large Power';
         $this->view->params['keywords']='best 18650 lithium battery, top 18650 battery';
         $this->view->params['description']='How to choose best 18650 lithium battery pack? Search best 18650 battery by brand, capacity, c-rate, etc. We customize 18650 battery pack for all devices.';
         $products = Images::find()->where(['category_id' => 91])->all();
