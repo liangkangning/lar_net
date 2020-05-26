@@ -4,7 +4,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 <div class="column-best-18650">
     <div class="banner col-md-12 relative">
         <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_18650_banner.jpg')?>" alt=""></div>
-        <div class="text center-text"><h1 class="big-size">Customize Best 18650 Lithium Battery Pack</h1></div>
+        <div class="text center-text"><h1 class="big-size">Best 18650 Lithium Battery Pack</h1></div>
     </div>
     <div class="title_list col-md-12">
         <div class="container">

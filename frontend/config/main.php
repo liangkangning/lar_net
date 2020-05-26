@@ -148,7 +148,7 @@ return [
                 ],
 
                 [
-                    'pattern' => 'customize-best-18650-lithium-battery-pack',
+                    'pattern' => 'best-18650-lithium-battery-pack',
                     'route' => 'column/best18650',
                     'suffix' => '/',
                 ],
