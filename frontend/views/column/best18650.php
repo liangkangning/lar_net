@@ -85,7 +85,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section30">
                     <p class="small-size">
                         The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
-                        It is mainly divided into the cylindrical lithium-ion cell, the <a href="#">square lithium-ion cell</a>,, the
+                        It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">square lithium-ion cell</a>,, the
                         <a href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
                     </p>
                 </div>
@@ -115,7 +115,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         The main indicators of the case are: color, material, matching, mechanical strength etc.
                     </p>
                 </div>
-                <div class="img section30"><img src="/static/images/column_18650_01.jpg" alt=""></div>
+                <div class="img section30"><img src="/static/images/column_18650_01.jpg" alt="Structure of 18650 Lithium Battery" title="Structure of 18650 Lithium Battery"></div>
             </section>
             <section class="section70">
                 <div class="common_title size1"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
@@ -130,7 +130,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
-                            <li><strong>apan</strong>: JSANYO/Panasonic, SONY, etc.</li>
+                            <li><strong>Japan</strong>: SANYO/Panasonic, SONY, etc.</li>
                             <li><strong>South Korea</strong>: LG, Samsung, etc.</li>
                             <li><strong>China</strong>: BAK, LISHEN, LARGE POWER, etc.</li>
                         </ul>
@@ -138,15 +138,15 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="common_p section30">
-                    <div class="img"><img src="/static/images/column_Panasonic.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_Panasonic.jpg" alt="Panasonic" title="Panasonic"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">Panasonic</span><br>
+                        <span class="yellow_color"><a href="/lithium-ion-battery/list-156/">Panasonic</a></span><br>
                         Established:  time: 1918 Headquarters: Osaka, Japan<br>
                         The Panasonic power battery business belongs to the energy field of the AIS sector, including secondary battery and energy equipment. Secondary battery equipment includes  the Panasonic secondary battery business division and Tesla business division, which will greatly affect Panasonic c performance growth.
                     </p>
                 </div>
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_SONY.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_SONY.jpg" alt="SONY" title="SONY"></div>
                     <p class="small-size section10">
                         <span class="yellow_color">SONY</span><br>
                         Established: 1946 Headquarters: Japan<br>
@@ -155,45 +155,45 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_LG_Chem.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_LG_Chem.jpg" alt="LG Chem" title="LG Chem"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">LG Chem</span><br>
+                        <span class="yellow_color"><a href="/lithium-ion-battery/list-159/">LG Chem</a></span><br>
                         Established:  time: 1947 Headquarters: South Korea<br>
                         ThisIt is a subsidiary of LG group, which is a leading chemical enterprise in South Korea mainly engaged in the production of petroleum chemistry, batteries, advanced materials and life science products. It dominates the global market in the fields of automobile battery, ESS battery and mobile device battery.
                     </p>
                 </div>
 
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_Samsung.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_Samsung.jpg" alt="Samsung SDI" title="Samsung SDI"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">Samsung SDI</span><br>
+                        <span class="yellow_color"><a href="/lithium-ion-battery/list-158/">Samsung SDI</a></span><br>
                         Established: time:  2011 Headquarters: South Korea<br>
                         This It is a subsidiary of South Korea's Samsung group, which is mainly engaged in the display and lithium battery production. Samsung SDI R&D center is located in South Korea, Japan, Russia and other countries, and has offices in Taiwan, Germany, Malaysia, India, Vietnam, etc. It is one of the top 100 lithium battery manufacturers in the world.
                     </p>
                 </div>
 
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_LISHEN.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_LISHEN.jpg" alt="LISHEN" title="LISHEN"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">LISHEN</span><br>
+                        <span class="yellow_color"><a href="/lithium-ion-battery/list-160/">LISHEN</a></span><br>
                         Established  time: 1997 Headquarters: Tianjin, China<br>
                         Tianjin Lishen Battery Co., Ltd., a representative brand of lithium battery in China, it  is one of the professional manufacturers of lithium battery with large investment and the highest technical level in China.
                     </p>
                 </div>
 
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_BAK.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_BAK.jpg" alt="BAK" title="BAK"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">BAK</span><br>
+                        <span class="yellow_color"><a href="/lithium-ion-battery/list-161/">BAK</a></span><br>
                         Established time:  2001 Headquarters: Shenzhen, China<br>
                         Shenzhen BAK Technology Co., Ltd., a well-known brand of lithium battery,  this a battery supplier of HP, Dell, Lenovo, etc. It is a world-renowned manufacturer of lithium battery, integrating research, development, production and sales.
                     </p>
                 </div>
 
                 <div class="common_p section40">
-                    <div class="img"><img src="/static/images/column_LARGE_POWER.jpg" alt=""></div>
+                    <div class="img"><img src="/static/images/column_LARGE_POWER.jpg" alt="LARGE POWER" title="LARGE POWER"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color">LARGE POWER</span><br>
+                        <span class="yellow_color"><a href="/page/company-profile.html">LARGE POWER</a></span><br>
                         Established time: 2001 Headquarter: Dongguan, China<br>
                         Dongguan Large Electronics Co., Ltd is a provider of customized solutions and products for special lithium power systems. It is mainly engaged in the research, development, production and sale of special lithium batteries, low-temperature batteries, explosion-proof batteries, military lithium batteries and medical lithium batteries.
                     </p>
@@ -230,7 +230,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        Top 18650 Lithium Battery cell Cell model Model meterMeter
+                        Top 18650 Lithium Battery Cell model Model Meter
                     </p>
                     <div class="img section20"><img class="w100" src="/static/images/column_top_18650.jpg" alt=""></div>
                 </div>
@@ -249,7 +249,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                         </ul>
                     </div>
-                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Charger.jpg" alt=""></div>
+                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Charger.jpg" alt="18650 Lithium Battery Charger" title="18650 Lithium Battery Charger"></div>
                 </div>
 
 
@@ -265,27 +265,27 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                     <p class="small-size section20">
                         <span class="black_color font-weight">Capacity 18650 Battery Cell</span><br>
-                        A capacity battery is a battery that pursues maximum capacity as far as possible in a small volume. The capacity of this kind of battery is relatively large, and tends to be more than 3000mah, while the discharge current is relatively small. It is suitable for a power bank, a flashlight, security, a mine lamp, an alarm, medical equipment, etc. They consume power at a sustained rate for a long period of time without requiring high current.
+                        A capacity battery is a battery that pursues <span class="font-weight">maximum capacity</span> as far as possible in a small volume. The capacity of this kind of battery is relatively large, and tends to be more than 3000mah, while <span class="font-weight">the discharge current is relatively small</span>. It is suitable for a power bank, a flashlight, security, a mine lamp, an alarm, medical equipment, etc. They consume power at a sustained rate for a long period of time without requiring high current.
                     </p>
                     <p class="small-size section20">
                         <span class="black_color font-weight">Power 18650 Battery Cell</span><br>
-                        A power battery does not have a high capacity. It is 2000-2400mah, but the discharge rate is large. It can reach more than 3C discharge, or even more than 10C. It is suitable for equipment that needs high current, such as power tools, vacuum cleaners, vaping, model airplane, swing cars, unicycles, etc.
+                        A power battery does not have a high capacity. It is 2000-2400mah, <strong>but the discharge rate is large. It can reach more than 3C discharge, or even more than 10C</strong>. It is suitable for equipment that needs high current, such as power tools, vacuum cleaners, vaping, model airplane, swing cars, unicycles, etc.
                     </p>
-                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Type.jpg" alt=""></div>
+                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Type.jpg" alt="18650 Lithium Battery Cell" title="18650 Lithium Battery Cell"></div>
                 </div>
 
 
-                <div class="link_title size2 section60" id="18650-battery-chemical-material-and-naming"><h3>5.18650 Battery Chemical Material and Naming</h3></div>
+                <div class="link_title size2 section60" id="18650-battery-chemical-material-and-naming"><h3>5.18650 Lithium Battery Chemical Material and Naming</h3></div>
                 <div class="two-list">
                     <div class="left col-md-6 col-sm-12">
                         <div class="title section30 black_color font-weight">Common Battery Chemical Materials</div>
                         <div class="p_ul section5">
                             <ul class="small-size light1-5">
-                                <li>LCO - <span class="yellow_color">Lithium Cobalt Oxide(LiCoO2)</span></li>
-                                <li>LMO - <span class="yellow_color">Lithium Manganese Oxide (LiMn2O4)</span></li>
-                                <li>NMC - <span class="yellow_color">Lithium Nickel Manganese Cobalt Oxide (LiNiMnCoO2)</span></li>
+                                <li>LCO - <span class="yellow_color"><a href="/news/8ku43mw.html">Lithium Cobalt Oxide(LiCoO2)</a></span></li>
+                                <li>LMO - <span class="yellow_color"><a href="/news/8fu43my.html">Lithium Manganese Oxide (LiMn2O4)</a></span></li>
+                                <li>NMC - <span class="yellow_color"><a href="/news/8mu43my.html">Lithium Nickel Manganese Cobalt Oxide (LiNiMnCoO2)</a></span></li>
                                 <li>NCA - Lithium Nickel Cobalt Aluminum Oxide (LiNiCoAlO2)</li>
-                                <li>LFP - Lithium Iron Phosphate<span class="yellow_color">(LiFePO4)</span></li>
+                                <li>LFP - Lithium Iron Phosphate<span class="yellow_color"><a href="/lifepo4-battery/">(LiFePO4)</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -354,9 +354,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section50" id="charge-discharge-rate"><h3>4.Charge-discharge Rate (C-rate)</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        The nominal capacity of an the 18650 battery will affect theits battery life. The unit is "mAh". The higher the capacity, the better the battery life is.<br>
-                        For example, a 2800mAh battery can last for 2 hours at 1.4A.<br>
-                        At present, the capacity of 18650 battery is seriously inveraciousunveracious, so we try our best to choose a famous brand battery cell by athrough proper channels.
+                        <span class="font-weight">Charge-discharge rate = charge-discharge current (A)/rated capacity (Ah)</span><br>
+                        Charge and discharge rate refers to the current value required for the battery to release its rated capacity within a specified time. It is numerically equal to the multiple of the rated capacity of the battery. The unit of battery discharge rate is generally C (short for c-rate), such as 0.5C, 1C, 5C, etc.
                     </p>
                 </div>
 
@@ -380,8 +379,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         The so-called button top and flat top are designed by various manufacturers according to their own assembly needs, battery safety, battery capacity and other factors, and there is no essential difference.
                     </p>
                     <div class="img section50 text-center">
-                        <img  src="/static/images/column_button-top-and-flat-top.jpg" alt="">
-                        <img  src="/static/images/column_button-top-and-flat-top2.jpg" alt="">
+                        <img  src="/static/images/column_button-top-and-flat-top.jpg" alt="Button Top and Flat Top 18650">
+                        <img  src="/static/images/column_button-top-and-flat-top2.jpg" alt="Button Top and Flat Top 18650">
                     </div>
                 </div>
 
@@ -415,7 +414,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section20">
                     <p class="small-size">
                         Weigh the batteries on an electronic scale, and then compare the weights.
-                        The weight of 18650 battery is generally 45-4843g, while the weight of the fake 18650 battery is generally 10g. There are also fake 18650 batteries mixed with mud, and the weight of the mud 18650 battery is generally 30g.
+                        The weight of 18650 battery is generally 45-48g, while the weight of the fake 18650 battery is generally 10g. There are also fake 18650 batteries mixed with mud, and the weight of the mud 18650 battery is generally 30g.
                     </p>
                 </div>
 
@@ -431,7 +430,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="small-size">
                         A counterfeit 18650 battery has no internal impedance or its resistance value is very small, while a genuine 18650 battery has internal impedance is usually around 20 mΩ.
                     </p>
-                    <div class="img section50 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt=""></div>
+                    <div class="img section50 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt="Battery Internal Impedance Tester" title="Battery Internal Impedance Tester"></div>
                 </div>
             </section>
 
@@ -444,19 +443,28 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 <div class="link_title size2 section50" id="the-meaning-of-18650"><h3>1.The Meaning of 18650 Battery Pack in Series and Parallel</h3></div>
                 <p class="small-size section20">
-                    18650 battery in series: When multiple 18650 lithium batteries are connected in series, the battery pack voltage is the total of all battery voltage, but the capacity remains unchanged.
+                    <strong>18650 battery in series:</strong> When multiple 18650 lithium batteries are connected in series, the battery pack voltage is the total of all battery voltage, but the capacity remains unchanged.
                 </p>
-                <div class="img section50 text-center"><img  src="/static/images/column_meaning_1.jpg" alt=""></div>
+                <div class="img section50 text-center">
+                    <img  src="/static/images/column_meaning_1.jpg" alt="Schematic Diagram of 18650-4S Connection">
+                    <div class="text section20 gray_color">Schematic Diagram of 18650-4S Connection</div>
+                </div>
 
                 <p class="small-size section60">
-                    18650 battery in parallel: If you connect multiple 18650 lithium batteries in parallel, you can get more power. The parallel connection of lithium battery keeps the voltage constant, while the capacity increases. The total capacity is the sum of the total capacity of all single lithium batteries.
+                    <strong>18650 battery in parallel:</strong> If you connect multiple 18650 lithium batteries in parallel, you can get more power. The parallel connection of lithium battery keeps the voltage constant, while the capacity increases. The total capacity is the sum of the total capacity of all single lithium batteries.
                 </p>
-                <div class="img section50 text-center"><img  src="/static/images/column_meaning_2.jpg" alt=""></div>
+                <div class="img section50 text-center">
+                    <img  src="/static/images/column_meaning_2.jpg" alt="Schematic Diagram of 18650-4P Connection">
+                    <div class="text section20 gray_color">Schematic Diagram of 18650-4P Connection</div>
+                </div>
 
                 <p class="small-size section60">
-                    Series and parallel connection of 18650 battery: the method of series and the parallel connection is to connect several lithium batteries in series and then connect the battery packs in parallel. It not only improves the output voltage, but also the capacity.
+                    <strong>Series and parallel connection of 18650 battery:</strong> the method of series and the parallel connection is to connect several lithium batteries in series and then connect the battery packs in parallel. It not only improves the output voltage, but also the capacity.
                 </p>
-                <div class="img section50 text-center"><img  src="/static/images/column_meaning_3.jpg" alt=""></div>
+                <div class="img section50 text-center">
+                    <img  src="/static/images/column_meaning_3.jpg" alt="18650-2S2P Connection Diagram">
+                    <div class="text section20 gray_color">18650-2S2P Connection Diagram</div>
+                </div>
             </div>
 
 
@@ -474,7 +482,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
 
 
-            <div class="link_title size2 section50" id="precautions-for-series"><h3>3.Features of 18650 Battery Pack</h3></div>
+            <div class="link_title size2 section50" id="precautions-for-series"><h3>3.Features of 18650 Lithium Battery Pack</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
                     <li>The battery pack requires a high degree of consistency (capacity, internal resistanceimpedance, voltage, discharge curve, cycle life).</li>
@@ -487,7 +495,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
         </section>
 
-        <div class="section60 size1"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
+        <div class="section60 size1 black_color"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
         <div class="products_18650 col-md-12 section20">
             <ul>
                 <?php foreach (Yii::$app->params['product_18650'] as $key=>$value):?>
