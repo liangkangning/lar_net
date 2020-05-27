@@ -78,14 +78,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1 section70"><h2 class="light1-5">Basic Structure of 18650 Lithium Battery Pack</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        The basic structure of lithium battery is composed of four parts: the cell, the PCM, , the shell cases and the lead/terminal.
+                        The basic structure of lithium-ion battery is composed of four parts: the cell, the PCM, the cases and the lead/terminal.
                     </p>
                 </div>
                 <div class="link_title size2 section50" id="battery-cell"><h3>1.Battery Cell</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
-                        It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">square lithium-ion cell</a>,, the
+                        It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">prismatic lithium-ion cell</a>, the
                         <a href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
                     </p>
                 </div>
@@ -110,7 +110,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section50" id="battery-cases"><h3>4.Battery Cases</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
-                        The shell case is used to fix and seal,  the cell and PCM together, so as to complete the matching function with the main engine.<br>
+                        The case is used to fix and seal the cell and PCM together, so as to complete the matching function with the main engine.<br>
                         Common materials of the case: ABS, ABS+PC, PC, etc.<br>
                         The main indicators of the case are: color, material, matching, mechanical strength etc.
                     </p>
@@ -121,12 +121,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        18650 refers to the appearance specification of the battery, which was a standard battery model determined by SONY in order to save costs. 18 means it is 18mm in diameter, 65 means 65mm it is in length, and 0 means it is  cylindrical a battery.
+                        18650 refers to the appearance specification of the battery, which is a standard battery model determined by SONY in order to save costs. 18 means 18mm in diameter, 65 means 65mm in length, and 0 means cylindrical battery.
                         <br><br>
                         The nominal voltage of a 18650 lithium battery is usually 3.6V or 3.7V, the minimum discharge final voltage is 2.75V, and the normal capacity is 1200 ~ 3500mAh.
                     </p>
                 </div>
-                <div class="link_title size2 section50" id="the-beast-18650-cell-battery-brands"><h3>1.The Best 18650 Cell Battery Brands</h3></div>
+                <div class="link_title size2 section50" id="the-beast-18650-cell-battery-brands"><h3>1.The Best 18650 Battery Brands</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
@@ -141,8 +141,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img"><img src="/static/images/column_Panasonic.jpg" alt="Panasonic" title="Panasonic"></div>
                     <p class="small-size section10">
                         <span class="yellow_color"><a href="/lithium-ion-battery/list-156/">Panasonic</a></span><br>
-                        Established:  time: 1918 Headquarters: Osaka, Japan<br>
-                        The Panasonic power battery business belongs to the energy field of the AIS sector, including secondary battery and energy equipment. Secondary battery equipment includes  the Panasonic secondary battery business division and Tesla business division, which will greatly affect Panasonic c performance growth.
+                        Established: 1918 Headquarters: Osaka, Japan<br>
+                        The Panasonic power battery business belongs to the energy field of the AIS sector, including secondary battery and energy equipment. Secondary battery equipment includes  the Panasonic secondary battery business division and Tesla business division, which will greatly affect Panasonic performance growth.
                     </p>
                 </div>
                 <div class="common_p section40">
@@ -158,8 +158,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img"><img src="/static/images/column_LG_Chem.jpg" alt="LG Chem" title="LG Chem"></div>
                     <p class="small-size section10">
                         <span class="yellow_color"><a href="/lithium-ion-battery/list-159/">LG Chem</a></span><br>
-                        Established:  time: 1947 Headquarters: South Korea<br>
-                        ThisIt is a subsidiary of LG group, which is a leading chemical enterprise in South Korea mainly engaged in the production of petroleum chemistry, batteries, advanced materials and life science products. It dominates the global market in the fields of automobile battery, ESS battery and mobile device battery.
+                        Established: 1947 Headquarters: South Korea<br>
+                        This is a subsidiary of LG group, which is a leading chemical enterprise in South Korea mainly engaged in the production of petroleum chemistry, batteries, advanced materials and life science products. It dominates the global market in the fields of automobile battery, ESS battery and mobile device battery.
                     </p>
                 </div>
 
@@ -167,8 +167,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img"><img src="/static/images/column_Samsung.jpg" alt="Samsung SDI" title="Samsung SDI"></div>
                     <p class="small-size section10">
                         <span class="yellow_color"><a href="/lithium-ion-battery/list-158/">Samsung SDI</a></span><br>
-                        Established: time:  2011 Headquarters: South Korea<br>
-                        This It is a subsidiary of South Korea's Samsung group, which is mainly engaged in the display and lithium battery production. Samsung SDI R&D center is located in South Korea, Japan, Russia and other countries, and has offices in Taiwan, Germany, Malaysia, India, Vietnam, etc. It is one of the top 100 lithium battery manufacturers in the world.
+                        Established: 2011 Headquarters: South Korea<br>
+                        This is a subsidiary of South Korea's Samsung group, which is mainly engaged in the display and lithium battery production. Samsung SDI R&D center is located in South Korea, Japan, Russia and other countries, and has offices in Taiwan, Germany, Malaysia, India, Vietnam, etc. It is one of the top 100 lithium battery manufacturers in the world.
                     </p>
                 </div>
 
@@ -176,7 +176,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img"><img src="/static/images/column_LISHEN.jpg" alt="LISHEN" title="LISHEN"></div>
                     <p class="small-size section10">
                         <span class="yellow_color"><a href="/lithium-ion-battery/list-160/">LISHEN</a></span><br>
-                        Established  time: 1997 Headquarters: Tianjin, China<br>
+                        Established: 1997 Headquarters: Tianjin, China<br>
                         Tianjin Lishen Battery Co., Ltd., a representative brand of lithium battery in China, it  is one of the professional manufacturers of lithium battery with large investment and the highest technical level in China.
                     </p>
                 </div>
@@ -185,16 +185,16 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img"><img src="/static/images/column_BAK.jpg" alt="BAK" title="BAK"></div>
                     <p class="small-size section10">
                         <span class="yellow_color"><a href="/lithium-ion-battery/list-161/">BAK</a></span><br>
-                        Established time:  2001 Headquarters: Shenzhen, China<br>
-                        Shenzhen BAK Technology Co., Ltd., a well-known brand of lithium battery,  this a battery supplier of HP, Dell, Lenovo, etc. It is a world-renowned manufacturer of lithium battery, integrating research, development, production and sales.
+                        Established:  2001 Headquarters: Shenzhen, China<br>
+                        Shenzhen BAK Technology Co., Ltd., a well-known brand of lithium battery, a battery supplier of HP, Dell, Lenovo, etc. It is a world-renowned manufacturer of lithium battery, integrating research, development, production and sales.
                     </p>
                 </div>
 
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LARGE_POWER.jpg" alt="LARGE POWER" title="LARGE POWER"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/page/company-profile.html">LARGE POWER</a></span><br>
-                        Established time: 2001 Headquarter: Dongguan, China<br>
+                        <span class="yellow_color"><a href="/page/company-profile.html">LARGE</a></span><br>
+                        Established: 2001 Headquarter: Dongguan, China<br>
                         Dongguan Large Electronics Co., Ltd is a provider of customized solutions and products for special lithium power systems. It is mainly engaged in the research, development, production and sale of special lithium batteries, low-temperature batteries, explosion-proof batteries, military lithium batteries and medical lithium batteries.
                     </p>
                 </div>
@@ -230,7 +230,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="common_p section60">
                     <p class="small-size">
-                        Top 18650 Lithium Battery Cell model Model Meter
+                        Top 18650 Lithium Battery Cell Model Meter
                     </p>
                     <div class="img section20"><img class="w100" src="/static/images/column_top_18650.jpg" alt=""></div>
                 </div>
@@ -239,13 +239,13 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section" id="the-best-18650-lithium-battery-charger"><h3>3.The Best 18650 Lithium Battery Charger</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        An 18650 lithium battery charger is specially used to charge an 18650 battery. Lithium battery has high demand on charger. It needs a protection circuit, so the lithium battery charger usually has higher more preciseion of control. It can charge athe lithium battery with a constant current and constant voltage.
+                        An 18650 lithium battery charger is specially used to charge an 18650 battery. Lithium battery has high demand on charger. It needs a protection circuit, so the lithium battery charger usually has higher more precise of control. It can charge athe lithium battery with a constant current and constant voltage.
                     </p>
                     <div class="p_ul">
                         <ul class="small-size">
                             <li>The working state of lithium battery charger is consistent with the battery. If the charger works in the state of lithium battery and charges a NI-MH battery or nickel-cadmium battery, the battery will be charged insufficiently and the working time will be greatly reduced.
-                                If the charger works in the state of nickel battery to charge lithium battery, the lithium battery will be overcharged. It will seriously affect the battery cycle life cycle.</li>
-                            <li class="section10">Make sure the battery is fully charged. Wwhen the lithium battery charger is fully chargedd. you You can remove it. The  the llithium battery can be removed from some chargers when the fully charge indicator light is on, while with some chargers you cannot remove the battery until all the indicator lights areis on.</li>
+                                If the charger works in the state of nickel battery to charge lithium battery, the lithium battery will be overcharged. It will seriously affect the battery cycle life.</li>
+                            <li class="section10">Make sure the battery is fully charged,when the lithium battery charger is fully chargedd. You can remove it. The lithium battery can be removed from some chargers when the fully charge indicator light is on, while with some chargers you cannot remove the battery until all the indicator lights are on.</li>
 
                         </ul>
                     </div>
@@ -256,11 +256,11 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section60" id="18650-lithium-battery-type"><h3>4.18650 Lithium Battery Type</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        <span class="black_color font-weight">According to aAnode chemical materials</span><br>
+                        <span class="black_color font-weight">According to Anode Chemical Materials</span><br>
                         Lithium cobalt 18650, lithium manganate 18650, ternary 18650, lithium iron phosphate 18650, Ni-Mh 18650 (uncommon)
                     </p>
                     <p class="small-size section20">
-                        <span class="black_color font-weight">According to dDischarge performance</span><br>
+                        <span class="black_color font-weight">According to Discharge Performance</span><br>
                         Capacity battery and power battery
                     </p>
                     <p class="small-size section20">
@@ -307,12 +307,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section60" id="18650-lithium-battery-shrink-warp"><h3>6.18650 Lithium Battery Shrink Wrap</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        There are two kinds of heat shrinkable tubes for an 18650 lithium battery,: PVC and PE. Most manufacturers will choose  PVC heat shrinkable tubes because of their low costprice and easy shrinkage.
+                        There are two kinds of heat shrinkable tubes for an 18650 lithium battery: PVC and PE. Most manufacturers will choose PVC heat shrinkable tubes because of their low cost and easy shrinkage.
                     </p>
                     <div class="p_ul section5">
                         <ul class="small-size">
                             <li>PVC heat shrinkable tubes are cheap, but are easy to break, so their operational period is not long, and they are difficult to repair if they are broken.</li>
-                            <li>A PE heat shrinkable tube is not easy not easy to  be cut. It has high temperature resistance, and won’t scald because a battery has overheatedof battery overheat.</li>
+                            <li>A PE heat shrinkable tube is not easy not easy to be cut. It has high temperature resistance, and won’t scald because a battery has overheated.</li>
                         </ul>
                     </div>
                 </div>
@@ -337,17 +337,17 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section20">
                     <p class="small-size">
                         At present, there are Panasonic/Sanyo, SONY, Samsung, LG and other world famous brands.
-                        Panasonic, Sanyo areis capacity battery manufacturers.
-                        An LG, SONY,SONY, orand SAMSUNG manufacture  18650 power battery is better.
+                        Panasonic, Sanyo are capacity battery manufacturers.
+                        LG, SONY, and SAMSUNG manufacture 18650 power battery better.
                     </p>
                 </div>
 
                 <div class="link_title size2 section50" id="nominal-capacity"><h3>3.Nominal Capacity</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        The nominal capacity of an the 18650 battery will affect theits battery life. The unit is "mAh". The higher the capacity, the better the battery life is.<br>
+                        The nominal capacity of an 18650 battery will affect the battery life. The unit is "mAh". The higher the capacity, the better the battery life is.<br>
                         For example, a 2800mAh battery can last for 2 hours at 1.4A.<br>
-                        At present, the capacity of 18650 battery is seriously inveraciousunveracious, so we try our best to choose a famous brand battery cell by athrough proper channels.
+                        At present, the capacity of 18650 battery is seriously unveracious, so we try our best to choose a famous brand battery cell through proper channels.
                     </p>
                 </div>
 
@@ -369,7 +369,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section50" id="operating-temperature"><h3>6.Operating Temperature</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        Temperature is a the major factor whichthat affects 18650 lithium battery life. The higher the temperature, the faster the aging rate of the lithium battery will be, and the higher the temperature, the greater the damage suffered by the lithium battery will be.
+                        Temperature is a major factor which affects 18650 lithium battery life. The higher the temperature, the faster the aging rate of the lithium battery will be, and the higher the temperature, the greater the damage suffered by the lithium battery will be.
                     </p>
                 </div>
 
@@ -387,7 +387,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section50" id="Protected-vs-unprotected-batteries"><h3>8.Protected vs. Unprotected Batteries</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        The 18650 lithium battery with PCM is 4-6mmseveral millimeters higher than the 18650 lithium battery without PCM. It is also slightly more expensive, but but it is it is safer.<br>
+                        The 18650 lithium battery with PCM is 4-6mm higher than the 18650 lithium battery without PCM. It is also slightly more expensive, but it is safer.<br>
                         The 18650 lithium battery with PCM can prevent over-discharge of the battery <strong>(over-discharge will cause a lithium battery overheat, burn or, in extreme cases, explode).</strong><br>
                         <br>
                         Glare flashlights and headlamps generally do not have protective circuits. It is recommended to purchase a protected 18650 lithium battery.
@@ -399,7 +399,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
                 <div class="common_p section50">
                     <p class="small-size">
-                        A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteriesy, the following will tell you how to identify the fake 18650 lithium battery.
+                        A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteries, the following will tell you how to identify the fake 18650 lithium battery.
                     </p>
                 </div>
 
@@ -421,7 +421,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section50" id="voltage-measurement"><h3>3.Voltage Measurement</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
-                        The voltage of a the genuine 18650 battery is about 3.7V, while athe fake 18650 battery doesn’t have a voltage, that is, the voltage of the fake battery is zero  (0V).
+                        The voltage of a the genuine 18650 battery is about 3.7V, while a fake 18650 battery doesn’t have a voltage, that is, the voltage of the fake battery is zero  (0V).
                     </p>
                 </div>
 
@@ -476,7 +476,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <li class="section5"><span class="font-weight">Battery with the same voltage</span></li>
                     <li class="section5">Different batteries have different voltages. After being connected in parallel, the high-voltage battery charges the low-voltage battery, which consumes the power and may lead to accidents.</li>
                     <li class="section5"><span class="font-weight">Battery with the same capacity</span></li>
-                    <li class="section5">Connect batteries with different capacities in series. For examples, same battery may be different from the aging degree. Batteries with small capacity will fully discharge first, then the internal resistance will increase. 3. You also need to use the same battery if connect in series. Otherwise, after connecting batteries with different capacities in series (for example, same battery may be different in the aging degree), the batteries with small capacity will fully discharge first, then the internal resistance will increase. </li>
+                    <li class="section5">Connect batteries with different capacities in series. For examples, same battery may be different from the aging degree. Batteries with small capacity will fully discharge first, then the internal resistance will increase. You also need to use the same battery if connect in series. Otherwise, after connecting batteries with different capacities in series (for example, same battery may be different in the aging degree), the batteries with small capacity will fully discharge first, then the internal resistance will increase. </li>
                     <li class="section5">At this moment, the batteries with large capacity will discharge through the internal resistance of the batteries with small capacity, and then reverse charge. In this way, the voltage on the load will be greatly reduced, the battery will be unable to work, and the large capacity battery is only equivalent to the small capacity battery. Long-term use may cause accidents.</li>
                 </ul>
             </div>
@@ -485,7 +485,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="link_title size2 section50" id="precautions-for-series"><h3>3.Features of 18650 Lithium Battery Pack</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
-                    <li>The battery pack requires a high degree of consistency (capacity, internal resistanceimpedance, voltage, discharge curve, cycle life).</li>
+                    <li>The battery pack requires a high degree of consistency (capacity, internal impedance, voltage, discharge curve, cycle life).</li>
                     <li class="section5">The cycle life of the battery pack is lower than that of a single battery.</li>
                     <li class="section5">Different batteries have different voltages. After being connected in parallel, the high-voltage battery charges the low-voltage battery, which consumes the power and may lead to accidents.</li>
                     <li class="section5">It needs to be used under limited conditions (including charging, discharging current, charging mode, temperature, etc.)</li>
