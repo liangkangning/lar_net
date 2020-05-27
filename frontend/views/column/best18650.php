@@ -18,7 +18,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li class="li_num"><a href="#battery-cases">Battery Cases</a></li>
                     </ol>
                 </div>
-                <div class="title size3 section50"><a href="how-to-choose-18650">How to Choose 18650 Lithium Battery</a></div>
+                <div class="title size3 section50"><a href="#how-to-choose-18650">How to Choose 18650 Lithium Battery</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#electrical-appliances">Electrical Appliances</a></li>
@@ -48,7 +48,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="title size3 section50"><a href="#lithium-battery-connection">18650 Lithium Battery Connection</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
-                        <li class="li_num"><a href="#Protected-vs-unprotected-batteries">The Meaning of 18650 Battery Pack in Series and Parallel</a></li>
+                        <li class="li_num"><a href="#the-meaning-of-18650">The Meaning of 18650 Battery Pack in Series and Parallel</a></li>
                         <li class="li_num"><a href="#precautions-for-series">Precautions for Series and Parallel Connection of 18650 Lithium Battery</a></li>
 
                     </ol>
@@ -232,7 +232,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="small-size">
                         Top 18650 Lithium Battery Cell Model Meter
                     </p>
-                    <div class="img section20"><img class="w100" src="/static/images/column_top_18650.jpg" alt=""></div>
+                    <div class="img section20">
+                        <?php $this->beginContent('@app/views/column/best18650Table.php') ?>
+                        <?php $this->endContent() ?>
+                    </div>
                 </div>
 
 
@@ -319,7 +322,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section class="section70">
-                <div class="common_title size1"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
+                <div class="common_title size1" id="how-to-choose-18650"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         An 18650 battery generally has the advantages of large capacity, long life, high safety performance and a wide range of use. When purchasing an 18650 battery, you should generally learn about its brand, capacity, current, voltage and operating temperature, before you can select a good 18650 battery.
