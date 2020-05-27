@@ -1,7 +1,7 @@
 <?php
 $Hottest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('click desc')->limit('6')->all();
 $Latest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('create_time desc')->limit('6')->all();
-$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('6')->all();
+$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('5')->all();
 ?>
 <div class="news_tuijian size4">
 <div class="common_nav left">
@@ -58,6 +58,10 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
     <li class="list2 none">
         <div class="list">
             <ul>
+                <li><div class="item">
+                        <div class="text"><span></span><a class="hover_a" href="/best-18650-lithium-battery-pack/">Best 18650 Lithium Battery Pack</a></div>
+                    </div>
+                </li>
                 <?php foreach ($Recommended as $key=>$value) :?>
                     <li><div class="item">
                             <div class="text"><span></span><a class="hover_a" href="<?=$value->url?>"><?=$value->title?></a></div>

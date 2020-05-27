@@ -9,7 +9,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="title_list col-md-12">
         <div class="container">
             <div class="left col-md-6">
-                <div class="title size3"><h2>Basic Structure of 18650 Lithium Battery Pack</h2></div>
+                <div class="title size3"><a href="#basic-structure-of-18650">Basic Structure of 18650 Lithium Battery Pack</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#battery-cell">Battery Cell</a></li>
@@ -18,7 +18,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li class="li_num"><a href="#battery-cases">Battery Cases</a></li>
                     </ol>
                 </div>
-                <div class="title size3 section50"><h2>How to Choose 18650 Lithium Battery</h2></div>
+                <div class="title size3 section50"><a href="how-to-choose-18650">How to Choose 18650 Lithium Battery</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#electrical-appliances">Electrical Appliances</a></li>
@@ -33,7 +33,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
             </div>
             <div class="right col-md-6">
-                <div class="title size3"><h2>What is An 18650 Lithium Battery?</h2></div>
+                <div class="title size3"><a href="#what-is-an-18650">What is An 18650 Lithium Battery?</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#the-beast-18650-cell-battery-brands">The Best 18650 Battery Brands</a></li>
@@ -44,8 +44,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li class="li_num"><a href="#18650-lithium-battery-shrink-warp">18650 Lithium Battery Shrink Wrap</a></li>
                     </ol>
                 </div>
-                <div class="title size3 section50"><h2>How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
-                <div class="title size3 section50"><h2>18650 Lithium Battery Connection</h2></div>
+                <div class="title size3 section50"><a href="#how-do-you-avoid">How Do You Avoid Buying A Fake 18650 Lithium Battery?</a></div>
+                <div class="title size3 section50"><a href="#lithium-battery-connection">18650 Lithium Battery Connection</a></div>
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#Protected-vs-unprotected-batteries">The Meaning of 18650 Battery Pack in Series and Parallel</a></li>
@@ -75,7 +75,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
             <section>
-                <div class="common_title size1 section70"><h2 class="light1-5">Basic Structure of 18650 Lithium Battery Pack</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Basic Structure of 18650 Lithium Battery Pack</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         The basic structure of lithium-ion battery is composed of four parts: the cell, the PCM, the cases and the lead/terminal.
@@ -118,7 +118,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="img section30"><img src="/static/images/column_18650_01.jpg" alt="Structure of 18650 Lithium Battery" title="Structure of 18650 Lithium Battery"></div>
             </section>
             <section class="section70">
-                <div class="common_title size1"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
+                <div class="common_title size1" id="what-is-an-18650"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         18650 refers to the appearance specification of the battery, which is a standard battery model determined by SONY in order to save costs. 18 means 18mm in diameter, 65 means 65mm in length, and 0 means cylindrical battery.
@@ -396,7 +396,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
             <section class="section70">
-                <div class="common_title size1"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
+                <div class="common_title size1" id="how-do-you-avoid"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
                 <div class="common_p section50">
                     <p class="small-size">
                         A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteries, the following will tell you how to identify the fake 18650 lithium battery.
@@ -435,7 +435,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </section>
 
         <section class="section80">
-            <div class="common_title size1"><h2 class="light1-5">18650 Lithium Battery Connection</h2></div>
+            <div class="common_title size1" id="lithium-battery-connection"><h2 class="light1-5">18650 Lithium Battery Connection</h2></div>
             <div class="common_p section50">
                 <p class="small-size">
                     In the actual use of batteries, high voltage and large current are often required, which need to connect several single batteries in series or parallel (or both), we call it battery pack. The 18650 lithium battery pack needs a certain standard.
@@ -495,7 +495,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
         </section>
 
-        <div class="section60 size1 black_color"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
+        <div class="section60 size1 black_color" id="how-to-choose-18650"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
         <div class="products_18650 col-md-12 section20">
             <ul>
                 <?php foreach (Yii::$app->params['product_18650'] as $key=>$value):?>
