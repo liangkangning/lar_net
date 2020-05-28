@@ -164,9 +164,9 @@ $this->registerJs($js);
                 $("#contentdesc").removeClass("none");
             }
 
-            if (Name=="" || Email=="" || content==""){
+            if (Email=="" || content==""){
                 return;
-            } 
+            }
 
         $.ajax({
             url:'/form/post-email.html',
