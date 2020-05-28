@@ -37,7 +37,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="list section10">
                     <ol class="light1-8 small-size">
                         <li class="li_num"><a href="#the-beast-18650-cell-battery-brands">The Best 18650 Battery Brands</a></li>
-                        <li class="li_num"><a href="#the-best-18650-battery-cell">The Best 18650 Battery Cell</a></li>
+                        <li class="li_num"><a href="#the-best-18650-battery-cell">The Best 18650 Lithium Battery Cell</a></li>
                         <li class="li_num"><a href="#the-best-18650-lithium-battery-charger">The Best 18650 Lithium Battery Charger</a></li>
                         <li class="li_num"><a href="#18650-lithium-battery-type">18650 Lithium Battery Type</a></li>
                         <li class="li_num"><a href="#18650-battery-chemical-material-and-naming">18650 Battery Chemical Material and Naming</a></li>
@@ -201,7 +201,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
 
-                <div class="link_title size2 section" id="the-best-18650-battery-cell"><h3>2.The Best 18650 Battery Cell</h3></div>
+                <div class="link_title size2 section" id="the-best-18650-battery-cell"><h3>2.The Best 18650 Lithium Battery Cell</h3></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
