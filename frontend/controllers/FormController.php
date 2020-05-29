@@ -92,22 +92,26 @@ class FormController extends CommonController
         return $this->render('/page/contactus_success',['data'=>$this->data]);
     }
     public function actionPostEmail(){
-        $model=new SendMail();
-        $model->setScenario('simple');
+
+
         if(Yii::$app->request->isPost){
             $post = Yii::$app->request->post();
-            $post['from'] = '/form/post-email.html';
-            $data['SendMail'] = $post;
-            $model->load($data);
-            if ($model->save()){
+            $data = [
+                'name' => $post['name'] ?: ' ',
+                'email' => $post['email'],
+                'message' => $post['message'],
+                'from' => 'bottom_right_form',
+            ];
+            $res =  Yii::$app->db->createCommand()->insert('yii2_send_mail', $data)->execute();
+
+            if ($res){
                 echo 2;
-                $res = Yii::$app->mailer->compose('test', ['data'=>$model,'title' => 'www.large.net信息反馈','html' => 'text'])
+                $res = Yii::$app->mailer->compose('test', ['data'=>$data,'title' => 'www.large.net信息反馈','html' => 'text'])
                     ->setTo(Yii::$app->params['web']['WEB_EMAIL']->value)
-                    ->setSubject('外贸询盘：'.$model->email)
+                    ->setSubject('外贸询盘：'.$data['email'])
                     ->send();
             }else{
-//                var_dump($model->save());
-                var_dump($model->errors);
+                echo '失败';
             }
 
         }
