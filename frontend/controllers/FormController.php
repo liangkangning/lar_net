@@ -101,6 +101,7 @@ class FormController extends CommonController
                 'email' => $post['email'],
                 'message' => $post['message'],
                 'from' => 'bottom_right_form',
+                'create_time' => time(),
             ];
             $res =  Yii::$app->db->createCommand()->insert('yii2_send_mail', $data)->execute();
 
