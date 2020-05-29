@@ -97,7 +97,6 @@ class FormController extends CommonController
         if(Yii::$app->request->isPost){
             $post = Yii::$app->request->post();
             $post['from'] = '/form/post-email.html';
-            $post['name'] = $post['name']?:'';
             $data['SendMail'] = $post;
             $model->load($data);
             if ($model->save()){
