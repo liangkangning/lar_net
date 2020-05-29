@@ -994,7 +994,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LARGE </span><span ><span><span>POWER</span></span></span>
+                <span >LARGE </span>
             </p>
         </td>
         <td width="113" >
@@ -1046,7 +1046,7 @@
     <tr>
         <td width="85"  >
             <p >
-                <span >LARGE </span><span ><span><span>POWER</span></span></span>
+                <span >LARGE</span>
             </p>
         </td>
         <td width="113" >

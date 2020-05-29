@@ -1,12 +1,62 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
 ?>
-<div class="column-best-18650 column-common">
+<div class="column-best-18650">
     <div class="banner col-md-12 relative">
         <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_18650_banner.jpg')?>" alt=""></div>
         <div class="text center-text"><h1 class="big-size">Best 18650 Lithium Battery Pack</h1></div>
     </div>
+    <div class="title_list col-md-12">
+        <div class="container">
+            <div class="left col-md-6">
+                <div class="title size3"><a href="#basic-structure-of-18650">Basic Structure of 18650 Lithium Battery Pack</a></div>
+                <div class="list section10">
+                    <ol class="light1-8 small-size">
+                        <li class="li_num"><a href="#battery-cell">Battery Cell</a></li>
+                        <li class="li_num"><a href="#pcm">PCM</a></li>
+                        <li class="li_num"><a href="#lead-and-terminal">Lead and Terminal</a></li>
+                        <li class="li_num"><a href="#battery-cases">Battery Cases</a></li>
+                    </ol>
+                </div>
+                <div class="title size3 section50"><a href="#how-to-choose-18650">How to Choose 18650 Lithium Battery</a></div>
+                <div class="list section10">
+                    <ol class="light1-8 small-size">
+                        <li class="li_num"><a href="#electrical-appliances">Electrical Appliances</a></li>
+                        <li class="li_num"><a href="#battery-brand">Battery Brand</a></li>
+                        <li class="li_num"><a href="#nominal-capacity">Nominal Capacity</a></li>
+                        <li class="li_num"><a href="#charge-discharge-rate">Charge-discharge Rate (C-rate)</a></li>
+                        <li class="li_num"><a href="#internal-impedance">Internal impedance</a></li>
+                        <li class="li_num"><a href="#operating-temperature">Operating Temperature</a></li>
+                        <li class="li_num"><a href="#button-top-and-flat-top">Button Top and Flat Top</a></li>
+                        <li class="li_num"><a href="#Protected-vs-unprotected-batteries">Protected vs. Unprotected Batteries</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="right col-md-6">
+                <div class="title size3"><a href="#what-is-an-18650">What is An 18650 Lithium Battery?</a></div>
+                <div class="list section10">
+                    <ol class="light1-8 small-size">
+                        <li class="li_num"><a href="#the-beast-18650-cell-battery-brands">The Best 18650 Battery Brands</a></li>
+                        <li class="li_num"><a href="#the-best-18650-battery-cell">The Best 18650 Lithium Battery Cell</a></li>
+                        <li class="li_num"><a href="#the-best-18650-lithium-battery-charger">The Best 18650 Lithium Battery Charger</a></li>
+                        <li class="li_num"><a href="#18650-lithium-battery-type">18650 Lithium Battery Type</a></li>
+                        <li class="li_num"><a href="#18650-battery-chemical-material-and-naming">18650 Battery Chemical Material and Naming</a></li>
+                        <li class="li_num"><a href="#18650-lithium-battery-shrink-warp">18650 Lithium Battery Shrink Wrap</a></li>
+                    </ol>
+                </div>
+                <div class="title size3 section50"><a href="#how-do-you-avoid">How Do You Avoid Buying A Fake 18650 Lithium Battery?</a></div>
+                <div class="title size3 section50"><a href="#lithium-battery-connection">18650 Lithium Battery Connection</a></div>
+                <div class="list section10">
+                    <ol class="light1-8 small-size">
+                        <li class="li_num"><a href="#the-meaning-of-18650">The Meaning of 18650 Battery Pack in Series and Parallel</a></li>
+                        <li class="li_num"><a href="#precautions-for-series">Precautions for Series and Parallel Connection of 18650 Lithium Battery</a></li>
 
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="col-md-12">
         <div class="container">
             <div class="common_p section">
@@ -24,7 +74,49 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <p class="small-size section20">A <a href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
                 </p>
             </div>
+            <section>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Basic Structure of 18650 Lithium Battery Pack</h2></div>
+                <div class="common_p section60">
+                    <p class="small-size">
+                        The basic structure of lithium-ion battery is composed of four parts: the cell, the PCM, the cases and the lead/terminal.
+                    </p>
+                </div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.Battery Cell</h3></div>
+                <div class="common_p section30">
+                    <p class="small-size">
+                        The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
+                        It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">prismatic lithium-ion cell</a>, the
+                        <a href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
+                    </p>
+                </div>
 
+                <div class="link_title size2 section50" id="pcm"><h3>2.PCM</h3></div>
+                <div class="common_p section30">
+                    <p class="small-size">
+                        The PCM is an electronic module used to protect the normal operation and prevent the unusual abnormal accidents.<br>
+                        According to the quantity, it can be divided into single board and multi board.<br>
+                        According to the product category, it can be divided into an ordinary board, an intelligent board and a power board.<br>
+                        The main parameters include overcharge, over-discharge, overcurrent, self-consumption, internal resistance, leakage protection and so on.
+
+                    </p>
+                </div>
+                <div class="link_title size2 section50" id="lead-and-terminal"><h3>3.Lead and Terminal</h3></div>
+                <div class="common_p section30">
+                    <p class="small-size">
+                        This includes various specifications and brands from line #32 to line #10.<br>
+                        It includes all kinds of terminal heads.<br>
+                    </p>
+                </div>
+                <div class="link_title size2 section50" id="battery-cases"><h3>4.Battery Cases</h3></div>
+                <div class="common_p section30">
+                    <p class="small-size">
+                        The case is used to fix and seal the cell and PCM together, so as to complete the matching function with the main engine.<br>
+                        Common materials of the case: ABS, ABS+PC, PC, etc.<br>
+                        The main indicators of the case are: color, material, matching, mechanical strength etc.
+                    </p>
+                </div>
+                <div class="img section30"><img src="/static/images/column_18650_01.jpg" alt="Structure of 18650 Lithium Battery" title="Structure of 18650 Lithium Battery"></div>
+            </section>
             <section class="section70">
                 <div class="common_title size1" id="what-is-an-18650"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
                 <div class="common_p section60">
@@ -34,47 +126,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         The nominal voltage of a 18650 lithium battery is usually 3.6V or 3.7V, the minimum discharge final voltage is 2.75V, and the normal capacity is 1200 ~ 3500mAh.
                     </p>
                 </div>
-
-
-
-                <div class="link_title size2 section" id="the-best-18650-battery-cell"><h3>1.The Best 18650 Lithium Battery Cell</h3></div>
-                <div class="common_p section60">
-                    <p class="small-size">
-                        The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
-                    </p>
-                </div>
-                <div class="products_list">
-                    <ul>
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                        <li class="section60">
-                            <div class="item">
-                                <?php if ($key%2==0) :?>
-                                <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <?php endif?>
-                                <div class="text col-md-7">
-                                    <div class="des light1-8 section50"><p><?=$value['diy_content']?></p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
-                                </div>
-                                <?php if ($key%2!=0) :?>
-                                    <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                <?php endif?>
-
-                            </div>
-                        </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
-                <div class="common_p section60">
-                    <p class="small-size">
-                        Top 18650 Lithium Battery Cell Model Meter
-                    </p>
-                    <div class="img section20">
-                        <?php $this->beginContent('@app/views/column/best18650Table.php') ?>
-                        <?php $this->endContent() ?>
-                    </div>
-                </div>
-
-                <div class="link_title size2 section50" id="the-beast-18650-cell-battery-brands"><h3>2.The Best 18650 Battery Brands</h3></div>
+                <div class="link_title size2 section50" id="the-beast-18650-cell-battery-brands"><h3>1.The Best 18650 Battery Brands</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
@@ -147,6 +199,44 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
+
+
+                <div class="link_title size2 section" id="the-best-18650-battery-cell"><h3>2.The Best 18650 Lithium Battery Cell</h3></div>
+                <div class="common_p section60">
+                    <p class="small-size">
+                        The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
+                    </p>
+                </div>
+                <div class="products_list">
+                    <ul>
+                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
+                            <li class="section60">
+                                <div class="item">
+                                    <?php if ($key%2==0) :?>
+                                        <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <?php endif?>
+                                    <div class="text col-md-7">
+                                        <div class="des light1-8 section50"><p><?=$value['diy_content']?></p></div>
+                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    </div>
+                                    <?php if ($key%2!=0) :?>
+                                        <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <?php endif?>
+
+                                </div>
+                            </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+                <div class="common_p section60">
+                    <p class="small-size">
+                        Top 18650 Lithium Battery Cell Model Meter
+                    </p>
+                    <div class="img section20">
+                        <?php $this->beginContent('@app/views/column/best18650Table.php') ?>
+                        <?php $this->endContent() ?>
+                    </div>
+                </div>
 
 
                 <div class="link_title size2 section" id="the-best-18650-lithium-battery-charger"><h3>3.The Best 18650 Lithium Battery Charger</h3></div>
@@ -288,107 +378,65 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 <div class="link_title size2 section50" id="button-top-and-flat-top"><h3>7.Button Top and Flat Top</h3></div>
                 <div class="common_p section20 button-top-and-flat-top"">
-                    <p class="small-size">
-                        The so-called button top and flat top are designed by various manufacturers according to their own assembly needs, battery safety, battery capacity and other factors, and there is no essential difference.
-                    </p>
-                    <div class="img section50 text-center">
-                        <img  src="/static/images/column_button-top-and-flat-top.jpg" alt="Button Top and Flat Top 18650">
-                        <img  src="/static/images/column_button-top-and-flat-top2.jpg" alt="Button Top and Flat Top 18650">
-                    </div>
-                </div>
-
-                <div class="link_title size2 section50" id="Protected-vs-unprotected-batteries"><h3>8.Protected vs. Unprotected Batteries</h3></div>
-                <div class="common_p section20">
-                    <p class="small-size">
-                        The 18650 lithium battery with PCM is 4-6mm higher than the 18650 lithium battery without PCM. It is also slightly more expensive, but it is safer.<br>
-                        The 18650 lithium battery with PCM can prevent over-discharge of the battery <strong>(over-discharge will cause a lithium battery overheat, burn or, in extreme cases, explode).</strong><br>
-                        <br>
-                        Glare flashlights and headlamps generally do not have protective circuits. It is recommended to purchase a protected 18650 lithium battery.
-                    </p>
-                </div>
-            </section>
-
-            <section class="section70">
-                <div class="common_title size1" id="how-do-you-avoid"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
-                <div class="common_p section50">
-                    <p class="small-size">
-                        A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteries, the following will tell you how to identify the fake 18650 lithium battery.
-                    </p>
-                </div>
-
-                <div class="link_title size2 section50" id="appearance"><h3>1.Appearance</h3></div>
-                <div class="common_p section20">
-                    <p class="small-size">
-                        The 18650 battery has a beautiful appearance. The battery package is smooth and wrinkle-free, and all have a strict battery tracking mark. Detailed battery data can be seen in the code spraying mark on the battery membrane.
-                    </p>
-                </div>
-
-                <div class="link_title size2 section50" id="weight"><h3>2.Weight</h3></div>
-                <div class="common_p section20">
-                    <p class="small-size">
-                        Weigh the batteries on an electronic scale, and then compare the weights.
-                        The weight of 18650 battery is generally 45-48g, while the weight of the fake 18650 battery is generally 10g. There are also fake 18650 batteries mixed with mud, and the weight of the mud 18650 battery is generally 30g.
-                    </p>
-                </div>
-
-                <div class="link_title size2 section50" id="voltage-measurement"><h3>3.Voltage Measurement</h3></div>
-                <div class="common_p section20">
-                    <p class="small-size">
-                        The voltage of a the genuine 18650 battery is about 3.7V, while a fake 18650 battery doesn’t have a voltage, that is, the voltage of the fake battery is zero  (0V).
-                    </p>
-                </div>
-
-                <div class="link_title size2 section50" id="internal-impedance"><h3>4.Internal Impedance</h3></div>
-                <div class="common_p section20">
-                    <p class="small-size">
-                        A counterfeit 18650 battery has no internal impedance or its resistance value is very small, while a genuine 18650 battery has internal impedance is usually around 20 mΩ.
-                    </p>
-                    <div class="img section50 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt="Battery Internal Impedance Tester" title="Battery Internal Impedance Tester"></div>
-                </div>
-            </section>
-        <section>
-            <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Basic Structure of 18650 Lithium Battery Pack</h2></div>
-            <div class="common_p section60">
                 <p class="small-size">
-                    The basic structure of lithium-ion battery is composed of four parts: the cell, the PCM, the cases and the lead/terminal.
+                    The so-called button top and flat top are designed by various manufacturers according to their own assembly needs, battery safety, battery capacity and other factors, and there is no essential difference.
                 </p>
-            </div>
-            <div class="link_title size2 section50" id="battery-cell"><h3>1.Battery Cell</h3></div>
-            <div class="common_p section30">
-                <p class="small-size">
-                    The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
-                    It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">prismatic lithium-ion cell</a>, the
-                    <a href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
-                </p>
-            </div>
+                <div class="img section50 text-center">
+                    <img  src="/static/images/column_button-top-and-flat-top.jpg" alt="Button Top and Flat Top 18650">
+                    <img  src="/static/images/column_button-top-and-flat-top2.jpg" alt="Button Top and Flat Top 18650">
+                </div>
+        </div>
 
-            <div class="link_title size2 section50" id="pcm"><h3>2.PCM</h3></div>
-            <div class="common_p section30">
-                <p class="small-size">
-                    The PCM is an electronic module used to protect the normal operation and prevent the unusual abnormal accidents.<br>
-                    According to the quantity, it can be divided into single board and multi board.<br>
-                    According to the product category, it can be divided into an ordinary board, an intelligent board and a power board.<br>
-                    The main parameters include overcharge, over-discharge, overcurrent, self-consumption, internal resistance, leakage protection and so on.
-
-                </p>
-            </div>
-            <div class="link_title size2 section50" id="lead-and-terminal"><h3>3.Lead and Terminal</h3></div>
-            <div class="common_p section30">
-                <p class="small-size">
-                    This includes various specifications and brands from line #32 to line #10.<br>
-                    It includes all kinds of terminal heads.<br>
-                </p>
-            </div>
-            <div class="link_title size2 section50" id="battery-cases"><h3>4.Battery Cases</h3></div>
-            <div class="common_p section30">
-                <p class="small-size">
-                    The case is used to fix and seal the cell and PCM together, so as to complete the matching function with the main engine.<br>
-                    Common materials of the case: ABS, ABS+PC, PC, etc.<br>
-                    The main indicators of the case are: color, material, matching, mechanical strength etc.
-                </p>
-            </div>
-            <div class="img section30"><img src="/static/images/column_18650_01.jpg" alt="Structure of 18650 Lithium Battery" title="Structure of 18650 Lithium Battery"></div>
+        <div class="link_title size2 section50" id="Protected-vs-unprotected-batteries"><h3>8.Protected vs. Unprotected Batteries</h3></div>
+        <div class="common_p section20">
+            <p class="small-size">
+                The 18650 lithium battery with PCM is 4-6mm higher than the 18650 lithium battery without PCM. It is also slightly more expensive, but it is safer.<br>
+                The 18650 lithium battery with PCM can prevent over-discharge of the battery <strong>(over-discharge will cause a lithium battery overheat, burn or, in extreme cases, explode).</strong><br>
+                <br>
+                Glare flashlights and headlamps generally do not have protective circuits. It is recommended to purchase a protected 18650 lithium battery.
+            </p>
+        </div>
         </section>
+
+        <section class="section70">
+            <div class="common_title size1" id="how-do-you-avoid"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
+            <div class="common_p section50">
+                <p class="small-size">
+                    A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteries, the following will tell you how to identify the fake 18650 lithium battery.
+                </p>
+            </div>
+
+            <div class="link_title size2 section50" id="appearance"><h3>1.Appearance</h3></div>
+            <div class="common_p section20">
+                <p class="small-size">
+                    The 18650 battery has a beautiful appearance. The battery package is smooth and wrinkle-free, and all have a strict battery tracking mark. Detailed battery data can be seen in the code spraying mark on the battery membrane.
+                </p>
+            </div>
+
+            <div class="link_title size2 section50" id="weight"><h3>2.Weight</h3></div>
+            <div class="common_p section20">
+                <p class="small-size">
+                    Weigh the batteries on an electronic scale, and then compare the weights.
+                    The weight of 18650 battery is generally 45-48g, while the weight of the fake 18650 battery is generally 10g. There are also fake 18650 batteries mixed with mud, and the weight of the mud 18650 battery is generally 30g.
+                </p>
+            </div>
+
+            <div class="link_title size2 section50" id="voltage-measurement"><h3>3.Voltage Measurement</h3></div>
+            <div class="common_p section20">
+                <p class="small-size">
+                    The voltage of a the genuine 18650 battery is about 3.7V, while a fake 18650 battery doesn’t have a voltage, that is, the voltage of the fake battery is zero  (0V).
+                </p>
+            </div>
+
+            <div class="link_title size2 section50" id="internal-impedance"><h3>4.Internal Impedance</h3></div>
+            <div class="common_p section20">
+                <p class="small-size">
+                    A counterfeit 18650 battery has no internal impedance or its resistance value is very small, while a genuine 18650 battery has internal impedance is usually around 20 mΩ.
+                </p>
+                <div class="img section50 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt="Battery Internal Impedance Tester" title="Battery Internal Impedance Tester"></div>
+            </div>
+        </section>
+
         <section class="section80">
             <div class="common_title size1" id="lithium-battery-connection"><h2 class="light1-5">18650 Lithium Battery Connection</h2></div>
             <div class="common_p section50">
@@ -450,22 +498,22 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
         </section>
 
-        <div class="section60 size1 black_color" id="how-to-choose-18650"><h2 class="light1-5">How to Choose 18650 Lithium Battery</h2></div>
+        <div class="section60 size1 black_color" id="how-to-choose-18650"><h2 class="light1-5">Customized 18650 Lithium Battery Packs that We Make</h2></div>
         <div class="products_18650 col-md-12 section20">
             <ul>
                 <?php foreach (Yii::$app->params['product_18650'] as $key=>$value):?>
-                <?php $title = Yii::$app->params['product_18650_titles'][$key] ;?>
-                <li class="col-md-4">
-                    <div class="item">
-                        <div class="img"><a href="<?=$value['url']?>"><img src="<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
-                        <div class="text section20">
-                            <div class="title size3"><?=$title[0]?></div>
-                            <div class="sub_title small-size light1-8"><?=$title[1]?></div>
-                            <div class="sub_title small-size light1-8"><?=$title[2]?></div>
+                    <?php $title = Yii::$app->params['product_18650_titles'][$key] ;?>
+                    <li class="col-md-4">
+                        <div class="item">
+                            <div class="img"><a href="<?=$value['url']?>"><img src="<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                            <div class="text section20">
+                                <div class="title size3"><?=$title[0]?></div>
+                                <div class="sub_title small-size light1-8"><?=$title[1]?></div>
+                                <div class="sub_title small-size light1-8"><?=$title[2]?></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
-                </li>
+                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                    </li>
                 <?php endforeach;?>
             </ul>
         </div>
@@ -474,10 +522,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
             <?php $this->endContent()?>
         </section>
-        </div>
-
-
     </div>
+
+
+</div>
 
 
 </div>
