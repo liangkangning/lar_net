@@ -36,4 +36,22 @@ class ColumnController extends CommonController
         Yii::$app->params['product_18650'] = $product_18650;
         return $this->render('best18650');
     }
+    public function actionCylindricalBattery(){
+        parent::common();
+        //该文章的电芯产品
+        $products = [];
+        $ids_18650 = explode(',',Yii::$app->params['web']['cylindrical-battery']['value']);
+        foreach ($ids_18650 as $id) {
+            $products[] = Images::find()->where(['id' => $id])->one();
+        }
+
+        foreach ($products as &$product) {
+            $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
+        }
+        Yii::$app->params['products'] = $products;
+        $this->view->params['meta_title']='Best Cylindrical Lithium Ion Battery, Cylindrical Battery Cell | Large Power';
+        $this->view->params['keywords']='cylindrical lithium ion battery, cylindrical battery cell';
+        $this->view->params['description']='What is a cylindrical lithium ion battery? How to choose cylindrical lithium ion battery cell models? How to customize cylindrical battery?';
+        return $this->render('cylindrical');
+    }
 }

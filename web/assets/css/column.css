@@ -1,6 +1,9 @@
 .yellow_color{color: #FA9600}
 .black_color{color: #212121}
 .gray_color{color: #717171}
+.img_bg{background-color: #F5F5F6}
+.column-common .ul_li_padding{margin-left: -70px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding li{padding-left: 70px;}
 .p{color: #555555}
 .font-weight{font-weight: bold;}
 .big-size{font-size: 48px;font-family:Avillar;}
@@ -25,60 +28,92 @@
 .light1-5{line-height: 1.5}
 .light1-8{line-height: 1.8}
 .light2{line-height: 2}
-.column-best-18650 {
+
+.column-common {
     overflow: hidden;
 }
-.column-best-18650 ol{display: block;
+.column-common ol{display: block;
     list-style-type: decimal;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 20px;}
-.column-best-18650 ul{display: block;
+.column-common ul{display: block;
     list-style-type: disc;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 17px;}
-.column-best-18650 section{width: 100%;overflow: hidden}
-.column-best-18650 h1{color: #FFFFFF}
-.column-best-18650 a{color: #FA9600;}
-.column-best-18650 a:hover{text-decoration: underline;}
-.column-best-18650 .title_list{background-color: #F6F6F6;padding: 90px 0;}
-.column-best-18650 .title_list .title a{color: #212121}
-.column-best-18650 .title_list li{}
-.column-best-18650 .title_list li a{color: #FA9600;}
-.column-best-18650 .common_p{line-height: 1.5;width: 100%;overflow: hidden}
-.column-best-18650 .img{width: 100%;overflow: hidden}
-.column-best-18650 .common_title{border-bottom: 1px solid #212121}
-.column-best-18650 .two-list{width: 100%;overflow: hidden}
+.column-common .ul_none{list-style-type: none;padding-inline-start:0px}
+.column-common section{width: 100%;overflow: hidden}
+.column-common h1{color: #FFFFFF}
+.column-common a{color: #FA9600;}
+.column-common a:hover{text-decoration: underline;}
+.column-common .title_list{background-color: #F6F6F6;padding: 90px 0;}
+.column-common .title_list .title a{color: #212121}
+.column-common .title_list li{}
+.column-common .title_list li a{color: #FA9600;}
+.column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden}
+.column-common .img{width: 100%;overflow: hidden}
+.column-common .common_title{border-bottom: 1px solid #212121}
+.column-common .two-list{width: 100%;overflow: hidden}
 
-.column-best-18650 .button-top-and-flat-top img{padding: 0 15px;}
-.column-best-18650 .products_list{}
-.column-best-18650 .products_list ul{list-style-type: none}
-.column-best-18650 .products_list ul li{background-color: #ECECEC;}
-.column-best-18650 .products_list .item{overflow: hidden;}
-.column-best-18650 .products_list .item .product_img{position: relative;height: 350px;overflow: hidden}
-.column-best-18650 .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -20px;}
-.column-best-18650 .products_list .item .text{padding-left: 60px;}
-.column-best-18650 .products_list .item .text .des{overflow: hidden;width: 100%;}
-.column-best-18650 .products_list .item .text span{width: 100%;float: left;}
-.column-best-18650 .products_list .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
-.column-best-18650 .products_list .item .title{max-width: 500px;}
-.column-best-18650 .products_list .item .title a{color: #231916}
-.column-best-18650 .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
-.column-best-18650 .products_list .item .button a{color: #FFFFFF}
-.column-best-18650 .products_18650{}
-.column-best-18650 .products_18650 ul{overflow: hidden;margin-left: -40px;list-style-type:none;padding-inline-start:0px}
-.column-best-18650 .products_18650 ul li{padding-left: 40px;}
-.column-best-18650 .products_18650 ul li img{background-color: #ECECEC}
-.column-best-18650 .products_18650 ul li img {width: 100%}
-.column-best-18650 .products_18650 ul li .title{}
-.column-best-18650 .products_18650 ul li .sub_title{}
-.column-best-18650 .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
-.column-best-18650 .products_18650 ul li .button a{color: #FFFFFF}
-.column-best-18650 .button{background-color: #FA9600}
-.column-best-18650 .button:hover{background-color: #FFC042;cursor: pointer}
-.column-best-18650 .button a{text-decoration:none;display: inline-block;width: 100%;}
-.column-best-18650 table{width: 100%;text-align: center;}
-.column-best-18650 table td{padding: 10px 0;}
-.column-best-18650 table .firstRow{background-color: #434040;}
-.column-best-18650 table .firstRow span{color: #FFFFFF}
+
+.column-common .button-top-and-flat-top img{padding: 0 15px;}
+.column-common .products_list{}
+.column-common .products_list ul{list-style-type: none;padding-inline-start:0px}
+.column-common .products_list ul li{background-color: #EEEEEE;}
+.column-common .products_list .item{overflow: hidden;}
+.column-common .products_list .item .product_img{position: relative;height: 350px;overflow: hidden}
+.column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -20px;}
+.column-common .products_list .item .text{padding-left: 60px;}
+.column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
+.column-common .products_list .item .text span{width: 100%;float: left;}
+.column-common .products_list .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list .item .title{max-width: 500px;}
+.column-common .products_list .item .title a{color: #231916}
+.column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+.column-common .products_list .item .button a{color: #FFFFFF}
+.column-common .products_18650{}
+.column-common .products_18650 ul{overflow: hidden;margin-left: -40px;list-style-type:none;padding-inline-start:0px}
+.column-common .products_18650 ul li{padding-left: 40px;}
+.column-common .products_18650 ul li img{background-color: #ECECEC}
+.column-common .products_18650 ul li img {width: 100%}
+.column-common .products_18650 ul li .title{}
+.column-common .products_18650 ul li .sub_title{}
+.column-common .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
+.column-common .products_18650 ul li .button a{color: #FFFFFF}
+.column-common .button{background-color: #FA9600}
+.column-common .button:hover{background-color: #FFC042;cursor: pointer}
+.column-common .button a{text-decoration:none;display: inline-block;width: 100%;}
+.column-common table{width: 100%;text-align: center;}
+.column-common table td{padding: 10px 0;}
+.column-common table .firstRow{background-color: #434040;}
+.column-common table .firstRow span{color: #FFFFFF}
+
+
+/*圆柱电池*/
+.column-cylindrical{}
+.column-cylindrical .brand_list{}
+.column-cylindrical .brand_list ul{list-style-type: none;padding-inline-start:0px}
+.column-cylindrical .brand_list ul li{width: 20%;float: left;text-align: center;}
+
+
+.column-cylindrical .products_list_other{}
+.column-cylindrical .products_list_other li{overflow: hidden}
+.column-cylindrical .products_list_other .product_img{background-color: #ECECEC;position: relative;height: 250px;overflow: hidden}
+.column-cylindrical .products_list_other .product_img img{width: 100%;position: absolute;top: -20px;}
+.column-cylindrical .products_list_other .item .text.col-md-9{padding-left: 60px;}
+.column-cylindrical .products_list_other .item .text .des{overflow: hidden;width: 100%;}
+.column-cylindrical .products_list_other .item .text span{width: 100%;float: left;}
+.column-cylindrical .products_list_other .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-cylindrical .products_list_other .item .title{max-width: 500px;}
+.column-cylindrical .products_list_other .item .title a{color: #231916}
+.column-cylindrical .products_list_other .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+.column-cylindrical .products_list_other .item .button a{color: #FFFFFF}
+.column-cylindrical .img_text li:nth-child(odd) {padding-right: 70px}
+.column-cylindrical .img_text li:nth-child(even) {padding-left: 70px}
+
+.column-cylindrical .module .img-list{position: relative;}
+.column-cylindrical .module .img-list .jiantou_1{position: absolute;top: 119px;left: 362px;}
+.column-cylindrical .module .img-list .jiantou_2{position: absolute;top: 119px;left: 775px;}
+
+

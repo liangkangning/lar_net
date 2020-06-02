@@ -152,6 +152,11 @@ return [
                     'route' => 'column/best18650',
                     'suffix' => '/',
                 ],
+                [
+                    'pattern' => 'cylindrical-lithium-ion-battery',
+                    'route' => 'column/cylindrical-battery',
+                    'suffix' => '/',
+                ],
            
 
 
