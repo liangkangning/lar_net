@@ -51,6 +51,14 @@ $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one(
             <link rel="next" href="<?=Yii::$app->params['next_page']?>">
         <?php endif;?>
 
+        <?php  if (Yii::$app->request->get('id')=='8ku43mn'): ?>
+            <link rel="canonical" href="https://www.large.net/best-18650-lithium-battery-pack/" />
+        <?php endif;?>
+        <?php  if (Yii::$app->request->get('id')=='8ju43n2'): ?>
+            <link rel="canonical" href="https://www.large.net/cylindrical-lithium-ion-battery/" />
+        <?php endif;?>
+
+
     </head>
     <!-- END HEAD -->
     <body>
