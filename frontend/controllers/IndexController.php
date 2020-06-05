@@ -38,7 +38,7 @@ class IndexController extends CommonController{
        Yii::$app->params['BatteryKnowledge']=$news_company;
        $news_company=Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('click desc')->limit('6')->all();
        Yii::$app->params['HottestArticle']=$news_company;
-       $news_company=Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('click desc')->limit('5')->all();
+       $news_company=Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('click desc')->limit('4')->all();
        Yii::$app->params['RecommendArticle']=$news_company;
        $links=Links::find()->where(['position'=>0])->orderBy('sorrtank desc')->asArray()->all();        $this->view->params['links']=$links;
 

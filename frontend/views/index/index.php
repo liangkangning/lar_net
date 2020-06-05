@@ -508,6 +508,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                                     <li>
                                         <div class="item"><span></span><div class="text"><a class="commom_a size4" href="/best-18650-lithium-battery-pack/" title="Best 18650 Lithium Battery Pack">Best 18650 Lithium Battery Pack</a></div></div>
                                     </li>
+                                    <li>
+                                        <div class="item"><span></span><div class="text"><a class="commom_a size4" href="/cylindrical-lithium-ion-battery/" title="Cylindrical Lithium Ion Battery">Cylindrical Lithium Ion Battery</a></div></div>
+                                    </li>
                                     <?php foreach (Yii::$app->params['RecommendArticle'] as $key=>$value) :?>
                                         <li>
                                             <div class="item"><span></span><div class="text"><a class="commom_a size4" href="<?=$value->url?>" title="<?=$value['title']?>"><?=$value['title']?></a></div></div>

@@ -124,6 +124,9 @@
                                         <div class="hidden-xs col-sm-12 section20">
                                             <a href="/best-18650-lithium-battery-pack/" class="size4 col-sm-12">Best 18650 Lithium Battery Pack</a>
                                         </div>
+                                        <div class="hidden-xs col-sm-12 section20">
+                                            <a href="/cylindrical-lithium-ion-battery/" class="size4 col-sm-12">Cylindrical Lithium Ion Battery</a>
+                                        </div>
                                     </div>
                                     <?php endif;?>
                                 </div>
