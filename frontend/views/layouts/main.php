@@ -39,7 +39,7 @@ $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one(
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <?php $this->head() ?>
         <!-- END THEME LAYOUT STYLES -->
-        <link rel="canonical" href="<?=$canonical?>">
+<!--        <link rel="canonical" href="--><?//=$canonical?><!--">-->
         <link rel="shortcut icon" href="/favicon.ico" />
         <?php  if (isset($adaptation)): ?>
         <link rel="alternate" hreflang="zh" href="<?=$adaptation->cn?>">
