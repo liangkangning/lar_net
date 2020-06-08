@@ -127,6 +127,9 @@
                                         <div class="hidden-xs col-sm-12 section20">
                                             <a href="/cylindrical-lithium-ion-battery/" class="size4 col-sm-12">Cylindrical Lithium Ion Battery</a>
                                         </div>
+                                        <div class="hidden-xs col-sm-12 section20">
+                                            <a href="/lithium-ion-battery-guide/" class="size4 col-sm-12">Lithium Ion Battery Guide</a>
+                                        </div>
                                     </div>
                                     <?php endif;?>
                                 </div>
