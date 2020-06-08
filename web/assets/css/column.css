@@ -1,9 +1,14 @@
 .yellow_color{color: #FA9600}
 .black_color{color: #212121}
 .gray_color{color: #717171}
+.white_color{color: #FFFFFF}
 .img_bg{background-color: #F5F5F6}
 .column-common .ul_li_padding{margin-left: -70px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
 .ul_li_padding li{padding-left: 70px;}
+.column-common .ul_li_padding50{margin-left: -50px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding50 li{padding-left: 50px;}
+.column-common .ul_li_padding40{margin-left: -40px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding40 li{padding-left: 40px;}
 .p{color: #555555}
 .font-weight{font-weight: bold;}
 .big-size{font-size: 48px;font-family:Avillar;}
@@ -43,7 +48,7 @@
     margin-inline-end: 0px;
     padding-inline-start: 17px;}
 .column-common .ul_none{list-style-type: none;padding-inline-start:0px}
-.column-common section{width: 100%;overflow: hidden}
+.column-common section{width: 100%;overflow: hidden;float: left}
 .column-common h1{color: #FFFFFF}
 .column-common a{color: #FA9600;}
 .column-common a:hover{text-decoration: underline;}
@@ -51,14 +56,16 @@
 .column-common .title_list .title a{color: #212121}
 .column-common .title_list li{}
 .column-common .title_list li a{color: #FA9600;}
-.column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden}
+.column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden;float: left;}
+.column-common .link_title{width: 100%;float: left}
 .column-common .img{width: 100%;overflow: hidden}
+.column-common .img img{max-width: 100%;overflow: hidden}
 .column-common .common_title{border-bottom: 1px solid #212121}
 .column-common .two-list{width: 100%;overflow: hidden}
 
 
 .column-common .button-top-and-flat-top img{padding: 0 15px;}
-.column-common .products_list{}
+.column-common .products_list{width: 100%;float: left}
 .column-common .products_list ul{list-style-type: none;padding-inline-start:0px}
 .column-common .products_list ul li{background-color: #EEEEEE;}
 .column-common .products_list .item{overflow: hidden;}
@@ -86,29 +93,35 @@
 .column-common .button a{text-decoration:none;display: inline-block;width: 100%;}
 .column-common table{width: 100%;text-align: center;}
 .column-common table td{padding: 10px 0;}
-.column-common table .firstRow{background-color: #434040;}
-.column-common table .firstRow span{color: #FFFFFF}
+.column-common table .firstRow{background-color: #434040;color: #FFFFFF;}
+.column-common .images-center{text-align: center}
+.column-common .images-center ul{overflow: hidden}
+.column-common .images-center li{overflow: hidden;display: inline-block;}
 
 
+
+.column-common{}
+.column-common .brand_list{}
+.column-common .brand_list ul{list-style-type: none;padding-inline-start:0px;overflow: hidden}
+.column-common .brand_list ul li{width: 20%;float: left;text-align: center;}
 /*圆柱电池*/
-.column-cylindrical{}
-.column-cylindrical .brand_list{}
-.column-cylindrical .brand_list ul{list-style-type: none;padding-inline-start:0px}
-.column-cylindrical .brand_list ul li{width: 20%;float: left;text-align: center;}
 
+.column-common .p_ul{width: 100%;float: left}
+.column-common .link_title{width: 100%;float: left}
+.column-common .table_title{width: 100%;float: left}
 
-.column-cylindrical .products_list_other{}
-.column-cylindrical .products_list_other li{overflow: hidden}
-.column-cylindrical .products_list_other .product_img{background-color: #ECECEC;position: relative;height: 250px;overflow: hidden}
-.column-cylindrical .products_list_other .product_img img{width: 100%;position: absolute;top: -20px;}
-.column-cylindrical .products_list_other .item .text.col-md-9{padding-left: 60px;}
-.column-cylindrical .products_list_other .item .text .des{overflow: hidden;width: 100%;}
-.column-cylindrical .products_list_other .item .text span{width: 100%;float: left;}
-.column-cylindrical .products_list_other .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
-.column-cylindrical .products_list_other .item .title{max-width: 500px;}
-.column-cylindrical .products_list_other .item .title a{color: #231916}
-.column-cylindrical .products_list_other .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
-.column-cylindrical .products_list_other .item .button a{color: #FFFFFF}
+.column-common .products_list_other{}
+.column-common .products_list_other li{overflow: hidden}
+.column-common .products_list_other .product_img{background-color: #ECECEC;position: relative;height: 250px;overflow: hidden}
+.column-common .products_list_other .product_img img{width: 100%;position: absolute;top: -20px;}
+.column-common .products_list_other .item .text.col-md-9{padding-left: 60px;}
+.column-common .products_list_other .item .text .des{overflow: hidden;width: 100%;}
+.column-common .products_list_other .item .text span{width: 100%;float: left;}
+.column-common .products_list_other .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list_other .item .title{max-width: 500px;}
+.column-common .products_list_other .item .title a{color: #231916}
+.column-common .products_list_other .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+.column-common .products_list_other .item .button a{color: #FFFFFF}
 .column-cylindrical .img_text li:nth-child(odd) {padding-right: 70px}
 .column-cylindrical .img_text li:nth-child(even) {padding-left: 70px}
 

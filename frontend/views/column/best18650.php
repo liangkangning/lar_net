@@ -448,7 +448,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
         </section>
 
-        <div class="section60 size1 black_color" id="how-to-choose-18650"><h2 class="light1-5">Customized 18650 Lithium Battery Packs that We Make</h2></div>
+        <div class="section60 size1 black_color col-md-12" id="how-to-choose-18650"><h2 class="light1-5">Customized 18650 Lithium Battery Packs that We Make</h2></div>
         <div class="products_18650 col-md-12 section20">
             <ul>
                 <?php foreach (Yii::$app->params['product_18650'] as $key=>$value):?>

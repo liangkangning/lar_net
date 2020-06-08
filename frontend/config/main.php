@@ -157,6 +157,16 @@ return [
                     'route' => 'column/cylindrical-battery',
                     'suffix' => '/',
                 ],
+                [
+                    'pattern' => 'cylindrical-lithium-ion-battery',
+                    'route' => 'column/cylindrical-battery',
+                    'suffix' => '/',
+                ],
+                [
+                    'pattern' => 'lithium-ion-battery-guide',
+                    'route' => 'column/lithium-guide',
+                    'suffix' => '/',
+                ],
            
 
 

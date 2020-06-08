@@ -218,6 +218,10 @@ class Images extends \yii\db\ActiveRecord
             ['product/detail','id'=>$id]
         );
     }
+
+    public function getDiyContentUrl(){
+        return str_replace("<a",'<a href="'.$this->url.'"',$this['diy_content']);
+    }
 }
 
 
