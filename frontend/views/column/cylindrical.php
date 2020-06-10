@@ -7,16 +7,16 @@ $product_list = [
     ['title'=>'18500 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_2.png','url'=>'/lithium-ion-battery/list-141/',
         'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 800-1500mAh<br>Diameter: 18±0.2mm<br> Height: 50±0.3mm<br>Application: security communication, rail transit'],
 
-    ['title'=>'18650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_3.png','url'=>'/lithium-ion-battery/list-141/',
+    ['title'=>'18650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_3.png','url'=>'/lithium-ion-battery/list-142/',
         'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Diameter: 18±0.2mm<br> Height: 65±2.0mm<br>Application: special equipment, medical equipment, robot, etc.'],
 
-    ['title'=>'21700 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_4.png','url'=>'/lithium-ion-battery/list-141/',
+    ['title'=>'21700 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_4.png','url'=>'/lithium-ion-battery/list-143/',
         'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Diameter: 21mm<br> Height: 70mm<br>Application: digital devices, power tools'],
 
-    ['title'=>' 26650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_5.png','url'=>'/lithium-ion-battery/list-141/',
+    ['title'=>' 26650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_5.png','url'=>'/lithium-ion-battery/list-144/',
         'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 3200~3500mAh<br>Diameter: 26.2mm<br>Height: 65.6mm<br>Application: power/energy storage, robot, emergency backup'],
 
-    ['title'=>'32650 Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_6.png','url'=>'/lithium-ion-battery/list-141/',
+    ['title'=>'32650(32700) Lithium Ion Battery','img_url'=>'/static/images/column_cylindrical_product_6.png','url'=>'/lithium-ion-battery/list-145/',
         'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 4500-6500mAh<br>Diameter: 32.4±0.3mm<br>Height: 70.5±0.2mm<br>Application: instrumentation, backup power source, special equipment'],
 ]
 ?>
@@ -37,11 +37,11 @@ $product_list = [
                             <div class="item">
                                 <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                 <div class="text col-md-12 pull-left">
-                                    <div class="title size2 section30"><a href="/lithium-ion-battery/list-140/"><?=$value['title']?></a></div>
+                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
                                     <div class="des light1-8 section10"><p>
                                             <?=$value['des']?>
                                            </p></div>
-                                    <div class="button small-size section20"><a href="/lithium-ion-battery/list-140/">READ MORE</a></div>
+                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
@@ -53,7 +53,7 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a Cylindrical Lithium Battery?</h2></div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.18650 Lithium Ion Battery Shrink Wrap</h3></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.Definition of Cylindrical Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         Cylindrical lithium-ion battery is a lithium ion battery with cylindrical shape, so called cylindrical lithium-ion battery. According to the anode materials, cylindrical li-ion battery are divided into lithium cobalt oxides (LiCoO2), lithium manganese (LiMn2O4), lithium nickel manganese cobalt (LiNiMnCoO2 or NMC), lithium aluminum nickel cobalt (LiNiCoAlO2 or NCA), lithium iron phosphate (LiFePO4) and lithium titanate (Li4Ti5O12).
@@ -91,9 +91,6 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Brand Ranking of Cylindrical Lithium Ion Battery</h2></div>
                 <div class="common_p section30">
-                    <p class="size2">
-                        18650 Lithium Ion Battery Shrink Wrap
-                    </p>
                 </div>
                 <div class="brand_list">
                     <ul>
@@ -183,7 +180,7 @@ $product_list = [
                             </li>
                             <li class="col-md-4">
                                 <div class="item">
-                                    <div class="img"><img src="/static/images/column_cylindrical_module_1.jpg" alt="Pack" title="Pack"></div>
+                                    <div class="img"><img src="/static/images/column_cylindrical_module_3.jpg" alt="Pack" title="Pack"></div>
                                     <div class="text section20 text-center">Pack</div>
                                 </div>
                             </li>
@@ -343,14 +340,6 @@ $product_list = [
                         A pouch cell is just a liquid lithium ion battery with a polymer case. In the structure, it has aluminum-plastic film package. In the case of safety hazards, the pouch cell may only swell to crack.
                     </p>
                 </div>
-                <div class="common_p section50">
-                    <p class="size2">
-                        Cylindrical, Prismatic and Pouch Cell Comparison
-                    </p>
-                    <p class="small-size section10">
-                        A pouch cell is just a liquid lithium ion battery with a polymer case. In the structure, it has aluminum-plastic film package. In the case of safety hazards, the pouch cell may only swell to crack.
-                    </p>
-                </div>
                 <section class="section30">
                     <?php $this->beginContent('@app/views/column/cylindricalTable.php') ?>
                     <?php $this->endContent() ?>
@@ -367,7 +356,7 @@ $product_list = [
                         <strong>Volume customization</strong>: the volume of cylindrical lithium ion battery can be flexibly customized. The maximum or minimum size can be required within the specified battery specifications.
                     </p>
                     <p class="small-size section20">
-                        <strong>Voltage and capacity customization</strong>: the voltage and capacity of cylindrical lithium ion battery can be customized according to the requirements. Users can customize the lithium ion battery suitable for the equipment according to their own needs.hium ion battery can be flexibly customized. The maximum or minimum size can be required within the specified battery specifications.
+                        <strong>Voltage and capacity customization</strong>: the voltage and capacity of cylindrical lithium ion battery can be customized according to the requirements. Users can customize the lithium ion battery suitable for the equipment according to their own needs.Lithium ion battery can be flexibly customized. The maximum or minimum size can be required within the specified battery specifications.
                     </p>
                     <p class="small-size section20">
                         <strong>Safety customization</strong>: the lithium ion battery customization manufacturer will increase the battery protection measures according to the environment of the lithium ion battery equipment you use or according to your requirements.

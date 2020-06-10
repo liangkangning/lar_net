@@ -98,12 +98,12 @@
         </td>
         <td width="76" >
             <p >
-                <span >47</span>
+                <span >47.0</span>
             </p>
         </td>
         <td width="95" >
             <p >
-                <span >18.35x64.94</span>
+                <span >18.4x64.5</span>
             </p>
         </td>
     </tr>
@@ -150,12 +150,12 @@
         </td>
         <td width="76" >
             <p >
-                <span >48</span>
+                <span >48.0</span>
             </p>
         </td>
         <td width="95" >
             <p >
-                <span >18.25x65</span>
+                <span >18.3x65.0</span>
             </p>
         </td>
     </tr>
@@ -202,7 +202,7 @@
         </td>
         <td width="76" >
             <p >
-                <span >47</span>
+                <span >47.0</span>
             </p>
         </td>
         <td width="95" >
@@ -259,7 +259,7 @@
         </td>
         <td width="95" >
             <p >
-                <span >18.35x65.1</span>
+                <span >18.4x65.1</span>
             </p>
         </td>
     </tr>
@@ -363,7 +363,7 @@
         </td>
         <td width="95" >
             <p >
-                <span >18.2x65</span>
+                <span >18.2x65.0</span>
             </p>
         </td>
     </tr>
@@ -415,7 +415,7 @@
         </td>
         <td width="95" >
             <p >
-                <span >18.2x65</span>
+                <span >18.2x65.0</span>
             </p>
         </td>
     </tr>
@@ -462,7 +462,7 @@
         </td>
         <td width="76" >
             <p >
-                <span >46.37</span>
+                <span >46.4</span>
             </p>
         </td>
         <td width="95" >
@@ -623,7 +623,7 @@
         </td>
         <td width="95" >
             <p >
-                <span >18.33x64.85</span>
+                <span >18.3x64.9</span>
             </p>
         </td>
     </tr>
@@ -670,12 +670,12 @@
         </td>
         <td width="76" >
             <p >
-                <span >48</span>
+                <span >48.0</span>
             </p>
         </td>
         <td width="95" >
             <p >
-                <span >18.33x64.85</span>
+                <span >18.3x64.9</span>
             </p>
         </td>
     </tr>
@@ -727,7 +727,7 @@
         </td>
         <td width="95" >
             <p>
-                <span>18.63x65.08</span>
+                <span>18.6x65.1</span>
             </p>
         </td>
     </tr>
@@ -878,7 +878,7 @@
         </td>
         <td width="76" valign="top">
             <p >
-                <span>48</span>
+                <span>48.0</span>
             </p>
         </td>
         <td width="95" valign="top">
@@ -930,7 +930,7 @@
         </td>
         <td width="76" valign="top">
             <p >
-                <span>47</span>
+                <span>47.0</span>
             </p>
         </td>
         <td width="95" valign="top">
@@ -947,7 +947,7 @@
         </td>
         <td width="113" valign="top">
             <p >
-                <span>LR1865SK</ins></span></span><span ><span></ins></span></span>
+                <span>LR18650LA</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="66" valign="top">
@@ -957,12 +957,12 @@
         </td>
         <td width="76" valign="top">
             <p >
-                <span>2600</ins></span></span><span ><span></ins></span></span>
+                <span>2000</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="85" valign="top">
             <p >
-                <span>0.52</ins></span></span><span ><span></ins></span></span>
+                <span>0.4</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="57" valign="top">
@@ -982,7 +982,7 @@
         </td>
         <td width="76" valign="top">
             <p >
-                <span>47</ins></span></span><span ><span></ins></span></span>
+                <span>47.0</ins></span></span><span ><span></ins></span></span>
             </p>
         </td>
         <td width="95" valign="top">
@@ -1027,7 +1027,7 @@
                 <span >Flat Top</span>
             </p>
         </td>
-        <td width="47" >
+        <td width="47.0" >
             <p >
                 <span >No</span>
             </p>
@@ -1079,7 +1079,7 @@
                 <span >Flat Top</span>
             </p>
         </td>
-        <td width="47" >
+        <td width="47.0" >
             <p >
                 <span >No</span>
             </p>
