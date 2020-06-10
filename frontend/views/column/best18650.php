@@ -25,6 +25,24 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
 
+            <section class="">
+                <div class="products_18650 col-md-12">
+                    <ul>
+                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
+                            <li class="col-md-4 section60">
+                                <div class="item">
+                                    <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                    <div class="text section20 light1-8 ">
+                                        <p><?=$value['diy_content']?></p>
+                                    </div>
+                                </div>
+                                <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                            </li>
+                        <?php endforeach;?>
+                    </ul>
+                </div>
+            </section>
+
             <section class="section70">
                 <div class="common_title size1" id="what-is-an-18650"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
                 <div class="common_p section60">
@@ -42,6 +60,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
                     </p>
                 </div>
+                <?php if(false):?>
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
@@ -63,6 +82,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <?php endforeach;?>
                     </ul>
                 </div>
+                <?php endif;?>
                 <div class="common_p section60">
                     <p class="small-size">
                         Top 18650 Lithium Battery Cell Model Meter

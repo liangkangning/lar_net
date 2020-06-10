@@ -94,6 +94,7 @@
 .column-common table{width: 100%;text-align: center;}
 .column-common table td{padding: 10px 0;}
 .column-common table .firstRow{background-color: #434040;color: #FFFFFF;}
+.column-common table .firstRow p,.column-common table .firstRow span{color: #FFFFFF;}
 .column-common .images-center{text-align: center}
 .column-common .images-center ul{overflow: hidden}
 .column-common .images-center li{overflow: hidden;display: inline-block;}
@@ -110,7 +111,7 @@
 .column-common .link_title{width: 100%;float: left}
 .column-common .table_title{width: 100%;float: left}
 
-.column-common .products_list_other{}
+.column-common .products_list_other{width: 100%;float: left}
 .column-common .products_list_other li{overflow: hidden}
 .column-common .products_list_other .product_img{background-color: #ECECEC;position: relative;height: 250px;overflow: hidden}
 .column-common .products_list_other .product_img img{width: 100%;position: absolute;top: -20px;}

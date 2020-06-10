@@ -59,15 +59,15 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
         <div class="list">
             <ul>
                 <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" href="/best-18650-lithium-battery-pack/">Best 18650 Lithium Battery Pack</a></div>
+                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/best-18650-lithium-battery-pack/">Best 18650 Lithium Battery Pack</a></div>
                     </div>
                 </li>
                 <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" href="/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
+                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
                     </div>
                 </li>
                 <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" href="/lithium-ion-battery-guide/">Lithium Ion Battery Guide</a></div>
+                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/lithium-ion-battery-guide/">Lithium Ion Battery Guide</a></div>
                     </div>
                 </li>
                 <?php foreach ($Recommended as $key=>$value) :?>
