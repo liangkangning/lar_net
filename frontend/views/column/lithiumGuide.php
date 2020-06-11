@@ -820,12 +820,12 @@ use common\models\Images; ?>
                 </div>
                 <div class="common_p section20">
                     <div class="p_ul">
-                        <ul class=" small-size">
-                            <li><a href="">Cell Model</a></li>
-                            <li><a href="">Voltage</a></li>
-                            <li><a href="">Capacity</a></li>
-                            <li><a href="">Demand and Design of PCM</a></li>
-                            <li><a href="">Demand and Design of Case</a></li>
+                        <ul class=" small-size ">
+                            <li><p class="yellow_color">Cell Model</p></li>
+                            <li><p class="yellow_color">Voltage</p></li>
+                            <li><p class="yellow_color">Capacity</p></li>
+                            <li><p class="yellow_color">Demand and Design of PCM</p></li>
+                            <li><p class="yellow_color">Demand and Design of Case</p></li>
 
                         </ul>
                     </div>
