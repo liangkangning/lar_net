@@ -593,11 +593,15 @@ use common\models\Images; ?>
                 </div>
                 <div class="common_p section20">
                     <li class="title"><strong>Recommended Commonly Used Voltage of Lithium Ion Battery：</strong></li>
-                    <p class="small-size section5 light1-5 yellow_color">
-                        12V Lithium Ion Battery<br>
-                        24V Lithium Ion Battery<br>
-                        36V Lithium Ion Battery<br>
-                        48V Lithium Ion Battery<br>
+                    <p class="small-size section5 light1-5">
+                        <a href="/lithium-ion-battery/list-133/">12V Lithium Ion Battery</a>
+                        <br>
+                        <a href="/lithium-ion-battery/list-134/">24V Lithium Ion Battery</a>
+                        <br>
+                        <a href="/lithium-ion-battery/list-135/">36V Lithium Ion Battery</a>
+                        <br>
+                        <a href="/lithium-ion-battery/list-136/">48V Lithium Ion Battery</a>
+
 
                     </p>
                 </div>

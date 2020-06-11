@@ -28,17 +28,36 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <section class="">
                 <div class="products_18650 col-md-12">
                     <ul>
-                        <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="col-md-4 section60">
-                                <div class="item">
-                                    <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
-                                    <div class="text section20 light1-8 ">
-                                        <p><?=$value['diy_content']?></p>
-                                    </div>
-                                </div>
-                                <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
-                            </li>
-                        <?php endforeach;?>
+                        <div class="row">
+                            <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
+                                <?php if ($key<3):?>
+                                    <li class="col-md-4 section60">
+                                        <div class="item">
+                                            <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                            <div class="text section20 light1-8 ">
+                                                <p><?=$value['diy_content']?></p>
+                                            </div>
+                                        </div>
+                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    </li>
+                                <?php endif ?>
+                            <?php endforeach;?>
+                        </div>
+                        <div class="row">
+                            <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
+                                <?php if ($key>=3):?>
+                                    <li class="col-md-4 section60">
+                                        <div class="item">
+                                            <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                            <div class="text section20 light1-8 ">
+                                                <p><?=$value['diy_content']?></p>
+                                            </div>
+                                        </div>
+                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    </li>
+                                <?php endif ?>
+                            <?php endforeach;?>
+                        </div>
                     </ul>
                 </div>
             </section>
