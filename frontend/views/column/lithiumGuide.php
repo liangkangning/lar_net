@@ -37,49 +37,49 @@ use common\models\Images; ?>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/low-temperature-battery/"><img src="/static/images/column_lithium_guide_category_1.jpg" alt="Low Temperature Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Low Temperature Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/low-temperature-battery/">Low Temperature Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/industrial-battery/"><img src="/static/images/column_lithium_guide_category_2.jpg" alt="Ternary Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Ternary Lithium Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/industrial-battery/">Ternary Lithium Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/explosion-proof-battery/"><img src="/static/images/column_lithium_guide_category_3.jpg" alt="Explosion-proof Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Explosion-proof Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/explosion-proof-battery/">Explosion-proof Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/lithium-power-battery/"><img src="/static/images/column_lithium_guide_category_4.jpg" alt="Lithium Power Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Lithium Power Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/lithium-power-battery/">Lithium Power Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/lifepo4-battery/"><img src="/static/images/column_lithium_guide_category_5.jpg" alt="LiFePO4 Battery"></a></div>
-                                <div class="text text-center section30"><a href="">LiFePO4 Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/lithium-battery18650/"><img src="/static/images/column_lithium_guide_category_6.jpg" alt="18650 Battery"></a></div>
-                                <div class="text text-center section30"><a href="">18650 Lithium Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/lithium-battery18650/">18650 Lithium Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/lithium-polymer-battery/"><img src="/static/images/column_lithium_guide_category_7.jpg" alt="Lithium Polymer Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Lithium Polymer Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/lithium-polymer-battery/">Lithium Polymer Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
                                 <div class="img"><a href="https://www.large.net/energy-storage-battery/"><img src="/static/images/column_lithium_guide_category_8.jpg" alt="Energy Storage Battery"></a></div>
-                                <div class="text text-center section30"><a href="">Energy Storage Battery</a></div>
+                                <div class="text text-center section30"><a href="https://www.large.net/energy-storage-battery/">Energy Storage Battery</a></div>
                             </div>
                         </li>
 
