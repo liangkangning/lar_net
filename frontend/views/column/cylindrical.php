@@ -92,7 +92,7 @@ $product_list = [
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Brand Ranking of Cylindrical Lithium Ion Battery</h2></div>
                 <div class="common_p section30">
                 </div>
-                <div class="brand_list">
+                <div class="brand_list col-md-12">
                     <ul>
                         <li class="section40">
                             <div class="item yellow_color">
