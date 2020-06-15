@@ -32,7 +32,7 @@ use common\models\Images; ?>
         <div class="container">
             <section>
                 <div class="link_title size2 section50" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
-                <div class="category_list">
+                <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
                         <li class="col-md-3 section60">
                             <div class="item">

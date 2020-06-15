@@ -167,6 +167,11 @@ return [
                     'route' => 'column/lithium-guide',
                     'suffix' => '/',
                 ],
+                [
+                    'pattern' => 'lithium-polymer-battery-guide',
+                    'route' => 'column/lithium-polymer',
+                    'suffix' => '/',
+                ],
            
 
 

@@ -60,7 +60,17 @@ class ColumnController extends CommonController
         $this->view->params['meta_title']='Lithium Ion Battery Guide 2020, Best Lithium Ion Battery Pack | Large Power';
         $this->view->params['keywords']='lithium battery,best lithium ion battery, Lithium Battery Pack';
         $this->view->params['description']='What are the characteristics and applications of lithium ion battery? Best lithium ion battery pack recommended.';
-
         return $this->render('lithiumGuide');
     }
+
+    public function actionLithiumPolymer(){
+        parent::common();
+        $this->view->params['meta_title']='LiPo Battery Guide,Best Lithium Polymer Battery Pack | Large Power';
+        $this->view->params['keywords']='LiPo battery,lithium polymer battery pack';
+        $this->view->params['description']='What does LiPo battery mean? The difference between lithium polymer battery and li ion battery.';
+        return $this->render('lithiumPolymer');
+    }
+
+
+
 }
