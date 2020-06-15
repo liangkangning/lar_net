@@ -850,6 +850,9 @@ use common\models\Images; ?>
                 </div>
             </section>
 
+            <div class="fengxian section col-md-12">
+                <div class="sharethis-inline-share-buttons"></div>
+            </div>
 
             <section class="section section_m col-md-12">
                 <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
@@ -860,3 +863,5 @@ use common\models\Images; ?>
 
 
 </div>
+
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
