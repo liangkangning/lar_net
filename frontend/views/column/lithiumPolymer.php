@@ -1,28 +1,28 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
 $product_list = [
-    ['title'=>'Conventional Lithium Polymer Battery','img_url'=>'/static/images/column_polymer_product_1.png','url'=>'/lithium-ion-battery/list-140/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 800mAh<br>Diameter: 14mm<br> Height: 50mm<br>Application: instrumentation, consumer electronics'],
+    ['title'=>'Conventional LiPo Battery','img_url'=>'/static/images/column_polymer_product_1.png','url'=>'https://www.large.net/lithium-polymer-battery/',
+        'des'=>'Flexible size, complete model<br>High energy density, good safety<br>Medical equipment, instruments, handheld equipment, special equipment, etc.'],
 
-    ['title'=>'18500 Lithium Ion Battery','img_url'=>'/static/images/column_polymer_product_2.png','url'=>'/lithium-ion-battery/list-141/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 800-1500mAh<br>Diameter: 18±0.2mm<br> Height: 50±0.3mm<br>Application: security communication, rail transit'],
+    ['title'=>'Low Temperature LiPo Battery','img_url'=>'/static/images/column_polymer_product_2.png','url'=>'https://www.large.net/low-temperature-battery/',
+        'des'=>'Charge temperature：-40℃ 0.2C<br>Discharge temperature：-50℃~+70℃<br>Polar scientific investigation, frigid zone emergency, special equipment, medical electronics, etc.'],
 
-    ['title'=>'18650 Lithium Ion Battery','img_url'=>'/static/images/column_polymer_product_3.png','url'=>'/lithium-ion-battery/list-142/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Diameter: 18±0.2mm<br> Height: 65±2.0mm<br>Application: special equipment, medical equipment, robot, etc.'],
+    ['title'=>'Explosion-proof LiPo Battery','img_url'=>'/static/images/column_polymer_product_3.png','url'=>'https://www.large.net/explosion-proof-battery/',
+        'des'=>'Intrinsic safety type/explosion-proof type<br>Meet Exia iiA/Exib iiB T1~T4 standard<br>Oil and gas drilling, mine locomotive, petrochemical industry, refuge grotto, etc.'],
 
-    ['title'=>'21700 Lithium Ion Battery','img_url'=>'/static/images/column_polymer_product_4.png','url'=>'/lithium-ion-battery/list-143/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Diameter: 21mm<br> Height: 70mm<br>Application: digital devices, power tools'],
+    ['title'=>'High Rate LiPo Battery','img_url'=>'/static/images/column_polymer_product_4.png','url'=>'https://www.large.net/product/8eu43dd.html',
+        'des'=>'Discharge rate 3C~100C<br> high discharge platform, long cycle life<br>UAV, model airplane, remote control model,<br>power tools, etc.'],
 
-    ['title'=>' 26650 Lithium Ion Battery','img_url'=>'/static/images/column_polymer_product_5.png','url'=>'/lithium-ion-battery/list-144/',
-        'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 3200~3500mAh<br>Diameter: 26.2mm<br>Height: 65.6mm<br>Application: power/energy storage, robot, emergency backup'],
+    ['title'=>'Ultra-thin LiPo Battery','img_url'=>'/static/images/column_polymer_product_5.png','url'=>'https://www.large.net/product/8pu43df.html',
+        'des'=>'Thickness≤3mm, Minimum thickness is 0.4mm.<br>High energy density, long cycle life<br>Internet of Things, smart card, electronic tag,<br>bank card, wine label, cold chain, etc.'],
 
-    ['title'=>'32650(32700) Lithium Ion Battery','img_url'=>'/static/images/column_polymer_product_6.png','url'=>'/lithium-ion-battery/list-145/',
-        'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 4500-6500mAh<br>Diameter: 32.4±0.3mm<br>Height: 70.5±0.2mm<br>Application: instrumentation, backup power source, special equipment'],
+    ['title'=>'Special Shape LiPo Battery','img_url'=>'/static/images/column_polymer_product_6.png','url'=>'https://www.large.net/product/8eu43dd.html',
+        'des'=>'Special shape can be customize.<br>Arc, triangle, half-moon, circle, polygon, etc.<br>Small medical devices, wearable devices,<br>trackers, Internet of Things, etc.'],
 ];
 
 
 $products2 = [];
-$ids = ['802', '981'];
+$ids = ['802', '906'];
 foreach ($ids as $id) {
     $products2[] = \common\models\Images::find()->where(['id' => $id])->one();
 }
@@ -35,9 +35,9 @@ foreach ($products2 as &$product) {
     <div class="banner col-md-12 relative">
         <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_polymer_banner.jpg')?>" alt=""></div>
         <div class="text center-text">
-            <h1 class="big-size">Lithium Polymer Battery Guide</h1>
+            <h1 class="big-size">LiPo Battery Guide</h1>
             <p class="size3 white_color section30">
-                Lithium polymer battery is a kind of lithium ion battery, but compared with liquid lithium ion battery, <br>
+                LiPo Battery is a kind of lithium ion battery, but compared with liquid lithium ion battery, <br>
                 it has many obvious advantages, such as high energy density,<br>
                 small size, ultra-thin, lightweight and high safety. It is a new type of battery.
             </p>
@@ -90,7 +90,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Cell Model</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Cell Model</h2></div>
                 <section class="section30">
                     <?php $this->beginContent('@app/views/column/polymerTable.php') ?>
                     <?php $this->endContent() ?>
@@ -98,7 +98,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Classification</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Classification</h2></div>
                 <div class="link_title size2 section50" id="battery-cell"><h3>1.Structure</h3></div>
                 <div class="common_p">
                     <p><li class="font-weight section20">Winding</li></p>
@@ -122,7 +122,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Advantages of Lithium Polymer Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Advantages of LiPo Battery</h2></div>
                 <section class="section50">
                     <div class="row">
                         <ul class="ul_li_padding ul_none">
@@ -214,7 +214,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Parameters</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Parameters</h2></div>
                 <div class="link_title size2 section50" id="battery-cell"><h3>1.Voltage</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
@@ -261,7 +261,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Comparison of Lithium Polymer Battery and Lithium Ion Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Comparison of LiPo Battery and Lithium Ion Battery</h2></div>
                 <section class="section30">
                     <?php $this->beginContent('@app/views/column/polymerTable2.php') ?>
                     <?php $this->endContent() ?>
@@ -271,7 +271,7 @@ foreach ($products2 as &$product) {
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Maintenance</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Maintenance</h2></div>
                 <div class="common_p section50">
                     <p>The lithium polymer battery has a certain life. It doesn't mean that you can prolong battery life without using. Battery maintenance only has corresponding standards during using.</p>
                 </div>
@@ -314,7 +314,7 @@ foreach ($products2 as &$product) {
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Pack</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Pack</h2></div>
                 <div class="common_p section50">
                     <p>The process of assembling lithium polymer battery cells is called PACK, which connects single battery or multiple cells into lithium ion battery modules in series and parallel.</p>
                 </div>
@@ -343,7 +343,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="size2 section60"><h2 class="light1-5">Recommended Lithium Polymer Battery Pack</h2></div>
+                <div class="size2 section60"><h2 class="light1-5">Recommended LiPo Battery Pack</h2></div>
                 <div class="products_list">
                     <ul>
                         <?php foreach ($products2 as $key=>$value):?>
@@ -362,7 +362,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Connector</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Connector</h2></div>
                 <div class="common_p section50">
                     <p>Connector is commonly known as plug-in unit, plug and sockets, etc. It is used to connect power supply and signal device. There are wire to wire connector and wire to board connector.</p>
                 </div>
@@ -392,8 +392,8 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Swollen</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Lithium Polymer Battery Swollen Reasons</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Swollen LiPo Battery</h2></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.LiPo Battery Swollen Reasons</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -422,13 +422,13 @@ foreach ($products2 as &$product) {
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Polymer Battery Disposal</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Use waste lithium polymer batteries properly to avoid environmental pollution.</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Disposal</h2></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.Use waste LiPo Batteries properly to avoid environmental pollution.</h3></div>
                 <div class="common_p">
                     <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Main Hazardous Substances of Waste Lithium Polymer Battery</h3></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>2.Main Hazardous Substances of Waste LiPo Battery</h3></div>
                 <div class="common_p">
                     <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
                 </div>
@@ -481,7 +481,7 @@ foreach ($products2 as &$product) {
                         </tbody>
                     </table>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>3.The Disposal Status of Waste Lithium Polymer Batteries in the World</h3></div>
+                    <div class="link_title size2 section50" id="battery-cell"><h3>3.The Disposal Status of Waste LiPo Batteries in the World</h3></div>
                     <div class="common_p">
                         <div class="p_ul section20">
                             <ul class=" small-size">
@@ -492,7 +492,7 @@ foreach ($products2 as &$product) {
                         </div>
                     </div>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>4.How to Dispose Waste Lithium Polymer Battery</h3></div>
+                    <div class="link_title size2 section50" id="battery-cell"><h3>4.How to Dispose Waste LiPo Battery</h3></div>
                     <div class="common_p">
                         <div class="p_ul section20">
                             <ul class=" small-size">
@@ -507,7 +507,7 @@ foreach ($products2 as &$product) {
 
 
                 <section>
-                    <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Notes for Purchasing Lithium Polymer Batteries</h2></div>
+                    <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Notes for Purchasing LiPo Batteries</h2></div>
                     <div class="link_title size2 section50" id="battery-cell"><h3>1.Brand</h3></div>
                     <div class="common_p">
                         <p>When choosing lithium polymer batteries, we should search for well-known brands, so that the quality of batteries can be guaranteed. Although the price of many small brands in the market is cheap, the battery may have short life and poor quality.</p>
