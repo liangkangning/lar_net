@@ -168,7 +168,7 @@ return [
                     'suffix' => '/',
                 ],
                 [
-                    'pattern' => 'lithium-polymer-battery-guide',
+                    'pattern' => 'liPo-battery-guide',
                     'route' => 'column/lithium-polymer',
                     'suffix' => '/',
                 ],

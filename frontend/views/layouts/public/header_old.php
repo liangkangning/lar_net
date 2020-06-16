@@ -130,6 +130,9 @@
                                         <div class="hidden-xs col-sm-12 section20">
                                             <a href="/lithium-ion-battery-guide/" target="_blank" class="size4 col-sm-12">Lithium Ion Battery Guide</a>
                                         </div>
+                                        <div class="hidden-xs col-sm-12 section20">
+                                            <a href="/liPo-battery-guide/" target="_blank" class="size4 col-sm-12">LiPo Battery Guide</a>
+                                        </div>
                                     </div>
                                     <?php endif;?>
                                 </div>
