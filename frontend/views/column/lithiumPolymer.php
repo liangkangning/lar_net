@@ -48,21 +48,43 @@ foreach ($products2 as &$product) {
             <section>
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
-                            <?php foreach ($product_list as $key=>$value):?>
+                            <div class="row">
+                                <?php foreach ($product_list as $key=>$value):?>
+                                    <?php if ($key<3):?>
+                                        <li class="section60 col-md-4 col-sm-12">
+                                            <div class="item">
+                                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                                <div class="text col-md-12 pull-left">
+                                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                                    <div class="des light1-8 section10"><p>
+                                                            <?=$value['des']?>
+                                                        </p></div>
+                                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    <?php endif;?>
+                                <?php endforeach;?>
+                            </div>
+                            <div class="row">
+                                <?php foreach ($product_list as $key=>$value):?>
+                                    <?php if ($key>=3):?>
+                                        <li class="section60 col-md-4 col-sm-12">
+                                            <div class="item">
+                                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                                <div class="text col-md-12 pull-left">
+                                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                                    <div class="des light1-8 section10"><p>
+                                                            <?=$value['des']?>
+                                                        </p></div>
+                                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    <?php endif;?>
+                                <?php endforeach;?>
+                            </div>
 
-                                <li class="section60 col-md-4 col-sm-12">
-                                    <div class="item">
-                                        <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
-                                        <div class="text col-md-12 pull-left">
-                                            <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
-                                            <div class="des light1-8 section10"><p>
-                                                    <?=$value['des']?>
-                                                </p></div>
-                                            <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
-                                        </div>
-                                    </div>
-                                </li>
-                            <?php endforeach;?>
                         </ul>
                 </div>
             </section>
