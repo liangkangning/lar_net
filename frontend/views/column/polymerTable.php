@@ -5,7 +5,7 @@
         <td colspan="3">Dimension</td>
         <td rowspan="2">Nominal Capacity(mAh)</td>
         <td rowspan="2">Impedance(mΩ)</td>
-        <td rowspan="2">Nominal(V)</td>
+        <td rowspan="2">Nominal Voltage(V)</td>
 
     </tr>
     <tr class="firstRow">

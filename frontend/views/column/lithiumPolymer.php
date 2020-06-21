@@ -22,7 +22,7 @@ $product_list = [
 
 
 $products2 = [];
-$ids = ['802', '906'];
+$ids = ['903', '906'];
 foreach ($ids as $id) {
     $products2[] = \common\models\Images::find()->where(['id' => $id])->one();
 }
@@ -327,14 +327,14 @@ foreach ($products2 as &$product) {
                         <li class="col-md-1 col-xs-0"></li>
                         <li class="col-md-5 col-xs-12">
                             <div class="item">
-                                <div class="img"><img src="/static/images/column_polymer_2.jpg" alt="Lithium Polymer Battery Connecting in Series" title="Lithium Polymer Battery Connecting in Series"></div>
-                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Series</div>
+                                <div class="img"><img src="/static/images/column_polymer_2.jpg" alt="Lithium Polymer Battery Connecting in Series(3S-1P)" title="Lithium Polymer Battery Connecting in Series(3S-1P)"></div>
+                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Series(3S-1P)</div>
                             </div>
                         </li>
                         <li class="col-md-5 col-xs-12">
                             <div class="item">
-                                <div class="img"><img src="/static/images/column_polymer_3.jpg" alt="Lithium Polymer Battery Connecting in Parallel" title="Lithium Polymer Battery Connecting in Parallel"></div>
-                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Parallel</div>
+                                <div class="img"><img src="/static/images/column_polymer_3.jpg" alt="Lithium Polymer Battery Connecting in Parallel(1S-3P)" title="Lithium Polymer Battery Connecting in Parallel(1S-3P)"></div>
+                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Parallel(1S-3P)</div>
                             </div>
                         </li>
                         <li class="col-md-1 col-xs-0"></li>
@@ -423,15 +423,12 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Disposal</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Use waste LiPo Batteries properly to avoid environmental pollution.</h3></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.Use waste LiPo Batteries Properly to Avoid Environmental Pollution.</h3></div>
                 <div class="common_p">
                     <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
                 </div>
 
                 <div class="link_title size2 section50" id="battery-cell"><h3>2.Main Hazardous Substances of Waste LiPo Battery</h3></div>
-                <div class="common_p">
-                    <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
-                </div>
                 <section class="section30">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>

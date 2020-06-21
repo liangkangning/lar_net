@@ -56,7 +56,7 @@
 
 
     <tr>
-        <td>than that of lithium polymer battery.</td>
+        <td>Electrical Conductivity</td>
         <td>Lithium polymer battery has<br>
             low ionic conductivity of solid electrolyte.</td>
         <td>Lithium ion battery has stable electrical conductivity<br>
