@@ -134,3 +134,12 @@
 .column-cylindrical .module .img-list .jiantou_2{position: absolute;top: 119px;left: 775px;}
 
 
+.column-lifepo4{}
+.column-lifepo4 .bg_part{}
+.column-lifepo4 .bg_part .pp{padding: 60px 0 80px 0}
+.column-lifepo4 .bg_part .part1{background-color: #EAEFEA}
+.column-lifepo4 .bg_part .part2{background-color: #FBF4E8}
+.column-lifepo4 .bg_part .part3{background-color: #DEEAF1}
+.column-lifepo4 .bg_part .part4{background-color: #F6F6F6}
+
+

@@ -172,6 +172,11 @@ return [
                     'route' => 'column/lithium-polymer',
                     'suffix' => '/',
                 ],
+                [
+                    'pattern' => 'lifepo4-battery-guide',
+                    'route' => 'column/lifepo4-battery',
+                    'suffix' => '/',
+                ],
            
 
 

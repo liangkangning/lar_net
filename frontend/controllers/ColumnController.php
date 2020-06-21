@@ -71,6 +71,13 @@ class ColumnController extends CommonController
         return $this->render('lithiumPolymer');
     }
 
+    public function actionLifepo4Battery(){
+        parent::common();
+        $this->view->params['meta_title']='Lifepo4 Battery Guide, Chinese LiFePO4 Battery Pack Manufacturer | Large Power';
+        $this->view->params['keywords']='best lifepo4 battery, liFePO4 battery pack';
+        $this->view->params['description']='What is lifep04 battery? Is LiFePO4 the same as lithium ion? Recommend Chinese LiFePO4 battery manufacturer.';
+        return $this->render('lifepo4Battery');
+    }
 
 
 }
