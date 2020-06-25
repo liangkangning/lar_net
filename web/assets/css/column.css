@@ -142,4 +142,6 @@
 .column-lifepo4 .bg_part .part3{background-color: #DEEAF1}
 .column-lifepo4 .bg_part .part4{background-color: #F6F6F6}
 
+.column-lifepo4  .brand_list ul li{height: 105px;overflow: hidden}
+.column-lifepo4  .brand_list ul li .text{margin-top: 5px;}
 

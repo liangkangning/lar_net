@@ -101,64 +101,58 @@ $product_list = [
                     <ul>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_1.jpg" alt="Sony"></div>
-                                <div class="text">Sony</div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_1.jpg" alt="Sony"></div>
+                                <div class="text">CATL</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_2.jpg" alt="Panasonic"></div>
-                                <div class="text">Panasonic</div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_2.jpg" alt="Panasonic"></div>
+                                <div class="text">BYD IT</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_3.jpg" alt="Sanyo"></div>
-                                <div class="text">Sanyo</div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_3.jpg" alt="Sanyo"></div>
+                                <div class="text">Guoxuan</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_4.jpg" alt="Samsung"></div>
-                                <div class="text">Samsung</div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_4.jpg" alt="Samsung"></div>
+                                <div class="text">CALB</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_5.jpg" alt="LG"></div>
-                                <div class="text">LG</div>
                             </div>
                         </li>
+
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_6.jpg" alt="BAK"></div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_5.jpg" alt="LG"></div>
                                 <div class="text">BAK</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_7.jpg" alt="LISHEN"></div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_6.jpg" alt="BAK"></div>
                                 <div class="text">LISHEN</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_8.jpg" alt="LARGE"></div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_7.jpg" alt="LISHEN"></div>
                                 <div class="text">LARGE</div>
                             </div>
                         </li>
                         <li class="section40">
                             <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_9.jpg" alt="Wangxiang A123"></div>
-                                <div class="text">Wangxiang A123</div>
+                                <div class="img"><img src="/static/images/column_lifepo4_brand_8.jpg" alt="LARGE"></div>
+                                <div class="text">A123</div>
                             </div>
                         </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_10.jpg" alt="BYD"></div>
-                                <div class="text">BYD</div>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </section>

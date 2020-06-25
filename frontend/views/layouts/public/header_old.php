@@ -119,19 +119,24 @@
                                     <?php endforeach; ?>
 
                                     <?php if ($value['name']=='news'): ?>
-                                    <div class="hidden-xs col-sm-3 ">
-                                        <div class="col-sm-12 part_top"><a href="javascript:void(0)" class="size4">Battery Guide</a></div>
-                                        <div class="hidden-xs col-sm-12 section20">
-                                            <a href="/best-18650-lithium-battery-pack/" target="_blank" class="size4 col-sm-12">Best 18650 Lithium Battery Pack</a>
-                                        </div>
-                                        <div class="hidden-xs col-sm-12 section20">
-                                            <a href="/cylindrical-lithium-ion-battery/" target="_blank" class="size4 col-sm-12">Cylindrical Lithium Ion Battery</a>
-                                        </div>
-                                        <div class="hidden-xs col-sm-12 section20">
-                                            <a href="/lithium-ion-battery-guide/" target="_blank" class="size4 col-sm-12">Lithium Ion Battery Guide</a>
-                                        </div>
-                                        <div class="hidden-xs col-sm-12 section20">
-                                            <a href="/liPo-battery-guide/" target="_blank" class="size4 col-sm-12">LiPo Battery Guide</a>
+                                    <div class="hidden-xs col-sm-5 ">
+                                        <div class="col-sm-6 part_top"><a href="javascript:void(0)" class="size2">Battery Guide</a></div>
+                                        <div class="col-sm-6">
+                                            <div class="hidden-xs col-sm-12 ">
+                                                <a href="/best-18650-lithium-battery-pack/" target="_blank" class="size4 col-sm-12">Best 18650 Lithium Battery Pack</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/cylindrical-lithium-ion-battery/" target="_blank" class="size4 col-sm-12">Cylindrical Lithium Ion Battery</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/lithium-ion-battery-guide/" target="_blank" class="size4 col-sm-12">Lithium Ion Battery Guide</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/liPo-battery-guide/" target="_blank" class="size4 col-sm-12">LiPo Battery Guide</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/lifepo4-battery-guide/" target="_blank" class="size4 col-sm-12">Lifepo4 Battery Guide</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <?php endif;?>
