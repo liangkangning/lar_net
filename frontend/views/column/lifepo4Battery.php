@@ -29,15 +29,6 @@ $product_list = [
         'des'=>'Nominal voltage:48.0V<br>Nominal capacity:40000mAh<br>Battery cell:26650/3200mAh/3.2V'],
 ];
 
-
-$products2 = [];
-$ids = ['802', '906'];
-foreach ($ids as $id) {
-    $products2[] = \common\models\Images::find()->where(['id' => $id])->one();
-}
-foreach ($products2 as &$product) {
-    $product['diy_content'] = str_replace("<a",'<a href="'.$product->url.'"',$product['diy_content']);
-}
 ?>
 
 <div class="column-lifepo4 column-common">
