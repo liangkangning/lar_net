@@ -1,17 +1,17 @@
 <?php
 $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\ColumnAsset']]);
 $product_list = [
-    ['title'=>'18650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_1.png','url'=>'/lifepo4-battery/list-142/',
-        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Application: special equipment, medical equipment, robot, etc.'],
+    ['title'=>'32650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_1.png','url'=>'/lifepo4-battery/list-145/',
+        'des'=>'Nominal voltage: 3.2V<br> Nominal capacity: 4500-6500mAh<br>Application: instrumentation, backup power source, special equipment'],
 
-    ['title'=>'21700 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_2.png','url'=>'/lifepo4-battery/list-147/',
-        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Application: digital devices, power tools'],
-
-    ['title'=>'26650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_3.png','url'=>'/lifepo4-battery/list-144/',
+    ['title'=>'26650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_2.png','url'=>'/lifepo4-battery/list-144/',
         'des'=>'Nominal voltage: 3.2V<br>Nominal capacity: 4500-6500mAh<br>Application: instrumentation, backup power source, special equipment'],
 
-    ['title'=>'32650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_4.png','url'=>'/lifepo4-battery/list-145/',
-        'des'=>'Nominal voltage: 3.2V<br> Nominal capacity: 4500-6500mAh<br>Application: instrumentation, backup power source, special equipment'],
+    ['title'=>'21700 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_3.png','url'=>'/lifepo4-battery/list-147/',
+        'des'=>'Nominal voltage: 3.6V<br>Nominal capacity: 3000-4800mAh<br>Application: digital devices, power tools'],
+		
+    ['title'=>'18650 LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_4.png','url'=>'/lifepo4-battery/list-142/',
+        'des'=>'Nominal voltage: 3.7V<br>Nominal capacity: 2000-3500mAh<br>Application: special equipment, medical equipment, robot, etc.'],
 
     ['title'=>'Low Temperature LiFePO4 Battery','img_url'=>'/static/images/column_lifepo4_product_5.png','url'=>'/lifepo4-battery/list-164/',
         'des'=>'Charge temperature:-20℃ ~ +55℃<br>Discharge temperature:-40℃ ~ +60℃<br>Application:sepcial equipment,aerospace,polar science'],
@@ -33,9 +33,9 @@ $product_list = [
 
 <div class="column-lifepo4 column-common">
     <div class="banner col-md-12 relative">
-        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_lifepo4_banner.jpg')?>" alt="LiPo Battery Guide" title="LiPo Battery Guide"></div>
+        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_lifepo4_banner.jpg')?>" alt="Lifepo4 Battery Guide" title="Lifepo4 Battery Guide"></div>
         <div class="text center-text">
-            <h1 class="big-size">LiPo Battery Guide</h1>
+            <h1 class="big-size">Lifepo4 Battery Guide</h1>
         </div>
     </div>
     <div class="col-md-12">
@@ -187,7 +187,7 @@ $product_list = [
                 <div class="link_title size2 section50" id="battery-cell"><h3>4.Fast Charge</h3></div>
                 <div class="common_p section20">
                     <p>
-                        <The battery can be fully charged by a dedicated charger after 40 minutes of 1.5C charging.
+                        The battery can be fully charged by a dedicated charger after 40 minutes of 1.5C charging.
                     </p>
                 </div>
 
@@ -214,7 +214,7 @@ $product_list = [
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class="small-size light1-8">
-                            <li><a href="/lifepo4-battery/list-133">12V LiFePO4 Battery</a></li>
+                            <li><a href="/lifepo4-battery/list-133/">12V LiFePO4 Battery</a></li>
                             <li><a href="/lifepo4-battery/list-134/">24V LiFePO4 Battery</a></li>
                             <li><a href="/lifepo4-battery/list-135/">36V LiFePO4 Battery</a></li>
                             <li><a href="/lifepo4-battery/list-136/">48V LiFePO4 Battery</a></li>
