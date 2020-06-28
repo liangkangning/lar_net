@@ -145,3 +145,37 @@
 .column-lifepo4  .brand_list ul li{height: 105px;overflow: hidden}
 .column-lifepo4  .brand_list ul li .text{margin-top: 5px;}
 
+/*手机端样式*/
+@media screen and (max-width: 780px) {
+    .big-size{font-size: 32px;font-family:Avillar;}
+    .size1{font-size: 24px;font-family:Avillar;}
+    .size2{font-size: 20px;font-family:Arial;}
+    .size3{font-size: 20px;font-family:Arial;}
+    .small-size{font-size: 20px;font-family:Arial;}
+
+    .section{margin-top: 60px}
+    .section80{margin-top: 60px}
+    .section70{margin-top: 60px}
+    .section60{margin-top: 60px}
+    .section55{margin-top: 30px}
+    .section50{margin-top: 30px}
+    .section40{margin-top: 30px}
+    .section30{margin-top: 30px}
+    .section20{margin-top: 20px}
+    .section10{margin-top: 10px}
+    .section5{margin-top: 5px}
+
+    .column-common .container{padding: 0 16px;}
+    .fengxian{width: 100%;float: left;}
+    .column-common .brand_list ul{display: inline-block}
+    .column-common .ul_li_padding{margin: 0;}
+    .column-common .products_list_other li{padding: 0;}
+    .column-common .products_list_other .item .text.col-md-9{padding-left: 0;}
+    .column-cylindrical .img_text li:nth-child(even){padding-left: 0px;}
+    .column-common .products_list .item .text{padding: 0 20px 30px 20px;}
+    .column-common ul li img{width: 100%}
+    .ul_li_padding li{padding: 0;}
+
+    .column-lifepo4 .bg_part .pp .col-md-12{float: left;margin-top: 30px;}
+
+}
