@@ -78,6 +78,13 @@ class ColumnController extends CommonController
         $this->view->params['description']='What is lifep04 battery? Is LiFePO4 the same as lithium ion? Recommend Chinese LiFePO4 battery manufacturer.';
         return $this->render('lifepo4Battery');
     }
+    public function actionLithium12v(){
+        parent::common();
+        $this->view->params['meta_title']='12V Lithium Ion Battery Guide, 12V Li Ion Battery Pack | Large Power';
+        $this->view->params['keywords']='12v lithium ion battery, 12v li ion battery, 12v lithium battery pack';
+        $this->view->params['description']='What is 12v lithium battery? How much is 12v lithium battery? Description of 12v lithium battery type and application.';
+        return $this->render('lithium12v');
+    }
 
 
 }
