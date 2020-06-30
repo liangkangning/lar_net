@@ -20,12 +20,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                 <?php if ($key<3):?>
                                     <li class="col-md-4 section60">
                                         <div class="item">
-                                            <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                            <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
                                             <div class="text section20 light1-8 ">
                                                 <p><?=$value['diy_content']?></p>
                                             </div>
                                         </div>
-                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </li>
                                 <?php endif ?>
                             <?php endforeach;?>
@@ -35,12 +35,12 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                 <?php if ($key>=3):?>
                                     <li class="col-md-4 section60">
                                         <div class="item">
-                                            <div class="img"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                            <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
                                             <div class="text section20 light1-8 ">
                                                 <p><?=$value['diy_content']?></p>
                                             </div>
                                         </div>
-                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </li>
                                 <?php endif ?>
                             <?php endforeach;?>
@@ -62,7 +62,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li>Charger design</li>
                     </ul>
                 </div>
-                <p class="small-size section20">A <a href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
+                <p class="small-size section20">A <a target="_blank" href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
                 </p>
             </div>
 
@@ -92,14 +92,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <li class="section60">
                                 <div class="item">
                                     <?php if ($key%2==0) :?>
-                                        <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
                                     <div class="text col-md-7">
                                         <div class="des light1-8 section50"><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
                                     <?php if ($key%2!=0) :?>
-                                        <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
 
                                 </div>
@@ -132,7 +132,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section30">
                     <div class="img"><img src="/static/images/column_Panasonic.jpg" alt="Panasonic" title="Panasonic"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/lithium-ion-battery/list-156/">Panasonic</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-156/">Panasonic</a></span><br>
                         Established: 1918 Headquarters: Osaka, Japan<br>
                         The Panasonic power battery business belongs to the energy field of the AIS sector, including secondary battery and energy equipment. Secondary battery equipment includes  the Panasonic secondary battery business division and Tesla business division, which will greatly affect Panasonic performance growth.
                     </p>
@@ -149,7 +149,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LG_Chem.jpg" alt="LG Chem" title="LG Chem"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/lithium-ion-battery/list-159/">LG Chem</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-159/">LG Chem</a></span><br>
                         Established: 1947 Headquarters: South Korea<br>
                         This is a subsidiary of LG group, which is a leading chemical enterprise in South Korea mainly engaged in the production of petroleum chemistry, batteries, advanced materials and life science products. It dominates the global market in the fields of automobile battery, ESS battery and mobile device battery.
                     </p>
@@ -158,7 +158,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_Samsung.jpg" alt="Samsung SDI" title="Samsung SDI"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/lithium-ion-battery/list-158/">Samsung SDI</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-158/">Samsung SDI</a></span><br>
                         Established: 2011 Headquarters: South Korea<br>
                         This is a subsidiary of South Korea's Samsung group, which is mainly engaged in the display and lithium battery production. Samsung SDI R&D center is located in South Korea, Japan, Russia and other countries, and has offices in Taiwan, Germany, Malaysia, India, Vietnam, etc. It is one of the top 100 lithium battery manufacturers in the world.
                     </p>
@@ -167,7 +167,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LISHEN.jpg" alt="LISHEN" title="LISHEN"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/lithium-ion-battery/list-160/">LISHEN</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-160/">LISHEN</a></span><br>
                         Established: 1997 Headquarters: Tianjin, China<br>
                         Tianjin Lishen Battery Co., Ltd., a representative brand of lithium battery in China, it  is one of the professional manufacturers of lithium battery with large investment and the highest technical level in China.
                     </p>
@@ -176,7 +176,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_BAK.jpg" alt="BAK" title="BAK"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/lithium-ion-battery/list-161/">BAK</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/lithium-ion-battery/list-161/">BAK</a></span><br>
                         Established:  2001 Headquarters: Shenzhen, China<br>
                         Shenzhen BAK Technology Co., Ltd., a well-known brand of lithium battery, a battery supplier of HP, Dell, Lenovo, etc. It is a world-renowned manufacturer of lithium battery, integrating research, development, production and sales.
                     </p>
@@ -185,7 +185,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section40">
                     <div class="img"><img src="/static/images/column_LARGE_POWER.jpg" alt="LARGE POWER" title="LARGE POWER"></div>
                     <p class="small-size section10">
-                        <span class="yellow_color"><a href="/page/company-profile.html">LARGE</a></span><br>
+                        <span class="yellow_color"><a target="_blank" href="/page/company-profile.html">LARGE</a></span><br>
                         Established: 2001 Headquarter: Dongguan, China<br>
                         Dongguan Large Electronics Co., Ltd is a provider of customized solutions and products for special lithium power systems. It is mainly engaged in the research, development, production and sale of special lithium batteries, low-temperature batteries, explosion-proof batteries, military lithium batteries and medical lithium batteries.
                     </p>
@@ -236,11 +236,11 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <div class="title section30 black_color font-weight">Common Battery Chemical Materials</div>
                         <div class="p_ul section5">
                             <ul class="small-size light1-5">
-                                <li>LCO - <span class="yellow_color"><a href="/news/8ku43mw.html">Lithium Cobalt Oxide(LiCoO2)</a></span></li>
-                                <li>LMO - <span class="yellow_color"><a href="/news/8fu43my.html">Lithium Manganese Oxide (LiMn2O4)</a></span></li>
-                                <li>NMC - <span class="yellow_color"><a href="/news/8mu43my.html">Lithium Nickel Manganese Cobalt Oxide (LiNiMnCoO2)</a></span></li>
+                                <li>LCO - <span class="yellow_color"><a target="_blank" href="/news/8ku43mw.html">Lithium Cobalt Oxide(LiCoO2)</a></span></li>
+                                <li>LMO - <span class="yellow_color"><a target="_blank" href="/news/8fu43my.html">Lithium Manganese Oxide (LiMn2O4)</a></span></li>
+                                <li>NMC - <span class="yellow_color"><a target="_blank" href="/news/8mu43my.html">Lithium Nickel Manganese Cobalt Oxide (LiNiMnCoO2)</a></span></li>
                                 <li>NCA - Lithium Nickel Cobalt Aluminum Oxide (LiNiCoAlO2)</li>
-                                <li>LFP - Lithium Iron Phosphate<span class="yellow_color"><a href="/lifepo4-battery/">(LiFePO4)</a></span></li>
+                                <li>LFP - Lithium Iron Phosphate<span class="yellow_color"><a target="_blank" href="/lifepo4-battery/">(LiFePO4)</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -400,8 +400,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="common_p section30">
                 <p class="small-size">
                     The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
-                    It is mainly divided into the cylindrical lithium-ion cell, the <a href="/lithium-ion-battery/list-146/">prismatic lithium-ion cell</a>, the
-                    <a href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
+                    It is mainly divided into the cylindrical lithium-ion cell, the <a target="_blank" href="/lithium-ion-battery/list-146/">prismatic lithium-ion cell</a>, the
+                    <a target="_blank" href="/lithium-ion-battery/list-182/">pouch cell</a> and so on.
                 </p>
             </div>
 
@@ -469,7 +469,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             <div class="link_title size2 section50" id="precautions-for-series"><h3>2.Precautions for Series and Parallel Connection of 18650 Lithium Battery</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
-                    <li>Series and parallel connection of <a href="/">lithium batteries</a> need battery cell matching.<br>
+                    <li>Series and parallel connection of <a target="_blank" href="/">lithium batteries</a> need battery cell matching.<br>
                         <span class="font-weight">Lithium battery matching standards: voltage≤10mV  resistance ≤5mΩ  capacity≤20 mA</span></li>
                     <li class="section5"><span class="font-weight">Battery with the same voltage</span></li>
                     <li class="section5">Different batteries have different voltages. After being connected in parallel, the high-voltage battery charges the low-voltage battery, which consumes the power and may lead to accidents.</li>
@@ -500,14 +500,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <?php $title = Yii::$app->params['product_18650_titles'][$key] ;?>
                     <li class="col-md-4">
                         <div class="item">
-                            <div class="img"><a href="<?=$value['url']?>"><img src="<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                            <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
                             <div class="text section20">
                                 <div class="title size3"><?=$title[0]?></div>
                                 <div class="sub_title small-size light1-8"><?=$title[1]?></div>
                                 <div class="sub_title small-size light1-8"><?=$title[2]?></div>
                             </div>
                         </div>
-                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                     </li>
                 <?php endforeach;?>
             </ul>

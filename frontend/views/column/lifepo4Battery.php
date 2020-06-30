@@ -49,13 +49,13 @@ $product_list = [
                                     <?php endif;?>
                                         <li class="section60 col-md-4 col-sm-12">
                                             <div class="item">
-                                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                                 <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
                                                     <div class="des light1-8 section10"><p>
                                                             <?=$value['des']?>
                                                         </p></div>
-                                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -208,10 +208,10 @@ $product_list = [
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class="small-size light1-8">
-                            <li><a href="/lifepo4-battery/list-133/">12V LiFePO4 Battery</a></li>
-                            <li><a href="/lifepo4-battery/list-134/">24V LiFePO4 Battery</a></li>
-                            <li><a href="/lifepo4-battery/list-135/">36V LiFePO4 Battery</a></li>
-                            <li><a href="/lifepo4-battery/list-136/">48V LiFePO4 Battery</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-133/">12V LiFePO4 Battery</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-134/">24V LiFePO4 Battery</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-135/">36V LiFePO4 Battery</a></li>
+                            <li><a target="_blank" href="/lifepo4-battery/list-136/">48V LiFePO4 Battery</a></li>
                         </ul>
                     </div>
                 </div>

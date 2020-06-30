@@ -39,50 +39,50 @@ use common\models\Images; ?>
                     <ul class="ul_none ul_li_padding40">
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/low-temperature-battery/"><img src="/static/images/column_lithium_guide_category_1.jpg" alt="Low Temperature Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/low-temperature-battery/">Low Temperature Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/low-temperature-battery/"><img src="/static/images/column_lithium_guide_category_1.jpg" alt="Low Temperature Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/low-temperature-battery/">Low Temperature Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/explosion-proof-battery/"><img src="/static/images/column_lithium_guide_category_2.jpg" alt="Explosion-proof Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/explosion-proof-battery/">Explosion-proof Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/explosion-proof-battery/"><img src="/static/images/column_lithium_guide_category_2.jpg" alt="Explosion-proof Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/explosion-proof-battery/">Explosion-proof Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/lithium-power-battery/"><img src="/static/images/column_lithium_guide_category_3.jpg" alt="Lithium Power Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/lithium-power-battery/">Lithium Power Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-power-battery/"><img src="/static/images/column_lithium_guide_category_3.jpg" alt="Lithium Power Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-power-battery/">Lithium Power Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/lifepo4-battery/"><img src="/static/images/column_lithium_guide_category_4.jpg" alt="LiFePO4 Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/lifepo4-battery/"><img src="/static/images/column_lithium_guide_category_4.jpg" alt="LiFePO4 Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/lithium-battery18650/"><img src="/static/images/column_lithium_guide_category_5.jpg" alt="18650 Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/lithium-battery18650/">18650 Lithium Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-battery18650/"><img src="/static/images/column_lithium_guide_category_5.jpg" alt="18650 Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-battery18650/">18650 Lithium Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/lithium-polymer-battery/"><img src="/static/images/column_lithium_guide_category_6.jpg" alt="Lithium Polymer Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/lithium-polymer-battery/">Lithium Polymer Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/"><img src="/static/images/column_lithium_guide_category_6.jpg" alt="Lithium Polymer Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/">Lithium Polymer Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/energy-storage-battery/"><img src="/static/images/column_lithium_guide_category_7.jpg" alt="Energy Storage Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/energy-storage-battery/">Energy Storage Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/energy-storage-battery/"><img src="/static/images/column_lithium_guide_category_7.jpg" alt="Energy Storage Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/energy-storage-battery/">Energy Storage Battery</a></div>
                             </div>
                         </li>
                         <li class="col-md-3 section60">
                             <div class="item">
-                                <div class="img"><a href="https://www.large.net/industrial-battery/"><img src="/static/images/column_lithium_guide_category_8.jpg" alt="Ternary Battery"></a></div>
-                                <div class="text text-center section30"><a href="https://www.large.net/industrial-battery/">Ternary Lithium Battery</a></div>
+                                <div class="img"><a target="_blank" href="https://www.large.net/industrial-battery/"><img src="/static/images/column_lithium_guide_category_8.jpg" alt="Ternary Battery"></a></div>
+                                <div class="text text-center section30"><a target="_blank" href="https://www.large.net/industrial-battery/">Ternary Lithium Battery</a></div>
                             </div>
                         </li>
 						
@@ -116,10 +116,10 @@ use common\models\Images; ?>
                     <?php $value = $ConsumerGoods;?>
                     <li class="section60">
                         <div class="item">
-                            <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                            <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                             <div class="text col-md-7">
                                 <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
-                                <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                             </div>
                         </div>
                     </li>
@@ -137,10 +137,10 @@ use common\models\Images; ?>
                         <?php $value = $IndustrialField;?>
                         <li class="section60">
                             <div class="item">
-                                <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
                                     <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
@@ -158,10 +158,10 @@ use common\models\Images; ?>
                         <?php $value = $SpecialUse;?>
                         <li class="section60">
                             <div class="item">
-                                <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
                                     <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
@@ -182,12 +182,12 @@ use common\models\Images; ?>
                     <div class="title"><strong>Most Commonly Used Cylindrical Lithium Ion Battery</strong></div>
                     <div class="p_ul section5">
                         <ul class="small-size">
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-142/">18650 Lithium Ion Battery</a></li>
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-140/">14500 Lithium Ion Battery</a></li>
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-141/">18500 Lithium Ion Battery</a></li>
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-143/">21700 Lithium Ion Battery</a></li>
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-144/">26650 Lithium Ion Battery</a></li>
-                            <li><a href="https://www.large.net/lithium-ion-battery/list-145/">32650（32700）Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-142/">18650 Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-140/">14500 Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-141/">18500 Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-143/">21700 Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-144/">26650 Lithium Ion Battery</a></li>
+                            <li><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-145/">32650（32700）Lithium Ion Battery</a></li>
 
                         </ul>
                     </div>
@@ -201,14 +201,14 @@ use common\models\Images; ?>
                         <ul class="ul_none ul_li_padding50">
                             <li>
                                 <div class="item">
-                                    <div class="img"><a href=""><img src="/static/images/column_lithium_guide_1.jpg" alt="Cylindrical Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a href="https://www.large.net/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
+                                    <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_1.jpg" alt="Cylindrical Lithium Ion Battery"></a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="item">
-                                    <div class="img"><a href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
-                                    <div class="text text-center section30"><a href="https://www.large.net/lithium-ion-battery/list-146/">Prismatic Lithium Ion Battery</a></div>
+                                    <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
+                                    <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-146/">Prismatic Lithium Ion Battery</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -262,13 +262,13 @@ use common\models\Images; ?>
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Anode Materials</h3></div>
                 <div class="common_p section20">
                     <p>Currently, there are four kinds of anode materials for lithium ion batteries:</p>
-                    <p class="section20"><a href="https://www.large.net/news/8ku43mw.html">LiCoO2 battery</a></p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8ku43mw.html">LiCoO2 battery</a></p>
                     <p class="section5">The chemical formula for lithium cobalt oxide is LiCoO ₂. It is a kind of inorganic compounds, and is usually used as positive electrode materials for lithium ion batteries.</p>
-                    <p class="section20"><a href="https://www.large.net/news/8fu43my.html">LiMn2O4 battery</a></p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8fu43my.html">LiMn2O4 battery</a></p>
                     <p class="section5">Lithium manganese is mainly spinel manganese, which was first prepared by Hunter in 1981 as a positive electrode material with three-dimensional lithium ion channels.</p>
-                    <p class="section20"><a href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></p>
                     <p class="section5">Lithium iron phosphate is a lithium ion battery anode material. Lithium iron phosphate batteries, named after their anode material, are also known as LiFePO4 battery and LFP battery.</p>
-                    <p class="section20"><a href="https://www.large.net/news/8mu43my.html">NCM (Ternary) Battery</a></p>
+                    <p class="section20"><a target="_blank" href="https://www.large.net/news/8mu43my.html">NCM (Ternary) Battery</a></p>
                     <p class="section5">Lithium nickel manganese cobalt is the key ternary anode material for lithium ion battery, which has higher specific capacity and lower cost than the other anode material.</p>
                 </div>
 
@@ -363,10 +363,10 @@ use common\models\Images; ?>
                         <?php $value = $Electrolyte;?>
                         <li class="">
                             <div class="item">
-                                <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
                                     <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
@@ -386,66 +386,60 @@ use common\models\Images; ?>
                 <div class="link_title size2 section50" id="battery-cell"><h3>1.Recommended 18650 Lithium Ion Battery Brand</h3></div>
                 <div class="brand_list col-md-12">
                     <ul>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_1.jpg" alt="Sony"></div>
-                                <div class="text">Sony</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_2.jpg" alt="Panasonic"></div>
-                                <div class="text">Panasonic</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_3.jpg" alt="Sanyo"></div>
-                                <div class="text">Sanyo</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_4.jpg" alt="Samsung"></div>
-                                <div class="text">Samsung</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_5.jpg" alt="LG"></div>
-                                <div class="text">LG</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_6.jpg" alt="BAK"></div>
-                                <div class="text">BAK</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_7.jpg" alt="LISHEN"></div>
-                                <div class="text">LISHEN</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_8.jpg" alt="LARGE"></div>
-                                <div class="text">LARGE</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_9.jpg" alt="Wangxiang A123"></div>
-                                <div class="text">Wangxiang A123</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_cylindrical_brand_10.jpg" alt="BYD"></div>
-                                <div class="text">BYD</div>
-                            </div>
-                        </li>
+                        <div class="row">
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_1.jpg" alt="Sony"></div>
+                                    <div class="text">Sony</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_2.jpg" alt="Panasonic"></div>
+                                    <div class="text">Panasonic</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_3.jpg" alt="Sanyo"></div>
+                                    <div class="text">Sanyo</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_4.jpg" alt="Samsung"></div>
+                                    <div class="text">Samsung</div>
+                                </div>
+                            </li>
+                        </div>
+
+                        <div class="row">
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_6.jpg" alt="BAK"></div>
+                                    <div class="text">BAK</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_7.jpg" alt="LISHEN"></div>
+                                    <div class="text">LISHEN</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_8.jpg" alt="LARGE"></div>
+                                    <div class="text">LARGE</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_cylindrical_brand_5.jpg" alt="LG"></div>
+                                    <div class="text">LG</div>
+                                </div>
+                            </li>
+                        </div>
+
                     </ul>
                 </div>
 
@@ -468,7 +462,7 @@ use common\models\Images; ?>
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Lithium Ion Battery Brand</h3></div>
                 <div class="p_ul section20">
                     <ul class="small-size light1-8">
-                        <li><a href="/">LARGE</a></li>
+                        <li><a target="_blank" href="/">LARGE</a></li>
                     </ul>
                 </div>
 
@@ -560,10 +554,10 @@ use common\models\Images; ?>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
                             <li class="<?= $key==0?'section20':'section60';?>">
                                 <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <div class="text col-md-9 col-sm-12">
                                         <div class="des light1-8 "><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
 
                                 </div>
@@ -597,13 +591,13 @@ use common\models\Images; ?>
                 <div class="common_p section20">
                     <li class="title"><strong>Recommended Commonly Used Voltage of Lithium Ion Battery：</strong></li>
                     <p class="small-size section5 light1-5">
-                        <a href="/lithium-ion-battery/list-133/">12V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-133/">12V Lithium Ion Battery</a>
                         <br>
-                        <a href="/lithium-ion-battery/list-134/">24V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-134/">24V Lithium Ion Battery</a>
                         <br>
-                        <a href="/lithium-ion-battery/list-135/">36V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-135/">36V Lithium Ion Battery</a>
                         <br>
-                        <a href="/lithium-ion-battery/list-136/">48V Lithium Ion Battery</a>
+                        <a target="_blank" href="/lithium-ion-battery/list-136/">48V Lithium Ion Battery</a>
 
 
                     </p>

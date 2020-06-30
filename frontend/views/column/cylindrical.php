@@ -35,13 +35,13 @@ $product_list = [
 
                         <li class="section60 col-md-4 col-sm-12">
                             <div class="item">
-                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                 <div class="text col-md-12 pull-left">
-                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
                                     <div class="des light1-8 section10"><p>
                                             <?=$value['des']?>
                                            </p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
@@ -218,10 +218,10 @@ $product_list = [
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
                             <li class="section60">
                                 <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <div class="text col-md-9 col-sm-12">
                                         <div class="des light1-8 "><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
 
                                 </div>

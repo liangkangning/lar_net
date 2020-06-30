@@ -53,13 +53,13 @@ foreach ($products2 as &$product) {
                                     <?php if ($key<3):?>
                                         <li class="section60 col-md-4 col-sm-12">
                                             <div class="item">
-                                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                                 <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
                                                     <div class="des light1-8 section10"><p>
                                                             <?=$value['des']?>
                                                         </p></div>
-                                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -71,13 +71,13 @@ foreach ($products2 as &$product) {
                                     <?php if ($key>=3):?>
                                         <li class="section60 col-md-4 col-sm-12">
                                             <div class="item">
-                                                <div class="img col-md-12"><a href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
+                                                <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                                 <div class="text col-md-12 pull-left">
-                                                    <div class="title size2 section30"><a href="<?=$value['url']?>"><?=$value['title']?></a></div>
+                                                    <div class="title size2 section30"><a target="_blank" href="<?=$value['url']?>"><?=$value['title']?></a></div>
                                                     <div class="des light1-8 section10"><p>
                                                             <?=$value['des']?>
                                                         </p></div>
-                                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -162,7 +162,7 @@ foreach ($products2 as &$product) {
                             <li class="col-md-4">
                                 <div class="item">
                                     <div class="part col-md-12 section5">
-                                        <div class="img"><a href=""><img src="/static/images/column_polymer_1.jpg" alt=""></a></div>
+                                        <div class="img"><a target="_blank" href=""><img src="/static/images/column_polymer_1.jpg" alt=""></a></div>
                                     </div>
                                     <div class="part col-md-12 section50">
                                         <div class="title col-md-12 size3 font-weight">No leakage</div>
@@ -349,10 +349,10 @@ foreach ($products2 as &$product) {
                         <?php foreach ($products2 as $key=>$value):?>
                         <li class="<?= $key==0?'section50':'section60' ?>">
                             <div class="item">
-                                <div class="product_img col-md-5"><a href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
                                     <div class="des light1-8 section30"><p><?=$value['diyContentUrl']?></p></div>
-                                    <div class="button small-size section20"><a href="<?=$value['url']?>">READ MORE</a></div>
+                                    <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
                         </li>
