@@ -9,23 +9,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
     <div class="col-md-12">
         <div class="container">
-            <div class="common_p section">
-                <p class="small-size">Large Power is a provider of customized solutions and products for special lithium power systems. It can provide a complete set of power supply solutions from a single cell, battery management system,charger to battery pack according to customer requirements.
-                </p>
-                <div class="p_ul section20">
-                    <ul class="font-weight black_color small-size">
-                        <li>Cell selecting</li>
-                        <li>Structure design</li>
-                        <li>Battery management system design</li>
-                        <li>Voltmeter design</li>
-                        <li>Charger design</li>
-                    </ul>
-                </div>
-                <p class="small-size section20">A <a href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
-                </p>
-            </div>
+		
 
             <section class="">
+				<div class="link_title size2 section50" id=""><h3>Recommended 18650 Lithium Battery </h3></div>
                 <div class="products_18650 col-md-12">
                     <ul>
                         <div class="row">
@@ -61,6 +48,25 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
             </section>
+
+			
+            <div class="common_p section">
+                <p class="small-size">Large Power is a provider of customized solutions and products for special lithium power systems. It can provide a complete set of power supply solutions from a single cell, battery management system,charger to battery pack according to customer requirements.
+                </p>
+                <div class="p_ul section20">
+                    <ul class="font-weight black_color small-size">
+                        <li>Cell selecting</li>
+                        <li>Structure design</li>
+                        <li>Battery management system design</li>
+                        <li>Voltmeter design</li>
+                        <li>Charger design</li>
+                    </ul>
+                </div>
+                <p class="small-size section20">A <a href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
+                </p>
+            </div>
+
+
 
             <section class="section70">
                 <div class="common_title size1" id="what-is-an-18650"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
