@@ -121,7 +121,7 @@
 .column-common .products_list_other .item .text.col-md-9{padding-left: 60px;}
 .column-common .products_list_other .item .text .des{overflow: hidden;width: 100%;}
 .column-common .products_list_other .item .text span{width: 100%;float: left;}
-.column-common .products_list_other .item .text span b{font-weight: bold;}
+.column-common .products_list_other .item .text span b{font-size: 20px;}
 .column-common .products_list_other .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
 .column-common .products_list_other .item .title{max-width: 500px;}
 .column-common .products_list_other .item .title a{color: #231916}

@@ -763,6 +763,7 @@ footer .bottom p span{color: #9E9F9F;}
 
 .dingzhi .breadCrumbs .content{border-bottom: 0px;}
 .dingzhi .content_all{}
+.dingzhi .content_all h1{font-size: 30px;}
 .dingzhi .content_all .title{margin: 3.75rem 0 1.25rem 0;}
 .dingzhi .content_all .title h1{color: #FA9600;font-size: 2.375rem}
 .dingzhi .content_all .p{}
