@@ -4,18 +4,18 @@ $product_list = [
     ['title'=>'12V Low Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_1.jpg','url'=>'/low-temperature-battery/list-133/',
         'des'=>'Charging temperature：0℃ ~ +45℃<br> Discharging temperature：-40℃ ~ +60℃<br>Application: special equipment, aerospace, polar scientific research, frigid zone emergency, etc.'],
 
-    ['title'=>'12V Explosion-proof Lithium Battery','img_url'=>'/static/images/column_12v_product_2.jpg','url'=>'/wide-temperature-battery/list-133/',
-        'des'=>'Intrinsic safety type/Explosion-proof type<br>High safety coefficient materials<br>-Meet Exia iiA/Exib iiB T1~T4 standaed.'],
+    ['title'=>'12V Explosion-proof Lithium Battery','img_url'=>'/static/images/column_12v_product_2.jpg','url'=>'/explosion-proof-battery/list-133/',
+        'des'=>'Intrinsic safety type/Explosion-proof type<br>High safety coefficient materials<br>Meet Exia iiA/Exib iiB T1~T4 standard.'],
 
-    ['title'=>'12V Wide Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_3.jpg','url'=>'/explosion-proof-battery/list-133/',
-        'des'=>'Working temperature range: -50℃~70℃<br>-40℃capacity retention ratio: ≥90%<br>-50℃capacity retention ratio: ≥70%'],
+    ['title'=>'12V Wide Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_3.jpg','url'=>'/wide-temperature-battery/list-133/',
+        'des'=>'Working temperature range: -50℃~70℃<br>-40℃ capacity retention ratio: ≥90%<br>-50℃ capacity retention ratio: ≥70%'],
 
 
 
-    ['title'=>'12V Lithium Power Battery','img_url'=>'/static/images/column_12v_product_4.jpg','url'=>'/lifepo4-battery/list-133/',
-        'des'=>'High Rate Discharge<br>High Energy Density<br>Longer Cycle Life Safer'],
+    ['title'=>'12V Lithium Power Battery','img_url'=>'/static/images/column_12v_product_4.jpg','url'=>'/lithium-power-battery/list-133/',
+        'des'=>'High Rate Discharge<br>High Energy Density<br>Longer Cycle Life and Safer'],
 
-    ['title'=>'12V Lifepo4 Battery','img_url'=>'/static/images/column_12v_product_5.jpg','url'=>'/lithium-polymer-battery/list-133/',
+    ['title'=>'12V Lifepo4 Battery','img_url'=>'/static/images/column_12v_product_5.jpg','url'=>'/lifepo4-battery/list-133/',
         'des'=>'High thermal stability<br>Outstanding safety performance<br>Nice high rate discharge performance'],
 
     ['title'=>'12V Medical Lithium Battery','img_url'=>'/static/images/column_12v_product_6.jpg','url'=>'/lithium-ion-battery/list-133-166/',
@@ -23,18 +23,18 @@ $product_list = [
 
 
 
-    ['title'=>'12V Energy Storage Battery','img_url'=>'/static/images/column_12v_product_7.jpg','url'=>'/product/8mu43c9.html',
+    ['title'=>'12V Energy Storage Battery','img_url'=>'/static/images/column_12v_product_7.jpg','url'=>'/energy-storage-battery/list-133/',
         'des'=>'Emergency Energy Storage Battery<br>Large voltage, large capacity and long cycle life<br>Solar energy storage, military portable power supply and emergency backup power supply'],
 
-    ['title'=>'12V Lithium Polymer Battery','img_url'=>'/static/images/column_12v_product_8.jpg','url'=>'/product/8ku43cs.html',
+    ['title'=>'12V Lithium Polymer Battery','img_url'=>'/static/images/column_12v_product_8.jpg','url'=>'/lithium-polymer-battery/list-133/',
         'des'=>'Higher energy density<br>Better safety performance<br>Flexible Design'],
 
-    ['title'=>'12V Lithium Titanate Battery','img_url'=>'/static/images/column_12v_product_9.jpg','url'=>'/product/8gu43cw.html',
+    ['title'=>'12V Lithium Titanate Battery','img_url'=>'/static/images/column_12v_product_9.jpg','url'=>'/lithium-titanate-battery/list-133/',
         'des'=>'Super safe, high rate and long life<br>Charging rate：1~40C<br>Discharge rate：1~40C'],
 ];
     //第二类产品
     $products = [];
-    $product_ids_1 = ['1002','1004','1005'];
+    $product_ids_1 = ['690','834','736'];
     foreach ($product_ids_1 as $id) {
         $products[] = common\models\Images::find()->where(['id' => $id])->one();
     }
@@ -61,9 +61,9 @@ $product_list = [
 
 <div class="column-lifepo4 column-common">
     <div class="banner col-md-12 relative">
-        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="Lifepo4 Battery Guide" title="Lifepo4 Battery Guide"></div>
+        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide"></div>
         <div class="text center-text">
-            <h1 class="big-size">12V Lithium Battery</h1>
+            <h1 class="big-size">12V Lithium Battery Guide</h1>
         </div>
     </div>
     <div class="col-md-12">
@@ -109,7 +109,7 @@ $product_list = [
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Classification</h2></div>
                 <div class="common_p section30">
                     <p class="small-size section5">
-                        12V lithium batteries are divided into 12V lithium ion battery, 12V lithium iron phosphate battery, 12V cylindrical lithium battery and 12V polymer lithium battery according to the materials and packaging.
+                        12V lithium batteries are divided into 12V lithium ion battery, 12V lithium iron phosphate battery, 12V cylindrical lithium battery and 12V lithium polymer battery according to the materials and packaging.
                     </p>
                 </div>
 
@@ -170,7 +170,7 @@ $product_list = [
                 <div class="link_title size2 section50" id="battery-cell"><h3>3.12V Lithium Polymer Battery</h3></div>
                 <div class="common_p section30">
                     <p>Lithium polymer battery is developed on the basis of liquid lithium ion battery. Its anode and cathode materials are the same as liquid lithium ion battery, but it uses gel electrolyte and aluminum plastic film for outer packing. Polymer lithium battery is also known as LiPo battery.</p>
-                    <p class="section10">12V polymer lithium battery has a nominal voltage of 12V and is widely used in digital products, power tools, special wearable devices, etc.</p>
+                    <p class="section10">12V lithium polymer battery has a nominal voltage of 12V and is widely used in digital products, power tools, special wearable devices, etc.</p>
                 </div>
                 <div class="common_p section20">
                     <p class="size4 font-weight">12V Lithium Polymer Battery Advantages</p>
@@ -191,7 +191,7 @@ $product_list = [
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Polymer Battery</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Ion Battery Price</h2></div>
                 <div class="common_p section30">
                     <p class="small-size section5">
                         12 V lithium battery price mainly composes of cell, PCM and case. At the same time due to the power consumption and current of the electric appliances, the material of the connection strap between the cells (conventional nickel sheet, forming nickel, copper nickel clad sheet, jumper, etc.) will affect the cost. Different connector (such as aviation plugs, from ten yuan to thousands of yuan) may affect the cost a lot. What’s more, different pack technology can also affect the cost.
@@ -353,7 +353,7 @@ $product_list = [
                         <li>
                             <p><strong>Ambient temperature</strong></p>
                             <p>
-                                discharge state is the working state of 12V lithium battery, and the temperature is required to be -20~60℃.
+                                Discharge state is the working state of 12V lithium battery, and the temperature is required to be -20~60℃.
                             </p>
                         </li>
                         <li class="section10">
