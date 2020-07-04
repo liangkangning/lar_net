@@ -166,6 +166,7 @@
     .section10{margin-top: 10px}
     .section5{margin-top: 5px}
 
+    .column-common h1{font-weight: 300;padding: 0 30px;line-height: 1.5}
     .column-common .container{padding: 0 16px;}
     .fengxian{width: 100%;float: left;}
     .column-common .brand_list ul{display: inline-block}

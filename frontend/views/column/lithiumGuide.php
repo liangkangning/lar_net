@@ -20,10 +20,13 @@ use common\models\Images; ?>
 
 <div class="column-lithium-guide column-common">
     <div class="banner col-md-12 relative">
-        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner.jpg')?>" alt=""></div>
+        <div class="img">
+            <img class="hidden-xs"  src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner.jpg')?>" alt="Lithium Ion Battery Guide">
+            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner_m.jpg')?>" alt="Lithium Ion Battery Guide">
+        </div>
         <div class="text center-text">
             <h1 class="big-size">Lithium Ion Battery Guide</h1>
-           <p class="size3 white_color section30">
+           <p class="size3 white_color section30 hidden-xs">
 				Lithium ion battery is a kind of rechargeable battery which uses graphite or <br>
              other carbon materials as the negative electrode and <br>
              lithium containing compounds as the positive electrode.

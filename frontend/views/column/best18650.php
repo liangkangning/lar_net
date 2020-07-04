@@ -3,7 +3,10 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 ?>
 <div class="column-best-18650 column-common">
     <div class="banner col-md-12 relative">
-        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_18650_banner.jpg')?>" alt=""></div>
+        <div class="img">
+            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_18650_banner.jpg')?>" alt="Best 18650 Lithium Battery Pack">
+            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_18650_banner_m.jpg')?>" alt="Best 18650 Lithium Battery Pack">
+        </div>
         <div class="text center-text"><h1 class="big-size">Best 18650 Lithium Battery Pack</h1></div>
     </div>
 

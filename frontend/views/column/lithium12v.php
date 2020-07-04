@@ -61,7 +61,10 @@ $product_list = [
 
 <div class="column-lifepo4 column-common">
     <div class="banner col-md-12 relative">
-        <div class="img"><img src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide"></div>
+        <div class="img">
+            <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
+            <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_12v_banner_m.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
+        </div>
         <div class="text center-text">
             <h1 class="big-size">12V Lithium Battery Guide</h1>
         </div>
