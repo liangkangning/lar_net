@@ -103,7 +103,7 @@ class FormController extends CommonController
                 'from' => $post['url'],
                 'create_time' => time(),
             ];
-            var_dump($data);die;
+//            var_dump($data);die;
             $res =  Yii::$app->db->createCommand()->insert('yii2_send_mail', $data)->execute();
 
             if ($res){
