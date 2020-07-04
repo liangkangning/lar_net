@@ -196,38 +196,7 @@ $product_list = [
                     <p class="small-size section5">
                         12 V lithium battery price mainly composes of cell, PCM and case. At the same time due to the power consumption and current of the electric appliances, the material of the connection strap between the cells (conventional nickel sheet, forming nickel, copper nickel clad sheet, jumper, etc.) will affect the cost. Different connector (such as aviation plugs, from ten yuan to thousands of yuan) may affect the cost a lot. What’s more, different pack technology can also affect the cost.
                     </p>
-                    <div class="products_list_other section40">
-                        <ul class="ul_none">
-                            <li class="section20">
-                                <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net//storage/image/201911/1574478088467.png" alt="24V Emergency Starting Power Supply,Low Temperature Large Current" title="24V Emergency Starting Power Supply,Low Temperature Large Current"></a></div>
-                                    <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 section30"><p><span><a href="/product/8ju43de.html">12.6V 7A Lithium Battery Charger</a></span>
-                                                <span>Input voltage：100-240V，50-60Hz</span>
-                                                <span>Output voltage：12.6V</span>
-                                                <span>Output current：7A</span>
-                                                <span>Product application： Three 11.1V lithium battery packs connected in series</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="section60">
-                                <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net//storage/image/201908/156506160050.png" alt="18650 7.4V 17.5Ah Low Temperature Battery for Special Equipment" title="18650 7.4V 17.5Ah Low Temperature Battery for Special Equipment"></a></div>
-                                    <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 section30"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
-                                                <span>Input voltage：100-240V，50-60Hz</span>
-                                                <span>Output voltage：11.1V</span>
-                                                <span>Charging temperature: 0 ~ 45℃</span>
-                                                <span>Output current：5A</span></p>
-                                                <span>Product application：Three 9.6V LiFePO4 Battery connected in series</span></p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                  
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>The factors affecting 12V Lithium Ion Battery Price</h3></div>
                 <div class="common_p section20">
@@ -323,22 +292,38 @@ $product_list = [
                         12V lithium battery charger is specially designed to charge the 12V lithium battery. Lithium ion battery has a high requirement on charger and needs protection circuit. Therefore, lithium battery charger usually has a high control precision and can charge lithium ion battery at constant current and constant voltage.
                     </p>
                 </div>
-                <div class="products_list_other">
-                    <ul class="ul_none">
-                        <?php foreach (Yii::$app->params['products_other'] as $key=>$value):?>
+                 <div class="products_list_other section40">
+                        <ul class="ul_none">
+                            <li class="section20">
+                                <div class="item">
+                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
+                                    <div class="text col-md-9 col-sm-12">
+                                        <div class="des light1-8 section30"><p><span><a href="/product/8ju43de.html">12.6V 7A Lithium Battery Charger</a></span>
+                                                <span>Input voltage：100-240V，50-60Hz</span>
+                                                <span>Output voltage：12.6V</span>
+                                                <span>Output current：7A</span>
+                                                <span>Product application： Three 11.1V lithium battery packs connected in series</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="section60">
                                 <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net/static/images/column_12v_product_other_2.jpg" alt="11.1V 5A LiFePO4 Battery Charge" title="11.1V 5A LiFePO4 Battery Charge"></a></div>
                                     <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 "><p><?=$value['diy_content']?></p></div>
-                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
+                                        <div class="des light1-8 section30"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
+                                                <span>Input voltage：100-240V，50-60Hz</span>
+                                                <span>Output voltage：11.1V</span>
+                                                <span>Charging temperature: 0 ~ 45℃</span>
+                                                <span>Output current：5A</span></p>
+                                                <span>Product application：Three 9.6V LiFePO4 Battery connected in series</span></p>
+                                        </div>
                                     </div>
 
                                 </div>
                             </li>
-                        <?php endforeach;?>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
                 <div class="link_title size2 section50" id="battery-cell"><h3>12V Lithium Battery and Lead Acid Battery Charger</h3></div>
                 <div class="common_p section30">
                     <p>
