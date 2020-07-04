@@ -182,7 +182,8 @@ $this->registerJs($js);
             data:{
                 "name":Name,
                 "email":Email,
-                "message":content
+                "message":content,
+                "url":window.location.href
             },
             success:function (data) {
                 $(".right_send .p1").addClass('none');
