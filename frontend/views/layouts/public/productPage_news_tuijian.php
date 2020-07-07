@@ -79,11 +79,11 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
                         <div class="text"><span></span><a class="hover_a" target="_blank" href="/lifepo4-battery-guide/">Lifepo4 Battery Guide</a></div>
                     </div>
                 </li>
-                <?php foreach ($Recommended as $key=>$value) :?>
-                    <li><div class="item">
-                            <div class="text"><span></span><a class="hover_a" href="<?=$value->url?>"><?=$value->title?></a></div>
-                        </div></li>
-                <?php  endforeach; ?>
+                <li>
+                    <div class="item">
+                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/12v-lithium-battery/">12V Lithium Battery Guide</a></div>
+                    </div>
+                </li>
             </ul>
         </div>
     </li>

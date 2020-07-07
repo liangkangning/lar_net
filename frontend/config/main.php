@@ -182,6 +182,11 @@ return [
                     'route' => 'column/lithium12v',
                     'suffix' => '/',
                 ],
+                [
+                    'pattern' => 'connecting-batteries-in-parallel-and-series',
+                    'route' => 'column/connecting-lithium',
+                    'suffix' => '/',
+                ],
            
 
 

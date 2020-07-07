@@ -15,6 +15,7 @@
 .size1{font-size: 36px;font-family:Avillar;}
 .size2{font-size: 24px;font-family:Arial;}
 .size3{font-size: 20px;font-family:Arial;}
+h3{color: #212121}
 .small-size{font-size: 16px;font-family:Arial;}
 .w100{width: 100%}
 .padding0{padding: 0}
@@ -33,7 +34,10 @@
 .light1-5{line-height: 1.5}
 .light1-8{line-height: 1.8}
 .light2{line-height: 2}
-
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 1px solid #9E9F9F;
+}
+.border_color{border: 1px solid #9E9F9F}
 .column-common {
     overflow: hidden;
 }
@@ -62,7 +66,7 @@
 .column-common .img img{max-width: 100%;overflow: hidden}
 .column-common .common_title{border-bottom: 1px solid #212121}
 .column-common .two-list{width: 100%;overflow: hidden}
-.column-best-18650 .products_18650 .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;line-height: 1.2}
+.column-best-18650 .products_18650 .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;line-height: 1.2}
 
 .column-common .button-top-and-flat-top img{padding: 0 15px;}
 .column-common .products_list{width: 100%;float: left}
@@ -80,10 +84,11 @@
 .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
 .column-common .products_list .item .button a{color: #FFFFFF}
 .column-common .products_18650{}
-.column-common .products_18650 ul{overflow: hidden;margin-left: -40px;list-style-type:none;padding-inline-start:0px}
-.column-common .products_18650 ul li{padding-left: 40px;}
-.column-common .products_18650 ul li img{background-color: #ECECEC}
-.column-common .products_18650 ul li img {width: 100%}
+.column-common .products_18650 ul{overflow: hidden;margin-left: -60px;list-style-type:none;padding-inline-start:0px}
+.column-common .products_18650 ul li{padding-left: 60px;}
+.column-common .products_18650 ul li .img{height: 270px;position: relative;display: block}
+.column-common .products_18650 ul li .img a{position: absolute;top: -30px;left: 0px;display: inline-block;}
+.column-common .products_18650 ul li img{background-color: #ECECEC;width: 100%;}
 .column-common .products_18650 ul li .title{}
 .column-common .products_18650 ul li .sub_title{}
 .column-common .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
@@ -146,6 +151,17 @@
 .column-lifepo4  .brand_list ul li{height: 105px;overflow: hidden}
 .column-lifepo4  .brand_list ul li .text{margin-top: 5px;}
 
+
+
+/*锂电池串联*/
+.column-connecting .table-bordered{border-top: 0px;}
+.column-connecting table{float: left;}
+.column-connecting table .one{width: 294px}
+.column-connecting table .two{width: 219px}
+.column-connecting table .three{width: 219px}
+.column-connecting .products ul li .item{padding: 27px;}
+.column-connecting .products ul li .item .text{height: 160px;}
+
 /*手机端样式*/
 @media screen and (max-width: 780px) {
     .big-size{font-size: 32px;font-family:Avillar;}
@@ -179,5 +195,6 @@
     .ul_li_padding li{padding: 0;}
 
     .column-lifepo4 .bg_part .pp .col-md-12{float: left;margin-top: 30px;}
+
 
 }

@@ -137,6 +137,9 @@
                                             <div class="hidden-xs col-sm-12 section20">
                                                 <a href="/lifepo4-battery-guide/" target="_blank" class="size4 col-sm-12">Lifepo4 Battery Guide</a>
                                             </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/12v-lithium-battery/" target="_blank" class="size4 col-sm-12">12V Lithium Battery Guide</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <?php endif;?>

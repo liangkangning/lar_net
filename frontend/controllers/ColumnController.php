@@ -86,5 +86,12 @@ class ColumnController extends CommonController
         return $this->render('lithium12v');
     }
 
+    public function actionConnectingLithium(){
+        parent::common();
+        $this->view->params['meta_title']='Connecting Lithium Batteries in Parallel and Series | Large Power';
+        $this->view->params['keywords']='Batteries in Parallel,Batteries in Series';
+        $this->view->params['description']='How to Connect Lithium Batteries in Parallel and Series? Series connection increases battery voltage.Parellel connection increases battery capacity.';
+        return $this->render('connectingLithium');
+    }
 
 }
