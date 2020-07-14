@@ -97,15 +97,15 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li class="section20">
                             <p>
                                 <strong>Lithium batteries connected in series and parallel</strong><br>
-                                3.7V single battery can be assembled into battery pack with a voltage of 3.7*(N)V as required (N: number of single batteries)<br/>
+                                3.7V single battery can be assembled into battery pack with a voltage of <strong>3.7*(N)V </strong>as required (N: number of single batteries)<br/>
                                 For example, 7.4V, 12V, 24V, 36V, 48V, 60V, 72V, etc.
                             </p>
                         </li>
                         <li class="section20">
                             <p>
                                 <strong>Capacity of Parallel Connection</strong><br>
-                                2000mAh single battery can be assembled into a battery pack with capacity of 2*(N)Ah as required (N: number of single batteries)<br/>
-                                For example, 4000mAh, 6000mAh, 8000mAh, 10Ah, 20Ah, 30Ah, 50Ah, 100Ah, etc.
+                                2000mAh single battery can be assembled into a battery pack with capacity of<strong> 2*(N)Ah</strong> as required (N: number of single batteries)<br/>
+                                For example, 4000mAh, 6000mAh, 8000mAh,<a href="https://www.large.net/lithium-ion-battery/list-149/">5Ah</a>, <a href="https://www.large.net/lithium-ion-battery/list-151/">10Ah</a>, <a href="https://www.large.net/lithium-ion-battery/list-152/">20Ah</a>, 30Ah, <a href="https://www.large.net/lithium-ion-battery/list-153/">50Ah</a>, <a href="https://www.large.net/lithium-ion-battery/list-154/">100Ah</a>, etc.
                             </p>
                         </li>
                     </ul>
@@ -116,7 +116,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Battery Pack</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
-                        Lithium battery pack technique refers to the processing, assembly and packaging of lithium battery pack. The process of assembling lithium cells together is called PACK, which can be a single battery or a lithium battery pack connected in series or parallel. The lithium battery pack usually consists of a plastic case, PCM, cell, output electrode, bonding sheet, and other insulating tape, double-coating tape, etc.
+                        <a href="https://www.large.net/lithium-ion-battery/list-161/">Lithium battery pack</a> technique refers to the processing, assembly and packaging of lithium battery pack. The process of assembling lithium cells together is called PACK, which can be a single battery or a lithium battery pack connected in series or parallel. The lithium battery pack usually consists of a plastic case, PCM, cell, output electrode, bonding sheet, and other insulating tape, double-coating tape, etc.
                     </p>
                 </div>
                 <div class="common_p section50">
@@ -128,7 +128,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li><p><strong>Nickel sheet/bracket</strong>: Connection and fixing component of the cell</p></li>
                     </ul>
                 </div>
-                <div class="img col-md-12 section30"><img src="/static/images/column_connecting_1.jpg" alt=""></div>
+                <div class="img col-md-12 section30"><img src="/static/images/column_connecting_1.jpg" alt="Lithium Battery Pack Structure"></div>
             </section>
 
             <section>
@@ -149,17 +149,17 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 <div class="common_p section40">
                     <p class="small-size">
-                        The purpose of lithium battery matching is to ensure that every cell in the battery has consistent capacity, voltage and internal impedance, because inconsistent performances will make lithium battery have various parameters during using. Voltage imbalance will happen. After a long run, the battery will<strong> overcharge, over discharge, capacity lost, or even fire to explode.</strong>
+                        The purpose of <a href="https://www.large.net/">lithium battery</a> matching is to ensure that every cell in the battery has consistent capacity, voltage and internal impedance, because inconsistent performances will make lithium battery have various parameters during using. Voltage imbalance will happen. After a long run, the battery will<strong> overcharge, over discharge, capacity lost, or even fire to explode.</strong>
                     </p>
                 </div>
                 <div class="link_title size2 section50" id="battery-cell"><h3>1.Series and Parallel Connection Mode of Lithium Battery</h3></div>
                 <div class="common_p section30">
                     <p>
-                       <strong>Two Lithium Batteries Connected in Series</strong>
+                       <strong>Two Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-118/">7.4V Lithium Battery</a>)
                     </p>
                 </div>
                 <div class="table">
-                    <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_1.jpg" alt=""></div>
+                    <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_1.jpg" alt="Two Lithium Batteries Connected in Series"></div>
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr>
@@ -170,79 +170,79 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>18650-2S3P</td>
                         </tr>
                         <tr>
-                            <td>Voltage(V)</td>
-                            <td>7.4</td>
-                            <td>7.4</td>
-                            <td>7.4</td>
-                            <td>7.4</td>
+                            <td>Voltage</td>
+                            <td>7.4V</td>
+                            <td>7.4V</td>
+                            <td>7.4V</td>
+                            <td>7.4V</td>
                         </tr>
                         <tr>
-                            <td>Capacity(mAh)</td>
-                            <td>2200/2500/3000</td>
-                            <td>2200/2500/3000</td>
-                            <td>6000</td>
-                            <td>9000</td>
+                            <td>Capacity</td>
+                            <td>2200/2500/3000mAh</td>
+                            <td>2200/2500/3000mAh</td>
+                            <td>6000mAh</td>
+                            <td>9000mAh</td>
                         </tr>
                         <tr>
-                            <td>Dimension(mm)</td>
-                            <td>18*105</td>
-                            <td>18*36*65</td>
-                            <td>37*37*66</td>
-                            <td>37*55*66</td>
+                            <td>Dimension</td>
+                            <td>18*105mm</td>
+                            <td>18*36*65mm</td>
+                            <td>37*37*66mm</td>
+                            <td>37*55*66mm</td>
                         </tr>
                         <tr>
-                            <td>Weight(g)</td>
-                            <td>90</td>
-                            <td>90</td>
-                            <td>180</td>
-                            <td>270</td>
+                            <td>Weight</td>
+                            <td>90g</td>
+                            <td>90g</td>
+                            <td>180g</td>
+                            <td>270g</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div class="common_p section55">
-                    <p class="yellow_color">
-                        Two Lithium Batteries Connected in Series
+                    <p>
+                       <strong> Three Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-119/">11.1V Lithium Battery</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_2.jpg" alt=""></div>
+                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_2.jpg" alt="Three Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
-                                <td class="one">Series and Parallel Connection</td>
-                                <td class="two">18650-3S1P</td>
-                                <td class="three">18650-3S1P</td>
+                                <td class="one">Series and Parallel Connection Mode</td>
+                                <td class="two">18650-3S1 P triangle</td>
+                                <td class="three">18650-3S1P in-line</td>
                                 <td>18650-3S2P</td>
                                 <td>18650-3S3P</td>
                             </tr>
                             <tr>
-                                <td>ModeVoltage (V)</td>
-                                <td>triangle12.6</td>
-                                <td>in-line12.6</td>
-                                <td>12.6</td>
-                                <td>12.6</td>
+                                <td>Voltage</td>
+                                <td>11.1V</td>
+                                <td>11.1V</td>
+                                <td>11.1V</td>
+                                <td>11.1V</td>
                             </tr>
                             <tr>
-                                <td>Capacity(mAh)</td>
-                                <td>2200/2500/3000</td>
-                                <td>2200/2500/3000</td>
-                                <td>6000</td>
-                                <td>9000</td>
+                                <td>Capacity</td>
+                                <td>2200/2500/3000mAh</td>
+                                <td>2200/2500/3000mAh</td>
+                                <td>6000mAh</td>
+                                <td>9000mAh</td>
                             </tr>
                             <tr>
-                                <td>Dimension(mm)</td>
+                                <td>Dimension</td>
                                 <td>66.5*36.6*36.6mm</td>
-                                <td>69.8*55.7*18.8</td>
-                                <td>66.8*55.0*40.8</td>
-                                <td>60.6*68.0*56.1</td>
+                                <td>69.8*55.7*18.8mm</td>
+                                <td>66.8*55.0*40.8mm</td>
+                                <td>60.6*68.0*56.1mm</td>
                             </tr>
                             <tr>
-                                <td>Weight(g)</td>
-                                <td>155</td>
-                                <td>158</td>
-                                <td>285</td>
-                                <td>425</td>
+                                <td>Weight</td>
+                                <td>155g</td>
+                                <td>158g</td>
+                                <td>285g</td>
+                                <td>425g</td>
                             </tr>
                             </tbody>
                         </table>
@@ -250,42 +250,42 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="common_p section55">
-                    <p class="yellow_color">
-                        Four Lithium Batteries Connected in Series
+                    <p>
+                        <strong>Four Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-120/">14.8V Lithium Battery</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_3.jpg" alt=""></div>
+                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_3.jpg" alt="Four Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
-                                <td class="one">Series and Parallel Connection</td>
+                                <td class="one">Series and Parallel Connection Mode</td>
                                 <td width="291">18650-4S1P square</td>
                                 <td width="291">18650-4S1P In-line</td>
                                 <td width="291">18650-4S2P</td>
                             </tr>
                             <tr>
-                                <td>ModeVoltage (V)</td>
-                                <td>14.8</td>
-                                <td>14.8</td>
-                                <td>14.8</td>
+                                <td>Voltage</td>
+                                <td>14.8V</td>
+                                <td>14.8V</td>
+                                <td>14.8V</td>
                             </tr>
                             <tr>
-                                <td>Capacity(mAh)</td>
-                                <td>2200/2500/3000</td>
-                                <td>2200/2500/3000</td>
-                                <td>6000</td>
+                                <td>Capacity</td>
+                                <td>2200/2500/3000mAh</td>
+                                <td>2200/2500/3000mAh</td>
+                                <td>6000mAh</td>
                             </tr>
                             <tr>
-                                <td>Dimension(mm)</td>
-                                <td>69.6*37.7*37.7</td>
-                                <td>69.3*73.4*17.6</td>
-                                <td>70.6*74.2*37.1</td>
+                                <td>Dimension</td>
+                                <td>69.6*37.7*37.7mm</td>
+                                <td>69.3*73.4*17.6mm</td>
+                                <td>70.6*74.2*37.1mm</td>
                             </tr>
                             <tr>
-                                <td>Weight(g)</td>
-                                <td>181</td>
-                                <td>191</td>
-                                <td>371</td>
+                                <td>Weight</td>
+                                <td>181g</td>
+                                <td>191g</td>
+                                <td>371g</td>
                             </tr>
                             </tbody>
                         </table>
@@ -293,42 +293,42 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
                 <div class="common_p section55">
-                    <p class="yellow_color">
-                        Six Lithium Batteries Connected in Series
+                    <p>
+                       <strong> Six Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-122/">22.2V Lithium Battery</a>)
                     </p>
                     <div class="table">
-                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_4.jpg" alt=""></div>
+                        <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_4.jpg" alt="Six Lithium Batteries Connected in Series"></div>
                         <table cellspacing="0" width="100%" class="table-bordered">
                             <tbody>
                             <tr>
-                                <td class="one">Series and Parallel Connection</td>
+                                <td class="one">Series and Parallel Connection Mode</td>
                                 <td width="291">18650-6S1P In-line</td>
                                 <td width="291">18650-6S2P</td>
                                 <td width="291">18650-6S3P</td>
                             </tr>
                             <tr>
-                                <td>ModeVoltage (V)</td>
+                                <td>Voltage</td>
                                 <td>25.2V</td>
                                 <td>25.2V</td>
                                 <td>25.2V</td>
                             </tr>
                             <tr>
-                                <td>Capacity(mAh)</td>
-                                <td>2000/3000</td>
-                                <td>6000</td>
-                                <td>9000</td>
+                                <td>Capacity</td>
+                                <td>2000/3000mAh</td>
+                                <td>6000mAh</td>
+                                <td>9000mAh</td>
                             </tr>
                             <tr>
-                                <td>Dimension(mm)</td>
-                                <td>114*72*22</td>
-                                <td>114*72*41</td>
-                                <td>114*72*60</td>
+                                <td>Dimension</td>
+                                <td>114*72*22mm</td>
+                                <td>114*72*41mm</td>
+                                <td>114*72*60mm</td>
                             </tr>
                             <tr>
-                                <td>Weight(g)</td>
-                                <td>303</td>
-                                <td>570</td>
-                                <td>835</td>
+                                <td>Weight</td>
+                                <td>303g</td>
+                                <td>570g</td>
+                                <td>835g</td>
                             </tr>
                             </tbody>
                         </table>
@@ -340,7 +340,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p>
                         The length of the plug and lead of the lithium battery pack can be customized according to the customer's electrical equipment.
                     </p>
-                    <div class="img text-center section55"><img src="/static/images/column_connecting_3.jpg" alt=""></div>
+                    <div class="img text-center section55"><img src="/static/images/column_connecting_3.jpg" alt="Lithium Battery Wire/Terminal"></div>
                 </div>
 
                 <div class="link_title size2 section50"><h3>3.Calculation Lithium Battery Connected in Series and Parallel</h3></div>
@@ -348,7 +348,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p>
                         We all know that lithium battery voltage increases after series connection, capacity increases after parallel connection, then how to calculate a lithium battery quantity of series or parallel connection, and how many cells?
                     </p>
-                    <p class="section20">Before the calculation, we need to know which cell specification of the battery pack is adopted for the assembly, because different cells have different voltage and capacity. The cell quantity of series and parallel connection required to assemble a specific lithium battery pack varies. The common lithium cell types on the market are: 3.7V lithium cobalt oxides, 3.6V ternary, 3.2V lithium iron phosphate, 2.4V lithium titanate. The capacity is different because of the cell size, material and manufacturers.</p>
+                    <p class="section20">Before the calculation, we need to know which cell specification of the battery pack is adopted for the assembly, because different cells have different voltage and capacity. The cell quantity of series and parallel connection required to assemble a specific lithium battery pack varies. The common lithium cell types on the market are:<strong>3.7V LiCoO2, 3.6V ternary, 3.2V LFePO4, 2.4V lithium titanate</strong>. The capacity is different because of the cell size, material and manufacturers.</p>
                 </div>
                 <div class="common_p section60">
                     <p><strong>Take 48V 20Ah Lithium Battery Pack for Example</strong></p>
@@ -375,97 +375,97 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                             <td>Charging Voltage</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">12V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>3</td>
+                            <td rowspan="2"><a href="https://www.large.net/lithium-ion-battery/list-133/">12V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>3S</td>
                             <td>12.6V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>4</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>4S</td>
                             <td>14.6V</td>
                         </tr>
 
                         <tr>
-                            <td rowspan="2">24V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>7</td>
+                            <td rowspan="2"><a href="https://www.large.net/lithium-ion-battery/list-134/">24V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>7S</td>
                             <td>29.4V</td>
                         </tr>
 
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>8</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>8S</td>
                             <td>29.2V</td>
                         </tr>
 
                         <tr>
-                            <td rowspan="4">36V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>10</td>
+                            <td rowspan="4"><a href="https://www.large.net/lithium-ion-battery/list-135/">36V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>10S</td>
                             <td>42.0V</td>
                         </tr>
 
                         <tr>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>11</td>
+                            <td>3.7V LiCoO2</td>
+                            <td>11S</td>
                             <td>46.2V</td>
                         </tr>
 
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>11</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>11S</td>
                             <td>40.2V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>12</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>12S</td>
                             <td>43.8V</td>
                         </tr>
 
                         <tr>
-                            <td rowspan="4">48V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>13</td>
+                            <td rowspan="4"><a href="https://www.large.net/lithium-ion-battery/list-136/">48V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>13S</td>
                             <td>54.6V</td>
                         </tr>
                         <tr>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>14</td>
+                            <td>3.7V LiCoO2</td>
+                            <td>14S</td>
                             <td>58.8V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>15</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>15S</td>
                             <td>58.8V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>16</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>16S</td>
                             <td>58.8V</td>
                         </tr>
 
                         <tr>
-                            <td rowspan="2">60V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>17</td>
+                            <td rowspan="2"><a href="https://www.large.net/lithium-ion-battery/list-137/">60V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>17S</td>
                             <td>71.4V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>20</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>20S</td>
                             <td>73.0V</td>
                         </tr>
 
                         <tr>
-                            <td rowspan="2">72V</td>
-                            <td>3.7V Lithium Cobalt Oxides</td>
-                            <td>20</td>
+                            <td rowspan="2"><a href="https://www.large.net/product/8gu43cm.html">72V</a></td>
+                            <td>3.7V LiCoO2</td>
+                            <td>20S</td>
                             <td>84.0V</td>
                         </tr>
                         <tr>
-                            <td>3.2V Lithium Phosphate</td>
-                            <td>24</td>
+                            <td>3.2V LiFePO4</td>
+                            <td>24S</td>
                             <td>87.6V</td>
                         </tr>
                         </tbody>
@@ -621,7 +621,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p>
                         If different capacities or old and new lithium batteries are used together, there may be leakage, zero voltage and other issues, because during the charging process, capacity differences make some batteries overcharge, some batteries not, while during discharge process, high capacity batteries do not run out of power, but low capacity batteries over discharge. In such a vicious cycle, the batteries will be damaged by leakage or low (zero) voltage.
                     </p>
-                    <div class="img text-center section60"><img src="/static/images/column_connecting_p2.jpg" alt="Full voltage not available"></div>
+                    <div class="img text-center section60"><img src="/static/images/column_connecting_p2.jpg" alt="Full Capacity not available"></div>
                 </div>
             </section>
 
