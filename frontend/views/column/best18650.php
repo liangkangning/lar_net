@@ -90,7 +90,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
 
             <section class="section70">
-                <div class="common_title size1" id="what-is-an-18650"><h2 class="light1-5">What is An 18650 Lithium Battery?</h2></div>
+                <div class="common_title " id="what-is-an-18650"><h2 class="light1-5 size1">What is An 18650 Lithium Battery?</h2></div>
                 <div class="common_p section60">
                     <p class="small-size">
                         18650 refers to the appearance specification of the battery, which is a standard battery model determined by SONY in order to save costs. 18 means 18mm in diameter, 65 means 65mm in length, and 0 means cylindrical battery.
@@ -218,16 +218,19 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         An 18650 lithium battery charger is specially used to charge an 18650 battery. Lithium battery has high demand on charger. It needs a protection circuit, so the lithium battery charger usually has higher more precise of control. It can charge athe lithium battery with a constant current and constant voltage.
                     </p>
                     <div class="p_ul">
-                        <ul class="small-size">
+                        <ul class="small-size section20">
                             <li>The working state of lithium battery charger is consistent with the battery. If the charger works in the state of lithium battery and charges a NI-MH battery or nickel-cadmium battery, the battery will be charged insufficiently and the working time will be greatly reduced.
                                 If the charger works in the state of nickel battery to charge lithium battery, the lithium battery will be overcharged. It will seriously affect the battery cycle life.</li>
-                            <li class="section10">Make sure the battery is fully charged,when the lithium battery charger is fully chargedd. You can remove it. The lithium battery can be removed from some chargers when the fully charge indicator light is on, while with some chargers you cannot remove the battery until all the indicator lights are on.</li>
+                            <li class="section20">Make sure the battery is fully charged,when the lithium battery charger is fully chargedd. You can remove it. The lithium battery can be removed from some chargers when the fully charge indicator light is on, while with some chargers you cannot remove the battery until all the indicator lights are on.</li>
 
                         </ul>
                     </div>
-                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Charger.jpg" alt="18650 Lithium Battery Charger" title="18650 Lithium Battery Charger"></div>
+
                 </div>
 
+                <div class="common_p section50">
+                    <div class="img text-center"><img  src="/static/images/column_Battery_Charger.jpg" alt="18650 Lithium Battery Charger" title="18650 Lithium Battery Charger"></div>
+                </div>
 
                 <div class="link_title size2 section60" id="18650-lithium-battery-type"><h3>4.18650 Lithium Battery Type</h3></div>
                 <div class="common_p section20">
@@ -285,7 +288,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="small-size">
                         There are two kinds of heat shrinkable tubes for an 18650 lithium battery: PVC and PE. Most manufacturers will choose PVC heat shrinkable tubes because of their low cost and easy shrinkage.
                     </p>
-                    <div class="p_ul section5">
+                    <div class="p_ul section20">
                         <ul class="small-size">
                             <li>PVC heat shrinkable tubes are cheap, but are easy to break, so their operational period is not long, and they are difficult to repair if they are broken.</li>
                             <li>A PE heat shrinkable tube is not easy not easy to be cut. It has high temperature resistance, and won’t scald because a battery has overheated.</li>
@@ -461,7 +464,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
 
                 <div class="link_title size2 section50" id="the-meaning-of-18650"><h3>1.The Meaning of 18650 Battery Pack in Series and Parallel</h3></div>
-                <p class="small-size section20">
+                <p class="small-size section20 col-md-12">
                     <strong>18650 battery in series:</strong> When multiple 18650 lithium batteries are connected in series, the battery pack voltage is the total of all battery voltage, but the capacity remains unchanged.
                 </p>
                 <div class="img section50 text-center">
