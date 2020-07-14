@@ -35,7 +35,22 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         </div>
                         <div class="row">
                             <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                                <?php if ($key>=3):?>
+                                <?php if ($key>=3 && $key<6):?>
+                                    <li class="col-md-4 section60">
+                                        <div class="item">
+                                            <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
+                                            <div class="text section20 light1-8 ">
+                                                <p><?=$value['diy_content']?></p>
+                                            </div>
+                                        </div>
+                                        <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
+                                    </li>
+                                <?php endif ?>
+                            <?php endforeach;?>
+                        </div>
+                        <div class="row">
+                            <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
+                                <?php if ($key>=6):?>
                                     <li class="col-md-4 section60">
                                         <div class="item">
                                             <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
@@ -65,6 +80,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li>Charger design</li>
                     </ul>
                 </div>
+
+            </div>
+            <div class="common_p">
                 <p class="small-size section20">A <a target="_blank" href="/lithium-battery18650/">custom 18650 lithium battery pack</a> is widely used in different fields, including in medical devices, special equipment, , in the military, instruments, handheld devices, security and communications, etc.
                 </p>
             </div>
@@ -82,8 +100,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="link_title size2 section" id="the-best-18650-battery-cell"><h3>1.The Best 18650 Lithium Battery Cell</h3></div>
-                <div class="common_p section60">
+                <div class="link_title size2 section50" id="the-best-18650-battery-cell"><h3>1.The Best 18650 Lithium Battery Cell</h3></div>
+                <div class="common_p section20">
                     <p class="small-size">
                         The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
                     </p>
@@ -111,7 +129,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
                 <?php endif;?>
-                <div class="common_p section60">
+                <div class="common_p section20">
                     <p class="small-size">
                         Top 18650 Lithium Battery Cell Model Meter
                     </p>
@@ -496,7 +514,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
         </section>
 
-        <div class="section60 size1 black_color col-md-12" id="how-to-choose-18650"><h2 class="light1-5">Customized 18650 Lithium Battery Packs that We Make</h2></div>
+        <div class="section60 size2 black_color col-md-12" id="how-to-choose-18650"><h2 class="light1-5">Customized 18650 Lithium Battery Packs that We Make</h2></div>
         <div class="products_18650 col-md-12 section20">
             <ul>
                 <?php foreach (Yii::$app->params['product_18650'] as $key=>$value):?>
@@ -505,7 +523,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <div class="item">
                             <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
                             <div class="text section20">
-                                <div class="title size3"><?=$title[0]?></div>
+                                <div class="title size2"><?=$title[0]?></div>
                                 <div class="sub_title small-size light1-8"><?=$title[1]?></div>
                                 <div class="sub_title small-size light1-8"><?=$title[2]?></div>
                             </div>
