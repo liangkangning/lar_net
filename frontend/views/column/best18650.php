@@ -129,8 +129,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
                 <?php endif;?>
-                <div class="common_p section20">
-                    <p class="small-size">
+                <div class="common_p section50">
+                    <p class="size2">
                         Top 18650 Lithium Battery Cell Model Meter
                     </p>
                     <div class="img section20">
@@ -467,7 +467,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <p class="small-size section20 col-md-12">
                     <strong>18650 battery in series:</strong> When multiple 18650 lithium batteries are connected in series, the battery pack voltage is the total of all battery voltage, but the capacity remains unchanged.
                 </p>
-                <div class="img section50 text-center">
+                <div class="img section50 text-center col-md-12">
                     <img  src="/static/images/column_meaning_1.jpg" alt="Schematic Diagram of 18650-4S Connection">
                     <div class="text section20 gray_color">Schematic Diagram of 18650-4S Connection</div>
                 </div>

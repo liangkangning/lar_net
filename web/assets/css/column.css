@@ -12,8 +12,8 @@
 .p{color: #555555}
 .font-weight{font-weight: bold;}
 .big-size{font-size: 48px;font-family:Avillar;}
-.size1{font-size: 36px;font-family:Avillar;}
-.size2{font-size: 24px;font-family:Arial;}
+.size1{font-size: 36px;font-family:Avillar;color: #212121}
+.size2{font-size: 24px;font-family:Arial;color: #212121}
 .size3{font-size: 20px;font-family:Arial;}
 h3{color: #212121}
 .small-size{font-size: 16px;font-family:Arial;}
