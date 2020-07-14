@@ -92,8 +92,7 @@ class FormController extends CommonController
         return $this->render('/page/contactus_success',['data'=>$this->data]);
     }
     public function actionPostEmail(){
-
-
+        var_dump(Yii::$app->mailer->messageConfig);
         if(Yii::$app->request->isPost){
             $post = Yii::$app->request->post();
             $data = [

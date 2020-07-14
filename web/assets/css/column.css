@@ -101,7 +101,8 @@ h3{color: #212121}
 .column-common .button a{text-decoration:none;display: inline-block;width: 100%;}
 .column-common table{width: 100%;text-align: center;}
 .column-common table td{padding: 10px 0;}
-.column-common table .firstRow{background-color: #434040;color: #FFFFFF;}
+.column-common table .firstRow{background-color: #212121;color: #FFFFFF;}
+.column-common table tr{background-color: #EEEEEE;}
 .column-common table .firstRow p,.column-common table .firstRow span{color: #FFFFFF;}
 .column-common .images-center{text-align: center}
 .column-common .images-center ul{overflow: hidden}
@@ -162,6 +163,7 @@ h3{color: #212121}
 .column-connecting .products ul li .item{padding: 27px;}
 .column-connecting .products ul li .item .text{height: 160px;}
 
+.fengxian {padding: 5px 0;}
 /*手机端样式*/
 @media screen and (max-width: 780px) {
     .big-size{font-size: 32px;font-family:Avillar;}
@@ -169,6 +171,8 @@ h3{color: #212121}
     .size2{font-size: 20px;font-family:Arial;}
     .size3{font-size: 20px;font-family:Arial;}
     .small-size{font-size: 20px;font-family:Arial;}
+
+    .column-best-18650 .products_18650 .item .text span a{font-size: 20px}
 
     .section{margin-top: 60px}
     .section80{margin-top: 60px}
