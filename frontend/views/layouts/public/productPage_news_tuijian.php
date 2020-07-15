@@ -84,6 +84,11 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
                         <div class="text"><span></span><a class="hover_a" target="_blank" href="/12v-lithium-battery/">12V Lithium Battery Guide</a></div>
                     </div>
                 </li>
+                <li>
+                    <div class="item">
+                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/connecting-batteries-in-parallel-and-series/">Connecting Lithium Batteries In Parallel And Series</a></div>
+                    </div>
+                </li>
             </ul>
         </div>
     </li>

@@ -523,6 +523,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                                     <li>
                                         <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/12v-lithium-battery/" title="12V Lithium Battery Guide">12V Lithium Battery Guide</a></div></div>
                                     </li>
+                                    <li>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/connecting-batteries-in-parallel-and-series/" title="Connecting Lithium Batteries In Parallel And Series">Connecting Lithium Batteries In Parallel And Series</a></div></div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

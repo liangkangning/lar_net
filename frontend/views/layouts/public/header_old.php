@@ -101,7 +101,7 @@
                         <?php if (count($value->nextNav)>0):?>
                             <div id="<?=$value['name']?>" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="<?=$value['name']?>">
                                 <div class="container navigation-down-inner">
-                                    <div class="hidden-xs col-sm-3 part_top">
+                                    <div class="hidden-xs col-sm-2 part_top">
                                         <a href="<?= empty($value['url'])?\common\helpers\UrlHelp::Tohmtl($value['name']):$value['url']?>" class="size2"><?=$value['title']?></a>
                                     </div>
                                     <?php foreach ($value->nextNav as $k=>$v):?>
@@ -119,9 +119,9 @@
                                     <?php endforeach; ?>
 
                                     <?php if ($value['name']=='news'): ?>
-                                    <div class="hidden-xs col-sm-5 ">
-                                        <div class="col-sm-6 part_top"><a href="javascript:void(0)" class="size2">Battery Guide</a></div>
-                                        <div class="col-sm-6">
+                                    <div class="hidden-xs col-sm-7 ">
+                                        <div class="col-sm-5 part_top"><a href="javascript:void(0)" class="size2">Battery Guide</a></div>
+                                        <div class="col-sm-7">
                                             <div class="hidden-xs col-sm-12 ">
                                                 <a href="/best-18650-lithium-battery-pack/" target="_blank" class="size4 col-sm-12">Best 18650 Lithium Battery Pack</a>
                                             </div>
@@ -139,6 +139,9 @@
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
                                                 <a href="/12v-lithium-battery/" target="_blank" class="size4 col-sm-12">12V Lithium Battery Guide</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/connecting-batteries-in-parallel-and-series/" target="_blank" class="size4 col-sm-12">Connecting Lithium Batteries In Parallel And Series</a>
                                             </div>
                                         </div>
                                     </div>
