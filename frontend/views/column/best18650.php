@@ -212,7 +212,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section" id="the-best-18650-lithium-battery-charger"><h3>3.The Best 18650 Lithium Battery Charger</h3></div>
+                <div class="link_title size2 section55" id="the-best-18650-lithium-battery-charger"><h3>3.The Best 18650 Lithium Battery Charger</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         An 18650 lithium battery charger is specially used to charge an 18650 battery. Lithium battery has high demand on charger. It needs a protection circuit, so the lithium battery charger usually has higher more precise of control. It can charge athe lithium battery with a constant current and constant voltage.
