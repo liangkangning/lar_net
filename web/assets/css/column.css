@@ -65,7 +65,7 @@ h3{color: #212121}
 .column-common .link_title{width: 100%;float: left}
 .column-common .img{width: 100%;overflow: hidden}
 .column-common .img img{max-width: 100%;overflow: hidden}
-.column-common .common_title{border-bottom: 1px solid #212121}
+.column-common .common_title{border-bottom: 1px solid #212121;width: 100%;float: left}
 .column-common .common_title h1,.column-common .common_title h2{border-bottom: 1px solid #212121;font-weight: normal;}
 .column-common .two-list{width: 100%;overflow: hidden}
 .column-best-18650 .products_18650 .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;line-height: 1.2}

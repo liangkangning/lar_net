@@ -183,6 +183,11 @@ return [
                     'suffix' => '/',
                 ],
                 [
+                    'pattern' => '48v-lithium-battery-guide',
+                    'route' => 'column/lithium48v',
+                    'suffix' => '/',
+                ],
+                [
                     'pattern' => 'connecting-batteries-in-parallel-and-series',
                     'route' => 'column/connecting-lithium',
                     'suffix' => '/',

@@ -86,6 +86,14 @@ class ColumnController extends CommonController
         return $this->render('lithium12v');
     }
 
+    public function actionLithium48v(){
+        parent::common();
+        $this->view->params['meta_title']='48V Battery,48V Lithium Ion Battery Pack | Large Power';
+        $this->view->params['keywords']='48v battery,48v lithium ion battery,48v lithium battery pack';
+        $this->view->params['description']='How much is 48V lithium ion battery? How do you charge 48V lithium ion battery properly?What are the differences between 48V lithium ion battery and 48V lead acid battery?';
+        return $this->render('lithium48v');
+    }
+
     public function actionConnectingLithium(){
         parent::common();
         $this->view->params['meta_title']='Connecting Lithium Batteries in Parallel and Series | Large Power';
