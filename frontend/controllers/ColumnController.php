@@ -57,7 +57,7 @@ class ColumnController extends CommonController
 
     public function actionLithiumGuide(){
         parent::common();
-        $this->view->params['meta_title']='Lithium Ion Battery Guide 2020, Best Lithium Ion Battery Pack | Large Power';
+        $this->view->params['meta_title']='Best Lithium Ion Battery Guide 2020, Lithium Ion Battery Pack | Large Power';
         $this->view->params['keywords']='lithium battery,best lithium ion battery, Lithium Battery Pack';
         $this->view->params['description']='What are the characteristics and applications of lithium ion battery? Best lithium ion battery pack recommended.';
         return $this->render('lithiumGuide');
@@ -65,7 +65,7 @@ class ColumnController extends CommonController
 
     public function actionLithiumPolymer(){
         parent::common();
-        $this->view->params['meta_title']='LiPo Battery Guide,Best Lithium Polymer Battery Pack | Large Power';
+        $this->view->params['meta_title']='Best LiPo Battery Guide, Lithium Polymer Battery Pack | Large Power';
         $this->view->params['keywords']='LiPo battery,lithium polymer battery pack';
         $this->view->params['description']='What does LiPo battery mean? The difference between lithium polymer battery and li ion battery.';
         return $this->render('lithiumPolymer');
@@ -73,7 +73,7 @@ class ColumnController extends CommonController
 
     public function actionLifepo4Battery(){
         parent::common();
-        $this->view->params['meta_title']='Lifepo4 Battery Guide, Chinese LiFePO4 Battery Pack Manufacturer | Large Power';
+        $this->view->params['meta_title']='Best Lifepo4 Battery Guide, Chinese LiFePO4 Battery Pack Manufacturer | Large Power';
         $this->view->params['keywords']='best lifepo4 battery, liFePO4 battery pack';
         $this->view->params['description']='What is lifep04 battery? Is LiFePO4 the same as lithium ion? Recommend Chinese LiFePO4 battery manufacturer.';
         return $this->render('lifepo4Battery');

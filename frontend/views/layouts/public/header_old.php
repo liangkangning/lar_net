@@ -129,16 +129,19 @@
                                                 <a href="/cylindrical-lithium-ion-battery/" target="_blank" class="size4 col-sm-12">Cylindrical Lithium Ion Battery</a>
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
-                                                <a href="/lithium-ion-battery-guide/" target="_blank" class="size4 col-sm-12">Lithium Ion Battery Guide</a>
+                                                <a href="/lithium-ion-battery-guide/" target="_blank" class="size4 col-sm-12">Best Lithium Ion Battery Guide</a>
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
-                                                <a href="/liPo-battery-guide/" target="_blank" class="size4 col-sm-12">LiPo Battery Guide</a>
+                                                <a href="/liPo-battery-guide/" target="_blank" class="size4 col-sm-12">Best LiPo Battery Guide</a>
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
-                                                <a href="/lifepo4-battery-guide/" target="_blank" class="size4 col-sm-12">Lifepo4 Battery Guide</a>
+                                                <a href="/lifepo4-battery-guide/" target="_blank" class="size4 col-sm-12">Best Lifepo4 Battery Guide</a>
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
                                                 <a href="/12v-lithium-battery/" target="_blank" class="size4 col-sm-12">12V Lithium Battery Guide</a>
+                                            </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/48v-lithium-battery-guide/" target="_blank" class="size4 col-sm-12">48V Lithium Ion Battery</a>
                                             </div>
                                             <div class="hidden-xs col-sm-12 section20">
                                                 <a href="/connecting-batteries-in-parallel-and-series/" target="_blank" class="size4 col-sm-12">Connecting Lithium Batteries In Parallel And Series</a>

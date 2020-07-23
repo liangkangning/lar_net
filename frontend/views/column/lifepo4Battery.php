@@ -496,7 +496,12 @@ $product_list = [
 
 
         <section class="bg_part">
-            <div class="common_title size1 section70 container" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Cycle Life and Factor</h2></div>
+            <div class="container">
+                <div class="common_title size1 section70 " id="basic-structure-of-18650">
+                    <h2 class="light1-5">LiFePO4 Battery Cycle Life and Factor</h2>
+                </div>
+            </div>
+
             <div class="getiao section60"></div>
             <div class="part1 pp">
                 <div class="container">

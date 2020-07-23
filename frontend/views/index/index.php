@@ -512,16 +512,19 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                                         <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/cylindrical-lithium-ion-battery/" title="Cylindrical Lithium Ion Battery">Cylindrical Lithium Ion Battery</a></div></div>
                                     </li>
                                     <li>
-                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/lithium-ion-battery-guide/" title="Lithium Ion Battery Guide">Lithium Ion Battery Guide</a></div></div>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/lithium-ion-battery-guide/" title="Best Lithium Ion Battery Guide">Best Lithium Ion Battery Guide</a></div></div>
                                     </li>
                                     <li>
-                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/liPo-battery-guide/" title="LiPo Battery Guide">LiPo Battery Guide</a></div></div>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/liPo-battery-guide/" title="Best LiPo Battery Guide">Best LiPo Battery Guide</a></div></div>
                                     </li>
                                     <li>
-                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/lifepo4-battery-guide/" title="Lifepo4 Battery Guide">Lifepo4 Battery Guide</a></div></div>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/lifepo4-battery-guide/" title="Lifepo4 Battery Guide">Best Lifepo4 Battery Guide</a></div></div>
                                     </li>
                                     <li>
                                         <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/12v-lithium-battery/" title="12V Lithium Battery Guide">12V Lithium Battery Guide</a></div></div>
+                                    </li>
+                                    <li>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/48v-lithium-battery-guide/" title="48V Lithium Ion Battery">48V Lithium Ion Battery</a></div></div>
                                     </li>
                                     <li>
                                         <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/connecting-batteries-in-parallel-and-series/" title="Connecting Lithium Batteries In Parallel And Series">Connecting Lithium Batteries In Parallel And Series</a></div></div>

@@ -318,6 +318,7 @@ $product_list = [
                         <li class="section20">Do not store in the place with great static electricity and magnetic field, otherwise, it is easy to destroy the battery safety protection device.</li>
                         <li class="section20">If the lithium ion battery has peculiar smell, heat, discoloration, deformation or any abnormality during use, storage or charging, remove the battery from the device or charger and stop using.</li>
                     </ul>
+                </div>
             </section>
 
             <section>
