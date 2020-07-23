@@ -38,7 +38,7 @@ $product_list = [
             <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_lifepo4_banner_m.jpg')?>" alt="Lifepo4 Battery Guide" title="Lifepo4 Battery Guide">
         </div>
         <div class="text center-text">
-            <h1 class="big-size">Lifepo4 Battery Guide</h1>
+            <h1 class="big-size">Best Lifepo4 Battery Guide</h1>
         </div>
     </div>
     <div class="col-md-12">
@@ -99,7 +99,7 @@ $product_list = [
 
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Chinese LiFePO4 Battery Manufacturers</h2></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Chinese LiFePO4 Battery Manufacturers</h2></div>
                 <div class="brand_list col-md-12">
                     <ul>
                         <li class="section40">

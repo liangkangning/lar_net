@@ -38,7 +38,7 @@ foreach ($products2 as &$product) {
             <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_polymer_banner_m.jpg')?>" alt="LiPo Battery Guide">
         </div>
         <div class="text center-text">
-            <h1 class="big-size">LiPo Battery Guide</h1>
+            <h1 class="big-size">Best LiPo Battery Guide</h1>
             <p class="size3 white_color section30 hidden-xs">
                 LiPo Battery is a kind of lithium ion battery, but compared with liquid lithium ion battery, <br>
                 it has many obvious advantages, such as high energy density,<br>
@@ -331,13 +331,13 @@ foreach ($products2 as &$product) {
                         <li class="col-md-5 col-xs-12">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_polymer_2.jpg" alt="Lithium Polymer Battery Connecting in Series(3S-1P)" title="Lithium Polymer Battery Connecting in Series(3S-1P)"></div>
-                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Series(3S-1P)</div>
+                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Series(3S1P)</div>
                             </div>
                         </li>
                         <li class="col-md-5 col-xs-12">
                             <div class="item">
                                 <div class="img"><img src="/static/images/column_polymer_3.jpg" alt="Lithium Polymer Battery Connecting in Parallel(1S-3P)" title="Lithium Polymer Battery Connecting in Parallel(1S-3P)"></div>
-                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Parallel(1S-3P)</div>
+                                <div class="text section20 text-center">Lithium Polymer Battery Connecting in Parallel(1S3P)</div>
                             </div>
                         </li>
                         <li class="col-md-1 col-xs-0"></li>
@@ -346,7 +346,7 @@ foreach ($products2 as &$product) {
             </section>
 
             <section>
-                <div class="size2 section60"><h2 class="light1-5">Recommended LiPo Battery Pack</h2></div>
+                <div class="size2 section60"><h2 class="light1-5">Best LiPo Battery Pack</h2></div>
                 <div class="products_list">
                     <ul>
                         <?php foreach ($products2 as $key=>$value):?>

@@ -18,15 +18,15 @@ $product_list = [
     ['title'=>'48V LiFePO4 Battery','img_url'=>'/static/images/column_48v_product_5.png','url'=>'/lifepo4-battery/list-136/',
         'des'=>'Outstanding safety<br>High thermal stability<br>Long cycle life'],
 
-    ['title'=>'48V Power Lithium Ion Battery ','img_url'=>'/static/images/column_48v_product_6.png','url'=>'/lithium-battery18650/list-136/',
-        'des'=>'High energy density<br>High volumetric specific energy<br>High-rate discharge'],
+    ['title'=>'48V Ternary Lithium Ion Battery ','img_url'=>'/static/images/column_48v_product_6.png','url'=>'/lithium-battery18650/list-136/',
+        'des'=>'Nice cycle performance<br>Low cost<br>High energy density'],
 
 
 
 ];
     //第二类产品
     $products = [];
-    $product_ids_1 = ['690','834','736'];
+    $product_ids_1 = ['1010','706','901'];
     foreach ($product_ids_1 as $id) {
         $products[] = common\models\Images::find()->where(['id' => $id])->one();
     }
@@ -58,7 +58,7 @@ $product_list = [
             <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_48v_banner_m.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
         </div>
         <div class="text center-text">
-            <h1 class="big-size">48V Lithium ion Battery</h1>
+            <h1 class="big-size">48V Lithium Ion Battery</h1>
         </div>
     </div>
     <div class="col-md-12">
@@ -95,19 +95,19 @@ $product_list = [
             </section>
 
             <section>
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium ion Battery Price</h2></div>
+                <div class="common_title size1 section80" ><h2 class="light1-5">Definition of 48V Lithium Ion Battery</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
-                        A 48V lithium ion battery is connected by multiple lithium cells in series and parallel. If a single cell is a 48-v lithium battery, the efficiency and life of the battery is not very If a single cell is a 48V lithium battery, the efficiency and life of the battery will be not so good.
+                        In general, the single battery cell on the market is around 3.7V, but in many cases, the operating voltage range is a little bit larger. It is obvious that the voltage is not enough to use. At this time, the battery pack that can improve voltage and modular battery are coming. In many high-voltage batteries, 48V lithium ion battery has been widely used.
                     </p>
                     <p class="section20">Compared with lead-acid battery, 48V lithium ion battery has advantages of small size, light weight, outstanding temperature adaptability, high charging and discharging efficiency, good safety and stability, long service life, energy saving and environmental protection.</p>
                     <p class="section20">According to the anode material, 48V lithium ion battery can be divided into ternary lithium battery, lithium iron phosphate battery, lithium titanate battery.</p>
                 </div>
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">Definition of 48V Lithium Ion Battery</h2></div>
+                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium Ion Battery Price</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
-                        In general, the single battery cell on the market is around 3.7V, but in many cases, the operating voltage range is a little bit larger. It is obvious that the voltage is not enough to use. At this time, the battery pack that can improve voltage and modular battery are coming. In many high-voltage batteries, 48V lithium ion battery has been widely used.
+                        A 48V lithium ion battery is connected by multiple lithium cells in series and parallel. If a single cell is a 48V lithium battery, the efficiency and life of the battery will be not so good.
                     </p>
 
                         <li class="section20 col-md-12">
@@ -121,7 +121,7 @@ $product_list = [
                 </div>
 
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium ion Battery Pack</h2></div>
+                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium Ion Battery Pack</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         48V Lithium Ion Battery Pack Model Table
@@ -248,7 +248,7 @@ $product_list = [
                     </ul>
                 </div>
 
-                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium ion Battery Charger</h2></div>
+                <div class="common_title size1 section80" ><h2 class="light1-5">48V Lithium Ion Battery Charger</h2></div>
                 <div class="common_p section55">
                     <p class="small-size">
                         A 48V lithium ion battery charger is designed to charge a lithium ion battery at a nominal voltage of 48V. Lithium ion battery has a high requirement on charger and needs protection circuit. Therefore, lithium ion battery charger usually has a high control precision and can charge lithium ion battery at constant current and constant voltage.
@@ -297,7 +297,7 @@ $product_list = [
                     </p>
                     <div class="img text-center section55"><img src="/static/images/column_48v_2.jpg" alt=""></div>
                 </div>
-                <div class="common_title size1 section55" ><h2 class="light1-5">The characteristics of 48V Lithium Ion Battery BMS</h2></div>
+                <div class="common_title size1 section55" ><h2 class="light1-5">The Characteristics of 48V Lithium Ion Battery BMS</h2></div>
                 <div class="common_p section30">
                     <ul>
                         <li>The li-ion battery management system is composed of CPU, voltage and temperature acquisition module, current acquisition module and communication interface module.</li>

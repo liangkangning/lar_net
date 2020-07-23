@@ -25,7 +25,7 @@ use common\models\Images; ?>
             <img class="visible-xs" src="<?=Yii::getAlias('@web/static/images/column_lithium_guide_banner_m.jpg')?>" alt="Lithium Ion Battery Guide">
         </div>
         <div class="text center-text">
-            <h1 class="big-size">Lithium Ion Battery Guide</h1>
+            <h1 class="big-size">Best Lithium Ion Battery Guide</h1>
            <p class="size3 white_color section30 hidden-xs">
 				Lithium ion battery is a kind of rechargeable battery which uses graphite or <br>
              other carbon materials as the negative electrode and <br>
@@ -385,8 +385,8 @@ use common\models\Images; ?>
             </section>
 
             <section>
-                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Recommended Lithium Ion Battery Brand</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Recommended 18650 Lithium Ion Battery Brand</h3></div>
+                <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Lithium Ion Battery Brand</h2></div>
+                <div class="link_title size2 section50" id="battery-cell"><h3>1.Best 18650 Lithium Ion Battery Brand</h3></div>
                 <div class="brand_list col-md-12">
                     <ul>
                         <div class="row">
@@ -551,7 +551,7 @@ use common\models\Images; ?>
                 </section>
 
 
-                <div class="table_title size2 section70">Recommended Special Lithium Ion Battery</div>
+                <div class="table_title size2 section70">Best Special Lithium Ion Battery</div>
                 <div class="products_list_other">
                     <ul class="ul_none">
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
