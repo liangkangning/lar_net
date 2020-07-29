@@ -1490,7 +1490,7 @@ footer .common_category_list .anchor ul{}
     .size5{font-size: 14px;line-height: 1.8}/*14PX */
 
     .common_left_padding{padding-left: 1rem}
-    .commom_left_right_padding{padding: 0 1rem}
+    .commom_left_right_padding{padding: 0 20px}
     .hmenu-canvas-background header{background-color: #FFFFFF}
     header{padding: 1rem 0.8rem;position: relative;margin: 0;border-bottom: 1px solid #dcdcdd;background-color: #FFFFFF}
     header .logo{width: 100%}
@@ -1509,6 +1509,8 @@ footer .common_category_list .anchor ul{}
         display: none;
     }
 
+    .breadCrumbs .content a{padding: 0 8px;font-size: 16px;}
+    .breadCrumbs .content a:first-child{padding-left: 0px;}
     .product_list{}
     .product_list .left_category{}
     .product_list .left_category ul{padding: 1rem}
