@@ -56,7 +56,7 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a Cylindrical Lithium Battery?</h2></div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Definition of Cylindrical Lithium Ion Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Definition of Cylindrical Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         Cylindrical lithium-ion battery is a lithium ion battery with cylindrical shape, so called cylindrical lithium-ion battery. According to the anode materials, cylindrical li-ion battery are divided into lithium cobalt oxides (LiCoO2), lithium manganese (LiMn2O4), lithium nickel manganese cobalt (LiNiMnCoO2 or NMC), lithium aluminum nickel cobalt (LiNiCoAlO2 or NCA), lithium iron phosphate (LiFePO4) and lithium titanate (Li4Ti5O12).
@@ -65,7 +65,7 @@ $product_list = [
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Structure of Cylindrical Lithium Ion Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Structure of Cylindrical Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         A typical cylindrical battery structure includes: case, cap, positive electrode, negative electrode, separator, electrolyte, PTC element, gasket, anti explosive valve, etc. Generally, the battery case is the negative electrode of the battery, and the cap is the positive electrode of the battery. The battery case is made of nickel steel plate.
@@ -74,7 +74,7 @@ $product_list = [
                 </div>
 
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Advantages of Cylindrical Lithium Ion Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Advantages of Cylindrical Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         Compared with lithium pouch cell and prismatic lithium battery, cylindrical lithium battery has the longest development time, high degree of standardization, mature technology, high yield and low cost.
@@ -194,21 +194,21 @@ $product_list = [
 
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Cylindrical Lithium Ion Battery Cell</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Cylindrical Lithium Ion Battery Cell</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         Battery cell is the smallest unit of the lithium ion battery pack, and it is also the energy storage unit. It must have a high energy density to store as much power as possible, so that the device can work for a long time. In addition, the life of the lithium ion battery cell is also the most critical factor. The damage of any one battery cell will affect the entire battery pack.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Lithium Ion Battery Module</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Lithium Ion Battery Module</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         Constitute multiple battery cells enclosed by the same battery case make a module. It connects to the outside by a uniform interface.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Lithium Ion Battery Pack</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Lithium Ion Battery Pack</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         When several modules are jointly controlled or managed by BMS and thermal management system, it is called lithium battery pack.
@@ -236,7 +236,7 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Battery Cell Safety Test Project</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="small-size">
                         In order to ensure the safety of cylindrical lithium battery, domestic and foreign organizations have formulated various corresponding safety testing standards for cylindrical lithium ion battery. The general testing standards generally divide the safety testing items into the following four categories:
                     </p>
@@ -252,12 +252,12 @@ $product_list = [
                 <div class="img_text section5">
                     <ul class="ul_none">
                         <div class="row">
-                            <li class="section50 col-md-6 col-sm-12">
+                            <li class="section60 col-md-6 col-sm-12">
                                 <div class="pic"><img src="/static/images/column_cylindrical_short.jpg" alt="Puncture"></div>
                                 <div class="title size2 section20">Puncture</div>
                                 <div class="text small-size section10 light1-5"><p>Place a fully charged cylindrical lithium ion battery cell on a plane. Use a steel needle with a diameter of 2.5~5mm to puncture the battery cell and maintain it for 10min. If the battery cell does not fire or explode, it passes the test.</p></div>
                             </li>
-                            <li class="section50 col-md-6 col-sm-12">
+                            <li class="section60 col-md-6 col-sm-12">
                                 <div class="pic"><img src="/static/images/column_cylindrical_impact.jpg" alt="Impact"></div>
                                 <div class="title size2 section20">Impact</div>
                                 <div class="text small-size section10 light1-5"><p>
@@ -267,7 +267,7 @@ $product_list = [
                         </div>
 
                         <div class="row">
-                            <li class="section50 col-md-6 col-sm-12">
+                            <li class="section60 col-md-6 col-sm-12">
                                 <div class="pic"><img src="/static/images/column_cylindrical_extrusion.jpg" alt="Extrusion"></div>
                                 <div class="title size2 section20">Extrusion</div>
                                 <div class="text small-size section10 light1-5">
@@ -276,7 +276,7 @@ $product_list = [
                                     </p>
                                 </div>
                             </li>
-                            <li class="section50 col-md-6 col-sm-12">
+                            <li class="section60 col-md-6 col-sm-12">
                                 <div class="pic"><img src="/static/images/column_cylindrical_forced.jpg" alt="Forced Discharge"></div>
                                 <div class="title size2 section20">Forced Discharge</div>
                                 <div class="text small-size section10 light1-5"><p>
@@ -285,14 +285,14 @@ $product_list = [
                             </li>
                         </div>
                        <div class="row">
-                           <li class="section50 col-md-6 col-sm-12">
+                           <li class="section60 col-md-6 col-sm-12">
                                <div class="pic"><img src="/static/images/column_cylindrical_overcharge.jpg" alt="Overcharge Test"></div>
                                <div class="title size2 section20">Overcharge Test</div>
                                <div class="text small-size section10 light1-5"><p>
                                        The cylindrical lithium battery cell is fully charged with 1C and overcharged with 10V 3C. When the overcharged battery cell voltage rises to a certain value, it will be stable for a period of time; when the overcharged battery cell voltage is close to a certain time, it will rise rapidly; when it rises to a certain limit, the cap of the battery cell will be pulled off, and the voltage will drop to 0V. If the battery cell does not fire or explode, it passes the test.
                                    </p></div>
                            </li>
-                           <li class="section50 col-md-6 col-sm-12">
+                           <li class="section60 col-md-6 col-sm-12">
                                <div class="pic"><img src="/static/images/column_cylindrical_short.jpg" alt="Short Circuit Test"></div>
                                <div class="title size2 section20">Short Circuit Test</div>
                                <div class="text small-size section10 light1-5"><p>
@@ -301,14 +301,14 @@ $product_list = [
                            </li>
                        </div>
                        <div class="row">
-                           <li class="section50 col-md-6 col-sm-12">
+                           <li class="section60 col-md-6 col-sm-12">
                                <div class="pic"><img src="/static/images/column_cylindrical_thermal.jpg" alt="Thermal Shock Test"></div>
                                <div class="title size2 section20">Thermal Shock Test</div>
                                <div class="text small-size section10 light1-5"><p>
                                        Place the fully charged cylindrical lithium ion battery cell in the high temperature cabinet, the temperature is raised to 130℃±2℃ at the rate of (5℃±2℃) /min, and keep the battery cell for 30min. If the battery cell does not fire or explode, it passes the test.
                                    </p></div>
                            </li>
-                           <li class="section50 col-md-6 col-sm-12">
+                           <li class="section60 col-md-6 col-sm-12">
                                <div class="pic"><img src="/static/images/column_cylindrical_combustion.jpg" alt="Combustion"></div>
                                <div class="title size2 section20">Combustion</div>
                                <div class="text small-size section10 light1-5"><p>
@@ -329,13 +329,13 @@ $product_list = [
                     </p>
                     <p class="small-size section10">Cylindrical battery has the longest development time, the most mature technology and a high degree of standardization. Cylindrical lithium battery has mature winding process, high degree of automation, stable quality and relatively low cost.</p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="size2">
                         Prismatic Lithium Ion Battery
                     </p>
                     <p class="small-size section10">The prismatic lithium ion battery usually refers to the aluminum or steel case prismatic battery. It has high market penetration rate, relatively simple structure, easy production process, light weight, and high relative energy density.</p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="size2">
                         Pouch Cell
                     </p>
@@ -351,7 +351,7 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Cylindrical Lithium Ion Battery Customization</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="small-size">
                         Lithium ion battery customization is for devices with special needs. The lithium ion battery products we use in daily life do not need to be customized. What need to be customized are those industrial-grade lithium ion batteries. Generally they have demand on lithium ion battery volume, capacity, protective measures, etc.
                     </p>
