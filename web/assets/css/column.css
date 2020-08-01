@@ -68,6 +68,8 @@ h3{color: #212121}
 .column-common .common_title{border-bottom: 1px solid #212121;width: 100%;float: left}
 .column-common .common_title h1,.column-common .common_title h2{border-bottom: 1px solid #212121;font-weight: normal;}
 .column-common .two-list{width: 100%;overflow: hidden}
+.column-common .two-list .left,.column-common .two-list .right{display: inline-block}
+
 .column-best-18650 .products_18650 .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;line-height: 1.2}
 
 .column-common .button-top-and-flat-top img{padding: 0 15px;}
@@ -176,6 +178,7 @@ h3{color: #212121}
 
     .column-best-18650 .products_18650 .item .text span a{font-size: 20px}
     .column-common .products_18650 ul li{margin-top: 60px;}
+    .column-common .products_18650 ul li:first-child{margin-top: 0px;}
     .section{margin-top: 60px}
     .section80{margin-top: 60px}
     .section70{margin-top: 60px}
@@ -187,6 +190,18 @@ h3{color: #212121}
     .section20{margin-top: 20px}
     .section10{margin-top: 10px}
     .section5{margin-top: 5px}
+
+    .m_section{margin-top: 60px}
+    .m_section80{margin-top: 80px}
+    .m_section70{margin-top: 70px}
+    .m_section60{margin-top: 60px}
+    .m_section55{margin-top: 55px}
+    .m_section50{margin-top: 50px}
+    .m_section40{margin-top: 40px}
+    .m_section30{margin-top: 30px}
+    .m_section20{margin-top: 20px}
+    .m_section10{margin-top: 10px}
+    .m_section5{margin-top: 5px}
 
     .column-common h1{font-weight: 300;padding: 0 30px;line-height: 1.5}
     .column-common .container{padding: 0 16px;}

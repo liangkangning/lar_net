@@ -118,7 +118,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
                                     <div class="text col-md-7">
-                                        <div class="des light1-8 section50"><p><?=$value['diy_content']?></p></div>
+                                        <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
                                     <?php if ($key%2!=0) :?>
@@ -230,7 +230,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 </div>
 
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <div class="img text-center"><img  src="/static/images/column_Battery_Charger.jpg" alt="18650 Lithium Battery Charger" title="18650 Lithium Battery Charger"></div>
                 </div>
 
@@ -252,7 +252,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <span class="black_color font-weight">Power 18650 Battery Cell</span><br>
                         A power battery does not have a high capacity. It is 2000-2400mah, <strong>but the discharge rate is large. It can reach more than 3C discharge, or even more than 10C</strong>. It is suitable for equipment that needs high current, such as power tools, vacuum cleaners, vaping, model airplane, swing cars, unicycles, etc.
                     </p>
-                    <div class="img section50 text-center"><img  src="/static/images/column_Battery_Type.jpg" alt="18650 Lithium Battery Cell" title="18650 Lithium Battery Cell"></div>
+                    <div class="img section60 text-center"><img  src="/static/images/column_Battery_Type.jpg" alt="18650 Lithium Battery Cell" title="18650 Lithium Battery Cell"></div>
                 </div>
 
 
@@ -307,14 +307,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="electrical-appliances"><h3>1.Electrical Appliances</h3></div>
+                <div class="link_title size2 section60" id="electrical-appliances"><h3>1.Electrical Appliances</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         According to the requirements of electrical appliances, size and characteristics of electrical consumption, choose the appropriate battery type and size to buy.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-brand"><h3>2.Battery Brand</h3></div>
+                <div class="link_title size2 section60" id="battery-brand"><h3>2.Battery Brand</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         At present, there are Panasonic/Sanyo, SONY, Samsung, LG and other world famous brands.
@@ -323,7 +323,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="nominal-capacity"><h3>3.Nominal Capacity</h3></div>
+                <div class="link_title size2 section60" id="nominal-capacity"><h3>3.Nominal Capacity</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         The nominal capacity of an 18650 battery will affect the battery life. The unit is "mAh". The higher the capacity, the better the battery life is.<br>
@@ -332,7 +332,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="charge-discharge-rate"><h3>4.Charge-discharge Rate (C-rate)</h3></div>
+                <div class="link_title size2 section60" id="charge-discharge-rate"><h3>4.Charge-discharge Rate (C-rate)</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         <span class="font-weight">Charge-discharge rate = charge-discharge current (A)/rated capacity (Ah)</span><br>
@@ -340,32 +340,32 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="internal-impedance"><h3>5.Internal impedance</h3></div>
+                <div class="link_title size2 section60" id="internal-impedance"><h3>5.Internal impedance</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         Internal impedance refers to battery self-consumption. The smaller the internal impedance, the better the discharge capacity is. Internal resistance will be written to general battery introduction page. Try not to buy batteries with internal impedance more than 100 mΩ.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="operating-temperature"><h3>6.Operating Temperature</h3></div>
+                <div class="link_title size2 section60" id="operating-temperature"><h3>6.Operating Temperature</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         Temperature is a major factor which affects 18650 lithium battery life. The higher the temperature, the faster the aging rate of the lithium battery will be, and the higher the temperature, the greater the damage suffered by the lithium battery will be.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="button-top-and-flat-top"><h3>7.Button Top and Flat Top</h3></div>
+                <div class="link_title size2 section60" id="button-top-and-flat-top"><h3>7.Button Top and Flat Top</h3></div>
                 <div class="common_p section20 button-top-and-flat-top"">
                 <p class="small-size">
                     The so-called button top and flat top are designed by various manufacturers according to their own assembly needs, battery safety, battery capacity and other factors, and there is no essential difference.
                 </p>
-                <div class="img section50 text-center">
+                <div class="img section60 text-center">
                     <img  src="/static/images/column_button-top-and-flat-top.jpg" alt="Button Top and Flat Top 18650">
-                    <img  src="/static/images/column_button-top-and-flat-top2.jpg" alt="Button Top and Flat Top 18650">
+                    <img  class="m_section60" src="/static/images/column_button-top-and-flat-top2.jpg" alt="Button Top and Flat Top 18650">
                 </div>
         </div>
 
-        <div class="link_title size2 section50" id="Protected-vs-unprotected-batteries"><h3>8.Protected vs. Unprotected Batteries</h3></div>
+        <div class="link_title size2 section60" id="Protected-vs-unprotected-batteries"><h3>8.Protected vs. Unprotected Batteries</h3></div>
         <div class="common_p section20">
             <p class="small-size">
                 The 18650 lithium battery with PCM is 4-6mm higher than the 18650 lithium battery without PCM. It is also slightly more expensive, but it is safer.<br>
@@ -378,20 +378,20 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
         <section class="section70">
             <div class="common_title size1" id="how-do-you-avoid"><h2 class="light1-5">How Do You Avoid Buying A Fake 18650 Lithium Battery?</h2></div>
-            <div class="common_p section50">
+            <div class="common_p section60">
                 <p class="small-size">
                     A 18650 battery is a common battery model. Some bad battery factories replace 18650 battery with counterfeit batteries, the following will tell you how to identify the fake 18650 lithium battery.
                 </p>
             </div>
 
-            <div class="link_title size2 section50" id="appearance"><h3>1.Appearance</h3></div>
+            <div class="link_title size2 section60" id="appearance"><h3>1.Appearance</h3></div>
             <div class="common_p section20">
                 <p class="small-size">
                     The 18650 battery has a beautiful appearance. The battery package is smooth and wrinkle-free, and all have a strict battery tracking mark. Detailed battery data can be seen in the code spraying mark on the battery membrane.
                 </p>
             </div>
 
-            <div class="link_title size2 section50" id="weight"><h3>2.Weight</h3></div>
+            <div class="link_title size2 section60" id="weight"><h3>2.Weight</h3></div>
             <div class="common_p section20">
                 <p class="small-size">
                     Weigh the batteries on an electronic scale, and then compare the weights.
@@ -399,19 +399,19 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
 
-            <div class="link_title size2 section50" id="voltage-measurement"><h3>3.Voltage Measurement</h3></div>
+            <div class="link_title size2 section60" id="voltage-measurement"><h3>3.Voltage Measurement</h3></div>
             <div class="common_p section20">
                 <p class="small-size">
                     The voltage of a the genuine 18650 battery is about 3.7V, while a fake 18650 battery doesn’t have a voltage, that is, the voltage of the fake battery is zero  (0V).
                 </p>
             </div>
 
-            <div class="link_title size2 section50" id="internal-impedance"><h3>4.Internal Impedance</h3></div>
+            <div class="link_title size2 section60" id="internal-impedance"><h3>4.Internal Impedance</h3></div>
             <div class="common_p section20">
                 <p class="small-size">
                     A counterfeit 18650 battery has no internal impedance or its resistance value is very small, while a genuine 18650 battery has internal impedance is usually around 20 mΩ.
                 </p>
-                <div class="img section50 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt="Battery Internal Impedance Tester" title="Battery Internal Impedance Tester"></div>
+                <div class="img section60 text-center"><img  src="/static/images/column_internal-impedance.jpg" alt="Battery Internal Impedance Tester" title="Battery Internal Impedance Tester"></div>
             </div>
         </section>
 
@@ -422,7 +422,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     The basic structure of lithium-ion battery is composed of four parts: the cell, the PCM, the cases and the lead/terminal.
                 </p>
             </div>
-            <div class="link_title size2 section50" id="battery-cell"><h3>1.Battery Cell</h3></div>
+            <div class="link_title size2 section60" id="battery-cell"><h3>1.Battery Cell</h3></div>
             <div class="common_p section30">
                 <p class="small-size">
                     The battery cell is the most important component of the battery. It is the carrier of energy conversion.<br>
@@ -431,7 +431,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </p>
             </div>
 
-            <div class="link_title size2 section50" id="pcm"><h3>2.PCM</h3></div>
+            <div class="link_title size2 section60" id="pcm"><h3>2.PCM</h3></div>
             <div class="common_p section30">
                 <p class="small-size">
                     The PCM is an electronic module used to protect the normal operation and prevent the unusual abnormal accidents.<br>
@@ -441,14 +441,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
                 </p>
             </div>
-            <div class="link_title size2 section50" id="lead-and-terminal"><h3>3.Lead and Terminal</h3></div>
+            <div class="link_title size2 section60" id="lead-and-terminal"><h3>3.Lead and Terminal</h3></div>
             <div class="common_p section30">
                 <p class="small-size">
                     This includes various specifications and brands from line #32 to line #10.<br>
                     It includes all kinds of terminal heads.<br>
                 </p>
             </div>
-            <div class="link_title size2 section50" id="battery-cases"><h3>4.Battery Cases</h3></div>
+            <div class="link_title size2 section60" id="battery-cases"><h3>4.Battery Cases</h3></div>
             <div class="common_p section30">
                 <p class="small-size">
                     The case is used to fix and seal the cell and PCM together, so as to complete the matching function with the main engine.<br>
@@ -460,16 +460,16 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
         </section>
         <section class="section80">
             <div class="common_title size1" id="lithium-battery-connection"><h2 class="light1-5">18650 Lithium Battery Connection</h2></div>
-            <div class="common_p section50">
+            <div class="common_p section60">
                 <p class="small-size">
                     In the actual use of batteries, high voltage and large current are often required, which need to connect several single batteries in series or parallel (or both), we call it battery pack. The 18650 lithium battery pack needs a certain standard.
                 </p>
 
-                <div class="link_title size2 section50" id="the-meaning-of-18650"><h3>1.The Meaning of 18650 Battery Pack in Series and Parallel</h3></div>
+                <div class="link_title size2 section60" id="the-meaning-of-18650"><h3>1.The Meaning of 18650 Battery Pack in Series and Parallel</h3></div>
                 <p class="small-size section20 col-md-12">
                     <strong>18650 battery in series:</strong> When multiple 18650 lithium batteries are connected in series, the battery pack voltage is the total of all battery voltage, but the capacity remains unchanged.
                 </p>
-                <div class="img section50 text-center col-md-12">
+                <div class="img section60 text-center col-md-12">
                     <img  src="/static/images/column_meaning_1.jpg" alt="Schematic Diagram of 18650-4S Connection">
                     <div class="text section20 gray_color">Schematic Diagram of 18650-4S Connection</div>
                 </div>
@@ -477,7 +477,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <p class="small-size section60">
                     <strong>18650 battery in parallel:</strong> If you connect multiple 18650 lithium batteries in parallel, you can get more power. The parallel connection of lithium battery keeps the voltage constant, while the capacity increases. The total capacity is the sum of the total capacity of all single lithium batteries.
                 </p>
-                <div class="img section50 text-center">
+                <div class="img section60 text-center">
                     <img  src="/static/images/column_meaning_2.jpg" alt="Schematic Diagram of 18650-4P Connection">
                     <div class="text section20 gray_color">Schematic Diagram of 18650-4P Connection</div>
                 </div>
@@ -485,14 +485,14 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <p class="small-size section60">
                     <strong>Series and parallel connection of 18650 battery:</strong> the method of series and the parallel connection is to connect several lithium batteries in series and then connect the battery packs in parallel. It not only improves the output voltage, but also the capacity.
                 </p>
-                <div class="img section50 text-center">
+                <div class="img section60 text-center">
                     <img  src="/static/images/column_meaning_3.jpg" alt="18650-2S2P Connection Diagram">
                     <div class="text section20 gray_color">18650-2S2P Connection Diagram</div>
                 </div>
             </div>
 
 
-            <div class="link_title size2 section50" id="precautions-for-series"><h3>2.Precautions for Series and Parallel Connection of 18650 Lithium Battery</h3></div>
+            <div class="link_title size2 section60" id="precautions-for-series"><h3>2.Precautions for Series and Parallel Connection of 18650 Lithium Battery</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
                     <li>Series and parallel connection of <a target="_blank" href="/">lithium batteries</a> need battery cell matching.<br>
@@ -506,7 +506,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
 
 
-            <div class="link_title size2 section50" id="precautions-for-series"><h3>3.Features of 18650 Lithium Battery Pack</h3></div>
+            <div class="link_title size2 section60" id="precautions-for-series"><h3>3.Features of 18650 Lithium Battery Pack</h3></div>
             <div class="p_ul section20">
                 <ul class="small-size light1-5">
                     <li>The battery pack requires a high degree of consistency (capacity, internal impedance, voltage, discharge curve, cycle life).</li>
