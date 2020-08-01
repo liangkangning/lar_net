@@ -141,7 +141,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </div>
                 </div>
 
-                <div class="link_title size2 section50" id="the-beast-18650-cell-battery-brands"><h3>2.The Best 18650 Battery Brands</h3></div>
+                <div class="link_title size2 section60" id="the-beast-18650-cell-battery-brands"><h3>2.The Best 18650 Battery Brands</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
