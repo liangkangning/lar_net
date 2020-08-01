@@ -102,7 +102,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="link_title size2 section50" id="the-best-18650-battery-cell"><h3>1.The Best 18650 Lithium Battery Cell</h3></div>
+                <div class="link_title size2 section60" id="the-best-18650-battery-cell"><h3>1.The Best 18650 Lithium Battery Cell</h3></div>
                 <div class="common_p section20">
                     <p class="small-size">
                         The 18650 battery is the most commonly used battery type in life and industry. No matter which manufacturer produces the 18650 lithium battery, the overall size is certain. The difference is that the maximum capacity and the highest energy density ratio.
@@ -131,7 +131,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
                 <?php endif;?>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="size2">
                         Top 18650 Lithium Battery Cell Model Meter
                     </p>
