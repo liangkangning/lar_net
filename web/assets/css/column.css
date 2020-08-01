@@ -85,7 +85,7 @@ h3{color: #212121}
 .column-common .products_list .item .title a{color: #231916}
 .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
 .column-common .products_list .item .button a{color: #FFFFFF}
-.column-common .products_18650{}
+.column-common .products_18650{width: 100%;float: left}
 .column-common .products_18650 ul{overflow: hidden;margin-left: -60px;list-style-type:none;padding-inline-start:0px}
 .column-common .products_18650 ul li{padding-left: 60px;}
 .column-common .products_18650 ul li .img{height: 270px;position: relative;display: block}
@@ -95,7 +95,7 @@ h3{color: #212121}
 .column-common .products_18650 ul li .sub_title{}
 .column-common .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
 .column-common .products_18650 ul li .button a{color: #FFFFFF}
-.column-common .products_18650 ul li p span{width: 100%;display: inline-block;}
+.column-common .products_18650 ul li p span{width: 100%;display: inline-block;color: #555555}
 
 
 .column-common .button{background-color: #FA9600}
