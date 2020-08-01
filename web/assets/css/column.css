@@ -82,9 +82,9 @@ h3{color: #212121}
 .column-common .products_list .item .text{padding-left: 60px;}
 .column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
 .column-common .products_list .item .text span{width: 100%;float: left;}
-.column-common .products_list .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list .item .text span a{color: #212121;font-size: 28px;margin-bottom: 10px;display: inline-block;}
 .column-common .products_list .item .title{max-width: 500px;}
-.column-common .products_list .item .title a{color: #231916}
+.column-common .products_list .item .title a{color: #212121}
 .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
 .column-common .products_list .item .button a{color: #FFFFFF}
 .column-common .products_18650{width: 100%;float: left}
@@ -132,9 +132,9 @@ h3{color: #212121}
 .column-common .products_list_other .item .text .des{overflow: hidden;width: 100%;}
 .column-common .products_list_other .item .text span{width: 100%;float: left;}
 .column-common .products_list_other .item .text span b{font-size: 20px;}
-.column-common .products_list_other .item .text span a{color: #231916;font-size: 28px;margin-bottom: 10px;display: inline-block;}
+.column-common .products_list_other .item .text span a{color: #212121;font-size: 28px;margin-bottom: 10px;display: inline-block;}
 .column-common .products_list_other .item .title{max-width: 500px;}
-.column-common .products_list_other .item .title a{color: #231916}
+.column-common .products_list_other .item .title a{color: #212121}
 .column-common .products_list_other .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
 .column-common .products_list_other .item .button a{color: #FFFFFF}
 .column-cylindrical .img_text li:nth-child(odd) {padding-right: 70px}
@@ -181,8 +181,13 @@ h3{color: #212121}
 
 
     .column-best-18650 .products_18650 ul li:first-child{margin-top: 30px;}
+    .column-common .products_list_other .item .text .des a{color: #212121;font-size: 20px;}
+    .column-common .products_list_other .item .text .des span{color: #555555}
 
+    .column-common .img_text{width: 100%;float: left;}
 
+    .column-cylindrical .img_text li:nth-child(odd){padding: 0px;}
+    .column-cylindrical .img_text li:nth-child(even){padding: 0px;}
     .section{margin-top: 60px}
     .section80{margin-top: 60px}
     .section70{margin-top: 60px}
@@ -208,6 +213,8 @@ h3{color: #212121}
     .m_section10{margin-top: 10px}
     .m_section5{margin-top: 5px}
 
+    .column-common .products_list_other .item .text span a{font-size: 16px;color: #555555;line-height: 1.8}
+    .column-common .products_list_other .product_img img{top: -65px;}
     .column-common h1{font-weight: 300;padding: 0 30px;line-height: 1.5}
     .column-common .container{padding: 0 16px;}
     .fengxian{width: 100%;float: left;}

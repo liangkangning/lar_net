@@ -169,19 +169,19 @@ $product_list = [
                     </p>
                     <div class="img-list section60">
                         <ul class="ul_li_padding ul_none">
-                            <li class="col-md-4">
+                            <li class="col-md-4 col-xs-12">
                                 <div class="item">
                                     <div class="img"><img src="/static/images/column_cylindrical_module_1.jpg" alt="Cell" title="Cell"></div>
                                     <div class="text section20 text-center">Cell</div>
                                 </div>
                             </li>
-                            <li class="col-md-4">
+                            <li class="col-md-4 col-xs-12 m_section30">
                                 <div class="item">
                                     <div class="img"><img src="/static/images/column_cylindrical_module_2.jpg" alt="Module" title="Module"></div>
                                     <div class="text section20 text-center">Module</div>
                                 </div>
                             </li>
-                            <li class="col-md-4">
+                            <li class="col-md-4 col-xs-12 m_section30">
                                 <div class="item">
                                     <div class="img"><img src="/static/images/column_cylindrical_module_3.jpg" alt="Pack" title="Pack"></div>
                                     <div class="text section20 text-center">Pack</div>
@@ -223,7 +223,7 @@ $product_list = [
                                 <div class="item">
                                     <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 "><p><?=$value['diy_content']?></p></div>
+                                        <div class="des light1-8 m_section30"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
 
@@ -240,7 +240,7 @@ $product_list = [
                     <p class="small-size">
                         In order to ensure the safety of cylindrical lithium battery, domestic and foreign organizations have formulated various corresponding safety testing standards for cylindrical lithium ion battery. The general testing standards generally divide the safety testing items into the following four categories:
                     </p>
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li><strong>Electrical test</strong>: over charge, over discharge, external short circuit, forced discharge, etc.</li>
                             <li><strong>Mechanical test</strong>: extrusion, puncture, impact, vibration, drop, etc.</li>
