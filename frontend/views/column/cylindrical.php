@@ -31,7 +31,7 @@ $product_list = [
     </div>
     <div class="col-md-12">
         <div class="container">
-            <section>
+            <section class="section30">
                 <div class="products_list_other">
                     <ul class="ul_li_padding">
                         <?php foreach ($product_list as $key=>$value):?>
