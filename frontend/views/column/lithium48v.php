@@ -225,7 +225,7 @@ $product_list = [
                 </div>
             </section>
             <section>
-                <div class="link_title size2 section" id="battery-cell"><h3>12V Large Capacity Lithium Battery Recommendation</h3></div>
+                <div class="link_title size2 section" id="battery-cell"><h3>48V Lithium Ion Battery Pack Recommendation</h3></div>
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
@@ -257,7 +257,7 @@ $product_list = [
                         Li-ion battery charger has overvoltage protection and temperature protection. It is externally connected with current-limiting type charging power supply and P-channel mosfet, which can carry out safe and effective quick charging for single li-ion battery cell. The biggest characteristic is that it can achieve very low power dissipation without inductance. It has 8-pin μMAX package. The charging control precision reaches 0.75%, which can realize pre-charging. The maximum charging time limit provides secondary protection for lithium ion battery. The floating charging mode of lithium ion battery charger can maximize the battery capacity.
                     </p>
                 </div>
-                <div class="link_title size2 section50" ><h3>Two Lithium Batteries Connected in Series</h3></div>
+                <div class="link_title size2 section50" ><h3>47.5V 4A LiFePO4 Battery Charger</h3></div>
 
                 <div class="common_p section30">
                     <ul class="light1-8">
@@ -269,7 +269,7 @@ $product_list = [
                         <li><strong>Product weight：</strong>0.8kg/pcs</li>
                         <li><strong>Safety standard：</strong>UL1012 IEC60335 IEC61558</li>
                         <li><strong>Passed certificate：</strong>UL、cUL、GS、CE、ROHS、REACH、SAA、PSE、CCC</li>
-                        <li><strong>Product features:</strong> reverse connection/overload/overcurrent/short circuit/high temperature automatic protection, dual-track charging, automatic </li>
+                        <li><strong>Product features:</strong>reverse connection/overload/overcurrent/short circuit/high temperature automatic protection, dual-track charging, automatic capture and track of battery voltage, locking charging current, temperature rise sensor, step down stay, discolor LED displaying charging status</li>
                     </ul>
                 </div>
                 <div class="common_p section30">
@@ -318,7 +318,6 @@ $product_list = [
                         <li class="section20">Do not store in the place with great static electricity and magnetic field, otherwise, it is easy to destroy the battery safety protection device.</li>
                         <li class="section20">If the lithium ion battery has peculiar smell, heat, discoloration, deformation or any abnormality during use, storage or charging, remove the battery from the device or charger and stop using.</li>
                     </ul>
-                </div>
             </section>
 
             <section>
