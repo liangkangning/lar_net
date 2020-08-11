@@ -119,6 +119,13 @@ h3{color: #212121}
 .column-common .brand_list{}
 .column-common .brand_list ul{list-style-type: none;padding-inline-start:0px;overflow: hidden}
 .column-common .brand_list ul li{width: 20%;float: left;text-align: center;}
+.column-common .brand_list ul li .img img{border: 1px solid #DCDCDD}
+.column-common .brand_list ul li .text{margin-top: 10px;}
+
+.column-lithium-guide .brand_list li{margin-right: 17px;}
+
+.column-lithium-guide table.technology ul{padding: 15px 15px 15px 45px;}
+.column-lithium-guide table.technology li p{text-align: left;line-height: 1.8}
 /*圆柱电池*/
 
 .column-common .p_ul{width: 100%;float: left}
