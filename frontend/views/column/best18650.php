@@ -135,9 +135,13 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p class="size2">
                         Top 18650 Lithium Battery Cell Model Meter
                     </p>
-                    <div class="img section20">
+                    <div class="img section20 ">
+                        <section class="tabel-section">
+
+
                         <?php $this->beginContent('@app/views/column/best18650Table.php') ?>
                         <?php $this->endContent() ?>
+                        </section>
                     </div>
                 </div>
 

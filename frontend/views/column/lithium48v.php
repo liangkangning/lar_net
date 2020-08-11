@@ -127,7 +127,7 @@ $product_list = [
                         48V Lithium Ion Battery Pack Model Table
                     </p>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section20 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">

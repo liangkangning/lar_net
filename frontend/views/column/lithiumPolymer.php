@@ -94,7 +94,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Cell Model</h2></div>
-                <section class="section30">
+                <section class="section30 tabel-section">
                     <?php $this->beginContent('@app/views/column/polymerTable.php') ?>
                     <?php $this->endContent() ?>
                 </section>

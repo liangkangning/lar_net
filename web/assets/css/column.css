@@ -54,6 +54,8 @@ h3{color: #212121}
     padding-inline-start: 17px;}
 .column-common .ul_none{list-style-type: none;padding-inline-start:0px}
 .column-common section{width: 100%;overflow: hidden;float: left}
+.column-common section.tabel-section,.column-common section .tabel-section{
+    overflow: visible; overflow-y:hidden;}
 .column-common h1{color: #FFFFFF}
 .column-common a{color: #FA9600;}
 .column-common a:hover{text-decoration: underline;}
@@ -181,7 +183,7 @@ h3{color: #212121}
 /*手机端样式*/
 @media screen and (max-width: 780px) {
     .big-size{font-size: 32px;font-family:Avillar;}
-    .size1{font-size: 24px;font-family:Avillar;}
+    .size1,.size1 h2{font-size: 24px;font-family:Avillar;}
     .size2{font-size: 20px;font-family:Arial;}
     .size3{font-size: 20px;font-family:Arial;}
     .small-size{font-size: 16px;font-family:Arial;}

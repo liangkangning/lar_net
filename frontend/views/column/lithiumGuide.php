@@ -276,7 +276,7 @@ use common\models\Images; ?>
                 </div>
 
                 <div class="table_title size2 section50">The material characteristics of the anode of lithium ion battery are compared as follows:</div>
-               <section class="section30">
+               <section class="section30 tabel-section">
                    <table cellspacing="0" width="100%" class="table-bordered">
                        <tbody>
                        <tr class="firstRow">
@@ -470,7 +470,7 @@ use common\models\Images; ?>
                 </div>
 
                 <div class="table_title size2 section50">LARGE Special Lithium Ion Battery Core Technology</div>
-                <section class="section30">
+                <section class="section30 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered technology">
                         <tbody>
                         <tr class="firstRow">

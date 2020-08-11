@@ -285,7 +285,7 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Vs Lithium Ion Battery</h2></div>
-                <div class="section30">
+                <section class="section30 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
@@ -360,7 +360,7 @@ $product_list = [
                         </tr>
                         </tbody>
                     </table>
-                </div>
+                </section>
             </section>
 
 
