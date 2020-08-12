@@ -2,6 +2,7 @@
 
 namespace backend\models\search;
 
+use common\helpers\Convert;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
@@ -49,6 +50,12 @@ class ArticleSearch extends Article
                 'pageSize' => 10,
             ],
         ]);
+
+        $conver = new Convert();
+        $id = $params['ArticleSearch']['id'];
+        if ($id){
+            $params['ArticleSearch']['id'] = $conver->stringToId($id);
+        }
 
         $this->load($params);
 
