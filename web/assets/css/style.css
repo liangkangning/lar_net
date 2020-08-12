@@ -1595,6 +1595,9 @@ footer .common_category_list .anchor ul{}
     .news_item .right_part .zhuti .title{margin: 1rem 0 1rem 0}
     .news_item .right_part .zhuti .fengxian{margin: 1rem 0}
     .news_item .right_part .zhuti .content p{}
+    .news_item .right_part .zhuti .content p a{color: #a98326}
+    .news_item .right_part .zhuti .content p a:hover{color: #FA9600}
+
     .news_item .right_part .next_one{padding: 1rem 1rem;border-top: 0.0625rem solid #DCDCDD;}
     .news_item .solutions_common .title{border-bottom: 0}
     .yanfa .p1 .purpose .right{padding: 0}
