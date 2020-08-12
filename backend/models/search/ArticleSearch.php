@@ -20,7 +20,7 @@ class ArticleSearch extends Article
     {
         return [
             [['category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status'], 'integer'],
-            [['name', 'title', 'cover', 'description', 'content', 'extend', 'link'], 'safe'],
+            [['id','name', 'title', 'cover', 'description', 'content', 'extend', 'link'], 'safe'],
         ];
     }
 
@@ -56,9 +56,8 @@ class ArticleSearch extends Article
         if ($id){
             $params['ArticleSearch']['id'] = $conver->stringToId($id);
         }
-
+		
         $this->load($params);
-
         if (!$this->validate()) {
             // uncomment the following line if you do not want to return any records when validation fails
             // $query->where('0=1');
