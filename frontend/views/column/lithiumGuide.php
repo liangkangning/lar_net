@@ -657,7 +657,10 @@ use common\models\Images; ?>
                         The cycle life of a lithium ion battery is generally expressed by cycle number. One cycle represents a complete charge and discharge cycle of the lithium ion battery (that is, the lithium ion battery is charged from empty to full state and then discharged from full to empty state).
                     </p>
                 </div>
-                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_6.jpg" alt="Cycle characteristics"></div>
+                <div class="common_p">
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_6.jpg" alt="Cycle characteristics"></div>
+                </div>
+
                 <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
                         Note: Lithium ion battery has good cycle characteristics and can maintain about 80% capacity after 500 cycles.
@@ -672,8 +675,9 @@ use common\models\Images; ?>
                     <p class="small-size section20 light1-5">
                         <strong>Discharge Rate = Discharge Current/Rated Capacity</strong>
                     </p>
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_7.jpg" alt="Discharging load characteristics"></div>
                 </div>
-                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_7.jpg" alt="Discharging load characteristics"></div>
+
                 <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
                         Note: Because lithium ion battery has organic solvent electrolytes, the conductivity is typically only a few hundredths of that of lead-acid or alkaline battery electrolytes. Therefore, when the lithium ion battery is discharged at a high current, it is too late to replenish Li+ from the electrolyte, and then the voltage will reduce.
@@ -688,14 +692,16 @@ use common\models\Images; ?>
                     <p class="small-size section20 light1-5">
                         When lithium ion battery is at low temperature, the discharge platform has a certain reduction. When the temperature is high, the circulation performance of the battery will be affected, and the battery will slightly swell. Therefore, the battery is generally recommended to operate at 0-40℃.
                     </p>
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
                 </div>
-                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
+
                 <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
                         Low Temperature Discharge Characteristic Curve of Lithium Ion Battery
                     </p>
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
                 </div>
-                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
+
                 <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
                         High Temperature Discharge Characteristic Curve of Lithium Ion Battery
@@ -830,8 +836,9 @@ use common\models\Images; ?>
                             <li>Fill in dangerous goods declaration form and provide relevant dangerous packing certificate.</li>
                         </ul>
                     </div>
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
                 </div>
-                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
+
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Lithium Ion Battery Transportation Requirements：</h3></div>
                 <div class="common_p section20">
