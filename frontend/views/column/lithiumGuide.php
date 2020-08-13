@@ -121,7 +121,7 @@ use common\models\Images; ?>
                         <div class="item">
                             <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                             <div class="text col-md-7">
-                                <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
+                                <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
                                 <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ use common\models\Images; ?>
                             <div class="item">
                                 <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
-                                    <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
+                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
                                     <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ use common\models\Images; ?>
                             <div class="item">
                                 <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
-                                    <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
+                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
                                     <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
@@ -275,7 +275,7 @@ use common\models\Images; ?>
                     <p class="section5">Lithium nickel manganese cobalt is the key ternary anode material for lithium ion battery, which has higher specific capacity and lower cost than the other anode material.</p>
                 </div>
 
-                <div class="table_title size2 section50">The material characteristics of the anode of lithium ion battery are compared as follows:</div>
+                <div class="table_title size2 section60">The material characteristics of the anode of lithium ion battery are compared as follows:</div>
                <section class="section30 tabel-section">
                    <table cellspacing="0" width="100%" class="table-bordered">
                        <tbody>
@@ -368,7 +368,7 @@ use common\models\Images; ?>
                             <div class="item">
                                 <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
-                                    <div class="des light1-8 section50"><p><?=$value['diyContentUrl']?></p></div>
+                                    <div class="des light1-8 section60"><p><?=$value['diyContentUrl']?></p></div>
                                     <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                 </div>
                             </div>
@@ -469,7 +469,7 @@ use common\models\Images; ?>
                     </ul>
                 </div>
 
-                <div class="table_title size2 section50">LARGE Special Lithium Ion Battery Core Technology</div>
+                <div class="table_title size2 section60">LARGE Special Lithium Ion Battery Core Technology</div>
                 <section class="section30 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered technology">
                         <tbody>
@@ -809,7 +809,7 @@ use common\models\Images; ?>
                     <p class="text-center">
                         Certification Details of Major Global Countries and Regions(Battery)
                     </p>
-                    <div class="img col-md-12 text-center section50"><img src="/static/images/column_lithium_guide_10.jpg" alt="Storage characteristics"></div>
+                    <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_10.jpg" alt="Storage characteristics"></div>
                 </div>
             </section>
 
@@ -831,7 +831,7 @@ use common\models\Images; ?>
                         </ul>
                     </div>
                 </div>
-                <div class="img col-md-12 text-center section50"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
+                <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Lithium Ion Battery Transportation Requirements：</h3></div>
                 <div class="common_p section20">

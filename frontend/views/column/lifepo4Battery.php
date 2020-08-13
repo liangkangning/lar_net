@@ -507,7 +507,7 @@ $product_list = [
                 <div class="container">
                     <div class="link_title size2 section20" id="battery-cell"><h3>1.LiFePO4 Battery Working at Room Temperature</h3></div>
                     <div class="row col-md-12">
-                        <ul class="ul_li_padding ul_none section50">
+                        <ul class="ul_li_padding ul_none section60">
                             <li class="col-md-4">
                                 <div class="title"><strong>Small Current Charge and Discharge</strong></div>
                                 <div class="text section20 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>

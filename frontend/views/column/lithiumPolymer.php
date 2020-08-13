@@ -140,7 +140,7 @@ foreach ($products2 as &$product) {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="part col-md-12 section50">
+                                    <div class="part col-md-12 section60">
                                         <div class="title col-md-12 size3 font-weight">Small thickness</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
@@ -149,7 +149,7 @@ foreach ($products2 as &$product) {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="part col-md-12 section50">
+                                    <div class="part col-md-12 section60">
                                         <div class="title col-md-12 size3 font-weight">Light weight</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
@@ -167,7 +167,7 @@ foreach ($products2 as &$product) {
                                     <div class="part col-md-12 section5">
                                         <div class="img"><a target="_blank" href=""><img src="/static/images/column_polymer_1.jpg" alt=""></a></div>
                                     </div>
-                                    <div class="part col-md-12 section50">
+                                    <div class="part col-md-12 section60">
                                         <div class="title col-md-12 size3 font-weight">No leakage</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
@@ -189,7 +189,7 @@ foreach ($products2 as &$product) {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="part col-md-12 section50">
+                                    <div class="part col-md-12 section60">
                                         <div class="title col-md-12 size3 font-weight">Small thickness</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
@@ -198,7 +198,7 @@ foreach ($products2 as &$product) {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="part col-md-12 section50">
+                                    <div class="part col-md-12 section60">
                                         <div class="title col-md-12 size3 font-weight">Light weight</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>

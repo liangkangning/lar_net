@@ -235,7 +235,7 @@ $product_list = [
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
                                     <div class="text col-md-7">
-                                        <div class="des light1-8 section50"><p><?=$value['diy_content']?></p></div>
+                                        <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
                                     <?php if ($key%2!=0) :?>
