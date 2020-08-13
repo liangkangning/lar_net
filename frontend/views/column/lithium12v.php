@@ -116,7 +116,7 @@ $product_list = [
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.12V Lithium Ion Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.12V Lithium Ion Battery</h3></div>
                 <div class="common_p section30">
                     <p class="small-size section5">
                         A 12V lithium-ion battery is connected in series by three or four lithium-ion batteries. The capacity of the battery pack depends on the capacity of a single cell, or the capacity of the batteries in parallel. It is a new kind of safe and environmental protection battery.
@@ -152,7 +152,7 @@ $product_list = [
                 </div>
 
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.12V LiFePO4 Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.12V LiFePO4 Battery</h3></div>
                 <div class="common_p section30">
                  <p>12V lithium iron phosphate battery is a battery pack consisting of four lithium iron phosphate cells connected in series. Lithium iron phosphate cell is a lithium cell using lithium iron phosphate (LiFePO4) as the positive electrode material. The nominal voltage is 3.2V, the maximum charging voltage of the single cell is less than 3.9V, and the minimum discharge voltage is more than 2.0V.</p>
                 </div>
@@ -170,7 +170,7 @@ $product_list = [
                 </div>
 
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.12V Lithium Polymer Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.12V Lithium Polymer Battery</h3></div>
                 <div class="common_p section30">
                     <p>Lithium polymer battery is developed on the basis of liquid lithium ion battery. Its anode and cathode materials are the same as liquid lithium ion battery, but it uses gel electrolyte and aluminum plastic film for outer packing. Polymer lithium battery is also known as LiPo battery.</p>
                     <p class="section10">12V lithium polymer battery has a nominal voltage of 12V and is widely used in digital products, power tools, special wearable devices, etc.</p>
@@ -188,7 +188,7 @@ $product_list = [
                     </ul>
                 </div>
 
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <div class="img"><img src="/static/images/column_12v_1.jpg" alt=""></div>
                 </div>
             </section>
@@ -251,7 +251,7 @@ $product_list = [
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>12V Large Capacity Lithium Battery Recommendation</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>12V Large Capacity Lithium Battery Recommendation</h3></div>
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
@@ -327,7 +327,7 @@ $product_list = [
                             </li>
                         </ul>
                     </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>12V Lithium Battery and Lead Acid Battery Charger</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>12V Lithium Battery and Lead Acid Battery Charger</h3></div>
                 <div class="common_p section30">
                     <p>
                         Lead acid battery charger is generally set to two or three stage charging mode. 12V lithium battery and lead acid battery voltage level is not matched. There are different kinds of lithium battery. Battery performance and battery PCM parameters may not be the same. Therefore, unlike lead acid batteries, there is no universal battery charger. Generally speaking, 12V lithium battery is equipped with a special charger, in order to protect the lithium battery, it is better to use the corresponding lithium battery special charger.

@@ -17,7 +17,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="container">
             <section>
-                <div class="link_title size2 section50" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
+                <div class="link_title size2 section60" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
                         <li class="col-md-3 section60">
@@ -80,7 +80,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         Due to the limited voltage and capacity of the single battery cell, the series and parallel connection is needed in the actual use to obtain higher voltage and capacity, so as to meet the actual power demand of the equipment.
                     </p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <ul>
                         <li>
                             <p>
@@ -119,7 +119,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <a href="https://www.large.net/lithium-ion-battery/list-161/">Lithium battery pack</a> technique refers to the processing, assembly and packaging of lithium battery pack. The process of assembling lithium cells together is called PACK, which can be a single battery or a lithium battery pack connected in series or parallel. The lithium battery pack usually consists of a plastic case, PCM, cell, output electrode, bonding sheet, and other insulating tape, double-coating tape, etc.
                     </p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <ul>
                         <li><p><strong>Lithium cell</strong>: The core of a finished battery</p></li>
                         <li><p><strong>PCM</strong>: Protection functions of over charge, over discharge, over current, short circuit, NTC intelligent temperature control.</p></li>
@@ -152,7 +152,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         The purpose of <a href="https://www.large.net/">lithium battery</a> matching is to ensure that every cell in the battery has consistent capacity, voltage and internal impedance, because inconsistent performances will make lithium battery have various parameters during using. Voltage imbalance will happen. After a long run, the battery will<strong> overcharge, over discharge, capacity lost, or even fire to explode.</strong>
                     </p>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Series and Parallel Connection Mode of Lithium Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Series and Parallel Connection Mode of Lithium Battery</h3></div>
                 <div class="common_p section30">
                     <p>
                        <strong>Two Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-118/">7.4V Lithium Battery</a>)
@@ -335,7 +335,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </div>
                 </div>
 
-                <div class="link_title size2 section50"><h3>2.Lithium Battery Wire/Terminal</h3></div>
+                <div class="link_title size2 section60"><h3>2.Lithium Battery Wire/Terminal</h3></div>
                 <div class="common_p section30">
                     <p>
                         The length of the plug and lead of the lithium battery pack can be customized according to the customer's electrical equipment.
@@ -343,7 +343,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <div class="img text-center section55"><img src="/static/images/column_connecting_3.jpg" alt="Lithium Battery Wire/Terminal"></div>
                 </div>
 
-                <div class="link_title size2 section50"><h3>3.Calculation Lithium Battery Connected in Series and Parallel</h3></div>
+                <div class="link_title size2 section60"><h3>3.Calculation Lithium Battery Connected in Series and Parallel</h3></div>
                 <div class="common_p section30">
                     <p>
                         We all know that lithium battery voltage increases after series connection, capacity increases after parallel connection, then how to calculate a lithium battery quantity of series or parallel connection, and how many cells?
@@ -475,7 +475,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70"><h2 class="light1-5">Lithium Battery Assembly Process</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p><strong>18650-3S6P/11.1V/15600mAh Lithium Battery Assembly Process</strong></p>
                 </div>
                 <div class="products section30 col-md-12">
@@ -607,7 +607,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </ul>
                 </div>
 
-                <div class="link_title size2 section50"><h3>1.Lithium Battery With Different Voltage Connected in Series</h3></div>
+                <div class="link_title size2 section60"><h3>1.Lithium Battery With Different Voltage Connected in Series</h3></div>
                 <div class="common_p section30">
                     <p>
                         Due to the consistency issue of lithium batteries, when the same system (such as ternary or lithium iron) is used for series or parallel connection, it is also necessary to select the batteries with the same voltage, internal impedance and capacity for matching. Batteries with different voltage platforms and different internal impedance used in series will cause a certain battery to be fully charged and discharged first in each cycle. If there is a PCM and no fault occurs, the capacity of the whole battery will be reduced.
@@ -661,7 +661,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </div>
                 </div>
 
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <ul>
                         <li>
                             <p>
@@ -694,7 +694,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70"><h2 class="light1-5">Lithium Batteries Charging in Series and Parallel</h2></div>
-                <div class="link_title size2 section50"><h3>1.Charging Lithium Batteries In Series</h3></div>
+                <div class="link_title size2 section60"><h3>1.Charging Lithium Batteries In Series</h3></div>
                 <div class="common_p section30">
                     <p>
                         At present, lithium battery tends to be charged in series, which is mainly due to its simple structure, low cost and easy realization. But as a result of different capacity, internal impedance, aging characteristics and self-discharge performance, when charge lithium battery in series, battery cell with the smallest capacity will be fully charged first, and at this point, the other battery cell is not full of electricity. If continue to charge in series, the fully charged battery cell may be overcharge.
@@ -704,7 +704,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                 </div>
 
-                <div class="link_title size2 section50"><h3>2.Charging Lithium Batteries In Parallel</h3></div>
+                <div class="link_title size2 section60"><h3>2.Charging Lithium Batteries In Parallel</h3></div>
                 <div class="common_p section30">
                     <p>
                         In parallel charging of lithium batteries, each lithium ion battery needs equalizing charge, otherwise, the performance and life of the whole lithium ion battery pack will be affected. Common charging equalization technologies include: constant shunt resistance equalizing charge, on-off shunt resistance equalizing charge, average battery voltage equalizing charge, switch capacitor equalizing charge, step-down converter equalizing charge, inductance equalizing charge, etc.
@@ -723,7 +723,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         After lithium ion batteries connecting in parallel, there will be a charging protection chip for lithium battery charging protection. Lithium battery manufacturers have fully considered the change characteristics of lithium battery in parallel before battery production. The above requirement of current design and choice of batteries are very important, so that users need to follow the instructions of parallel lithium batteries charging step by step, so as to avoid the possible damage for incorrect charge.
                     </p>
                 </div>
-                <div class="link_title size2 section50"><h3>3.Notes for Lithium Battery Charging</h3></div>
+                <div class="link_title size2 section60"><h3>3.Notes for Lithium Battery Charging</h3></div>
                 <div class="common_p section30">
                     <ul>
                         <li>Special charger must be used for lithium battery, or battery may not reach saturation state, affecting its performance.</li>

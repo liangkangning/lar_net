@@ -257,7 +257,7 @@ $product_list = [
                         Li-ion battery charger has overvoltage protection and temperature protection. It is externally connected with current-limiting type charging power supply and P-channel mosfet, which can carry out safe and effective quick charging for single li-ion battery cell. The biggest characteristic is that it can achieve very low power dissipation without inductance. It has 8-pin μMAX package. The charging control precision reaches 0.75%, which can realize pre-charging. The maximum charging time limit provides secondary protection for lithium ion battery. The floating charging mode of lithium ion battery charger can maximize the battery capacity.
                     </p>
                 </div>
-                <div class="link_title size2 section50" ><h3>47.5V 4A LiFePO4 Battery Charger</h3></div>
+                <div class="link_title size2 section60" ><h3>47.5V 4A LiFePO4 Battery Charger</h3></div>
 
                 <div class="common_p section30">
                     <ul class="light1-8">

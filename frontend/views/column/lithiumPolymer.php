@@ -102,7 +102,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Classification</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Structure</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Structure</h3></div>
                 <div class="common_p">
                     <p><li class="font-weight section20">Winding</li></p>
                     <p class="small-size section5">
@@ -114,7 +114,7 @@ foreach ($products2 as &$product) {
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Electrolyte</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Electrolyte</h3></div>
                 <div class="common_p section30">
                     <ul>
                         <li>Gel polymer electrolyte lithium ion battery adds additives in solid polymer electrolyte to improve ionic conductivity, so that the battery can be used at room temperature.</li>
@@ -218,7 +218,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Parameters</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Voltage</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Voltage</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -230,7 +230,7 @@ foreach ($products2 as &$product) {
                     </div>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Capacity</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
                 <div class="common_p section20">
                   <p>
                       The capacity of a lithium polymer battery depends on the thickness, width and length. It also depends on the material and size.<br>
@@ -239,14 +239,14 @@ foreach ($products2 as &$product) {
                   </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Internal Impedance</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Internal Impedance</h3></div>
                 <div class="common_p section20">
                     <p>
                         Internal impedance refers to the impedance encountered by the current flowing through the lithium ion battery when the lithium ion battery is working. It is mainly composed of electrode materials, electrolyte, separator impedance and the contact impedance of each part, which are affected by the size, structure and assembly of the battery.
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>4.Charge Rate</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4.Charge Rate</h3></div>
                 <div class="common_p section20">
                     <p>
                         <strong>Charge Rate = Charge Current/Rated Capacity</strong><br>
@@ -254,7 +254,7 @@ foreach ($products2 as &$product) {
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>5.Discharge Rate</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>5.Discharge Rate</h3></div>
                 <div class="common_p section20">
                     <p>
                         <strong>Discharge Rate=Discharge Current/Rated Capacity</strong><br>
@@ -275,10 +275,10 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Maintenance</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>The lithium polymer battery has a certain life. It doesn't mean that you can prolong battery life without using. Battery maintenance only has corresponding standards during using.</p>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Charging Standard</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Charging Standard</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -290,7 +290,7 @@ foreach ($products2 as &$product) {
                     </div>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Discharging Standard</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Discharging Standard</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -302,7 +302,7 @@ foreach ($products2 as &$product) {
                 </div>
 
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Storage Standard</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Storage Standard</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -318,10 +318,10 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Pack</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>The process of assembling lithium polymer battery cells is called PACK, which connects single battery or multiple cells into lithium ion battery modules in series and parallel.</p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>Lithium polymer battery pack consists of battery pack, bus bar, flexible connection, PCM, exterior package, output (including connector), highland barley paper, plastic holder and other auxiliary materials.</p>
                 </div>
 
@@ -366,13 +366,13 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Connector</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>Connector is commonly known as plug-in unit, plug and sockets, etc. It is used to connect power supply and signal device. There are wire to wire connector and wire to board connector.</p>
                 </div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <div class="img text-center"><img src="/static/images/column_polymer_4.jpg" alt=""></div>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>Common Battery Plug</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>Common Battery Plug</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -384,7 +384,7 @@ foreach ($products2 as &$product) {
                     </div>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>Common Model Airplane Plug</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>Common Model Airplane Plug</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -396,7 +396,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Swollen LiPo Battery</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.LiPo Battery Swollen Reasons</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.LiPo Battery Swollen Reasons</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -411,7 +411,7 @@ foreach ($products2 as &$product) {
                         </ul>
                     </div>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Repair and Application of Swollen Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Repair and Application of Swollen Battery</h3></div>
                 <div class="common_p">
                     <div class="p_ul section20">
                         <ul class=" small-size">
@@ -426,12 +426,12 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Disposal</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Use waste LiPo Batteries Properly to Avoid Environmental Pollution.</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Use waste LiPo Batteries Properly to Avoid Environmental Pollution.</h3></div>
                 <div class="common_p">
                     <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Main Hazardous Substances of Waste LiPo Battery</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Main Hazardous Substances of Waste LiPo Battery</h3></div>
                 <section class="section30">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
@@ -481,7 +481,7 @@ foreach ($products2 as &$product) {
                         </tbody>
                     </table>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>3.The Disposal Status of Waste LiPo Batteries in the World</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>3.The Disposal Status of Waste LiPo Batteries in the World</h3></div>
                     <div class="common_p">
                         <div class="p_ul section20">
                             <ul class=" small-size">
@@ -492,7 +492,7 @@ foreach ($products2 as &$product) {
                         </div>
                     </div>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>4.How to Dispose Waste LiPo Battery</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>4.How to Dispose Waste LiPo Battery</h3></div>
                     <div class="common_p">
                         <div class="p_ul section20">
                             <ul class=" small-size">
@@ -508,17 +508,17 @@ foreach ($products2 as &$product) {
 
                 <section>
                     <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Notes for Purchasing LiPo Batteries</h2></div>
-                    <div class="link_title size2 section50" id="battery-cell"><h3>1.Brand</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>1.Brand</h3></div>
                     <div class="common_p">
                         <p>When choosing lithium polymer batteries, we should search for well-known brands, so that the quality of batteries can be guaranteed. Although the price of many small brands in the market is cheap, the battery may have short life and poor quality.</p>
                     </div>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>2.Capacity</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
                     <div class="common_p">
                         <p>Check if the capacity is clearly marked. A battery pack without a clearly marked capacity (such as 1000mAh or 1000 MAH) may be a poor quality battery pack or a recovered battery pack without quality assurance.</p>
                     </div>
 
-                    <div class="link_title size2 section50" id="battery-cell"><h3>3.PCM</h3></div>
+                    <div class="link_title size2 section60" id="battery-cell"><h3>3.PCM</h3></div>
                     <div class="common_p">
                         <p>Without a PCM, the lithium polymer battery has the risk of deformation and leakage. In the competitive market, companies have sought cheaper PCM, or omitted them, leaving lithium polymer batteries explosive risk on the market.</p>
                     </div>

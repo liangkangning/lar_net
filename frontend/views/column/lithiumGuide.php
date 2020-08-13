@@ -37,52 +37,52 @@ use common\models\Images; ?>
     <div class="col-md-12">
         <div class="container">
             <section class="section40">
-                <div class="link_title size2 section50" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
+                <div class="link_title size2 section60" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
-                        <li class="col-md-3 section30">
+                        <li class="col-md-3 section30 m_section30">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/low-temperature-battery/"><img src="/static/images/column_lithium_guide_category_1.jpg" alt="Low Temperature Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/low-temperature-battery/">Low Temperature Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section30">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/explosion-proof-battery/"><img src="/static/images/column_lithium_guide_category_2.jpg" alt="Explosion-proof Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/explosion-proof-battery/">Explosion-proof Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section30">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/lithium-power-battery/"><img src="/static/images/column_lithium_guide_category_3.jpg" alt="Lithium Power Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-power-battery/">Lithium Power Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section30">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/lifepo4-battery/"><img src="/static/images/column_lithium_guide_category_4.jpg" alt="LiFePO4 Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lifepo4-battery/">LiFePO4 Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section60 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/lithium-battery18650/"><img src="/static/images/column_lithium_guide_category_5.jpg" alt="18650 Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-battery18650/">18650 Lithium Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section60 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/"><img src="/static/images/column_lithium_guide_category_6.jpg" alt="Lithium Polymer Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-polymer-battery/">Lithium Polymer Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section60 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/energy-storage-battery/"><img src="/static/images/column_lithium_guide_category_7.jpg" alt="Energy Storage Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/energy-storage-battery/">Energy Storage Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section60 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="https://www.large.net/industrial-battery/"><img src="/static/images/column_lithium_guide_category_8.jpg" alt="Ternary Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="https://www.large.net/industrial-battery/">Ternary Lithium Battery</a></div>
@@ -95,7 +95,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Development</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <div class="p_ul">
                         <ul class=" small-size">
                             <li>The first patent for lithium-ion batteries was issued in 1981.</li>
@@ -108,7 +108,7 @@ use common\models\Images; ?>
             </section>
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Application</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1. Consumer Goods</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1. Consumer Goods</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         It is mainly used in digital products, mobile phones, portable power supplies, laptops and other electronic devices. 18650 lithium battery and lithium polymer battery are commonly used.
@@ -129,7 +129,7 @@ use common\models\Images; ?>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Industrial Field</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Industrial Field</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         It is mainly applied in the fields of medical electronics, photovoltaic energy storage, railway infrastructure, security communication, exploration and mapping, etc. Energy storage/power lithium battery, lithium iron phosphate battery, polymer lithium battery, 18650 lithium battery are commonly used.
@@ -150,7 +150,7 @@ use common\models\Images; ?>
                     </ul>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Special Use</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Use</h3></div>
                 <div class="common_p section30">
                     <p class="small-size">
                         It is mainly used in the fields of military police, aerospace, naval ships, satellite navigation, weapons, and high energy physics. Ultra-low temperature lithium ion battery, high temperature lithium ion battery, lithium titanate battery and explosion-proof lithium battery are commonly used.
@@ -174,7 +174,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Classification of Lithium Ion Batteries</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Appearance</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Appearance</h3></div>
                 <div class="common_p section20">
                     <div class="title"><strong>Cylindrical Lithium Ion Battery</strong></div>
                     <p class="small-size section5 light1-5">
@@ -208,7 +208,7 @@ use common\models\Images; ?>
                                     <div class="text text-center section30"><a target="_blank" href="https://www.large.net/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
                                 </div>
                             </li>
-                            <li>
+                            <li class="m_section50">
                                 <div class="item">
                                     <div class="img"><a target="_blank" href=""><img src="/static/images/column_lithium_guide_2.jpg" alt="Prismatic Lithium Ion Battery"></a></div>
                                     <div class="text text-center section30"><a target="_blank" href="https://www.large.net/lithium-ion-battery/list-146/">Prismatic Lithium Ion Battery</a></div>
@@ -218,7 +218,7 @@ use common\models\Images; ?>
                     </div>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Case</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Case</h3></div>
                 <div class="common_p section20">
                     <li class="title"><strong>Steel Case Lithium Ion Battery</strong></li>
                     <p class="small-size section5 light1-5">
@@ -376,7 +376,7 @@ use common\models\Images; ?>
                     </ul>
                 </div>
 
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <li class="title"><strong>All-solid-state Lithium Ion Battery</strong></li>
                     <p class="small-size section5 light1-5">
                         "All-solid-state lithium ion battery" is a kind of lithium battery with solid electrode and electrolyte materials used in the working temperature range and without any liquid components, so it is called "all-solid-state lithium ion battery with electrolyte".
@@ -386,7 +386,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Lithium Ion Battery Brand</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Best 18650 Lithium Ion Battery Brand</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Best 18650 Lithium Ion Battery Brand</h3></div>
                 <div class="brand_list col-md-12">
                     <ul>
                         <div class="row">
@@ -603,7 +603,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Parameters</h2></div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Voltage</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Voltage</h3></div>
                 <div class="common_p section20">
                     <li class="title"><strong>Nominal Voltage</strong></li>
                     <p class="small-size section5 light1-5">
@@ -637,7 +637,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Capacity</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
                         The capacity of a lithium ion battery under certain discharge conditions is called the capacity of a lithium ion battery and is represented by the symbol C. The commonly used unit is the ampere hour, or ampere-hour (Ah) or milliampere-hour (mAh) for short.
@@ -645,13 +645,13 @@ use common\models\Images; ?>
                         The capacity of lithium ion battery is affected by the anode material, battery temperature, discharge rate and voltage.
                     </p>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>3.Internal Impedance</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>3.Internal Impedance</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
                         The internal impedance of lithium ion battery refers to the impedance caused by the current passing through the lithium ion battery. The internal impedance will affect the voltage of lithium ion battery.
                     </p>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>4.Cycle life</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>4.Cycle life</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
                         The cycle life of a lithium ion battery is generally expressed by cycle number. One cycle represents a complete charge and discharge cycle of the lithium ion battery (that is, the lithium ion battery is charged from empty to full state and then discharged from full to empty state).
@@ -664,7 +664,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>5.Discharge Rate</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>5.Discharge Rate</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
                         Discharge rate refers to the current of lithium ion battery during discharge, which is generally expressed as C. The formula is as follows:
@@ -680,7 +680,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>6.Operating Temperature</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>6.Operating Temperature</h3></div>
                 <div class="common_p section20">
                     <p class="small-size section5 light1-5">
                         The operating temperature of lithium ion battery refers to temperature of the charging and discharging environment that lithium ion battery can adapt to.
@@ -690,13 +690,13 @@ use common\models\Images; ?>
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="small-size gray_color text-center ">
                         Low Temperature Discharge Characteristic Curve of Lithium Ion Battery
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="small-size gray_color text-center ">
                         High Temperature Discharge Characteristic Curve of Lithium Ion Battery
                     </p>
@@ -756,7 +756,7 @@ use common\models\Images; ?>
                 </section>
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Pack </h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="small-size light1-5">
                         Lithium ion battery pack mainly refers to the processing and assembly of lithium ion battery, which is mainly to process the battery cell, PCM, BMS, connector, label, holder, cases, lead and terminal into products according to customer’s requirements.
                     </p>
@@ -766,7 +766,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Safety Test</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>
                         The best lithium ion battery has to pass UL2054 safety standard (lithium ion battery) and has to finish the tests below:
                     </p>
@@ -800,7 +800,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Certification and Test Standard</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p class="text-center size2">
                         Product Certification
                     </p>
@@ -815,13 +815,13 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Transportation</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>
                         Lithium battery can be transported by air, by ship, or by vehicles and train. The most commonly used is air transport and marine transport.
                         Because lithium is a metal particularly prone to chemical reactions and combustion, improper lithium battery package and transportation may lead to combustion and explosion.
                     </p>
                 </div>
-                <div class="link_title size2 section50" id="battery-cell"><h3>1.Lithium Ion Battery Package Requirements：</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Lithium Ion Battery Package Requirements：</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
@@ -833,7 +833,7 @@ use common\models\Images; ?>
                 </div>
                 <div class="img col-md-12 text-center section50"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
 
-                <div class="link_title size2 section50" id="battery-cell"><h3>2.Lithium Ion Battery Transportation Requirements：</h3></div>
+                <div class="link_title size2 section60" id="battery-cell"><h3>2.Lithium Ion Battery Transportation Requirements：</h3></div>
                 <div class="common_p section20">
                     <div class="p_ul">
                         <ul class=" small-size">
@@ -848,7 +848,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery Price</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>
                         The price of single lithium ion battery cell is mainly influenced by brand and quality, while the price of lithium ion battery pack has affected by many factors：
                     </p>
@@ -869,7 +869,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">How to Use Lithium Ion Battery Properly</h2></div>
-                <div class="common_p section50">
+                <div class="common_p section60">
                     <p>
                         <strong>Storage of Lithium Ion Battery</strong> - The most critical storage conditions for lithium ion batteries are temperature and humidity. It is recommended to store battery at 20℃. Make sure the warehouse is moisture proof and humidity proof. Don't make lithium ion battery in a state of power loss. Do not extrude or impact the battery. Do not store battery in strong static or high magnetic field.
                     </p>

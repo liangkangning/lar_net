@@ -193,7 +193,8 @@ h3{color: #212121}
 
 
     .column-best-18650 .products_18650 ul li:first-child{margin-top: 30px;}
-    .column-common .products_list_other .item .text .des a{color: #212121;font-size: 20px;}
+    .column-common .products_list_other .item .text .des a{color: #212121;font-size: 20px;margin-top: 30px;margin-bottom: 7px;}
+    .column-common .products_list_other .item .text span b{color: #212121;font-size: 18px}
 
 
     .column-common .img_text{width: 100%;float: left;}
@@ -241,5 +242,21 @@ h3{color: #212121}
 
     .column-lifepo4 .bg_part .pp .col-md-12{float: left;margin-top: 30px;}
 
+    /*移动端的产品列表显示方式*/
+    .column-common .products_list{width: 100%;float: left}
+    .column-common .products_list ul{list-style-type: none;padding-inline-start:0px}
+    .column-common .products_list ul li{background-color: #EEEEEE;}
+    .column-common .products_list .item{overflow: hidden;}
+    .column-common .products_list .item .product_img{position: relative;height: 250px;overflow: hidden}
+    .column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -30px;}
+    .column-common .products_list .item .text{padding-left: 30px;}
+    .column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
+    .column-common .products_list .item .text .des p span{color: #555555}
+    .column-common .products_list .item .text span{width: 100%;float: left;}
+    .column-common .products_list .item .text span a{color: #212121;font-size: 20px;margin-bottom: 10px;display: inline-block;}
+    .column-common .products_list .item .title{max-width: 500px;}
+    .column-common .products_list .item .title a{color: #212121}
+    .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
+    .column-common .products_list .item .button a{color: #FFFFFF}
 
 }
