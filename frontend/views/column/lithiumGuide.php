@@ -36,8 +36,8 @@ use common\models\Images; ?>
 
     <div class="col-md-12">
         <div class="container">
-            <section class="section40">
-                <div class="link_title size2 section60" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
+            <section class="section m_section60">
+                <div class="link_title size2" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
                         <li class="col-md-3 section30 m_section30">
