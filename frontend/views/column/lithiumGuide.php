@@ -658,7 +658,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_6.jpg" alt="Cycle characteristics"></div>
-                <div class="common_p section60">
+                <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
                         Note: Lithium ion battery has good cycle characteristics and can maintain about 80% capacity after 500 cycles.
                     </p>
@@ -674,7 +674,7 @@ use common\models\Images; ?>
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_7.jpg" alt="Discharging load characteristics"></div>
-                <div class="common_p section60">
+                <div class="common_p section60 m_section30">
                     <p class="small-size light1-5">
                         Note: Because lithium ion battery has organic solvent electrolytes, the conductivity is typically only a few hundredths of that of lead-acid or alkaline battery electrolytes. Therefore, when the lithium ion battery is discharged at a high current, it is too late to replenish Li+ from the electrolyte, and then the voltage will reduce.
                     </p>
@@ -690,13 +690,13 @@ use common\models\Images; ?>
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_8.jpg" alt="Discharge temperature characteristics"></div>
-                <div class="common_p section60">
+                <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
                         Low Temperature Discharge Characteristic Curve of Lithium Ion Battery
                     </p>
                 </div>
                 <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_9.jpg" alt="Storage characteristics"></div>
-                <div class="common_p section60">
+                <div class="common_p section60 m_section30">
                     <p class="small-size gray_color text-center ">
                         High Temperature Discharge Characteristic Curve of Lithium Ion Battery
                     </p>
@@ -705,7 +705,7 @@ use common\models\Images; ?>
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Ion Battery and Lead Acid Battery, NI-MH Battery</h2></div>
-                <section class="section30">
+                <section class="section60">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">

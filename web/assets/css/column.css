@@ -66,7 +66,7 @@ h3{color: #212121}
 .column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden;float: left;}
 .column-common .common_p p,.column-common .common_p div{width: 100%;float: left;}
 .column-common .link_title{width: 100%;float: left}
-.column-common .img{width: 100%;overflow: hidden}
+.column-common .img{width: 100%;overflow: hidden;float: left;}
 .column-common .img img{max-width: 100%;overflow: hidden}
 .column-common .common_title{border-bottom: 1px solid #212121;width: 100%;float: left}
 .column-common .common_title h1,.column-common .common_title h2{border-bottom: 1px solid #212121;font-weight: normal;}
