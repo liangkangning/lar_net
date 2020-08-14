@@ -48,7 +48,7 @@ foreach ($products2 as &$product) {
     </div>
     <div class="col-md-12">
         <div class="container">
-            <section>
+            <section class="section30 m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
                             <div class="row">
@@ -94,7 +94,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Cell Model</h2></div>
-                <section class="section30 tabel-section">
+                <section class="section60 tabel-section">
                     <?php $this->beginContent('@app/views/column/polymerTable.php') ?>
                     <?php $this->endContent() ?>
                 </section>
@@ -132,7 +132,7 @@ foreach ($products2 as &$product) {
                             <li class="col-md-4">
                                 <div class="item">
                                     <div class="part col-md-12">
-                                        <div class="title col-md-12 size3 font-weight">High safety performance</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">High safety performance</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 Due to the polymer materials,<br>
@@ -141,7 +141,7 @@ foreach ($products2 as &$product) {
                                         </div>
                                     </div>
                                     <div class="part col-md-12 section60">
-                                        <div class="title col-md-12 size3 font-weight">Small thickness</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">Small thickness</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 With the capacity of 6V400mAh,<br>
@@ -150,7 +150,7 @@ foreach ($products2 as &$product) {
                                         </div>
                                     </div>
                                     <div class="part col-md-12 section60">
-                                        <div class="title col-md-12 size3 font-weight">Light weight</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">Light weight</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 40% lighter than the steel case<br>
@@ -168,7 +168,7 @@ foreach ($products2 as &$product) {
                                         <div class="img"><a target="_blank" href=""><img src="/static/images/column_polymer_1.jpg" alt=""></a></div>
                                     </div>
                                     <div class="part col-md-12 section60">
-                                        <div class="title col-md-12 size3 font-weight">No leakage</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">No leakage</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 Polymer battery contains no liquid electrolyte<br>
@@ -181,7 +181,7 @@ foreach ($products2 as &$product) {
                             <li class="col-md-4">
                                 <div class="item">
                                     <div class="part col-md-12">
-                                        <div class="title col-md-12 size3 font-weight">High safety performance</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">High safety performance</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 Due to the polymer materials,<br>
@@ -190,7 +190,7 @@ foreach ($products2 as &$product) {
                                         </div>
                                     </div>
                                     <div class="part col-md-12 section60">
-                                        <div class="title col-md-12 size3 font-weight">Small thickness</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">Small thickness</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 With the capacity of 6V400mAh,<br>
@@ -199,7 +199,7 @@ foreach ($products2 as &$product) {
                                         </div>
                                     </div>
                                     <div class="part col-md-12 section60">
-                                        <div class="title col-md-12 size3 font-weight">Light weight</div>
+                                        <div class="title col-md-12 size3 font-weight black_color">Light weight</div>
                                         <div class="text section5 col-md-12 light1-8">
                                             <p>
                                                 40% lighter than the steel case<br>
@@ -265,7 +265,7 @@ foreach ($products2 as &$product) {
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Comparison of LiPo Battery and Lithium Ion Battery</h2></div>
-                <section class="section30">
+                <section class="section60">
                     <?php $this->beginContent('@app/views/column/polymerTable2.php') ?>
                     <?php $this->endContent() ?>
                 </section>
@@ -427,7 +427,7 @@ foreach ($products2 as &$product) {
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Disposal</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Use waste LiPo Batteries Properly to Avoid Environmental Pollution.</h3></div>
-                <div class="common_p">
+                <div class="common_p section30">
                     <p>Lithium polymer batteries are considered to be a relatively environmentally friendly way of storing energy. However, if the discarded lithium polymer batteries are not recycled properly, they may cause environmental pollution.</p>
                 </div>
 
@@ -509,17 +509,17 @@ foreach ($products2 as &$product) {
                 <section>
                     <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Notes for Purchasing LiPo Batteries</h2></div>
                     <div class="link_title size2 section60" id="battery-cell"><h3>1.Brand</h3></div>
-                    <div class="common_p">
+                    <div class="common_p section30">
                         <p>When choosing lithium polymer batteries, we should search for well-known brands, so that the quality of batteries can be guaranteed. Although the price of many small brands in the market is cheap, the battery may have short life and poor quality.</p>
                     </div>
 
                     <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
-                    <div class="common_p">
+                    <div class="common_p section30">
                         <p>Check if the capacity is clearly marked. A battery pack without a clearly marked capacity (such as 1000mAh or 1000 MAH) may be a poor quality battery pack or a recovered battery pack without quality assurance.</p>
                     </div>
 
                     <div class="link_title size2 section60" id="battery-cell"><h3>3.PCM</h3></div>
-                    <div class="common_p">
+                    <div class="common_p section30">
                         <p>Without a PCM, the lithium polymer battery has the risk of deformation and leakage. In the competitive market, companies have sought cheaper PCM, or omitted them, leaving lithium polymer batteries explosive risk on the market.</p>
                     </div>
                 </section>
