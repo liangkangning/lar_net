@@ -21,7 +21,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <div class="row">
                             <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
                                 <?php if ($key<3):?>
-                                    <li class="col-md-4 section30">
+                                    <li class="col-md-4 section30 <?= $key==0?'':'m_section60'?>">
                                         <div class="item">
                                             <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>"></a></div>
                                             <div class="text section20 light1-8 ">

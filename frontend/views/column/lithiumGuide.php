@@ -837,6 +837,7 @@ use common\models\Images; ?>
                         </ul>
                     </div>
                     <div class="img col-md-12 text-center section60"><img src="/static/images/column_lithium_guide_11.jpg" alt="caution"></div>
+                    a'c'c
                 </div>
 
 
