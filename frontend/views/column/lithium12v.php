@@ -80,7 +80,7 @@ $product_list = [
 
                 </div>
             </section>
-            <section>
+            <section class="section30 m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
                                 <?php foreach ($product_list as $key=>$value):?>

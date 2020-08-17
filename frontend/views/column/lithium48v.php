@@ -66,7 +66,7 @@ $product_list = [
             <section>
                 <div class=" size2 section70" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
             </section>
-            <section>
+            <section class="section30 m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
                                 <?php foreach ($product_list as $key=>$value):?>

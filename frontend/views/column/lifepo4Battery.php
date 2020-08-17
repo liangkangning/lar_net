@@ -43,7 +43,7 @@ $product_list = [
     </div>
     <div class="col-md-12">
         <div class="container">
-            <section>
+            <section class="section30 m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
                                 <?php foreach ($product_list as $key=>$value):?>
@@ -163,33 +163,33 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Advantages</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Good Safety Performance</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                    <p>Due to the stability and reliable safety design of the positive electrode materials, the lithium iron phosphate battery pack has been passed rigorous safety tests, and will not explode even in violent collisions.</p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Long Cycle Life</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                   <p>
                       The 1C cycle life of lithium iron phosphate battery generally reaches 2000 times, even more than 3500 times. The energy storage market requires more than 4000-5000 times, which is higher than other types of lithium batteries.
                   </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Nice High Temperature Performance</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         The peak heat of lithium iron phosphate battery can reach 350~500℃. And it has wide working temperature range (-20~+75℃). Even under high temperature (60℃), it can still give off 100% capacity.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>4.Fast Charge</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         The battery can be fully charged by a dedicated charger after 40 minutes of 1.5C charging.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>5.Environmental Protection</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Lithium iron phosphate batteries are environmentally friendly, non-toxic, pollution-free, and cheap. It also has wide availability of raw materials.
                     </p>
@@ -200,7 +200,7 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Voltage & Capacity</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Voltage</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         The nominal voltage of the single lithium iron phosphate battery is 3.2V, the charging voltage is 3.6V, and the discharge cut-off voltage is 2.0V.
                     </p>
@@ -220,7 +220,7 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.LiFePO4 Battery Capacity</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>The capacity of lithium iron phosphate battery pack is determined by the capacity and number of the battery cells connected in parallel, generally according to the specific requirements of electrical equipment. The more lithium iron phosphate battery cells connected in parallel, the larger the capacity is.</p>
                     <p class="section10">Common lithium iron phosphate battery capacity has 10 ah, ah, ah, 40, 50, ah, ah, 100 200 ah, ah 400, etc.</p>
                 </div>
@@ -229,7 +229,7 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Structure and Working Principle of LiFePO4 Battery</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Structure</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         As shown in the figure, the left part is the olivine structure LiFePO4, the positive electrode of the battery. The aluminum foil is connected to the battery positive electrode and then polymer separator separates the positive and negative electrode, so that Li + and e - cannot pass the separator. The right part is battery cathode composed of carbon (graphite). The copper foil is connected to the battery cathode.
                     </p>
@@ -240,7 +240,7 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.LiFePO4 Battery Working Principle</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         When the LiFePO4 battery is charging, Li+ in the positive electrode migrates to the negative electrode through the polymer separator. In the discharge process, Li+ in the negative electrode migrates to the positive electrode through the separator. Lithium-ion batteries are named for the way lithium ions move back and forth during charge and discharge process.
                     </p>
@@ -250,14 +250,14 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Charger</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.LiFePO4 Battery Charging</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         The CCCV charging method is recommended for lithium iron phosphate battery pack, that is, constant current first and then constant voltage. Constant current recommendation is 0.3c, while constant voltage recommendation is 3.65V.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Is LiFePO4 Battery Charger the same as Lithium Ion </h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <div class="p_ul">
                         <ul class="small-size light1-8">
                            <li>Both battery charging methods are constant current and constant voltage (CCCV), but the constant voltage point is different.</li>
@@ -268,14 +268,14 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Charging LiFePO4 Batteries With Solar</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Solar panels cannot directly charge the lithium iron phosphate battery, because the voltage of the solar panel is unstable. It needs voltage regulation circuit and corresponding lithium iron phosphate battery charging circuit.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>4.Charging LiFePO4 Battery With Alternator</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         The generator cannot directly charge the lithium iron phosphate battery, because the electricity generated by the generator is alternating current or pulsed direct current. The lithium iron phosphate battery must be charged by direct current with constant voltage.
                     </p>
@@ -285,7 +285,7 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Vs Lithium Ion Battery</h2></div>
-                <section class="section30 tabel-section">
+                <section class="section60 tabel-section">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
@@ -372,8 +372,8 @@ $product_list = [
                         Affected by the structure, lithium iron phosphate and Ternary battery have their own advantages and disadvantages in performance. Ternary battery has advantages in energy density and fast charging speed, while lithium iron phosphate battery has advantages in cycle life, safety and economy.
                     </p>
                 </div>
-                <div class="link_title size2 section20" id="battery-cell"><h3>1.Material Comparison</h3></div>
-                <div class="common_p section20">
+                <div class="link_title size2 section60" id="battery-cell"><h3>1.Material Comparison</h3></div>
+                <div class="common_p section30">
                     <p>
                         The cathode, electrolyte and separator are similar in both types of batteries, but the biggest difference is the positive electrode material, hence the name.
                     </p>
@@ -411,7 +411,7 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Energy Density</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         As for the cell, ternary battery has higher energy density. The rated voltage and theoretical specific capacity (mAh/g) of lithium iron phosphate anode materials are all lower than those of ternary batteries, and their energy density has been the best.
                     </p>
@@ -454,7 +454,7 @@ $product_list = [
                         </tbody>
                     </table>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Note: The energy density of the cell should be evaluated in combination with the cell design and process. The table value is for reference only.
                     </p>
@@ -462,7 +462,7 @@ $product_list = [
 
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Charging Efficiency</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Ternary lithium batteries have a great advantage over lithium iron phosphate batteries in charging efficiency.
                     </p>
@@ -470,21 +470,21 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>4.Cycle Life</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Theoretically, lithium iron phosphate has advantages in cycle life. The olivine structure is more stable, is not easy to swell and has more stable electrochemical reaction.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>5.Safety</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Lithium iron phosphate batteries have incomparable advantages in safety. The positive electrode voltage is low, and there is no oxygen-releasing heat chain reaction that ternary has. The thermal stability temperature can reach above 300℃, while that of ternary battery is around 150-200℃.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>6.Economy</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Lithium iron phosphate LiFePO4 has obvious advantages on price at present, the raw materials are relatively cheap, and the domestic industry chain is relatively mature.
                     </p>
@@ -507,19 +507,25 @@ $product_list = [
                 <div class="container">
                     <div class="link_title size2 section20" id="battery-cell"><h3>1.LiFePO4 Battery Working at Room Temperature</h3></div>
                     <div class="row col-md-12">
-                        <ul class="ul_li_padding ul_none section60">
-                            <li class="col-md-4">
-                                <div class="title"><strong>Small Current Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
-                            </li>
+                        <ul class="ul_li_item_padding section60">
+                            <div class="item col-md-4">
+                                <li>
+                                    <div class="title"><strong>Small Current Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
+                                </li>
+                            </div>
+                            <div class="item col-md-4 m_section60">
+                                <li>
+                                    <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
+                                </li>
+                            </div>
+                            <div class="item col-md-4 m_section60">
+                                <li>
+                                    <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
+                                </li>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -533,19 +539,25 @@ $product_list = [
                         </p>
                     </div>
                     <div class="row col-md-12">
-                        <ul class="ul_li_padding ul_none section30">
-                            <li class="col-md-4">
-                                <div class="title"><strong>Small Current Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
-                                <div class="text section20 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
-                            </li>
+                        <ul class="section60 ul_li_item_padding">
+                            <div class="item col-md-4">
+                                <li>
+                                    <div class="title"><strong>Small Current Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
+                                </li>
+                            </div>
+                            <div class="item col-md-4 m_section60">
+                                <li>
+                                    <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
+                                </li>
+                            </div>
+                            <div class="item col-md-4 m_section60">
+                                <li>
+                                    <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
+                                    <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
+                                </li>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -553,7 +565,7 @@ $product_list = [
             <div class="part3 pp">
                 <div class="container">
                     <div class="link_title size2 section20" id="battery-cell"><h3>3.LiFePO4 Battery Working at Low Temperature</h3></div>
-                    <div class="common_p section20">
+                    <div class="common_p section30">
                         <p>
                             Low temperature has a larger impact on the performance of lithium iron phosphate batteries. According to the current market situation, the service life of lithium iron phosphate batteries operating below -20℃ to -40℃ is significantly reduced, and it is around 300 times.
                         </p>
