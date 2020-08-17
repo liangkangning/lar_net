@@ -398,7 +398,7 @@ foreach ($products2 as &$product) {
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Swollen LiPo Battery</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.LiPo Battery Swollen Reasons</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li><strong>Poor packaging</strong>: During the production process, air moisture enters into the cell, causing electrolyte decomposition and gas production.</li>
                             <li><strong>Excessive water content in the cell</strong>: In the manufacturing process, once the water content exceeds the standard, the electrolyte will decompose and produce gas.</li>
@@ -413,7 +413,7 @@ foreach ($products2 as &$product) {
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Repair and Application of Swollen Battery</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                           <li>If your phone battery is already swollen, use your finger to find the gap in the battery and poke a small hole in it to let the air out.</li>
                           <li>You can replace it with a new lithium polymer battery pack. Avoid overcharging during charging, which can not only protect the battery from damaging, but also lead to energy conservation and environmental protection.</li>
@@ -483,7 +483,7 @@ foreach ($products2 as &$product) {
 
                     <div class="link_title size2 section60" id="battery-cell"><h3>3.The Disposal Status of Waste LiPo Batteries in the World</h3></div>
                     <div class="common_p">
-                        <div class="p_ul section20">
+                        <div class="p_ul section30">
                             <ul class=" small-size">
                                <li>Germany and America has legislation, and begin to do all the collection and classification.</li>
                                <li>Japan implements the "3R Plan", which changes "mass production, mass consumption and mass waste" into "recycling, reduction and reuse".</li>
@@ -494,7 +494,7 @@ foreach ($products2 as &$product) {
 
                     <div class="link_title size2 section60" id="battery-cell"><h3>4.How to Dispose Waste LiPo Battery</h3></div>
                     <div class="common_p">
-                        <div class="p_ul section20">
+                        <div class="p_ul section30">
                             <ul class=" small-size">
                                 <li>If there is a waste battery recycling agency nearby, please send the waste battery to them.</li>
                                 <li>If there is no waste battery recycling agency nearby and the battery quantity is relatively large, you can contact the local environmental protection bureau or mail to the recycling agency in other cities.</li>
