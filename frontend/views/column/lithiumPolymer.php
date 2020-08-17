@@ -350,7 +350,7 @@ foreach ($products2 as &$product) {
                 <div class="products_list">
                     <ul>
                         <?php foreach ($products2 as $key=>$value):?>
-                        <li class="<?= $key==0?'section50':'section60' ?>">
+                        <li class="<?= $key==0?'section30':'section60' ?>">
                             <div class="item">
                                 <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                 <div class="text col-md-7">
