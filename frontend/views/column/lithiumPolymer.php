@@ -231,7 +231,7 @@ foreach ($products2 as &$product) {
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Capacity</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                   <p>
                       The capacity of a lithium polymer battery depends on the thickness, width and length. It also depends on the material and size.<br>
                       Fast estimation of polymer battery capacity, commonly used estimation formula (estimation only)：<br>
@@ -240,14 +240,14 @@ foreach ($products2 as &$product) {
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Internal Impedance</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         Internal impedance refers to the impedance encountered by the current flowing through the lithium ion battery when the lithium ion battery is working. It is mainly composed of electrode materials, electrolyte, separator impedance and the contact impedance of each part, which are affected by the size, structure and assembly of the battery.
                     </p>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>4.Charge Rate</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         <strong>Charge Rate = Charge Current/Rated Capacity</strong><br>
                         The maximum charging rate is the safest, but it is not the best charging rate. A lower charging rate can better extend the service life of the battery.
@@ -255,7 +255,7 @@ foreach ($products2 as &$product) {
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>5.Discharge Rate</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         <strong>Discharge Rate=Discharge Current/Rated Capacity</strong><br>
                         Discharge rate maintains safe discharge speed of the battery. In the specified time, the battery releases its rated capacity current, which is equal to the battery rated capacity multiple. Discharge rate is expressed by letter C.
