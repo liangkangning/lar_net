@@ -380,37 +380,40 @@ $product_list = [
                         The cathode, electrolyte and separator are similar in both types of batteries, but the biggest difference is the positive electrode material, hence the name.
                     </p>
                 </div>
-                <div class="section30 col-md-12">
-                    <table cellspacing="0" width="100%" class="table-bordered">
-                        <tbody>
-                        <tr class="firstRow">
-                            <td>Anode Material</td>
-                            <td>LiFePO4</td>
-                            <td>LiNixCoyMn1-x-yO2</td>
-                        </tr>
-                        <tr>
-                            <td>Shorthand</td>
-                            <td>LFP</td>
-                            <td>NCM</td>
-                        </tr>
-                        <tr>
-                            <td>Nominal Voltage</td>
-                            <td>3.2V</td>
-                            <td>3.65V</td>
-                        </tr>
-                        <tr>
-                            <td>Crystal Form</td>
-                            <td>Olivine Structure</td>
-                            <td>Layer Structure</td>
-                        </tr>
-                        <tr>
-                            <td>Lithium ion extraction channel</td>
-                            <td>One Dimension</td>
-                            <td>Two Dimensions</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div class="common_p">
+                    <div class="section30 col-md-12">
+                        <table cellspacing="0" width="100%" class="table-bordered">
+                            <tbody>
+                            <tr class="firstRow">
+                                <td>Anode Material</td>
+                                <td>LiFePO4</td>
+                                <td>LiNixCoyMn1-x-yO2</td>
+                            </tr>
+                            <tr>
+                                <td>Shorthand</td>
+                                <td>LFP</td>
+                                <td>NCM</td>
+                            </tr>
+                            <tr>
+                                <td>Nominal Voltage</td>
+                                <td>3.2V</td>
+                                <td>3.65V</td>
+                            </tr>
+                            <tr>
+                                <td>Crystal Form</td>
+                                <td>Olivine Structure</td>
+                                <td>Layer Structure</td>
+                            </tr>
+                            <tr>
+                                <td>Lithium ion extraction channel</td>
+                                <td>One Dimension</td>
+                                <td>Two Dimensions</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Energy Density</h3></div>
                 <div class="common_p section30">
@@ -418,7 +421,7 @@ $product_list = [
                         As for the cell, ternary battery has higher energy density. The rated voltage and theoretical specific capacity (mAh/g) of lithium iron phosphate anode materials are all lower than those of ternary batteries, and their energy density has been the best.
                     </p>
                 </div>
-                <div class="section30 col-md-12">
+                <div class="section30 col-md-12 common_p">
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
                         <tr class="firstRow">
@@ -509,20 +512,20 @@ $product_list = [
                 <div class="container">
                     <div class="link_title size2 section20" id="battery-cell"><h3>1.LiFePO4 Battery Working at Room Temperature</h3></div>
                     <div class="row col-md-12">
-                        <ul class="ul_li_item_padding section60">
+                        <ul class="ul_li_item_padding section60 m_section30">
                             <div class="item col-md-4">
                                 <li>
                                     <div class="title"><strong>Small Current Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section60">
+                            <div class="item col-md-4 m_section30">
                                 <li>
                                     <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section60">
+                            <div class="item col-md-4 m_section30">
                                 <li>
                                     <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
@@ -541,20 +544,20 @@ $product_list = [
                         </p>
                     </div>
                     <div class="row col-md-12">
-                        <ul class="section60 ul_li_item_padding">
+                        <ul class="section60 ul_li_item_padding m_section30">
                             <div class="item col-md-4">
                                 <li>
                                     <div class="title"><strong>Small Current Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>Lithium iron phosphate batteries tend to have more than 2000 cycles in this case; Small lithium battery manufacturers with lower quality battery also have over 1000 cycles;</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section60">
+                            <div class="item col-md-4 m_section30">
                                 <li>
                                     <div class="title"><strong>High Rate Stable Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>Most of the applications of high rate discharge batteries are power-type lithium ion batteries, and most of them are used to provide power to the motor. As most lithium iron phosphate batteries operate under high load, the decay time of battery materials is accelerated, and the cycle life is around 800 times.</p></div>
                                 </li>
                             </div>
-                            <div class="item col-md-4 m_section60">
+                            <div class="item col-md-4 m_section30">
                                 <li>
                                     <div class="title"><strong>High Rate Unstable Charge and Discharge</strong></div>
                                     <div class="text section10 light1-5"><p>The lithium iron phosphate batteries used in this case have a shorter lifespan, which is only about 300 times.</p></div>
