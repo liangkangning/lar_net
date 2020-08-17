@@ -104,15 +104,23 @@ foreach ($products2 as &$product) {
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Classification</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Structure</h3></div>
                 <div class="common_p">
-                    <p><li class="font-weight section20">Winding</li></p>
+                    <li class="font-weight section30">Winding</li>
+                </div>
+                <div class="common_p">
+
                     <p class="small-size section5">
                         Use the same winding process as the production of liquid lithium ion battery, wind up the positive electrode, negative electrode and electrolyte film, and package it with aluminum foil.
                     </p>
-                    <p><li class="font-weight section20">Lamination</li></p>
+                </div>
+                <div class="common_p">
+                    <li class="font-weight section10">Lamination</li>
+                </div>
+                <div class="common_p">
                     <p class="small-size section5">
                         Cut the anode and cathode into a certain size, make them with electrolyte film by hot-pressing technology, and then package with aluminum foil.
                     </p>
                 </div>
+
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Electrolyte</h3></div>
                 <div class="common_p section30">
@@ -321,7 +329,7 @@ foreach ($products2 as &$product) {
                 <div class="common_p section60">
                     <p>The process of assembling lithium polymer battery cells is called PACK, which connects single battery or multiple cells into lithium ion battery modules in series and parallel.</p>
                 </div>
-                <div class="common_p section60">
+                <div class="common_p section30">
                     <p>Lithium polymer battery pack consists of battery pack, bus bar, flexible connection, PCM, exterior package, output (including connector), highland barley paper, plastic holder and other auxiliary materials.</p>
                 </div>
 
