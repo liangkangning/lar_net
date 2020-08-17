@@ -220,7 +220,7 @@ foreach ($products2 as &$product) {
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiPo Battery Parameters</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Voltage</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>Nominal voltage：3.7V</li>
                             <li>Charging voltage：4.1V~5V</li>
@@ -280,7 +280,7 @@ foreach ($products2 as &$product) {
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.Charging Standard</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>The charger of lithium polymer battery must be able to charge at constant current and constant voltage.</li>
                             <li>The single battery cell must be charged under 1C 5A.</li>
@@ -292,7 +292,7 @@ foreach ($products2 as &$product) {
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.Discharging Standard</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>Batteries are generally flammable and explosive, and should be placed in somewhere ventilated without high temperature.</li>
                             <li>The long-term storage environment of the battery is -20℃~35℃, and the relative humidity is 45%~75%.</li>
@@ -304,7 +304,7 @@ foreach ($products2 as &$product) {
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Storage Standard</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>The discharge current is less than 2C 5A.</li>
                             <li>The final discharging voltage of a single battery cell shall not be less than 2.75V.</li>
@@ -374,7 +374,7 @@ foreach ($products2 as &$product) {
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>Common Battery Plug</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>Molex 2510、Molex 51021、Molex 78172</li>
                             <li>JST SHR、JST ACHR、JST PHR、JST XHP、JST SYR、JST SYP、JST ZHR
@@ -386,7 +386,7 @@ foreach ($products2 as &$product) {
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>Common Model Airplane Plug</h3></div>
                 <div class="common_p">
-                    <div class="p_ul section20">
+                    <div class="p_ul section30">
                         <ul class=" small-size">
                             <li>EC3,EC5,EC8,XT30,XT60,XT90</li>
                         </ul>
