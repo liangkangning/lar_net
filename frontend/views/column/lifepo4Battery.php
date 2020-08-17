@@ -73,8 +73,8 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">LiFePO4 Battery Overview</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         Lithium iron phosphate battery refers to the lithium ion battery using lithium iron phosphate as the positive electrode material. Lithium iron phosphate battery is considered as a new generation of lithium ion battery because of its advantages such as high safety, long cycle life, rate discharge and high temperature resistance.
                     </p>
                     <p class="section20">Large Power can provide customers with cell, BMS (power management system), integrated structure of the battery customized solutions, so as to meet the customers personalized power needs.</p>
@@ -101,7 +101,7 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Chinese LiFePO4 Battery Manufacturers</h2></div>
                 <div class="brand_list col-md-12">
-                    <ul>
+                    <ul class="section20">
                         <li class="section40">
                             <div class="item yellow_color">
                                 <div class="img"><img src="/static/images/column_lifepo4_brand_1.jpg" alt="Sony"></div>
@@ -576,15 +576,15 @@ $product_list = [
                 <div class="container">
                     <div class="link_title size2 section20" id="battery-cell"><h3>4.The Factor Affecting LiFePO4 Battery Cycle Life </h3></div>
                     <div class="common_p section10">
-                        <li class="col-md-12 section20"><strong>Charge and Discharge</strong></li>
+                        <li class="col-md-12 section30"><strong>Charge and Discharge</strong></li>
                         <p class="section10 col-md-12">
                             When choosing a charger, it is better to use a charger with the correct device to cut off, so as not to shorten the service life of lithium iron phosphate batteries due to overcharging. In general, a slow charge will prolong the battery life, which is better than a quick charge.
                         </p>
-                        <li class="col-md-12 section20"><strong>Depth of Discharge</strong></li>
+                        <li class="col-md-12 section30"><strong>Depth of Discharge</strong></li>
                         <p class="section10 col-md-12">
                             The discharge depth is the main factor affecting the life of lithium iron phosphate batteries. The higher the discharge depth is, the shorter the life of lithium iron phosphate batteries will be. In other words, by reducing the discharge depth, the life of lithium iron phosphate batteries can be significantly extended. Therefore, we should avoid over discharge lithium battery UPS to extremely low voltage.
                         </p>
-                        <li class="col-md-12 section20"><strong>Operating Environment</strong></li>
+                        <li class="col-md-12 section30"><strong>Operating Environment</strong></li>
                         <p class="section10 col-md-12">
                             If lithium iron phosphate battery is used at high temperature for a long time, its electrode activity will decrease and its service life will be shortened. Therefore, it is a good way to extend the life of lithium iron phosphate battery by keeping the operating temperature as appropriate as possible.
                         </p>
@@ -602,11 +602,11 @@ $product_list = [
                     <p class="col-md-12">
                         Decommissioned lithium iron phosphate batteries which do not have the value of cascade utilization and the batteries after cascade utilization will eventually enter the stage of disassembly and recycling. Unlike ternary material batteries, lithium iron phosphate batteries do not contain heavy metals, and the recovery products are mainly Li, P and Fe. The additional value of the recovery products is low, so low-cost recovery methods are important. There are mainly fire metallurgy and hydrometallurgy technical processes.
                     </p>
-                    <li class="col-md-12 section20"><strong>Fire Metallurgy</strong></li>
+                    <li class="col-md-12 section30"><strong>Fire Metallurgy</strong></li>
                     <p class="section10 col-md-12">
                         Conventional fire metallurgy recovery is generally a high-temperature incineration of electrode, in which carbon and organic matter in the electrode fragments are burned off, and the remaining ash that cannot be burned off is finally filtrated to obtain fines containing metals and metal oxides.
                     </p>
-                    <li class="col-md-12 section20"><strong>Hydrometallurgy</strong></li>
+                    <li class="col-md-12 section30"><strong>Hydrometallurgy</strong></li>
                     <p class="section10 col-md-12">
                         The hydrometallurgy recovery method is mainly to dissolve the metal ions in the lithium iron phosphate battery through acid-base solutions, and extract the dissolved metal ions in the form of oxides and salts through precipitation and adsorption. In the reaction process, H2SO4, NaOH, H2O2 and other reagents are often used.
                     </p>
