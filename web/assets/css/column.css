@@ -122,11 +122,12 @@ h3{color: #212121}
 .column-common{}
 .column-common .brand_list{}
 .column-common .brand_list ul{list-style-type: none;padding-inline-start:0px;overflow: hidden}
-.column-common .brand_list ul li{width: 20%;float: left;text-align: center;}
+.column-common .brand_list ul li{width: 25%;float: left;text-align: center;}
 .column-common .brand_list ul li .img img{border: 1px solid #DCDCDD}
 .column-common .brand_list ul li .text{margin-top: 10px;}
 
-.column-lithium-guide .brand_list li{margin-right: 17px;}
+.column-common .brand_list li .item{padding-right: 17px;}
+
 
 .column-lithium-guide table.technology ul{padding: 15px 15px 15px 45px;}
 .column-lithium-guide table.technology li p{text-align: left;line-height: 1.8}
@@ -165,7 +166,7 @@ h3{color: #212121}
 .column-lifepo4 .bg_part .part3{background-color: #DEEAF1}
 .column-lifepo4 .bg_part .part4{background-color: #F6F6F6}
 
-.column-lifepo4  .brand_list ul li{height: 105px;overflow: hidden}
+.column-lifepo4  .brand_list ul li{overflow: hidden}
 .column-lifepo4  .brand_list ul li .text{margin-top: 5px;}
 .column-lifepo4 .brand_list ul li .img img{border: none}
 
@@ -247,7 +248,7 @@ h3{color: #212121}
     .column-common ul li img{width: 100%}
     .ul_li_padding li{padding: 0;}
 
-    .column-lifepo4 .bg_part .pp .col-md-12{float: left;margin-top: 30px;}
+    .column-lifepo4 .bg_part .pp .col-md-12{float: left;}
 
     /*移动端的产品列表显示方式*/
     .column-common .products_list{width: 100%;float: left}

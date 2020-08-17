@@ -102,59 +102,61 @@ $product_list = [
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Best Chinese LiFePO4 Battery Manufacturers</h2></div>
                 <div class="brand_list col-md-12">
                     <ul class="section20">
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_1.jpg" alt="Sony"></div>
-                                <div class="text">CATL</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_2.jpg" alt="Panasonic"></div>
-                                <div class="text">BYD IT</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_3.jpg" alt="Sanyo"></div>
-                                <div class="text">Guoxuan</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_4.jpg" alt="Samsung"></div>
-                                <div class="text">CALB</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                            </div>
-                        </li>
+                        <div class="row">
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_1.jpg" alt="Sony"></div>
+                                    <div class="text">CATL</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_2.jpg" alt="Panasonic"></div>
+                                    <div class="text">BYD IT</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_3.jpg" alt="Sanyo"></div>
+                                    <div class="text">Guoxuan</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_4.jpg" alt="Samsung"></div>
+                                    <div class="text">CALB</div>
+                                </div>
+                            </li>
+                        </div>
 
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_5.jpg" alt="LG"></div>
-                                <div class="text">BAK</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_6.jpg" alt="BAK"></div>
-                                <div class="text">LISHEN</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_7.jpg" alt="LISHEN"></div>
-                                <div class="text">LARGE</div>
-                            </div>
-                        </li>
-                        <li class="section40">
-                            <div class="item yellow_color">
-                                <div class="img"><img src="/static/images/column_lifepo4_brand_8.jpg" alt="LARGE"></div>
-                                <div class="text">A123</div>
-                            </div>
-                        </li>
+
+                        <div class="row">
+                            <li class="section40 ">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_5.jpg" alt="LG"></div>
+                                    <div class="text">BAK</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_6.jpg" alt="BAK"></div>
+                                    <div class="text">LISHEN</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_7.jpg" alt="LISHEN"></div>
+                                    <div class="text">LARGE</div>
+                                </div>
+                            </li>
+                            <li class="section40">
+                                <div class="item yellow_color">
+                                    <div class="img"><img src="/static/images/column_lifepo4_brand_8.jpg" alt="LARGE"></div>
+                                    <div class="text">A123</div>
+                                </div>
+                            </li>
+                        </div>
+
 
                     </ul>
                 </div>
@@ -602,16 +604,24 @@ $product_list = [
                     <p class="col-md-12">
                         Decommissioned lithium iron phosphate batteries which do not have the value of cascade utilization and the batteries after cascade utilization will eventually enter the stage of disassembly and recycling. Unlike ternary material batteries, lithium iron phosphate batteries do not contain heavy metals, and the recovery products are mainly Li, P and Fe. The additional value of the recovery products is low, so low-cost recovery methods are important. There are mainly fire metallurgy and hydrometallurgy technical processes.
                     </p>
+                </div>
+                <div class="common_p">
                     <li class="col-md-12 section30"><strong>Fire Metallurgy</strong></li>
+                </div>
+                <div class="common_p">
                     <p class="section10 col-md-12">
                         Conventional fire metallurgy recovery is generally a high-temperature incineration of electrode, in which carbon and organic matter in the electrode fragments are burned off, and the remaining ash that cannot be burned off is finally filtrated to obtain fines containing metals and metal oxides.
                     </p>
+                </div>
+                <div class="common_p">
                     <li class="col-md-12 section30"><strong>Hydrometallurgy</strong></li>
+                </div>
+                <div class="common_p">
+
                     <p class="section10 col-md-12">
                         The hydrometallurgy recovery method is mainly to dissolve the metal ions in the lithium iron phosphate battery through acid-base solutions, and extract the dissolved metal ions in the form of oxides and salts through precipitation and adsorption. In the reaction process, H2SO4, NaOH, H2O2 and other reagents are often used.
                     </p>
                 </div>
-
             </div>
         </section>
 
