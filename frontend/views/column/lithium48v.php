@@ -64,11 +64,11 @@ $product_list = [
     <div class="col-md-12">
         <div class="container">
             <section>
-                <div class=" size2 section70" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
+                <div class=" size2 section" ><h2 class="light1-5">48V Lithium Ion Battery Recommendation </h2></div>
             </section>
-            <section class="section30 m_section0">
+            <section class=" m_section0">
                     <div class="products_list_other">
-                        <ul class="ul_li_padding">
+                        <ul class="ul_li_padding60 ">
                                 <?php foreach ($product_list as $key=>$value):?>
                                     <?php if ($key%2==0):?>
                                     <div class="row">
@@ -89,7 +89,6 @@ $product_list = [
                                         </div>
                                     <?php endif;?>
                                 <?php endforeach;?>
-
                         </ul>
                 </div>
             </section>
@@ -229,7 +228,7 @@ $product_list = [
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="section60">
+                            <li class="<?= $key==0?'section30':'section60'?>">
                                 <div class="item">
                                     <?php if ($key%2==0) :?>
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
@@ -297,7 +296,7 @@ $product_list = [
                     </p>
                     <div class="img text-center section55"><img src="/static/images/column_48v_2.jpg" alt=""></div>
                 </div>
-                <div class="common_title size1 section55" ><h2 class="light1-5">The Characteristics of 48V Lithium Ion Battery BMS</h2></div>
+                <div class="common_title size1 section" ><h2 class="light1-5">The Characteristics of 48V Lithium Ion Battery BMS</h2></div>
                 <div class="common_p section30">
                     <ul>
                         <li>The li-ion battery management system is composed of CPU, voltage and temperature acquisition module, current acquisition module and communication interface module.</li>
@@ -364,13 +363,13 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section55"><h3>2.How many kilometers does a 48V lithium ion battery run with full charge?</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>48V lithium ion battery life is related to capacity of the battery (Ah) and electric motor power (W). Now electric bicycle on the market with national standards normally use 48V 12Ah lithium ion battery and 350W motor. As the technical development of the battery, they can range up to 50 km, and the actual life depends on the weight of passenger and carrier.</p>
                     <p class="section20">How many kilometers a 48V lithium ion battery can run at full power depend on battery capacity, motor power, and load. In general, a 48V 12Ah, 350W lithium ion battery can run 50km. 48V 20Ah battery can run 70km. A 72V 22Ah lithium ion battery can run 90km.</p>
                 </div>
 
                 <div class="link_title size2 section55"><h3>3.How many hours does it take to charge a 48V lithium ion battery?</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>Charging time has little to do with voltage;</p>
                     <p class="section20">It is related to the capacity of the lithium ion battery and the power of the charger, <strong>charging time = lithium ion battery capacity ÷ charging current</strong></p>
                     <p class="section20">For example, 48V 20Ah lithium ion battery uses a normal 48V 2A charger, so the theoretical charging time is 2 hours, that is, 20Ah÷10A=2h, but in practice, constant current change to constant voltage mode during charging. The last trickle charging takes a long time. It usually takes about 3 hours. Similarly, using 48V 5A charger requires 20Ah÷5A=4h, but it has trickle charging time, too. It is about 5 hours.</p>

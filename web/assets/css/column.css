@@ -5,6 +5,8 @@
 .img_bg{background-color: #F5F5F6}
 .column-common .ul_li_padding{margin-left: -70px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
 .ul_li_padding li{padding-left: 70px;}
+.column-common .ul_li_padding60{margin-left: -60px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
+.ul_li_padding60 li{padding-left: 60px;}
 .column-common .ul_li_padding50{margin-left: -50px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
 .ul_li_padding50 li{padding-left: 50px;}
 .column-common .ul_li_padding40{margin-left: -40px;overflow: hidden;margin-inline-start:none;padding-inline-start:0}
@@ -107,6 +109,14 @@ h3{color: #212121}
 .column-common .products_18650 ul li .button {width: 150px;height: 35px;line-height: 35px;text-align: center;}
 .column-common .products_18650 ul li .button a{color: #FFFFFF}
 .column-common .products_18650 ul li p span{width: 100%;display: inline-block;color: #555555}
+
+
+
+.column-common .common-image-li li{}
+.column-common .common-image-li li .img{height: 270px;position: relative;display: block}
+.column-common .common-image-li li .img a{position: absolute;top: -30px;left: 0px;display: inline-block;}
+.column-common .common-image-li li img{background-color: #ECECEC;width: 100%;}
+
 
 
 .column-common .button{background-color: #FA9600}
