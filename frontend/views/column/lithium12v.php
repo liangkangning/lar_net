@@ -300,7 +300,7 @@ $product_list = [
                         <ul class="ul_none">
                             <li class="">
                                 <div class="item">
-                                    <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
+                                    <div class="col-md-3 col-sm-12 section30 m_section0"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
                                     <div class="text col-md-9 col-sm-12">
                                         <div class="des light1-8 section30"><p><span><a href="/product/8ju43de.html">12.6V 7A Lithium Battery Charger</a></span>
                                                 <span>Input voltage：100-240V，50-60Hz</span>
@@ -315,7 +315,7 @@ $product_list = [
                                 <div class="item">
                                     <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net/static/images/column_12v_product_other_2.jpg" alt="11.1V 5A LiFePO4 Battery Charge" title="11.1V 5A LiFePO4 Battery Charge"></a></div>
                                     <div class="text col-md-9 col-sm-12">
-                                        <div class="des light1-8 section30"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
+                                        <div class="des light1-8 section30 m_section0"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
                                                 <span>Input voltage：100-240V，50-60Hz</span>
                                                 <span>Output voltage：11.1V</span>
                                                 <span>Charging temperature: 0 ~ 45℃</span>
@@ -472,21 +472,22 @@ $product_list = [
 
             </section>
 
-        <div>
-            <div class="container">
-                <section>
-                    <div class="fengxian section col-md-12">
-                        <div class="sharethis-inline-share-buttons"></div>
-                    </div>
-                </section>
-                <section class="section section_m col-md-12">
-                    <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
-                    <?php $this->endContent()?>
-                </section>
-        </div>
+
+    </div>
     </div>
 
-
 </div>
+    <div>
+        <div class="container">
+            <section>
+                <div class="fengxian section col-md-12">
+                    <div class="sharethis-inline-share-buttons"></div>
+                </div>
+            </section>
+            <section class="section section_m col-md-12">
+                <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
+                <?php $this->endContent()?>
+            </section>
+        </div>
 
 <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
