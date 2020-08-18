@@ -249,7 +249,7 @@ h3{color: #212121}
     .column-common .products_list_other li{padding: 0;}
     .column-common .products_list_other .item .text.col-md-9{padding-left: 0;}
     .column-cylindrical .img_text li:nth-child(even){padding-left: 0px;}
-    .column-common .products_list .item .text{padding: 0 20px 30px 20px;}
+    .column-common .products_list .item .text{padding: 0 20px 60px 20px;}
     .column-common ul li img{width: 100%}
     .ul_li_padding li{padding: 0;}
 
@@ -261,7 +261,7 @@ h3{color: #212121}
     .column-common .products_list ul li{background-color: #EEEEEE;}
     .column-common .products_list .item{overflow: hidden;}
     .column-common .products_list .item .product_img{position: relative;height: 250px;overflow: hidden}
-    .column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: -30px;}
+    .column-common .products_list .item .product_img img{width: 84%;position: absolute;left: 8%;top: 0px;}
     .column-common .products_list .item .text{padding-left: 30px;}
     .column-common .products_list .item .text .des{overflow: hidden;width: 100%;}
     .column-common .products_list .item .text .des p span{color: #555555}

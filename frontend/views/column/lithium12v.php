@@ -255,7 +255,7 @@ $product_list = [
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="<?=$key==0?'section30':''?> section60 ">
+                            <li class="<?=$key==0?'section30':''?> section60">
                                 <div class="item">
                                     <?php if ($key%2==0) :?>
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
@@ -264,9 +264,8 @@ $product_list = [
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
                                     <div class="text col-md-7">
-                                        <div class="des light1-8 section60 m_section30"><p><?=$value['diy_content']?></p></div>
+                                        <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
-                                        <div class="getiao m_section30"></div>
                                     </div>
 
 
