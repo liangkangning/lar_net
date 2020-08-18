@@ -296,11 +296,11 @@ $product_list = [
                         12V lithium battery charger is specially designed to charge the 12V lithium battery. Lithium ion battery has a high requirement on charger and needs protection circuit. Therefore, lithium battery charger usually has a high control precision and can charge lithium ion battery at constant current and constant voltage.
                     </p>
                 </div>
-                 <div class="products_list_other section40">
+                 <div class="products_list_other section30 charger">
                         <ul class="ul_none">
-                            <li class="section20">
+                            <li class="">
                                 <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
+                                    <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8ju43de.html"><img src="https://www.large.net/static/images/column_12v_product_other_1.jpg" alt="12.6V 7A Lithium Battery Charger" title="12.6V 7A Lithium Battery Charger"></a></div>
                                     <div class="text col-md-9 col-sm-12">
                                         <div class="des light1-8 section30"><p><span><a href="/product/8ju43de.html">12.6V 7A Lithium Battery Charger</a></span>
                                                 <span>Input voltage：100-240V，50-60Hz</span>
@@ -311,9 +311,9 @@ $product_list = [
                                     </div>
                                 </div>
                             </li>
-                            <li class="section60">
+                            <li class="section30">
                                 <div class="item">
-                                    <div class="product_img col-md-3 col-sm-12"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net/static/images/column_12v_product_other_2.jpg" alt="11.1V 5A LiFePO4 Battery Charge" title="11.1V 5A LiFePO4 Battery Charge"></a></div>
+                                    <div class="col-md-3 col-sm-12 section30"><a target="_blank" href="/product/8pu43dc.html"><img src="https://www.large.net/static/images/column_12v_product_other_2.jpg" alt="11.1V 5A LiFePO4 Battery Charge" title="11.1V 5A LiFePO4 Battery Charge"></a></div>
                                     <div class="text col-md-9 col-sm-12">
                                         <div class="des light1-8 section30"><p><span><a href="/product/8pu43dc.html">11.1V 5A LiFePO4 Battery Charger</a></span>
                                                 <span>Input voltage：100-240V，50-60Hz</span>
@@ -347,19 +347,19 @@ $product_list = [
                                 The charger used for 12V lithium battery charging should conform to the characteristics of three stages lithium battery charging, which need to have and complete three stages of pre-charging, constant current charging and constant voltage charging. For this reason, the original 12V lithium battery charger is better. When the original charger is damaged, do not blindly buy other chargers to charge the 12V lithium battery.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Ambient temperature</strong></p>
                             <p>
                                 When charging 12V lithium battery, the ambient temperature should not exceed 0~40℃.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Charging cutoff voltage</strong></p>
                             <p>
                                 12V lithium polymer battery charging cutoff voltage is 12.6V. Balanced charging mode is needed to ensure that the voltage of single cell will not exceed 4.2V.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Charging current</strong></p>
                             <p>
                                 If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
@@ -377,19 +377,19 @@ $product_list = [
                                 Discharge state is the working state of 12V lithium battery, and the temperature is required to be -20~60℃.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Discharge cut-off voltage</strong></p>
                             <p>
                                 12V lithium polymer battery discharge cut-off voltage standard is 8.25V. Some can be set to 9V.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Discharge current</strong></p>
                             <p>
                                 12V lithium polymer battery also has large current, large capacity and other types. Lithium polymer battery that can carry out high power discharge needs to control the current within the scope of the product specifications.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p><strong>Charging current</strong></p>
                             <p>
                                 If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
@@ -406,13 +406,13 @@ $product_list = [
                 </div>
                 <div class="common_p section30">
                     <ul>
-                        <li class="col-md-12">
+                        <li class="col-md-12 col-xs-12">
                             <p><strong>Regular charging</strong></p>
                             <p>
                                 Charge the 12V lithium battery regularly to keep the voltage between 10.8V and 11.7V. The lithium battery has no memory effect and can be charged at any time.
                             </p>
                         </li>
-                        <li class="col-md-12 section30">
+                        <li class="col-md-12 col-xs-12 section30">
                             <p>
                                 Make sure that the discharge cut-off voltage is not within the working range. If it has insufficient power, you need to stop using decisively and charge the battery.
                             </p>

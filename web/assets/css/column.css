@@ -69,6 +69,8 @@ h3{color: #212121}
 .column-common .title_list li a{color: #FA9600;}
 .column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden;float: left;}
 .column-common .common_p p,.column-common .common_p div{width: 100%;float: left;}
+/*.column-common .common_p .col-md-12{display: inline-block}*/
+
 .column-common .link_title{width: 100%;float: left}
 .column-common .img{width: 100%;overflow: hidden;}
 .column-common .img img{max-width: 100%;overflow: hidden}
@@ -184,7 +186,9 @@ h3{color: #212121}
 
 
 /*12v锂电池*/
-.battery-12v .products_list_other .product_img img{top: 20px;}
+.battery-12v .charger {}
+.battery-12v .charger img{width: 100%}
+
 
 .fengxian {padding: 5px 0;}
 /*手机端样式*/
