@@ -59,7 +59,7 @@ $product_list = [
 
 ?>
 
-<div class="column-lifepo4 column-common">
+<div class="battery-12v column-common">
     <div class="banner col-md-12 relative">
         <div class="img">
             <img class="hidden-xs" src="<?=Yii::getAlias('@web/static/images/column_12v_banner.jpg')?>" alt="12V Lithium Battery Guide" title="12V Lithium Battery Guide">
@@ -73,14 +73,14 @@ $product_list = [
         <div class="container">
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">What is a 12V Lithium Battery?</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         12V lithium battery is a lithium battery pack composed of 3 or 4 lithium batteries in series. The capacity of the battery is determined by the capacity of the single cell and the number of cells in parallel. It is a new kind of safe and environmental rechargeable battery.
                     </p>
 
                 </div>
             </section>
-            <section class="section30 m_section0">
+            <section class="m_section0">
                     <div class="products_list_other">
                         <ul class="ul_li_padding">
                                 <?php foreach ($product_list as $key=>$value):?>
@@ -110,8 +110,8 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Classification</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         12V lithium batteries are divided into 12V lithium ion battery, 12V lithium iron phosphate battery, 12V cylindrical lithium battery and 12V lithium polymer battery according to the materials and packaging.
                     </p>
                 </div>
@@ -123,28 +123,28 @@ $product_list = [
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Battery capacity</strong></li>
                     <p class="small-size section5">
                         There is no standard capacity. It is determined according to the specific requirements of electrical appliances or equipment. The general capacity is: 2200mAh, 5Ah, 10Ah. Some electric vehicles can reach 20Ah, or 50Ah. The more batteries are connected in parallel, the larger the capacity is.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Volume</strong></li>
                     <p class="small-size section5">
                         12V lithium battery volume depends on the battery capacity, and it has no uniform specification. The bigger the battery, the larger the volume is.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Weight</strong></li>
                     <p class="small-size section5">
                         Nowadays, a lot of equipment needs a large capacity, light weight lithium battery. Take electric cars for example, they used to use lead-acid batteries, but now many electric cars change into lithium batteries because of the large capacity, light weight and small volume.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Charging and discharging current</strong></li>
                     <p class="small-size section5">
                         The charging and discharging current of a lithium battery is determined by the power of the device. On the basis of constant voltage, the more power the device has, the more current it needs to output.
@@ -156,8 +156,8 @@ $product_list = [
                 <div class="common_p section30">
                  <p>12V lithium iron phosphate battery is a battery pack consisting of four lithium iron phosphate cells connected in series. Lithium iron phosphate cell is a lithium cell using lithium iron phosphate (LiFePO4) as the positive electrode material. The nominal voltage is 3.2V, the maximum charging voltage of the single cell is less than 3.9V, and the minimum discharge voltage is more than 2.0V.</p>
                 </div>
-                <div class="common_p section20">
-                    <p class="size4 font-weight">12V LiFePO4 Battery Advantages</p>
+                <div class="common_p section30">
+                    <p class="size4 font-weight black_color">12V LiFePO4 Battery Advantages</p>
                 </div>
                 <div class="common_p section10">
                     <ul>
@@ -175,8 +175,8 @@ $product_list = [
                     <p>Lithium polymer battery is developed on the basis of liquid lithium ion battery. Its anode and cathode materials are the same as liquid lithium ion battery, but it uses gel electrolyte and aluminum plastic film for outer packing. Polymer lithium battery is also known as LiPo battery.</p>
                     <p class="section10">12V lithium polymer battery has a nominal voltage of 12V and is widely used in digital products, power tools, special wearable devices, etc.</p>
                 </div>
-                <div class="common_p section20">
-                    <p class="size4 font-weight">12V Lithium Polymer Battery Advantages</p>
+                <div class="common_p section30">
+                    <p class="size4 font-weight black_color">12V Lithium Polymer Battery Advantages</p>
                 </div>
                 <div class="common_p section10">
                     <ul>
@@ -195,35 +195,35 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Ion Battery Price</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         12 V lithium battery price mainly composes of cell, PCM and case. At the same time due to the power consumption and current of the electric appliances, the material of the connection strap between the cells (conventional nickel sheet, forming nickel, copper nickel clad sheet, jumper, etc.) will affect the cost. Different connector (such as aviation plugs, from ten yuan to thousands of yuan) may affect the cost a lot. What’s more, different pack technology can also affect the cost.
                     </p>
-                  
+
                 </div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>The factors affecting 12V Lithium Ion Battery Price</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Cell</strong></li>
                     <p class="small-size section5">
                         Due to different anode material of lithium ion batteries is, there will be lithium manganese (3.6 V), lithium cobalt oxides (3.7 V / 3.8 V), NCM (3.6 V), lithium iron phosphate (3.2 V), lithium titanate (2.3 V / 2.4 V) and other material system. The batteries with different material system have different voltage platform, safety coefficient, recycling times, energy density ratio and working temperature, so it have different prices.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Brand</strong></li>
                     <p class="small-size section5">
                         Different lithium battery brands have obviously different prices, mainly because the quality of brand cell (safety, consistency, stability, production process, etc.) is basically proportional to the price.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Capacity</strong></li>
                     <p class="small-size section5">
                         In the case that 12V lithium battery voltage is determined, the larger the capacity, the higher the cost will be, and the higher the price will be.
                     </p>
                 </div>
 
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>PCM quality and circuit design</strong></li>
                     <p class="small-size section5">
                         Good quality lithium battery use high quality electronic components and PCM. It also has multiple protection circuit design to improve the charge and discharge circuit, and has the design of constant temperature, constant voltage, overcharge, over discharge, over current and short circuit, etc. to create a safe environment for you and be good for the use of your equipment, so the price will be affected by the above factors.
@@ -233,18 +233,18 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Pack</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         A 12V lithium battery pack is a lithium battery pack consisting of three or four lithium batteries in series and several lithium batteries in parallel, so the capacity of a 12V lithium battery can be customized.
                     </p>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>Common Capacity of 12V Lithium Battery Pack</strong></li>
                     <p class="small-size section5">
                         4Ah, 5Ah, 7Ah, 8Ah, 9Ah, 10Ah, 12Ah, 17Ah, 18Ah, 20Ah, 30Ah，40Ah, 50Ah, 100Ah, 200Ah, etc.
                     </p>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <li><strong>12V DC Lithium Battery</strong></li>
                     <p class="small-size section5">
                         12V DC lithium battery stabilizes the output voltage at about 12V through the conversion of boosted/step-down circuit, so as to meet the requirement of constant voltage working equipment. It is a DC battery with standard specifications. It has universal and compatible characteristics, which can be changed to meet the requirements of different electrical equipment.
@@ -255,18 +255,19 @@ $product_list = [
                 <div class="products_list">
                     <ul>
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
-                            <li class="section60">
+                            <li class="<?=$key==0?'section30':''?> section60 m_section30">
                                 <div class="item">
                                     <?php if ($key%2==0) :?>
+                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <?php endif?>
+                                    <?php if ($key%2!=0) :?>
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
                                     <div class="text col-md-7">
                                         <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
-                                    <?php if ($key%2!=0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
+
 
                                 </div>
                             </li>
@@ -277,7 +278,7 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Applications</h2></div>
-                <div class="common_p section30">
+                <div class="common_p section60">
                     <ul>
                         <li><strong>Lighting industry</strong>: solar street lamp, solar insecticidal lamp, solar yard lamp, solar energy storage power supply, etc.</li>
                         <li><strong>Power field</strong>: power tools, robot, AGV, vacuum cleaner, electric sprayer, RC, etc.</li>
@@ -290,8 +291,8 @@ $product_list = [
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Charger</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         12V lithium battery charger is specially designed to charge the 12V lithium battery. Lithium ion battery has a high requirement on charger and needs protection circuit. Therefore, lithium battery charger usually has a high control precision and can charge lithium ion battery at constant current and constant voltage.
                     </p>
                 </div>
@@ -338,27 +339,27 @@ $product_list = [
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">12V Lithium Battery Cautions</h2></div>
                 <div class="link_title size2 section60" id="battery-cell"><h3>1.12V Lithium Battery Charging</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <ul>
-                        <li>
+                        <li class="col-md-12">
                             <p><strong>Charging Method</strong></p>
                             <p>
                                 The charger used for 12V lithium battery charging should conform to the characteristics of three stages lithium battery charging, which need to have and complete three stages of pre-charging, constant current charging and constant voltage charging. For this reason, the original 12V lithium battery charger is better. When the original charger is damaged, do not blindly buy other chargers to charge the 12V lithium battery.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Ambient temperature</strong></p>
                             <p>
                                 When charging 12V lithium battery, the ambient temperature should not exceed 0~40℃.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Charging cutoff voltage</strong></p>
                             <p>
                                 12V lithium polymer battery charging cutoff voltage is 12.6V. Balanced charging mode is needed to ensure that the voltage of single cell will not exceed 4.2V.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Charging current</strong></p>
                             <p>
                                 If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
@@ -368,27 +369,27 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>2.12V Lithium Battery Discharging</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <ul>
-                        <li>
+                        <li class="col-md-12">
                             <p><strong>Ambient temperature</strong></p>
                             <p>
                                 Discharge state is the working state of 12V lithium battery, and the temperature is required to be -20~60℃.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Discharge cut-off voltage</strong></p>
                             <p>
                                 12V lithium polymer battery discharge cut-off voltage standard is 8.25V. Some can be set to 9V.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Discharge current</strong></p>
                             <p>
                                 12V lithium polymer battery also has large current, large capacity and other types. Lithium polymer battery that can carry out high power discharge needs to control the current within the scope of the product specifications.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p><strong>Charging current</strong></p>
                             <p>
                                 If it is not urgent, it can be charged with 0.2C, and the current generally cannot exceed 1C.
@@ -398,20 +399,20 @@ $product_list = [
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.12V Lithium Battery Self-discharge</h3></div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <p>
                         It is better for 12V lithium ion battery to store 40 to 60 percent power, which, of course, is impossible to maintain all the time. Mobile phone, for example, usually is used until it is prompted to charge. 12V lithium battery will also be affected by self-discharge. Long-term self-discharge will cause over discharge, therefore, we need to make preparations for 12V lithium battery self-discharge.
                     </p>
                 </div>
-                <div class="common_p section20">
+                <div class="common_p section30">
                     <ul>
-                        <li>
+                        <li class="col-md-12">
                             <p><strong>Regular charging</strong></p>
                             <p>
                                 Charge the 12V lithium battery regularly to keep the voltage between 10.8V and 11.7V. The lithium battery has no memory effect and can be charged at any time.
                             </p>
                         </li>
-                        <li class="section10">
+                        <li class="col-md-12 section30">
                             <p>
                                 Make sure that the discharge cut-off voltage is not within the working range. If it has insufficient power, you need to stop using decisively and charge the battery.
                             </p>
@@ -428,44 +429,47 @@ $product_list = [
                         Since the appearance of lithium battery, it has gradually replaced the market position of lead acid battery. The most widely used 12V battery has also changed from lead acid to lithium battery. So what are the advantages of lithium battery compared with lead-acid battery?
                     </p>
                 </div>
-                <table cellspacing="0" width="100%" class="table-bordered">
-                    <tbody>
-                    <tr class="firstRow">
-                        <td>Item</td>
-                        <td>Lithium Battery</td>
-                        <td>Lead Acid Battery</td>
-                    </tr>
-                    <tr>
-                        <td>Weight</td>
-                        <td>Light Weight and Good Portability</td>
-                        <td>Heavy Weight and Not Easy to Carry Out</td>
-                    </tr>
-                    <tr>
-                        <td>Environmental Friendly</td>
-                        <td>No Pollution</td>
-                        <td>Contain Plenty of Heavy Metal</td>
-                    </tr>
+                <div class="common_p section30">
+                    <table cellspacing="0" width="100%" class="table-bordered">
+                        <tbody>
+                        <tr class="firstRow">
+                            <td>Item</td>
+                            <td>Lithium Battery</td>
+                            <td>Lead Acid Battery</td>
+                        </tr>
+                        <tr>
+                            <td>Weight</td>
+                            <td>Light Weight and Good Portability</td>
+                            <td>Heavy Weight and Not Easy to Carry Out</td>
+                        </tr>
+                        <tr>
+                            <td>Environmental Friendly</td>
+                            <td>No Pollution</td>
+                            <td>Contain Plenty of Heavy Metal</td>
+                        </tr>
 
-                    <tr>
-                        <td>Service Life</td>
-                        <td>Long Life</td>
-                        <td>Short Life</td>
-                    </tr>
+                        <tr>
+                            <td>Service Life</td>
+                            <td>Long Life</td>
+                            <td>Short Life</td>
+                        </tr>
 
-                    <tr>
-                        <td>Charge</td>
-                        <td>Fast Charge</td>
-                        <td>Slow Charge</td>
-                    </tr>
+                        <tr>
+                            <td>Charge</td>
+                            <td>Fast Charge</td>
+                            <td>Slow Charge</td>
+                        </tr>
 
-                    <tr>
-                        <td>Energy Density</td>
-                        <td>High Energy Density</td>
-                        <td>Only a Quarter of That of Lithium Battery</td>
-                    </tr>
+                        <tr>
+                            <td>Energy Density</td>
+                            <td>High Energy Density</td>
+                            <td>Only a Quarter of That of Lithium Battery</td>
+                        </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
+
             </section>
 
         <div>

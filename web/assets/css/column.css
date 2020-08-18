@@ -171,9 +171,6 @@ h3{color: #212121}
 .column-lifepo4 .brand_list ul li .img img{border: none}
 
 
-
-
-
 /*锂电池串联*/
 .column-connecting .table-bordered{border-top: 0px;}
 .column-connecting table{float: left;}
@@ -184,6 +181,10 @@ h3{color: #212121}
 .column-connecting .products ul li .item .text{height: 160px;}
 
 .column-common .products_list_other .item .text .des span{color: #555555}
+
+
+/*12v锂电池*/
+.battery-12v .products_list_other .product_img img{top: 20px;}
 
 .fengxian {padding: 5px 0;}
 /*手机端样式*/
@@ -266,5 +267,7 @@ h3{color: #212121}
     .column-common .products_list .item .title a{color: #212121}
     .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
     .column-common .products_list .item .button a{color: #FFFFFF}
+
+
 
 }
