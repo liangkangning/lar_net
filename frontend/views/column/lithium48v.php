@@ -68,7 +68,7 @@ $product_list = [
             </section>
             <section class=" m_section0">
                     <div class="products_list_other">
-                        <ul class="ul_li_padding60 ">
+                        <ul class="">
                                 <?php foreach ($product_list as $key=>$value):?>
                                     <?php if ($key%2==0):?>
                                     <div class="row">
