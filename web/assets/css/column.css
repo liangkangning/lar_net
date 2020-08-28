@@ -201,6 +201,7 @@ h3{color: #212121}
 .battery-12v .charger {}
 .battery-12v .charger img{width: 100%}
 
+.column-connecting .category_list{width: 100%;float: left;}
 
 .fengxian {padding: 5px 0;}
 /*手机端样式*/
@@ -286,6 +287,6 @@ h3{color: #212121}
     .column-common .products_list .item .button{width: 150px;height: 35px;line-height: 35px;text-align: center}
     .column-common .products_list .item .button a{color: #FFFFFF}
 
-
+    .column-connecting .category_list li{padding: 0}
 
 }
