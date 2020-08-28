@@ -350,7 +350,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                     <p class="section20">Before the calculation, we need to know which cell specification of the battery pack is adopted for the assembly, because different cells have different voltage and capacity. The cell quantity of series and parallel connection required to assemble a specific lithium battery pack varies. The common lithium cell types on the market are:<strong>3.7V LiCoO2, 3.6V ternary, 3.2V LFePO4, 2.4V lithium titanate</strong>. The capacity is different because of the cell size, material and manufacturers.</p>
                 </div>
-                <div class="common_p section60">
+                <div class="common_p section30">
                     <p><strong>Take 48V 20Ah Lithium Battery Pack for Example</strong></p>
                 </div>
                 <div class="common_p section10">
@@ -362,7 +362,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
 
 
-                <div class="common_p section70">
+                <div class="common_p section30">
                     <p><strong>Commonly Used Lithium Battery Connected in series</strong></p>
                 </div>
                 <div class="table section30 common_p">
