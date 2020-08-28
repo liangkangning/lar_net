@@ -109,7 +109,7 @@ $product_list = [
                         A 48V lithium ion battery is connected by multiple lithium cells in series and parallel. If a single cell is a 48V lithium battery, the efficiency and life of the battery will be not so good.
                     </p>
 
-                        <li class="section20 col-md-12">
+                        <li class="section30 col-md-12 common_p">
                            <strong> 48V Lithium Ion Battery Price Estimation Formula</strong><br>
                             The price of a single lithium battery cell is X (3.6~3.7V*n= 48V) *m (the number of parallel connection cells) + the price of PCM + the price of case + the price of auxiliary materials
                         </li>
@@ -233,13 +233,14 @@ $product_list = [
                                     <?php if ($key%2==0) :?>
                                         <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
                                     <?php endif?>
+                                    <?php if ($key%2!=0) :?>
+                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
+                                    <?php endif?>
                                     <div class="text col-md-7">
                                         <div class="des light1-8 section60"><p><?=$value['diy_content']?></p></div>
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
-                                    <?php if ($key%2!=0) :?>
-                                        <div class="product_img col-md-5"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net/<?=$value['imagesUrl'][0]?>" alt="<?=$value['title']?>" title="<?=$value['title']?>"></a></div>
-                                    <?php endif?>
+
 
                                 </div>
                             </li>
