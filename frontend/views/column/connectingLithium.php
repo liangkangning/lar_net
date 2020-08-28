@@ -17,28 +17,28 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
     <div class="col-md-12">
         <div class="container">
             <section>
-                <div class="link_title size2 section60" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
+                <div class="link_title size2 section" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="/low-temperature-battery/"><img src="/static/images/column_connecting_category_1.jpg" alt="Low Temperature Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="/low-temperature-battery/">Low Temperature Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="/explosion-proof-battery/"><img src="/static/images/column_connecting_category_2.jpg" alt="Explosion-proof Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="/explosion-proof-battery/">Explosion-proof Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="/lithium-power-battery/"><img src="/static/images/column_connecting_category_3.jpg" alt="Lithium Power Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="/lithium-power-battery/">Lithium Power Battery</a></div>
                             </div>
                         </li>
-                        <li class="col-md-3 section60">
+                        <li class="col-md-3 section30 m_section60">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="/lifepo4-battery/"><img src="/static/images/column_connecting_category_4.jpg" alt="LiFePO4 Battery Pack"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="/lifepo4-battery/">LiFePO4 Battery Pack</a></div>
@@ -75,8 +75,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Definition of Series and Parallel Connection of Lithium Batteries</h2></div>
-                <div class="common_p section30">
-                    <p class="small-size section5">
+                <div class="common_p section60">
+                    <p class="small-size">
                         Due to the limited voltage and capacity of the single battery cell, the series and parallel connection is needed in the actual use to obtain higher voltage and capacity, so as to meet the actual power demand of the equipment.
                     </p>
                 </div>
@@ -114,7 +114,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Battery Pack</h2></div>
-                <div class="common_p section55">
+                <div class="common_p section60">
                     <p class="small-size">
                         <a href="https://www.large.net/lithium-ion-battery/list-161/">Lithium battery pack</a> technique refers to the processing, assembly and packaging of lithium battery pack. The process of assembling lithium cells together is called PACK, which can be a single battery or a lithium battery pack connected in series or parallel. The lithium battery pack usually consists of a plastic case, PCM, cell, output electrode, bonding sheet, and other insulating tape, double-coating tape, etc.
                     </p>
@@ -133,13 +133,13 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70" id="basic-structure-of-18650"><h2 class="light1-5">Lithium Battery Series and Parallel Connection</h2></div>
-                <div class="common_p section55">
+                <div class="common_p section60">
                     <p class="small-size">
                         Due to security reasons, lithium ion batteries need an external PCM used for battery monitoring for each battery. It is not recommended to use batteries in parallel. If connect in parallel, make sure the consistency of the battery parameters (capacity, internal resistance, etc.), the other batteries in series need to have consistent parameters, otherwise, the performance of the battery pack can be much worse than the performance of a single cell.
                     </p>
                 </div>
-                <div class="img col-md-12 section55"><img src="/static/images/column_connecting_2.jpg" alt="Lithium Battery Series and Parallel Connection"></div>
-                <div class="common_p section55">
+                <div class="img col-md-12 section60"><img src="/static/images/column_connecting_2.jpg" alt="Lithium Battery Series and Parallel Connection"></div>
+                <div class="common_p section60">
                     <p class="text-center light1-8">
                         <strong>
                             Lithium battery matching criteria<br>
@@ -201,7 +201,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </table>
                 </div>
 
-                <div class="common_p section55">
+                <div class="common_p section60">
                     <p>
                        <strong> Three Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-119/">11.1V Lithium Battery</a>)
                     </p>
@@ -249,7 +249,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 </div>
                 </div>
 
-                <div class="common_p section55">
+                <div class="common_p section60">
                     <p>
                         <strong>Four Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-120/">14.8V Lithium Battery</a>)
                     </p>
@@ -292,7 +292,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </div>
                 </div>
 
-                <div class="common_p section55">
+                <div class="common_p section60">
                     <p>
                        <strong> Six Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-122/">22.2V Lithium Battery</a>)
                     </p>
@@ -340,7 +340,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     <p>
                         The length of the plug and lead of the lithium battery pack can be customized according to the customer's electrical equipment.
                     </p>
-                    <div class="img text-center section55"><img src="/static/images/column_connecting_3.jpg" alt="Lithium Battery Wire/Terminal"></div>
+                    <div class="img text-center section60"><img src="/static/images/column_connecting_3.jpg" alt="Lithium Battery Wire/Terminal"></div>
                 </div>
 
                 <div class="link_title size2 section60"><h3>3.Calculation Lithium Battery Connected in Series and Parallel</h3></div>
@@ -594,7 +594,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section"><h2 class="light1-5">Precautions for Lithium Batteries in Series and Parallel</h2></div>
-                <div class="common_p section30">
+                <div class="common_p section60">
                     <ul>
                        <li>Don't use batteries with different brands together.</li>
                        <li>Do not use batteries with different voltages together.</li>
@@ -628,7 +628,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
 
             <section>
                 <div class="common_title size1 section70"><h2 class="light1-5">To assemble lithium batteries, connect them in parallel or in series first?</h2></div>
-                <div class="common_p section55">
+                <div class="common_p section60">
                    <li><strong>Topological Structure of Lithium Battery Connected in Series and Parallel</strong></li>
                 </div>
                 <div class="common_p section10">

@@ -71,6 +71,8 @@ h3{color: #212121}
 .column-common .title_list li a{color: #FA9600;}
 .column-common .common_p{line-height: 1.5;width: 100%;overflow: hidden;float: left;}
 .column-common .common_p p,.column-common .common_p div{width: 100%;float: left;}
+.column-common .common_p ul li p{float: none;}
+
 /*.column-common .common_p .col-md-12{display: inline-block}*/
 
 .column-common .link_title{width: 100%;float: left}
@@ -82,7 +84,7 @@ h3{color: #212121}
 .column-common .two-list .left,.column-common .two-list .right{display: inline-block}
 
 .column-best-18650 .products_18650 .item .text span a{color: #212121;font-size: 24px;margin-bottom: 10px;display: inline-block;line-height: 1.2}
-
+.column-common .table{margin-bottom: 0px;}
 .column-common .button-top-and-flat-top img{padding: 0 15px;}
 .column-common .products_list{width: 100%;float: left}
 .column-common .products_list ul{list-style-type: none;padding-inline-start:0px}

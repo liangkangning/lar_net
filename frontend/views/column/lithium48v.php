@@ -241,7 +241,6 @@ $product_list = [
                                         <div class="button small-size section20"><a target="_blank" href="<?=$value['url']?>">READ MORE</a></div>
                                     </div>
 
-
                                 </div>
                             </li>
                         <?php endforeach;?>
