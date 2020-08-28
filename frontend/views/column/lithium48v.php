@@ -68,12 +68,12 @@ $product_list = [
             </section>
             <section class=" m_section0">
                     <div class="products_list_other">
-                        <ul class="">
+                        <ul class="ul_li_padding60">
                                 <?php foreach ($product_list as $key=>$value):?>
                                     <?php if ($key%2==0):?>
                                     <div class="row">
                                     <?php endif;?>
-                                        <li class="section60 col-md-4 col-sm-12">
+                                        <li class="<?=$key>2?'section60':'section30'?> <?= $key==0?'':'m_section60'?> col-md-4 col-sm-12">
                                             <div class="item">
                                                 <div class="img col-md-12"><a target="_blank" href="<?=$value['url']?>"><img class="img_bg" src="<?=$value['img_url']?>" alt="" title=""></a></div>
                                                 <div class="text col-md-12 pull-left">

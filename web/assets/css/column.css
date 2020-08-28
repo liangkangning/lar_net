@@ -251,13 +251,13 @@ h3{color: #212121}
 
     .column-common .products_list_other .item .text span a{font-size: 16px;color: #555555;line-height: 1.8}
     .column-common .products_list_other .product_img img{top: -65px;}
-    .column-common .products_list_other ul {padding: 0;}
+
 
     .column-common h1{font-weight: 300;padding: 0 30px;line-height: 1.5}
     .column-common .container{padding: 0 16px;}
     .fengxian{width: 100%;float: left;}
     .column-common .brand_list ul{display: inline-block}
-    .column-common .ul_li_padding{margin: 0;}
+    .column-common .ul_li_padding,.column-common .ul_li_padding60,.column-common .ul_li_padding50,.column-common .ul_li_padding40{margin: 0;}
     .column-common .products_list_other li{padding: 0;}
     .column-common .products_list_other .item .text.col-md-9{padding-left: 0;}
     .column-cylindrical .img_text li:nth-child(even){padding-left: 0px;}
