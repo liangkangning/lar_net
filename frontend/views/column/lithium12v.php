@@ -4,7 +4,7 @@ $product_list = [
     ['title'=>'12V Low Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_1.jpg','url'=>'/low-temperature-battery/list-133/',
         'des'=>'Charging temperature：0℃ ~ +45℃<br> Discharging temperature：-40℃ ~ +60℃<br>Application: special equipment, aerospace, polar scientific research, frigid zone emergency, etc.'],
 
-    ['title'=>'12V Explosion-proof Lithium Battery','img_url'=>'/static/images/column_12v_product_2.jpg','url'=>'/explosion-proof-battery/list-133/',
+    ['title'=>'12V Explosion-proof Lithium Battery','img_url'=>'/static/images/column_12v_product_2.jpg','url'=>'/explosion-proof-battery/list-139/',
         'des'=>'Intrinsic safety type/Explosion-proof type<br>High safety coefficient materials<br>Meet Exia iiA/Exib iiB T1~T4 standard.'],
 
     ['title'=>'12V Wide Temperature Lithium Battery','img_url'=>'/static/images/column_12v_product_3.jpg','url'=>'/wide-temperature-battery/list-133/',
