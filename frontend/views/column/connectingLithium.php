@@ -20,7 +20,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="link_title size2 section" id=""><h3>Recommended Lithium Ion Battery Category </h3></div>
                 <div class="category_list col-md-12">
                     <ul class="ul_none ul_li_padding40">
-                        <li class="col-md-3 section30 m_section60">
+                        <li class="col-md-3 section30 m_section30">
                             <div class="item">
                                 <div class="img"><a target="_blank" href="/low-temperature-battery/"><img src="/static/images/column_connecting_category_1.jpg" alt="Low Temperature Battery"></a></div>
                                 <div class="text text-center section30"><a target="_blank" href="/low-temperature-battery/">Low Temperature Battery</a></div>
@@ -128,7 +128,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         <li><p><strong>Nickel sheet/bracket</strong>: Connection and fixing component of the cell</p></li>
                     </ul>
                 </div>
-                <div class="img col-md-12 section30"><img src="/static/images/column_connecting_1.jpg" alt="Lithium Battery Pack Structure"></div>
+                <div class="img common_p section30 m_section60"><img src="/static/images/column_connecting_1.jpg" alt="Lithium Battery Pack Structure"></div>
             </section>
 
             <section>
@@ -138,7 +138,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                         Due to security reasons, lithium ion batteries need an external PCM used for battery monitoring for each battery. It is not recommended to use batteries in parallel. If connect in parallel, make sure the consistency of the battery parameters (capacity, internal resistance, etc.), the other batteries in series need to have consistent parameters, otherwise, the performance of the battery pack can be much worse than the performance of a single cell.
                     </p>
                 </div>
-                <div class="img col-md-12 section60"><img src="/static/images/column_connecting_2.jpg" alt="Lithium Battery Series and Parallel Connection"></div>
+                <div class="img common_p section60"><img src="/static/images/column_connecting_2.jpg" alt="Lithium Battery Series and Parallel Connection"></div>
                 <div class="common_p section60">
                     <p class="text-center light1-8">
                         <strong>
@@ -158,7 +158,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                        <strong>Two Lithium Batteries Connected in Series</strong> (<a href="https://www.large.net/lithium-ion-battery/list-118/">7.4V Lithium Battery</a>)
                     </p>
                 </div>
-                <div class="table">
+                <div class="table common_p">
                     <div class="img col-md-12 section30"><img src="/static/images/column_connecting_table_1.jpg" alt="Two Lithium Batteries Connected in Series"></div>
                     <table cellspacing="0" width="100%" class="table-bordered">
                         <tbody>
@@ -478,7 +478,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                 <div class="common_p section60">
                     <p><strong>18650-3S6P/11.1V/15600mAh Lithium Battery Assembly Process</strong></p>
                 </div>
-                <div class="products section30 col-md-12">
+                <div class="products common_p section30 col-md-12">
                     <ul class="ul_none">
                         <li class="col-md-4 col-xs-12 border_color">
                             <div class="item">

@@ -102,4 +102,12 @@ class ColumnController extends CommonController
         return $this->render('connectingLithium');
     }
 
+    public function actionBest26650(){
+        parent::common();
+        $this->view->params['meta_title']='Best Lithium Ion Battery Guide 2020, Lithium Ion Battery Pack | Large Power';
+        $this->view->params['keywords']='lithium battery,best lithium ion battery, Lithium Battery Pack';
+        $this->view->params['description']='What are the characteristics and applications of lithium ion battery? Best lithium ion battery pack recommended.';
+        return $this->render('best26650');
+    }
+
 }
