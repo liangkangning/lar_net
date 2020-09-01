@@ -639,19 +639,19 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
                     </p>
                     <div class="img-list section60">
                         <ul class="ul_li_padding ul_none">
-                            <li class="col-md-4">
+                            <li class="col-md-4 common_p">
                                 <div class="item">
                                     <div class="img text-center"><img src="/static/images/column_connecting_p3.jpg" alt="First Parallel and Then Series of Power Battery Module Topological Structure" title="First Parallel and Then Series of Power Battery Module Topological Structure"></div>
                                     <div class="text section20 text-center">First Parallel and Then Series of Power Battery Module Topological Structure</div>
                                 </div>
                             </li>
-                            <li class="col-md-4">
+                            <li class="col-md-4 m_section60 common_p">
                                 <div class="item">
                                     <div class="img text-center"><img src="/static/images/column_connecting_p4.jpg" alt="First Series and Then Parallel of Power Battery Module Topological Structure" title="First Series and Then Parallel of Power Battery Module Topological Structure"></div>
                                     <div class="text section20 text-center">First Series and Then Parallel of Power Battery Module Topological Structure</div>
                                 </div>
                             </li>
-                            <li class="col-md-4">
+                            <li class="col-md-4 m_section60 common_p">
                                 <div class="item">
                                     <div class="img text-center"><img src="/static/images/column_connecting_p5.jpg" alt="First Parallel, Then Series and Parallel Again of Power Battery Module Topological Structure" title="First Parallel, Then Series and Parallel Again of Power Battery Module Topological Structure"></div>
                                     <div class="text section20 text-center">First Parallel, Then Series and Parallel Again of Power Battery Module Topological Structure</div>
@@ -752,7 +752,8 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\Co
             </div>
     </div>
 
-
+        </div>
+</div>
 </div>
 
 <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c344a1f093e83001145111b&product=inline-share-buttons' async='async'></script>
