@@ -203,6 +203,13 @@ h3{color: #212121}
 
 .column-connecting .category_list{width: 100%;float: left;}
 
+
+.column-best-26650 .products_18650{}
+.column-best-26650 .products_18650 .text span{}
+.column-best-26650 .products_18650 .text a{font-size: 24px;color: #212121}
+.column-best-26650 .products_18650 .text b{font-size: 18px;font-weight: bold;color: #212121;margin-top: 10px;margin-bottom:10px;display: inline-block}
+.column-best-26650 .products_18650 ul li .img a{top: -40px;}
+
 .fengxian {padding: 5px 0;}
 /*手机端样式*/
 @media screen and (max-width: 780px) {

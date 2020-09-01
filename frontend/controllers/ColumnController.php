@@ -104,9 +104,9 @@ class ColumnController extends CommonController
 
     public function actionBest26650(){
         parent::common();
-        $this->view->params['meta_title']='Best Lithium Ion Battery Guide 2020, Lithium Ion Battery Pack | Large Power';
-        $this->view->params['keywords']='lithium battery,best lithium ion battery, Lithium Battery Pack';
-        $this->view->params['description']='What are the characteristics and applications of lithium ion battery? Best lithium ion battery pack recommended.';
+        $this->view->params['meta_title']='Best 26650 Lithium Ion Battery,26650 Lithium Battery Pack | Large Power';
+        $this->view->params['keywords']='26650 lithium ion battery,26650 lithium battery,26650 lithium battery pack';
+        $this->view->params['description']='What is 26650 lithium ion battery?How do you choose best 26650 lithium battery?';
         return $this->render('best26650');
     }
 
