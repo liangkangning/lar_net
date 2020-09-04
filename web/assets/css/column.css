@@ -210,6 +210,8 @@ h3{color: #212121}
 .column-best-26650 .products_18650 .text b{font-weight: bold;color: #212121;margin-top: 10px;display: inline-block}
 .column-best-26650 .products_18650 ul li .img a{top: -40px;}
 
+.column-connecting .img-list .ul_li_padding li{overflow: hidden;}
+
 .fengxian {padding: 5px 0;}
 /*手机端样式*/
 @media screen and (max-width: 780px) {
