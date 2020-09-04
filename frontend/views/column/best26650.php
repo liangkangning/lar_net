@@ -9,11 +9,12 @@ foreach ($ids_18650 as $id) {
 $list = [
     [
         'imagesUrl'=>'/static/images/column_26650_p1.png',
-        'url'=>'#',
+        'url'=>'https://www.large.net/low-temperature-battery/list-147/',
         'title'=>'26650 Low Temperature Lithium Ion Battery',
         'diy_content'=>'
                 <span><a>26650 Low Temperature Lithium Ion Battery</a></span>
                 <span>Good low temperature performance</span>
+				<span>Charging temperature：0℃ ~ +45℃</span>
                 <span>Discharging temperature：-40℃ ~ +60℃</span>
                 <span>Application field: special equipment, </span>
                 <span>aerospace industry, polar science </span>
@@ -22,7 +23,7 @@ $list = [
     ],
     [
         'imagesUrl'=>'/static/images/column_26650_p2.png',
-        'url'=>'#',
+        'url'=>'https://www.large.net/energy-storage-battery/list-144/',
         'title'=>'26650 Energy Storage Lithium Ion Battery',
         'diy_content'=>'
                 <span><a>26650 Energy Storage Lithium Ion Battery</a></span>
@@ -36,7 +37,7 @@ $list = [
     ],
     [
         'imagesUrl'=>'/static/images/column_26650_p3.png',
-        'url'=>'#',
+        'url'=>'https://www.large.net/lithium-power-battery/list-144/',
         'title'=>'26650 Power Lithium Ion Battery',
         'diy_content'=>'
                 <span><a>26650 Power Lithium Ion Battery</a></span>
@@ -49,7 +50,7 @@ $list = [
     ],
     [
         'imagesUrl'=>'/static/images/column_26650_p4.png',
-        'url'=>'#',
+        'url'=>'https://www.large.net/lifepo4-battery/list-144/',
         'title'=>'26650 LiFePO4 Battery',
         'diy_content'=>'
                 <span><a>26650 LiFePO4 Battery</a></span>
@@ -88,7 +89,7 @@ Yii::$app->params['products'] = $products;
 
                         <?php foreach (Yii::$app->params['products'] as $key=>$value):?>
                             <?php if ($key==0 || ($key+1)%3==0): ?> <div class="row"><?php endif;?>
-                            <li class="col-md-4 <?= $key<3?'section30':'section60'?> <?= $key==0?'m_section30':'m_section60'?>">
+                            <li class="col-md-4 <?= $key<3?'section30':'section60'?> <?= $key==0?'':'m_section60'?>">
                                 <div class="item">
                                     <div class="img"><a target="_blank" href="<?=$value['url']?>"><img src="https://www.large.net<?= is_array($value['imagesUrl'])?$value['imagesUrl'][0]:$value['imagesUrl']?>" alt="<?=$value['title']?>"></a></div>
                                     <div class="text section20 light1-8 ">
@@ -256,7 +257,7 @@ Yii::$app->params['products'] = $products;
                             <td>Applications</td>
                             <td>Medium And Small Size Battery</td>
                             <td>Small Battery/Small Power Battery</td>
-                            <td>Power Battery, Low Cost battery</td>
+                            <td>Power Battery, Low Cost Battery</td>
                             <td>Power Battery/Super Large Capacity Power Supply</td>
                         </tr>
 
@@ -368,8 +369,8 @@ Yii::$app->params['products'] = $products;
                 <div class="common_p section30">
                     <ul>
                         <li><p>The basic requirements for charging 26650 lithium battery are specific charging voltage and charging current at each stage. Some auxiliary functions are added to prolong the battery life.</p></li>
-                        <li class="section20"><p>The basic requirements for charging 26650 lithium battery are specific charging voltage and charging current at each stage. Some auxiliary functions are added to prolong the battery life.</p></li>
-                        <li class="section20"><p>The basic requirements for charging 26650 lithium battery are specific charging voltage and charging current at each stage. Some auxiliary functions are added to prolong the battery life.</p></li>
+                        <li class="section20"><p>In order to ensure the stable and reliable operation of the battery and prevent the interference of transient voltage change, the time delay circuit with over-charge, over-discharge and over-current protection should be designed to prevent the instability caused by transient interference.</p></li>
+                        <li class="section20"><p>The factors affecting the safety and effective charging of 26650 lithium battery include voltage, current and temperature. Therefore, these three factors should be taken care of and controlled in the charger design.</p></li>
                     </ul>
                 </div>
                 <div class="link_title size2 section60" ><h3>2.Can the 18650 battery charger charge 26650 battery?</h3></div>
@@ -411,7 +412,7 @@ Yii::$app->params['products'] = $products;
                 <div class="common_p section30">
                     <ul>
                         <li><p>There are flat top and button top 26650 lithium batteries. The difference between them is that one has a protection board, while the other has no protection board.</p></li>
-                        <li class="section20"><p>Flat top 26650 lithium battery: no protectionboard</p></li>
+                        <li class="section20"><p>Flat top 26650 lithium battery: no protection board</p></li>
                         <li class="section20"><p>Button top 26650 lithium battery: It has protection board, because the top of the protection board protrudes. The protruding part is the protection board.</p></li>
                         <li class="section20"><p>In general, I recommend purchasing a button top battery to ensure that it is compatible with a wide range of devices and usages. The positive and negative electrodes of electrical appliances are designed with springs, so that it is retractable, and both button and flat top batteries can be used.</p></li>
                         <li class="section20"><p>But when a flat top battery is connected in series, the positive electrode of the flat top battery cannot touch the negative electrode of the other battery.</p></li>
