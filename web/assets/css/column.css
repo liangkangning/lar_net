@@ -214,7 +214,7 @@ h3{color: #212121}
 
 .fengxian {padding: 5px 0;}
 
-.column-cylindrical .brand_list ul li{height: 111px;}
+.column-cylindrical .brand_list ul li{height: 111px;width: 20%;}
 /*手机端样式*/
 @media screen and (max-width: 780px) {
     .big-size{font-size: 32px;font-family:Avillar;}
