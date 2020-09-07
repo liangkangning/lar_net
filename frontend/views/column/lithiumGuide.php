@@ -463,123 +463,117 @@ use common\models\Images; ?>
                 </div>
 
                 <div class="link_title size2 section60" id="battery-cell"><h3>3.Special Lithium Ion Battery Brand</h3></div>
-                <div class="p_ul section20">
-                    <ul class="small-size light1-8">
-                        <li><a target="_blank" href="/">LARGE</a></li>
-                    </ul>
+
+                <div class="common_p section20">
+                    <p><a target="_blank" href="/">LARGE</a></p>
+                    <p class="section10">
+                        18 Years' Expertise in Customizing Lithium Ion Battery<br>
+                        Dongguan Large Electronics Co., Ltd was established in 2002. It is a national-level high-tech enterprise providing customized solutions and products of maximum reliable  maximum safe special lithium ion battery system.
+                    </p>
                 </div>
+                <section class="section60">
+                    <div class="title size2" >Core Technology</div>
+                    <div class="list">
+                        <ul class="ul_li_padding60 ul_none">
+                            <div class="row">
+                                <li class="col-md-4 section30">
+                                    <div class="item">
+                                        <div class="img"><img src="/static/images/colmun_battery_01.jpg" alt=""></div>
+                                        <div class="text section20 light1-8">
+                                            <p>
+                                                <strong> High Energy Density</strong><br>
+                                                (Ternary, lithium cobalt oxide system)<br>
+                                                Mass energy density 300watt-hour/kg<br>
+                                                Volume energy density 700 watt-hour/kg
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-md-4 section30 m_section60">
+                                    <div class="item">
+                                        <div class="img"><img src="/static/images/colmun_battery_02.jpg" alt=""></div>
+                                        <div class="text section20 light1-8">
+                                            <p>
+                                                <strong> High Rate</strong><br>
 
-                <div class="table_title size2 section60">LARGE Special Lithium Ion Battery Core Technology</div>
-                <section class="section30 tabel-section">
-                    <table cellspacing="0" width="100%" class="table-bordered technology">
-                        <tbody>
-                        <tr class="firstRow">
-                            <td colspan="2" class="yellow_color size3">Four High</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p class="left-align">
-                                            <strong>High Energy Density</strong><br>
-                                            (Ternary, lithium cobalt oxide system)<br>
-                                            Mass energy density 285 watt-hour/kg,<br>
-                                            Volume energy density 700 watt-hour/kg
-                                        </p>
-                                    </li>
-                                </ul>
+                                                High Rate
+                                                (Ternary, Lithium Cobalt Oxide, Lithium
+                                                Iron Phosphate System)<br>
+                                                100C continuous discharge<br>
+                                                The temperature controls within 40℃.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-md-4 section30 m_section60">
+                                    <div class="item">
+                                        <div class="img"><img src="/static/images/colmun_battery_03.jpg" alt=""></div>
+                                        <div class="text section20 light1-8">
+                                            <p>
+                                                <strong> High Temperature</strong><br>
+                                                (Ternary, Lithium Iron Phosphate System)<br>
+                                                The high temperature of 80℃ lasts for 200 cycles.<br>
+                                                Store at 85℃ for 48 hours.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                           <div class="row">
+                               <li class="col-md-4 section60 m_section60">
+                                   <div class="item">
+                                       <div class="img"><img src="/static/images/colmun_battery_04.jpg" alt=""></div>
+                                       <div class="text section20 light1-8">
+                                           <p>
+                                               <strong> Good Safety</strong><br>
+                                               (Modified ternary chemical system)<br>
+                                               190~200Wh/kg high energy density
+                                               Meet Ex ia IIA/Ex ib IIB T1~T4 <br>
+                                               explosion-proof criteria.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </li>
+                               <li class="col-md-4 section60 m_section60">
+                                   <div class="item">
+                                       <div class="img"><img src="/static/images/colmun_battery_05.jpg" alt=""></div>
+                                       <div class="text section20 light1-8">
+                                           <p>
+                                               <strong> Low Temperature Charging</strong><br>
+                                               (Ternary, Lithium Iron Phosphate System)
+                                               -20℃ 0.5C charging, <br>
+                                               charge-discharge cycle≥300 cycles,
+                                               -40℃ 0.2C charging, <br>
+                                               charge-discharge cycle≥300 cycles.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </li>
+                               <li class="col-md-4 section60 m_section60">
+                                   <div class="item">
+                                       <div class="img"><img src="/static/images/colmun_battery_06.jpg" alt=""></div>
+                                       <div class="text section20 light1-8">
+                                           <p>
+                                               <strong> Low Temperature Discharging</strong><br>
+                                               (Ternary, Lithium Iron Phosphate System)
+                                               -40℃ high rate 5C continuous discharging,<br>
+                                               over 80% capacity retention ratio, <br>
+                                               -50℃ low temperature discharging,<br>
+                                               over 75% capacity retention ratio.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </li>
+                           </div>
 
 
+                        </ul>
+                    </div>
 
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p>
-
-                                            <strong>High Rate</strong><br>
-                                            (Ternary, Lithium Cobalt Oxide, Lithium Iron Phosphate System)<br>
-                                            100C continuous discharge,<br>
-                                            The temperature controls within 40℃.
-                                        </p>
-                                    </li>
-                                </ul>
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p class="">
-                                            <strong>High Temperature </strong><br>
-                                            (Ternary, Lithium Iron Phosphate System)<br>
-                                            The high temperature of 80℃ lasts for 200 cycles.<br>
-                                            Store at 85℃ for 48 hours.
-                                        </p>
-                                    </li>
-                                </ul>
-
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p>
-
-                                            <strong>High Voltage</strong><br>
-                                            (Lithium Cobalt Oxide)<br>
-                                            The maximum charging voltage of the battery is 4.45V.<br>
-                                            The voltage platform can reach 3.85V.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr class="firstRow">
-                            <td colspan="2" class="yellow_color size3">Two Low</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p class="">
-                                            <strong>Low Temperature Charging </strong><br>
-                                            (Ternary, Lithium Iron Phosphate System)<br>
-                                            It can charge 0.2C at -40℃ low temperature, <br>
-                                            and have more than 300 charging and discharging cycles.
-                                        </p>
-                                    </li>
-                                </ul>
-
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            <strong>Low Temperature Discharge</strong><br>
-                                            (Ternary, Lithium Iron Phosphate System)<br>
-                                            low temperature discharge, more than 75% capacity retention rate;<br>
-                                            -40℃ high rate 5C continuous discharge, more than 80% capacity retention rate.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr class="firstRow">
-                            <td colspan="2" class="yellow_color size3">One Explosion-proof (Modified Ternary Chemical System)</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <ul>
-                                    <li>
-                                        <p> The high energy density of 190~200Wh/kg meets Ex ia\ib IIA\IIB T1-T4 explosion-proof standard and passes safety tests including puncture and impact.</p>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
                 </section>
+
 
 
                 <div class="table_title size2 section70">Best Special Lithium Ion Battery</div>
