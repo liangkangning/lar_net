@@ -529,6 +529,9 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                                     <li>
                                         <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/connecting-batteries-in-parallel-and-series/" title="Connecting Lithium Batteries In Parallel And Series">Connecting Lithium Batteries In Parallel And Series</a></div></div>
                                     </li>
+                                    <li>
+                                        <div class="item"><span></span><div class="text"><a target="_blank" class="commom_a size4" href="/best-26650-lithium-ion-battery/" title="The Best 26650 Lithium Ion Battery">The Best 26650 Lithium Ion Battery</a></div></div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

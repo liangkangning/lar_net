@@ -1,3 +1,45 @@
+<?php
+$teshu_news_list = [
+    [
+        'title' => 'Best 18650 Lithium Battery Pack',
+        'url' => '/best-18650-lithium-battery-pack/',
+    ],
+    [
+        'title' => 'Cylindrical Lithium Ion Battery',
+        'url' => '/cylindrical-lithium-ion-battery/',
+    ],
+    [
+        'title' => 'Best Lithium Ion Battery Guide',
+        'url' => '/lithium-ion-battery-guide/',
+    ],
+    [
+        'title' => 'Best LiPo Battery Guide',
+        'url' => '/liPo-battery-guide/',
+    ],
+    [
+        'title' => 'Best Lifepo4 Battery Guide',
+        'url' => '/lifepo4-battery-guide/',
+    ],
+    [
+        'title' => '12V Lithium Battery Guide',
+        'url' => '/12v-lithium-battery/',
+    ],
+    [
+        'title' => '48V Lithium Ion Battery',
+        'url' => '/48v-lithium-battery-guide/',
+    ],
+    [
+        'title' => 'Connecting Lithium Batteries In Parallel And Series',
+        'url' => '/connecting-batteries-in-parallel-and-series/',
+    ],
+    [
+        'title' => 'The Best 26650 Lithium Ion Battery',
+        'url' => '/best-26650-lithium-ion-battery/',
+    ],
+
+
+];
+?>
 <div class="news_item product_item  container section">
     <div class="right_part col-xs-12 col-sm-9">
         <section class="top commom_left_right_padding">
@@ -5,10 +47,16 @@
 <?php $this->endContent()?>
         </section>
         <section class="zhuti commom_left_right_padding">
-            <div class="banner_img hidden-xs">
-                <?php foreach (\common\helpers\AdHelper::GetAd_list('news_detail') as $key=>$value):?>
-                    <a href="<?=$value->url?>">   <img src="<?=$value->imageUrl?>" alt="<?=$value->title?>" title="<?=$value->title?>"> </a>
-                <?php endforeach; ?>
+            <div class="teshu_news_list">
+                <ul>
+                    <?php foreach ($teshu_news_list as $key=>$value):?>
+                    <li class="col-md-6">
+                        <div class="item">
+                            <span></span><a href="<?=$value['url']?>"><?=$value['title']?></a>
+                        </div>
+                    </li>
+                    <?php endforeach;?>
+                </ul>
             </div>
             <div class="title"><h1 class="size2"><?=$data['detail']['title']?></h1></div>
             <div class="time"><p class="size4"><?=\common\helpers\Html::time_en($data['detail']['update_time'])?>&nbsp;&nbsp; Pageview：<?=$data['detail']['click']?></p></div>

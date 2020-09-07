@@ -876,6 +876,24 @@ footer .bottom p span{color: #9E9F9F;}
 .news_item .Knowledge .list ul li .item span{    width: 0.375rem;height: 0.375rem;background: #888889;display: inline-block;margin: 0.4375rem 0.625rem 0 0;float: left;}
 .news_item .Knowledge .list ul li .item a{}
 
+.news_item .teshu_news_list {
+    border-top: 1px solid #dcdcdd;
+    border-bottom: 1px solid #dcdcdd;
+    padding: 28px 0;overflow: hidden;
+}
+.news_item .teshu_news_list ul{}
+.news_item .teshu_news_list ul li{}
+.news_item .teshu_news_list ul li .item{padding: 7px 0;}
+.news_item .teshu_news_list ul li .item a{font-size: 16px;-webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;}
+.news_item .teshu_news_list ul li .item span{    width: 0.375rem;
+    height: 0.375rem;
+    background: #888889;
+    display: inline-block;
+    margin: 0.6rem 0.8125rem 0 0;
+    float: left;}
+
 
 .news{}
 .news .nav_list{text-align: center}

@@ -146,6 +146,9 @@
                                             <div class="hidden-xs col-sm-12 section20">
                                                 <a href="/connecting-batteries-in-parallel-and-series/" target="_blank" class="size4 col-sm-12">Connecting Lithium Batteries In Parallel And Series</a>
                                             </div>
+                                            <div class="hidden-xs col-sm-12 section20">
+                                                <a href="/best-26650-lithium-ion-battery/" target="_blank" class="size4 col-sm-12">The Best 26650 Lithium Ion Battery</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <?php endif;?>
