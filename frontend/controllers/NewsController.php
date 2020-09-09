@@ -168,8 +168,8 @@ class NewsController extends CommonController
         $specialBattery_tree=ArrayHelper::CategoryList(61);
         Yii::$app->params['specialBattery_tree']=$specialBattery_tree;
 
-        Yii::$app->params['HottestBattery']=Article::find()->where(['category_id'=>76])->orderBy("click desc")->limit(6)->all();
-        Yii::$app->params['LatestBattery']=Article::find()->where(['category_id'=>76])->orderBy("create_time desc")->limit(6)->all();
+        Yii::$app->params['HottestBattery']=Article::find()->where(['category_id'=>76])->andWhere(['status'=>1])->orderBy("click desc")->limit(6)->all();
+        Yii::$app->params['LatestBattery']=Article::find()->where(['category_id'=>76])->andWhere(['status'=>1])->orderBy("create_time desc")->limit(6)->all();
         Yii::$app->params['RecommendArticle']=Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('click desc')->limit('6')->all();
         return $this->render('detail',['data'=>$this->data]);
 
