@@ -1,7 +1,7 @@
 <?php
 $Hottest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('click desc')->limit('6')->all();
 $Latest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('create_time desc')->limit('6')->all();
-$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('1')->all();
+$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('6')->all();
 ?>
 <div class="news_tuijian size4">
 <div class="common_nav left">
@@ -58,47 +58,11 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
     <li class="list2 none">
         <div class="list">
             <ul>
-                <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/best-18650-lithium-battery-pack/">Best 18650 Lithium Battery Pack</a></div>
-                    </div>
-                </li>
-                <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/cylindrical-lithium-ion-battery/">Cylindrical Lithium Ion Battery</a></div>
-                    </div>
-                </li>
-                <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/lithium-ion-battery-guide/">Best Lithium Ion Battery Guide</a></div>
-                    </div>
-                </li>
-                <li><div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/liPo-battery-guide/">Best LiPo Battery Guide</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/lifepo4-battery-guide/">Best Lifepo4 Battery Guide</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/12v-lithium-battery/">12V Lithium Battery Guide</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/48v-lithium-battery-guide/">48V Lithium Ion Battery</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/connecting-batteries-in-parallel-and-series/">Connecting Lithium Batteries In Parallel And Series</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="text"><span></span><a class="hover_a" target="_blank" href="/best-26650-lithium-ion-battery/">The Best 26650 Lithium Ion Battery</a></div>
-                    </div>
-                </li>
+                <?php foreach ($Recommended as $key=>$value) :?>
+                    <li><div class="item">
+                            <div class="text"><span></span><a class="hover_a" href="<?=$value->url?>"><?=$value->title?></a></div>
+                        </div></li>
+                <?php  endforeach; ?>
             </ul>
         </div>
     </li>
