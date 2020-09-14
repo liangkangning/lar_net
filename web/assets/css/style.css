@@ -1100,7 +1100,7 @@ footer .bottom p span{color: #9E9F9F;}
 .product_item .p_detail_top .text_list .shuxing ul li { line-height: 39px; }
 .product_item .p_detail_top .text_list .shuxing ul li p{}
 .product_item .p_detail_top .text_list .inquire{overflow: hidden;border-radius: 0.9375rem;line-height: 2;background-color: #FA9600;margin-top: 1.5625rem;text-align: center;width: 214px;}
-.product_item .p_detail_top .text_list .inquire a{color: #FFFFFF;display: block}
+.product_item .p_detail_top .text_list .inquire a{color: #FFFFFF;display: block;line-height: 35px;}
 .product_item .p_detail_main {}
 .product_item .p_detail_main .title{border-bottom: 0.0625rem solid #FA9600;overflow: hidden;margin-bottom: 1.25rem}
 .product_item .p_detail_main .title h2{color: #FA9600;line-height: 2}
@@ -1147,8 +1147,8 @@ footer .bottom p span{color: #9E9F9F;}
 
 .fromMessage{overflow: hidden;padding: 5rem 150px}
 .fromMessage .title{}
-.fromMessage .title h1{color: #FA9600;}
-.fromMessage .sub_title{color: #212121;margin: 1.25rem 0 0.5rem}
+.fromMessage .title h1{color: #FA9600;font-size: 38px;}
+.fromMessage .sub_title{color: #212121;margin: 1.25rem 0 0.5rem;font-size: 20px;}
 .fromMessage .text{}
 .fromMessage .text p{}
 .fromMessage .text p b{color:  #212121}

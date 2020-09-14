@@ -36,7 +36,7 @@
                     <div class="t2">
                         <div class="dropdown">
                             <div class="ico"><img src="<?=Yii::getAlias('@web/static/images/global.png')?>" alt=""></div>
-                            <a id="dLabel" data-target="#" href="http://www.juda.cn">
+                            <a id="dLabel" data-target="#" target="_blank" href="http://www.juda.cn">
                                 简体中文
                                 <span class="caret"></span>
                             </a>
