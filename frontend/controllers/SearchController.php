@@ -85,7 +85,7 @@ class SearchController extends CommonController
         $this->view->params['count']=$c;
         $this->view->params['keyword']= Yii::$app->request->get('keyword');
         $this->view->params['product_list']=$product_list;
-//        var_dump($product_list);
+
         return $this->render('index',['data'=>$this->data]);
     }
 }

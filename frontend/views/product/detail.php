@@ -21,7 +21,7 @@
                     </ul>
                 </div>
                 <div class="inquire hidden-xs" id="more_bg">
-                    <a href="/form/message.html" class="size4" target="_blank">Inquire on This Product</a>
+                    <a href="/form/message.html" class="size4" target="_blank">Request A Quote</a>
                 </div>
             </div>
             <div class="right-extra" >

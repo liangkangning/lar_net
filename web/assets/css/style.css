@@ -533,6 +533,28 @@ footer .bottom p a{color: #9E9F9F;}
 footer .bottom p a:hover{color: #EEEEEE;}
 footer .bottom p span{color: #9E9F9F;}
 
+.cat_with_banner{
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+.cat_with_banner .img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.cat_with_banner .img img{
+    height: 400px;
+    width: 1920px;
+    display: inline-block;
+    margin-left: calc(50% - 960px);
+}
+
 
 .cat_banner{overflow: hidden;position: relative;}
 .cat_banner .img{}
@@ -732,6 +754,7 @@ footer .bottom p span{color: #9E9F9F;}
 .callUs .left .title h1{color:#FA9600 ;}
 .callUs .left .sub_title{color: #555555;margin-bottom: 0.9375rem;}
 .callUs .left .text{}
+.callUs .left .text a{color: #a98326}
 .callUs .left .text p{line-height: 2;}
 .callUs .left .img{text-align: left;margin-top: 1.875rem;overflow: hidden;}
 .callUs .left .img img{width: 500px;}

@@ -101,7 +101,7 @@
                         <?php if (count($value->nextNav)>0):?>
                             <div id="<?=$value['name']?>" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="<?=$value['name']?>">
                                 <div class="container navigation-down-inner">
-                                    <div class="hidden-xs col-sm-2 part_top">
+                                    <div class="hidden-xs part_top <?= $key<2?'col-sm-3':'col-sm-2 '?>">
                                         <a href="<?= empty($value['url'])?\common\helpers\UrlHelp::Tohmtl($value['name']):$value['url']?>" class="size2"><?=$value['title']?></a>
                                     </div>
                                     <?php foreach ($value->nextNav as $k=>$v):?>

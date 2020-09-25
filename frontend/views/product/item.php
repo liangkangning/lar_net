@@ -9,7 +9,13 @@ $listUrlL='/'.$this->params['action'].'/';
 <div class="category_index">
     <section>
         <div class="cat_banner commom_left_right_padding">
-            <div class="img hidden-xs"><img src="<?=Yii::$app->params['lanmu']->getImageUrl()?>"/></div>
+            <div class="img hidden-xs">
+                <?php if(isset(Yii::$app->params['urlad'])):?>
+                    <img src="<?=Yii::$app->params['urlad']?>"/>
+                <?php else:?>
+                    <img src="<?=Yii::$app->params['lanmu']->getImageUrl()?>"/>
+                <?php endif;?>
+            </div>
             <div class="text">
                 <div class="container">
                     <div class="content ">
