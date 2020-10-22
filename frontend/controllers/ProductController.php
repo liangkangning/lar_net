@@ -39,6 +39,7 @@ use League\Glide\Http\NotFoundException;
 
 use Yii;
 
+use yii\caching\DummyCache;
 use yii\helpers\Html;
 
 use common\models\UrlAd;
@@ -141,11 +142,11 @@ class ProductController extends CommonController
 
     public function common(){
         parent::common();
-        $url=Yii::$app->request->hostInfo.Yii::$app->request->url;
+        $url=Yii::$app->request->url;
 
-        $UrlAd=UrlAd::find()->where(['url'=>$url])->one();
-
-        Yii::$app->params['UrlAd']=$UrlAd;
+        $UrlAd=UrlAd::find()->where(['like','url',$url])->one();
+        var_dump($UrlAd);
+        Yii::$app->params['urlad']=$UrlAd;
 
         self::get_product_list();
 

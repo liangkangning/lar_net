@@ -10,8 +10,9 @@ $listUrlL='/'.$this->params['action'].'/';
     <section>
         <div class="cat_banner commom_left_right_padding">
             <div class="img hidden-xs">
+
                 <?php if(isset(Yii::$app->params['urlad'])):?>
-                    <img src="<?=Yii::$app->params['urlad']?>"/>
+                    <img src="<?=Yii::$app->params['urlad']->imageUrl?>"/>
                 <?php else:?>
                     <img src="<?=Yii::$app->params['lanmu']->getImageUrl()?>"/>
                 <?php endif;?>
@@ -19,10 +20,17 @@ $listUrlL='/'.$this->params['action'].'/';
             <div class="text">
                 <div class="container">
                     <div class="content ">
-                        <div class="title"><h1 class="size1">Custom <?=Yii::$app->params['lanmu']['title']?>
-                            </h1></div>
-                        <div class="sub_title"><p class="size3">17 Years’Expertise in Custom Lithium-ion Battery Pack<br>
-                                Maximum Reliability & Maximum Safety</p></div>
+
+                        <div class="title">
+                            <h1 class="size1">Custom <?=Yii::$app->params['lanmu']['title']?>
+                            </h1>
+                        </div>
+                        <div class="sub_title">
+                            <p class="size3">17 Years’Expertise in Custom Lithium-ion Battery Pack<br>
+                                Maximum Reliability & Maximum Safety</p>
+                        </div>
+
+
                         <div class="list hidden-xs">
                             <ul>
                                 <li>
