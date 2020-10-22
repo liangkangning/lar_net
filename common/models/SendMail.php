@@ -82,6 +82,7 @@ class SendMail extends \common\core\BaseActiveRecord
            $this->create_time=time();
            $this->ip=Yii::$app->request->userIP;
            $this->from=$this->from;
+           if (empty($this->email)) return false;//如果email未空就不发送了
            if ($this->email=='sample@email.tst'){
                return false;
            }
