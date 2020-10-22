@@ -23,7 +23,7 @@ use yii\helpers\Url;
         'saveDB'=>1, //图片是否保存到picture表，默认不保存
 
     ],['class'=>'c-md-12'])->label('封面图片')->hint('单图图片尺寸为：300*300');?>
-    <?=$form->field($model, 'content')->textarea(['class'=>'form-control c-md-4', 'rows'=>3])->label('广告内容')->hint('显示在图片上') ?>
+    <?=$form->field($model, 'content')->textarea(['class'=>'form-control c-md-4', 'rows'=>7])->label('广告内容')->hint('显示在图片上') ?>
 
 
     <div class="form-group">
