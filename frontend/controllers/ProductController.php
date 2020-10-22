@@ -143,9 +143,7 @@ class ProductController extends CommonController
     public function common(){
         parent::common();
         $url=Yii::$app->request->url;
-
         $UrlAd=UrlAd::find()->where(['like','url',$url])->one();
-        var_dump($UrlAd);
         Yii::$app->params['urlad']=$UrlAd;
 
         self::get_product_list();
