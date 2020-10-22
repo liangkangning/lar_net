@@ -21,6 +21,9 @@ $listUrlL='/'.$this->params['action'].'/';
                 <div class="container">
                     <div class="content ">
 
+                        <?php if(isset(Yii::$app->params['urlad'])):?>
+                            <?=Yii::$app->params['urlad']->content?>
+                        <?php else:?>
                         <div class="title">
                             <h1 class="size1">Custom <?=Yii::$app->params['lanmu']['title']?>
                             </h1>
@@ -29,7 +32,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             <p class="size3">17 Years’Expertise in Custom Lithium-ion Battery Pack<br>
                                 Maximum Reliability & Maximum Safety</p>
                         </div>
-
+                        <?php endif;?>
 
                         <div class="list hidden-xs">
                             <ul>
