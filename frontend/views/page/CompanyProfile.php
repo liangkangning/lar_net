@@ -9,7 +9,7 @@
             <div class="pp border_bottom">
                 <div class="h2"><h2 class="size3">What we do</h2></div>
                 <div class="p"><p class="size4">
-                        Since founded, Large Power has dedicated to the career of serving the global consumer having the requirements on power supply, energy storage power supply, power supply, back-up source and special power supply for 17 years. Now it becomes the provider of global leading Li-ion battery custom solutions and products.
+                        Since founded, Large Power has dedicated to the career of serving the global consumer having the requirements on power supply, energy storage power supply, power supply, back-up source and special power supply for 18 years. Now it becomes the provider of global leading Li-ion battery custom solutions and products.
                     </p></div>
             </div>
             <div class="pp">

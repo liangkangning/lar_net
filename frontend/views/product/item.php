@@ -29,7 +29,7 @@ $listUrlL='/'.$this->params['action'].'/';
                             </h1>
                         </div>
                         <div class="sub_title">
-                            <p class="size3">17 Years’Expertise in Custom Lithium-ion Battery Pack<br>
+                            <p class="size3">18 Years’Expertise in Custom Lithium-ion Battery Pack<br>
                                 Maximum Reliability & Maximum Safety</p>
                         </div>
                         <?php endif;?>
