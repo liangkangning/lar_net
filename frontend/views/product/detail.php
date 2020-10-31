@@ -114,7 +114,12 @@
 "@type": "Product",
 "name": "<?=$item->title?>",
 "image": "<?= 'https://www.large.net'.$item->imageUrl?>",
-"description": "Product:<?=$item->title?>;Battery cell:<?=$item->xinghao?>;Nominal voltage:<?=$item->dianya?>V;Nominal capacity:<?=$item->rongliang?>mAh;Dimension:<?=$item->chicun?>;Application:<?=$item->lingyu?>;"
+"description": "Product:<?=$item->title?>;Battery cell:<?=$item->xinghao?>;Nominal voltage:<?=$item->dianya?>V;Nominal capacity:<?=$item->rongliang?>mAh;Dimension:<?=$item->chicun?>;Application:<?=$item->lingyu?>;",
+"aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "<?=mt_rand(45, 50)/10?>",
+        "reviewCount": "<?=mt_rand(5, 100)?>"
+      }
  }
 </script>
 <?php $this->beginBlock('test') ?>

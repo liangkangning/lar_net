@@ -34,8 +34,8 @@ $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one(
         <meta content="yes" name="apple-mobile-web-app-capable">
         <meta content="black" name="apple-mobile-web-app-status-bar-style">
         <meta content="telephone=no" name="format-detection">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+        <link rel="stylesheet" href="/assets/css/swiper.min.css">
+        <script src="/assets/js/swiper.min.js"></script>
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <?php $this->head() ?>
         <!-- END THEME LAYOUT STYLES -->
