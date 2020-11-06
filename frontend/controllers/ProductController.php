@@ -143,6 +143,13 @@ class ProductController extends CommonController
     public function common(){
         parent::common();
         $url=Yii::$app->request->url;
+        if (strstr($url,"-o")){
+            $res = explode("-o", $url);
+            $url = $res[0] . ".html";
+        }elseif (strstr($url,"-p")){
+            $res = explode("-p",$url);
+            $url = $res[0] . ".html";
+        }
         $UrlAd=UrlAd::find()->where(['like','url',"%".$url,false])->one();
         Yii::$app->params['urlad']=$UrlAd;
 
