@@ -145,10 +145,10 @@ class ProductController extends CommonController
         $url=Yii::$app->request->url;
         if (strstr($url,"-o")){
             $res = explode("-o", $url);
-            $url = $res[0] . ".html";
+            $url = $res[0]."/";
         }elseif (strstr($url,"-p")){
             $res = explode("-p",$url);
-            $url = $res[0] . ".html";
+            $url = $res[0]."/";
         }
         $UrlAd=UrlAd::find()->where(['like','url',"%".$url,false])->one();
         Yii::$app->params['urlad']=$UrlAd;
