@@ -236,9 +236,37 @@ class SiteController extends Controller
     function actionNewsList(){
         Yii::$app->response->format = yii\web\Response::FORMAT_JSON;
         $t = strtotime('yesterday');
-        $list = Article::find()->where([">","create_time",$t])->orWhere([">","update_time",$t])->asArray()->all();
+        $list = Article::find()->where(['or',
+                ['and',
+                    [">","create_time",$t],
+                    ['status' => '1']
+                ],
+                ['and',
+                    [">","update_time",$t],
+                    ['status' => '1']
+                ]
+            ]
+        )->asArray()->all();
+
+//        $query = Article::find()->where(['or',
+//                ['and',
+//                    [">","create_time",$t],
+//                    ['status' => '1']
+//                ],
+//                ['and',
+//                    [">","update_time",$t],
+//                    ['status' => '1']
+//                ]
+//            ]
+//        );
+//        var_dump( $query->createCommand()->getRawSql());die;
+//        var_dump($list);
+
+
         return $list;
     }
+
+
 
 
 }
