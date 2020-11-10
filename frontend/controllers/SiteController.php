@@ -236,7 +236,6 @@ class SiteController extends Controller
     function actionNewsList(){
         Yii::$app->response->format = yii\web\Response::FORMAT_JSON;
         $t = strtotime('yesterday');
-        var_dump($t);die;
         $list = Article::find()->where([">","create_time",$t])->orWhere([">","update_time",$t])->asArray()->all();
         return $list;
     }
