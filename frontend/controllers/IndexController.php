@@ -46,7 +46,11 @@ class IndexController extends CommonController{
         $ids = explode(',', Yii::$app->params['web']['index-products']['value']);
         $product_list = [];
         foreach ($ids as $id){
-            $product_list[] = Images::find()->where(['id' => $id])->one();
+            $res_images = Images::find()->where(['id' => $id])->one();
+            if ($res_images){
+                $product_list[] = $res_images;
+            }
+
         }
         Yii::$app->params['product_list'] = $product_list;
 

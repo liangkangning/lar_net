@@ -10,6 +10,7 @@ use common\helpers\ArrayHelper;
 use common\models\Article;
 use common\models\Category;
 use common\models\Images;
+use common\models\Picture;
 use common\models\SitemapProduct;
 use yii\web\Controller;
 
@@ -261,11 +262,41 @@ class SiteController extends Controller
 //        );
 //        var_dump( $query->createCommand()->getRawSql());die;
 //        var_dump($list);
-
-
         return $list;
     }
 
+    /**
+     * 获取产品列表
+     */
+    function actionGetProducts(){
+        Yii::$app->response->format = yii\web\Response::FORMAT_JSON;
+        $t = strtotime('yesterday');
+        $list = Images::find()->where(['or',
+                ['and',
+                    [">","create_time",$t],
+                    ['status' => '1']
+                ],
+                ['and',
+                    [">","update_time",$t],
+                    ['status' => '1']
+                ]
+            ]
+        )->asArray()->all();
+        return $list;
+    }
+
+
+    function actionGetImageUrl(){
+        Yii::$app->response->format = yii\web\Response::FORMAT_JSON;
+        $id = Yii::$app->request->get('id');
+        if ($id){
+            $res = Picture::find()->where(['id' => $id])->one();
+            if ($res){
+                return Yii::$app->request->hostInfo.$res->url;
+            }
+        }
+        return null;
+    }
 
 
 

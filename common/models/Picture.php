@@ -48,4 +48,8 @@ class Picture extends \common\core\BaseActiveRecord
             'status' => 'Status',
         ];
     }
+
+    public function getUrl(){
+        return Yii::getAlias('@imagesUrl').'/'.$this->path;
+    }
 }
