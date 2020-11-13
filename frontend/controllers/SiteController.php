@@ -292,7 +292,7 @@ class SiteController extends Controller
         if ($id){
             $res = Picture::find()->where(['id' => $id])->one();
             if ($res){
-                return Yii::$app->request->hostInfo.$res->url;
+                return "http://www.large.com/".$res->url;
             }
         }
         return null;
