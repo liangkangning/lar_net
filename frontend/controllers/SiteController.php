@@ -292,7 +292,7 @@ class SiteController extends Controller
         if ($id){
             $res = Picture::find()->where(['id' => $id])->one();
             if ($res){
-                return "http://www.large.com/".$res->url;
+                return "https://www.large.net/".$res->url;
             }
         }
         return null;
