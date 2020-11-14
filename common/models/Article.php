@@ -36,6 +36,7 @@ use yii\helpers\Url;
   * @property integer $author_id
  * @property string $from
  * @property integer $images_id
+ * @property string $admin_time
  */
 class Article extends \common\core\BaseActiveRecord
 {
@@ -56,7 +57,7 @@ class Article extends \common\core\BaseActiveRecord
         return [
             [['title','content'],'unique'],
             [['category_id', 'content'], 'required'],
-            [['category_id', 'type', 'position', 'sort', 'create_time', 'update_time', 'status', 'category_id2', 'click','author_id','images_id'], 'integer'],
+            [['category_id', 'type', 'position', 'sort', 'create_time','admin_time', 'update_time', 'status', 'category_id2', 'click','author_id','images_id'], 'integer'],
             [['content', 'extend','zonghui'], 'string'],
             [['name'], 'string', 'max' => 40],
             [['title','from'], 'string', 'max' => 180],
@@ -88,6 +89,7 @@ class Article extends \common\core\BaseActiveRecord
             'sort' => 'Sort',
             'create_time' => 'Create Time',
             'update_time' => 'Update Time',
+            'admin_time' => 'Admin Time',
             'status' => 'Status',
         	'category_id2' => 'Category Id2',
            'tags' => 'Tags',

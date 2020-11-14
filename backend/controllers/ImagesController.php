@@ -207,7 +207,7 @@ class ImagesController extends BaseController
                 $data['images'] = array_values(array_flip(array_flip($data['images'])));
                 $data['images'] = trim(implode ( ",", $data['images']),',');
             }
-
+            $data['admin_time'] = time();
             /* 表单数据加载、验证、数据库操作 */
             if ($this->saveRow($model, $data)) {
 //                  var_dump($default);
