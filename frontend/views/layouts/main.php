@@ -11,6 +11,7 @@ $canonical = 'https://www.large.net'.Yii::$app->request->getUrl();
 //echo $url;
 $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one();
 //var_dump($adaptation);
+$de_url = 'https://de.large.net'.Yii::$app->request->getUrl();
 ?>
     <!DOCTYPE html>
     <!--[if IE 8]> <html lang="en-us" class="ie8 no-js"> <![endif]-->
@@ -41,6 +42,10 @@ $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one(
         <!-- END THEME LAYOUT STYLES -->
 <!--        <link rel="canonical" href="--><?//=$canonical?><!--">-->
         <link rel="shortcut icon" href="/favicon.ico" />
+
+        <link rel="alternate" hreflang="de" href="<?=$de_url?>"/>
+        <link rel="alternate" hreflang="en" href="<?=$canonical?>"/>
+
         <?php  if (isset($adaptation)): ?>
         <link rel="alternate" hreflang="zh" href="<?=$adaptation->cn?>">
         <?php endif;?>
