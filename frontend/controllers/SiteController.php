@@ -243,7 +243,7 @@ class SiteController extends Controller
                     ['status' => '1']
                 ],
                 ['and',
-                    [">","update_time",$t],
+                    [">","admin_time",$t],
                     ['status' => '1']
                 ]
             ]
@@ -277,7 +277,7 @@ class SiteController extends Controller
                     ['status' => '1']
                 ],
                 ['and',
-                    [">","update_time",$t],
+                    [">","admin_time",$t],
                     ['status' => '1']
                 ]
             ]
