@@ -12,6 +12,7 @@ $canonical = 'https://www.large.net'.Yii::$app->request->getUrl();
 $adaptation=\common\models\LanguageAdaptation::find()->where(['en'=>$url])->one();
 //var_dump($adaptation);
 $de_url = 'https://de.large.net'.Yii::$app->request->getUrl();
+$jp_url = 'https://jp.large.net'.Yii::$app->request->getUrl();
 ?>
     <!DOCTYPE html>
     <!--[if IE 8]> <html lang="en-us" class="ie8 no-js"> <![endif]-->
@@ -44,7 +45,9 @@ $de_url = 'https://de.large.net'.Yii::$app->request->getUrl();
         <link rel="shortcut icon" href="/favicon.ico" />
 
         <link rel="alternate" hreflang="de" href="<?=$de_url?>"/>
+        <link rel="alternate" hreflang="jp" href="<?=$jp_url?>"/>
         <link rel="alternate" hreflang="en" href="<?=$canonical?>"/>
+
 
         <?php  if (isset($adaptation)): ?>
         <link rel="alternate" hreflang="zh" href="<?=$adaptation->cn?>">
