@@ -125,7 +125,7 @@ header .p_r .lag .t2 .ico{float: left;padding: 0 0.3125rem}
 header .p_r .lag .t2 .ico img{width: 1rem;height: 1rem;}
 header .p_r .lag .t2>a{
     float: left;}
-header .p_r .lag .t2:hover .dropdown-menu{display: block;}
+/*header .p_r .lag .t2:hover .dropdown-menu{display: block;}*/
 header .dropdown>a{line-height: 1.5625rem}
 header .dropdown-menu{top:26px;min-width: 100px }
 header .dropdown-menu li{text-align: center}
