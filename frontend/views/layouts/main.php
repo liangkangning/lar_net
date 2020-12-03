@@ -45,7 +45,7 @@ $jp_url = 'https://jp.large.net'.Yii::$app->request->getUrl();
         <link rel="shortcut icon" href="/favicon.ico" />
 
         <link rel="alternate" hreflang="de" href="<?=$de_url?>"/>
-        <link rel="alternate" hreflang="jp" href="<?=$jp_url?>"/>
+        <link rel="alternate" hreflang="ja" href="<?=$jp_url?>"/>
         <link rel="alternate" hreflang="en" href="<?=$canonical?>"/>
 
 
