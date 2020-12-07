@@ -189,6 +189,7 @@ class ProductController extends CommonController
             throw new \yii\web\NotFoundHttpException('The requested page does not exist.');
         }
 //       $d= $productProvider->getPagination()->getPageSize();
+        Yii::$app->request->hostInfo=str_replace("http","https",Yii::$app->request->hostInfo);
         if ($prepage>0){
 
             if (isset($_GET['list'])){
