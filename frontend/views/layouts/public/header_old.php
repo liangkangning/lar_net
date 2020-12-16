@@ -44,7 +44,6 @@
                                 <li><a href="https://de.large.net">Deutsche</a></li>
                                 <li><a href="https://jp.large.net">日本語</a></li>
                                 <li><a href="http://www.juda.cn">简体中文</a></li>
-                                <span class="menu-arrow"> <em></em> </span>
                             </ul>
                         </div>
                     </div>
