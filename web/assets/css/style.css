@@ -1237,7 +1237,7 @@ small{color: red;display: none;float: left}
 .common_nav ul li .item{position: relative;}
 .common_nav ul li .item .text{}
 .common_nav ul li .item .text a,b{line-height: 2; }
-.common_nav ul li .item.checked .text a,.common_nav ul li .item.checked .text b{color: #555555;font-weight: bold}
+.common_nav ul li .item.checked .text a,.common_nav ul li .item.checked .text b{color: #555555;font-weight: bold;}
 .common_nav ul li .item.checked .text a,.common_nav ul li .item.checked .text b:hover{color: #555555}
 .common_nav ul li .item.checked .ico{display: block;width: 128px}
 .common_nav ul li .item .ico{text-align: center;position: absolute;
@@ -1538,6 +1538,12 @@ footer .common_category_list .anchor ul{}
     .common_left_padding{padding-left: 1rem}
     .commom_left_right_padding{padding: 0 20px}
     .hmenu-canvas-background header{background-color: #FFFFFF}
+
+    .common_nav ul li .item .text .size3{font-size: 14px;}
+    .common_nav ul li .item.checked .ico{top: 14px;}
+    .common_nav_list{margin-top: 1rem}
+    .common_nav ul li .item.checked .ico{width: 88px;}
+
     header{padding: 1rem 0.8rem;position: relative;margin: 0;border-bottom: 1px solid #dcdcdd;background-color: #FFFFFF}
     header .logo{width: 100%}
     header .logo .img img{width: 50%}
@@ -1547,6 +1553,25 @@ footer .common_category_list .anchor ul{}
     header .search .form .submit{height: 3rem;right: 0rem}
     header .search .input-group{width: 100%}
 
+
+    /**
+    Hottest Categories 关键词组的样式
+     */
+    .common_category_list{}
+    .common_category_list .title{ margin-bottom:0}
+    .common_category_list .title h2{ padding-left:1rem}
+    .common_category_list .anchor{}
+    .common_category_list .anchor ul{padding-left: 1rem;padding-right: 1rem}
+    .common_category_list .anchor ul li{}
+    .common_category_list .anchor ul li .item{padding-right: 1.5rem}
+    .common_category_list .anchor ul li .item span{display:none}
+
+    /**
+    新闻推荐的样式
+     */
+
+    .news_tuijian{padding: 0 1rem}
+    .news_tuijian{}
 
     .index .banner{width: 100%;}
     .index .banner img{width: 100%;height: auto}

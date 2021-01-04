@@ -79,7 +79,7 @@ $teshu_news_list = [
                 </li>
             </ul>
         </section>
-        <section class="section hidden-xs">
+        <section class="section">
          <?php $this->beginContent("@app/views/layouts/public/category_list.php"); ?>
         <?php $this->endContent(); ?>
         </section>
@@ -87,7 +87,7 @@ $teshu_news_list = [
             <?php $this->beginContent("@app/views/layouts/public/solutions_news_detail.php"); ?>
             <?php $this->endContent(); ?>
         </section>
-        <section class="section hidden-xs">
+        <section class="section">
             <?php $this->beginContent("@app/views/layouts/public/newsPage_news_tuijian.php"); ?>
             <?php $this->endContent(); ?>
         </section>

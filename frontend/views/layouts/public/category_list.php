@@ -1,6 +1,6 @@
-<div class="common_category_list">
+<div class="common_category_list section_m">
     <div class="title"><h2 class="size2">Hottest Categories</h2></div>
-    <div class="img_nav">
+    <div class="img_nav hidden-xs">
         <ul>
             <?php foreach (\common\helpers\AdHelper::GetAd_list('HottestCategories') as $key=>$value):  ?>
             <li class="col-xs-12 col-sm-4">
@@ -12,7 +12,7 @@
             <?php endforeach; ?>
         </ul>
     </div>
-    <div class="anchor hidden-xs">
+    <div class="anchor">
         <ul>
             <?php foreach (Yii::$app->params['anchor'] as $key=>$value):?>
                 <li>

@@ -71,7 +71,7 @@
                  <?php $this->beginContent('@app/views/layouts/public/category_list.php') ?>
                  <?php $this->endContent()?>
              </section>
-             <section class="section hidden-xs ">
+             <section class="section section_m">
                  <?php $this->beginContent('@app/views/layouts/public/productPage_news_tuijian.php') ?>
                  <?php $this->endContent()?>
              </section>

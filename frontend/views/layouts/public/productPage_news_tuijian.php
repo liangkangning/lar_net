@@ -8,7 +8,7 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
     <ul>
         <li>
             <div class="item checked" data="list0">
-                <div class="text"><b class="size3">Hottest Articles</b></div>
+                <div class="text"><b class="size3">Hottest News</b></div>
                 <div class="ico">
                     <i></i>
                 </div>
@@ -16,7 +16,7 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
         </li>
         <li>
             <div class="item" data="list1">
-                <div class="text"><b class="size3">Latest Articles</b></div>
+                <div class="text"><b class="size3">Latest News</b></div>
                 <div class="ico">
                     <i></i>
                 </div>
@@ -24,7 +24,7 @@ $Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])
         </li>
         <li>
             <div class="item" data="list2">
-                <div class="text"><b class="size3">Recommended For You</b></div>
+                <div class="text"><b class="size3">Recommendation</b></div>
                 <div class="ico">
                     <i></i>
                 </div>
