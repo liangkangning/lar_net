@@ -4,7 +4,7 @@
         <div class="left">
             <div class="pp border_bottom">
                 <div class="h2"><h2 class="size3">Who we are</h2></div>
-                <div class="p"><p class="size4">Dongguan Large Electronics Co., Ltd was established in 2002, and the headquarters located in Gaosheng Science & Technology Park, Dongguan city, Guangdong province, China, which is a national-level high-tech enterprise combining with independent research, development, production and sales of lithium ion battery pack.</p></div>
+                <div class="p"><p class="size4">Dongguan Large Electronics Co., Ltd was established in 2002, and the headquarters located in No. 8 Jingyi Road, Dongcheng District, Dongguan City, Guangdong Province, China, which is a national-level high-tech enterprise combining with independent research, development, production and sales of lithium ion battery pack.</p></div>
             </div>
             <div class="pp border_bottom">
                 <div class="h2"><h2 class="size3">What we do</h2></div>
