@@ -105,6 +105,10 @@ $teshu_news_list = [
                         <div class="item"><span></span><a class="commom_a size5" href="<?=$value->url?>" title="<?=$value->title?>"><?=$value->title?></a></div>
                     </li>
                     <?php  endforeach; ?>
+
+                    <li class="col-xs-12 col-sm-12">
+                        <div class="item"><span></span><a class="commom_a size5" href="<?=Yii::$app->params['xunpan_news'][0]['url']?>" title="<?=Yii::$app->params['xunpan_news'][0]['title']?>"><?=Yii::$app->params['xunpan_news'][0]['title']?></a></div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -117,6 +121,10 @@ $teshu_news_list = [
                             <div class="item"><span></span><a class="commom_a size5" href="<?=$value->url?>" title="<?=$value->title?>"><?=$value->title?></a></div>
                         </li>
                     <?php  endforeach; ?>
+                    <li class="col-xs-12 col-sm-12">
+                        <div class="item"><span></span><a class="commom_a size5" href="<?=Yii::$app->params['xunpan_news'][1]['url']?>" title="<?=Yii::$app->params['xunpan_news'][1]['title']?>"><?=Yii::$app->params['xunpan_news'][1]['title']?></a></div>
+                    </li>
+
                 </ul>
             </div>
         </div>

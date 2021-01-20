@@ -17,6 +17,7 @@ use common\models\Category;
 
 use common\models\Images;
 use common\models\Keywords;
+use common\models\XunpanLog;
 use yii\web\Controller;
 
 use yii;
@@ -44,11 +45,31 @@ class NewsController extends CommonController
         return $this->render('index',['data'=>$this->data]);
     }
 
+    private function xunpanData(){
+        $sum = XunpanLog::find()->sum("sort");
+        $list = XunpanLog::find()->asArray()->all();
+        $rand_num = rand(0, $sum-2);
+        $num = 0;
+        $new_list = [];
+        foreach ($list as $value=>$item){
+            $before_num = $num;
+            $num = $num + $item['sort'];
+            if ($before_num <= $rand_num && $rand_num <= $num) {
+                $new_list[] = $item;
+                $new_list[] = $list[$value + 1];
+
+            }
+        }
+
+        Yii::$app->params['xunpan_news'] = $new_list;
+
+    }
 
     public function actionDetail(){
-        parent::common();
 
+        parent::common();
         if(Yii::$app->request->isGet){
+            $this->xunpanData();
             $id=Yii::$app->request->get('id');
             $convert=new Convert(32);
             $id=$convert->stringToId($id);
