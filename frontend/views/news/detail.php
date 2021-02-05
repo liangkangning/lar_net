@@ -1,3 +1,4 @@
+<?php \frontend\assets\ProductAsset::register($this); ?>
 <?php
 $teshu_news_list = [
     [
@@ -78,6 +79,10 @@ $teshu_news_list = [
                     <a class="commom_a col-xs-12" href="<?=$data['next_article']['url']?>"><?=$data['next_article']['title']?></a>
                 </li>
             </ul>
+        </section>
+        <section class="section section_m">
+            <?php $this->beginContent('@app/views/layouts/public/send_email.php') ?>
+            <?php $this->endContent()?>
         </section>
         <section class="section">
          <?php $this->beginContent("@app/views/layouts/public/category_list.php"); ?>

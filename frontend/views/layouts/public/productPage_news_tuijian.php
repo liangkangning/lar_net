@@ -1,7 +1,7 @@
 <?php
-$Hottest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('click desc')->limit('6')->all();
-$Latest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('create_time desc')->limit('6')->all();
-$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('6')->all();
+$Hottest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('click desc')->limit('4')->all();
+$Latest=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->orderBy('create_time desc')->limit('4')->all();
+$Recommended=\common\models\Article::find()->where(['in','category_id',[75,76]])->andWhere(['status'=>1])->andWhere(['like','np','c'])->orderBy('create_time desc')->limit('4')->all();
 ?>
 <div class="news_tuijian size4">
 <div class="common_nav left">

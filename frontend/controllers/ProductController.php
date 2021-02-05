@@ -123,7 +123,7 @@ class ProductController extends CommonController
             $this->data['detail']=$item;
             $goods_ids = CategoryImages::find()->where(['category_id'=>$item->category_id])->select('images_id')->asArray()->all();
             $goods_ids = array_column($goods_ids,'images_id');
-            $product_list=Images::find()->where(['id'=>$goods_ids])->limit(3)->orderBy('click desc')->all();
+            $product_list=Images::find()->where(['id'=>$goods_ids])->limit(6)->orderBy('click desc')->all();
 
             $industrialBettery_tree=ArrayHelper::CategoryList(54);
             Yii::$app->params['industrialBettery_tree']=$industrialBettery_tree;

@@ -7,7 +7,6 @@ $model->setScenario('all');
 use common\helpers\Html;
 
 use common\core\ActiveForm;
-
 ?>
 
 
@@ -16,7 +15,15 @@ use common\core\ActiveForm;
 
 <div class="common_email">
 
-    <div class="email_title"><h2 class="size2">Leave Message</h2></div>
+    <?php if (isset($page) && $page=='search'): ?>
+        <div class="email_title">
+            <h2 class="size2">Didn't find what you're looking for?</h2>
+            <p>We custom lithium ion battery for all industrial applications</p>
+        </div>
+    <?php else:?>
+        <div class="email_title"><h2 class="size2">Leave Message</h2></div>
+    <?php endif;?>
+
 
     <div class="form">
 

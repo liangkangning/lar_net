@@ -2,13 +2,13 @@
 <header>
     <div class="container">
         <div class="logo_nav">
-        <div class="col-xs-6 col-sm-6  p_l">
+        <div class="col-xs-11 col-sm-6  p_l">
             <div class="logo">
                 <div class="img"><a href="/"><img src="<?=Yii::getAlias('@web/static/images/logo.png')?>" title="Custom Lithium ion Battery Pack" alt="Custom Lithium ion Battery Pack"/></a></div>
             </div>
-            <div class="text hidden-xs size4">Custom Lithium ion Battery Pack</div>
+            <div class="text size4">Custom Lithium ion Battery Pack</div>
         </div>
-        <div class="col-xs-6 visible-xs">
+        <div class="col-xs-1 visible-xs">
             <div class="nav_button one" data="0">
                 <span class="fa bars"><img src="<?=Yii::getAlias('@web/static/images/top_nav_list1.png')?>" alt=""></span>
                 <span class="fa close"><img src="<?=Yii::getAlias('@web/static/images/top_nav_list2.png')?>" alt=""></span>
