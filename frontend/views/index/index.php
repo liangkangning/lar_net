@@ -153,7 +153,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                     Large Power is a Chinese high-tech enterprise which dedicated to the R&D, manufacture and sales of rechargeable lithium ion battery packs. Large Power was founded in 2002, with its factory in Guangdong, China.
                 </p>
                 <p class="size4">
-                    Since its establishment, Large Power is committed to serve global portable power bank, storage energy battery pack, power battery pack, backup battery pack and special usage battery users. During 18 years development, Large Power has become a world's leading supplier of lithium ion battery pack.
+                    Since its establishment, Large Power is committed to serve global portable power bank, storage energy battery pack, power battery pack, backup battery pack and special usage battery users. During <?=Yii::$app->params['year']?> years development, Large Power has become a world's leading supplier of lithium ion battery pack.
                 </p>
             </div>
         </div>
@@ -164,7 +164,7 @@ $this->registerJsFile('@web/assets/js/index.js',['depends'=>['frontend\assets\La
                 <li class="col-xs-6 col-sm-6">
                     <div class="item">
                         <div class="img"><img src="<?=Yii::getAlias('@web/static/images/adv_list1.png')?>" alt=""></div>
-                        <div class="title"><strong class="size3">18 Years’ Experience in Custom Solutions</strong></div>
+                        <div class="title"><strong class="size3"><?=Yii::$app->params['year']?> Years’ Experience in Custom Solutions</strong></div>
                         <div class="text hidden-xs"><p class="size4">Since its foundation in 2002, Large Power has been dedicated to provide the best custom lithium ion battery pack for worldwide users. And it has accumulated rich experience in lithium ion battery field.</p></div>
                     </div>
                 </li>

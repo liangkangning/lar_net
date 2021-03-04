@@ -467,7 +467,7 @@ use common\models\Images; ?>
                 <div class="common_p section20">
                     <p><a target="_blank" href="/">LARGE</a></p>
                     <p class="section10">
-                        18 Years' Expertise in Customizing Lithium Ion Battery<br>
+                        <?=Yii::$app->params['year']?> Years' Expertise in Customizing Lithium Ion Battery<br>
                         Dongguan Large Electronics Co., Ltd was established in 2002. It is a national-level high-tech enterprise providing customized solutions and products of maximum reliable  maximum safe special lithium ion battery system.
                     </p>
                 </div>
