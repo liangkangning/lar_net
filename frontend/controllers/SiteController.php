@@ -302,7 +302,7 @@ class SiteController extends Controller
     public function actionDelete404(){
         $home=Yii::$app->request->getHostInfo();
         $home=str_replace("http","https",$home);
-        $data = SitemapProduct::find()->limit(10)->where(['utime'=>0])->asArray()->all();
+        $data = SitemapProduct::find()->limit(20)->where(['utime'=>0])->asArray()->all();
         foreach ($data as $item) {
             $url = $home . $item['url'];
             var_dump($url);
