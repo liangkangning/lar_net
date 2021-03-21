@@ -7,6 +7,7 @@ namespace frontend\controllers;
 
 
 use common\helpers\ArrayHelper;
+use common\helpers\FuncHelper;
 use common\models\Article;
 use common\models\Category;
 use common\models\Images;
@@ -296,6 +297,27 @@ class SiteController extends Controller
             }
         }
         return null;
+    }
+
+    public function actionDelete404(){
+        $home=Yii::$app->request->getHostInfo();
+//        $home=str_replace("http","https",$home);
+        $data = SitemapProduct::find()->limit(10)->where(['utime'=>0])->asArray()->all();
+        foreach ($data as $item) {
+            $url = $home . $item['url'];
+            var_dump($url);
+            $status = FuncHelper::http_status($url);
+           var_dump($status);
+           //更新状态码，还有更新时间
+            $obj = SitemapProduct::find()->where(['id' => $item['id']])->one();
+
+            $obj['status'] = $status?1:0;
+            $obj->utime = time();
+            $obj->save();
+//            var_dump($obj);
+
+        }
+
     }
 
 

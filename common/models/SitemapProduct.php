@@ -10,6 +10,7 @@ use Yii;
  * @property integer $id
  * @property integer $status
  * @property string $url
+ * @property integer $utime
  */
 class SitemapProduct extends \yii\db\ActiveRecord
 {
@@ -40,6 +41,7 @@ class SitemapProduct extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'url' => 'Url',
+            'utime' => 'utime',
         ];
     }
 }
