@@ -31,6 +31,11 @@ $columns = [
 								'attribute' => 'title',
 
 						],
+                [
+                    'header' => 'url',
+                    'attribute' => 'url',
+
+                ],
 						[
 								'header' => '分类标签',
 								'attribute' => 'category_id',
